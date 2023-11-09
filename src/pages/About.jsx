@@ -3,7 +3,7 @@ const About = () => {
     <>
       {/* <div>About</div> */}
         {/* <!-- Hero Start --> */}
-    <div className="container-fluid bg-primary py-5 hero-header mb-5">
+    <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
             <div className="col-12 text-center">
                 <h1 className="display-3 text-white animated zoomIn">About Us</h1>
@@ -34,7 +34,7 @@ const About = () => {
               <br/>(Neuro physiotherapist, Founder of “Mission Walk”)
               </h4>
               <p className="mb-4" style={{ fontSize: '18px' }}>
-              "Did you know that  India ranks second worldwide with the highest number of people needing rehabilitation at least once during their lifetime? However, rehabilitation centers in India are few and unequipped to meet this raging demand. According to Glassdoor: the national average salary for a physiotherapist in India is Rs. 25547. In association with IAP, Medvarsity brings together a webinar series that chalks out a pathway to upskill and start your own practice. Come become your own boss today! Key takeaways:  Upskill and learn from leading industry experts on how to start your own business in physiotherapy and physiatry Acquire career guidance for doctors interested in Physiatry/orthopedic and Physiotherapy. Learn how modern cutting-edge technology enables physiotherapy sessions and holistic rehabilitation".
+              Did you know that  India ranks second worldwide with the highest number of people needing rehabilitation at least once during their lifetime? However, rehabilitation centers in India are few and unequipped to meet this raging demand. According to Glassdoor: the national average salary for a physiotherapist in India is Rs. 25547. In association with IAP, Medvarsity brings together a webinar series that chalks out a pathway to upskill and start your own practice. Come become your own boss today! Key takeaways:  Upskill and learn from leading industry experts on how to start your own business in physiotherapy and physiatry Acquire career guidance for doctors interested in Physiatry/orthopedic and Physiotherapy. Learn how modern cutting-edge technology enables physiotherapy sessions and holistic rehabilitation.
               </p>
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
