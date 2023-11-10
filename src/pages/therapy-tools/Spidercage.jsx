@@ -13,7 +13,7 @@ const Spidercage = () => {
             "url(https://napacenter.org/wp-content/uploads/2018/05/sipercage_BANNER_NEW.jpg)",
         }}
       >
-        <div className="container">
+        <div className="container wow fadeInUp" data-wow-delay="0.1s">
           <div className="row">
             <div className="col-xs-12">
               <div className="innerbanner_height">
@@ -34,7 +34,10 @@ const Spidercage = () => {
           <div className="row">
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
-                <div className="our_programs_details_left">
+                <div
+                  className="our_programs_details_left wow zoomIn"
+                  data-wow-delay="0.2s"
+                >
                   <p>
                     The SpiderCage is a three-sided wire device that uses a belt
                     and bungee cords to enable the patient to perform balance
@@ -43,9 +46,11 @@ const Spidercage = () => {
                   </p>
                 </div>
                 <div className="our_programs_details_right">
-                  <h1>Spider Cage (Universal Exercise Unit)</h1>
+                  <h1 className=" wow zoomIn" data-wow-delay="0.3s">
+                    Spider Cage (Universal Exercise Unit)
+                  </h1>
                   <h3></h3>
-                  <p>
+                  <p className=" wow zoomIn" data-wow-delay="0.3s">
                     T
                     <span style={{ fontWeight: "400" }}>
                       he SpiderCage is a three-sided wire device that uses a
@@ -62,10 +67,14 @@ const Spidercage = () => {
                     </span>
                   </p>
                   <h3></h3>
-                  <h2 style={{ fontSize: "24px" }}>
+                  <h2
+                    style={{ fontSize: "24px" }}
+                    className=" wow zoomIn"
+                    data-wow-delay="0.4s"
+                  >
                     Spider Cage Physical Therapy at NAPA Center
                   </h2>
-                  <p>
+                  <p className=" wow zoomIn" data-wow-delay="0.5s">
                     During
                     <a
                       href="https://napacenter.org/our-programs/pediatric-physical-therapy/"
@@ -83,8 +92,10 @@ const Spidercage = () => {
                     angles. This equipment is referred to as the “SpiderCage”
                     due to the eight bungees used to assist the patient.
                   </p>
-                  <h3>Welcome to the NAPA Family</h3>
-                  <p>
+                  <h3 className=" wow zoomIn" data-wow-delay="0.6s">
+                    Welcome to the NAPA Family
+                  </h3>
+                  <p className=" wow zoomIn" data-wow-delay="0.6s">
                     At NAPA Center, we take an individualized approach to
                     therapy because we understand that each child is unique with
                     very specific needs. We embrace differences with an
@@ -109,10 +120,12 @@ const Spidercage = () => {
               <div className="program_details_outer_div">
                 <div className="our_programs_details_list">
                   <div className="programs_details_list_txt">
-                    <b>Benefits of Spider Cage Therapy:</b>
+                    <b className=" wow zoomIn" data-wow-delay="0.4s">
+                      Benefits of Spider Cage Therapy:
+                    </b>
                   </div>
                   <ul>
-                    <li>
+                    <li className=" wow zoomIn" data-wow-delay="0.5s">
                       <h3>
                         <span>01. </span>Improved Movement
                       </h3>
@@ -123,7 +136,7 @@ const Spidercage = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn" data-wow-delay="0.5s">
                       <h3>
                         <span>02. </span>Autonomous Exercise
                       </h3>
@@ -136,7 +149,7 @@ const Spidercage = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn" data-wow-delay="0.5s">
                       <h3>
                         <span>03. </span>Confidence
                       </h3>
@@ -149,7 +162,7 @@ const Spidercage = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn" data-wow-delay="0.6s">
                       <h3>
                         <span>04. </span>Dynamic Balancing
                       </h3>

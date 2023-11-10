@@ -26,13 +26,16 @@ const Neurosuit = () => {
           </div>
         </div>
       </div>
-      <div className="inner_content our_programs_details">
+      <div
+        className="inner_content our_programs_details wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
-                <div className="our_programs_details_left">
-                  <p>
+                <div className="our_programs_details_left ">
+                  <p className=" wow zoomIn" data-wow-delay="0.2s">
                     The NeuroSuit frames the body providing support and
                     resistance simultaneously. It facilitates proper movement
                     and provides additional weight bearing distributed
@@ -43,13 +46,17 @@ const Neurosuit = () => {
                     // fetchpriority="high"
                     width="300"
                     height="300"
-                    className="size-full wp-image-31823 aligncenter"
+                    className="size-full wp-image-31823 aligncenter wow zoomIn"
                     src="/mission-walk-images/neuro.JPG"
                     // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
-                    alt=""
+                    alt="img"
+                    data-wow-delay="0.4s"
                   />
                 </div>
-                <div className="our_programs_details_right">
+                <div
+                  className="our_programs_details_right wow zoomIn"
+                  data-wow-delay="0.6s"
+                >
                   <p>
                     The NeuroSuit is one of the pillars of our three-week
                     <a
@@ -70,8 +77,10 @@ const Neurosuit = () => {
                     skeleton).
                   </p>
                   <h3></h3>
-                  <h3>Providing Alignment</h3>
-                  <p>
+                  <h3 className=" wow zoomIn" data-wow-delay="0.7s">
+                    Providing Alignment
+                  </h3>
+                  <p className=" wow zoomIn" data-wow-delay="0.8s">
                     While framing the body, the NeuroSuit provides support and
                     resistance simultaneously. It assists the patient’s body to
                     be in correct alignment, while the bungee cords provide a
@@ -83,7 +92,7 @@ const Neurosuit = () => {
                     additional weight bearing distributed strategically
                     throughout the body.
                   </p>
-                  <p>
+                  <p className=" wow zoomIn" data-wow-delay="0.9s">
                     This sends strong messages to and from the brain and central
                     nervous system bringing about an instantaneous increase in
                     body awareness, which leads to improved motor planning. All
@@ -96,11 +105,11 @@ const Neurosuit = () => {
                     which carries over into the child’s daily life when they are
                     not in the NeuroSuit.
                   </p>
-                  <h3>
+                  <h3 className=" wow zoomIn" data-wow-delay="0.10s">
                     NeuroSuit Therapy is suitable to treat the following:
                     <span style={{ fontWeight: "400" }}></span>
                   </h3>
-                  <ul>
+                  <ul className=" wow zoomIn" data-wow-delay="0.11s">
                     <li style={{ fontWeight: "400" }}>
                       <span style={{ fontWeight: "400" }}>Cerebral Palsy</span>
                     </li>
@@ -165,7 +174,7 @@ const Neurosuit = () => {
                     </li>
                   </ul>
                   <h3></h3>
-                  <p>
+                  <p className=" wow zoomIn" data-wow-delay="0.12s">
                     At NAPA Center, we take an individualized approach to
                     therapy because we understand that each child is unique with
                     very specific needs. We embrace differences with an
@@ -185,11 +194,13 @@ const Neurosuit = () => {
               </div>
               <div className="program_details_outer_div">
                 <div className="our_programs_details_list">
-                  <div className="programs_details_list_txt">
-                    <b>Benefits of NeuroSuit</b>
+                  <div className="programs_details_list_txt  ">
+                    <b className=" wow zoomIn " data-wow-delay="0.13s">
+                      Benefits of NeuroSuit
+                    </b>
                   </div>
                   <ul>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.15s">
                       <h3>
                         <span>01. </span>Create New Pathways
                       </h3>
@@ -201,7 +212,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.15s">
                       <h3>
                         <span>02. </span>Muscle Tone
                       </h3>
@@ -212,7 +223,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.15s">
                       <h3>
                         <span>03. </span>Dynamic Correction
                       </h3>
@@ -224,7 +235,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.16s">
                       <h3>
                         <span>04. </span>Better Alignment
                       </h3>
@@ -235,7 +246,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.16s">
                       <h3>
                         <span>05. </span>Increased Awareness
                       </h3>
@@ -247,7 +258,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.16s">
                       <h3>
                         <span>06. </span>Improved Motor Skills
                       </h3>
@@ -258,7 +269,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.17s">
                       <h3>
                         <span>07. </span>Stronger Bones
                       </h3>
@@ -268,7 +279,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.17s">
                       <h3>
                         <span>08. </span>Strengthen Speech
                       </h3>
@@ -279,7 +290,7 @@ const Neurosuit = () => {
                         </span>
                       </p>
                     </li>
-                    <li>
+                    <li className=" wow zoomIn " data-wow-delay="0.17s">
                       <h3>
                         <span>09. </span>Controlled Movement
                       </h3>

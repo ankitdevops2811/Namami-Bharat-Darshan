@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   return (
     <>
       {/* <!-- Navbar Start --> */}
@@ -96,7 +95,10 @@ const Navbar = () => {
                 <Link to="/therapy-tools/dmi" className="dropdown-item">
                   DMI
                 </Link>
-                <Link to="/therapy-tools/functional-estim" className="dropdown-item">
+                <Link
+                  to="/therapy-tools/functional-estim"
+                  className="dropdown-item"
+                >
                   Functional Estim
                 </Link>
                 <Link to="/therapy-tools/galileo" className="dropdown-item">
@@ -107,7 +109,7 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <Link
                 to="#"
                 className="nav-link dropdown-toggle"
@@ -126,8 +128,10 @@ const Navbar = () => {
                   Pune
                 </Link>
               </div>
-            </div>
-
+            </div> */}
+            <Link to="/locations" className="nav-item nav-link">
+              Locations
+            </Link>
             <div className="nav-item dropdown">
               <Link
                 to="#"
