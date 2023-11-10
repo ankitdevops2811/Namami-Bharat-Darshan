@@ -1,0 +1,106 @@
+/* neurosuit */
+
+.testimonial_banner {
+    background-image: url(images/testimonials_banner.jpg);
+}
+
+.programs_details_list_txt {
+  margin: auto;
+  padding-bottom: 60px;
+  width: 960px;
+  text-align: center;
+  color: #232323;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+element.style {
+  background-image: url(https://napacenter.org/wp-content/uploads/2021/09/NeuroSuit.jpg);
+}
+.testimonial_banner {
+  background-image: url(images/testimonials_banner.jpg);
+}
+.inner_banner {
+  background-image: url(images/inner_banner.jpg);
+  background-position: top;
+  background-size: cover;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.testimonial_banner {
+  background-image: url(images/testimonials_banner.jpg);
+}
+
+.inner_content {
+  padding: 90px 0;
+  line-height: 32px;
+  color: #232323;
+  font-size: 16px;
+}
+.our_programs_details_inner {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 30px;
+}
+.inner_banner .innerbanner_height .innerbanner_middle h1 {
+  text-shadow: rgba(0, 0, 0, 0.6) 1px 2px 4px !important;
+}
+
+.our_programs_details_left {
+  color: #232323;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  /* font-weight: 700; */
+  line-height: 34px;
+  width: 38%;
+  float: left;
+}
+
+.our_programs_details_right {
+  color: #232323;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 56%;
+  float: right;
+}
+
+.program_details_outer_div .our_programs_details_list:first-child {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.our_programs_details_list {
+  padding-top: 70px;
+  display: inline-block;
+}
+
+.programs_details_list_txt {
+  margin: auto;
+  padding-bottom: 60px;
+  width: 960px;
+  text-align: center;
+  color: #232323;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.our_programs_details_list ul li {
+  width: 370px;
+  display: inline-block;
+  vertical-align: top;
+  color: #262626;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* min-height: 261px; */
+}
