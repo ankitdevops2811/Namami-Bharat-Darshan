@@ -38,6 +38,16 @@ const Neurosuit = () => {
                     and provides additional weight bearing distributed
                     strategically throughout the body.
                   </p>
+                  <img
+                    decoding="async"
+                    // fetchpriority="high"
+                    width="300"
+                    height="300"
+                    className="size-full wp-image-31823 aligncenter"
+                    src="/mission-walk-images/neuro.JPG"
+                    // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
+                    alt=""
+                  />
                 </div>
                 <div className="our_programs_details_right">
                   <p>

@@ -9,3 +9,10 @@ Currently, two official plugins are available:
 
 npm install bootstrap
 npm i react-router-dom
+
+# Branches
+➢ main branch -> main  // sachin
+➢ dev  -> wow working // sachin
+➢ dev-2  -> wow working // sachin
+
+

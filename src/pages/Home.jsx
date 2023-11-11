@@ -28,7 +28,7 @@ const Home = () => {
                     >
                       <i className={`fa ${service.icon} text-primary fs-4`}></i>
                     </div>
-                    <h4 className="mb-3">{service.title}</h4>
+                    <h4 className="card-2 mb-3">{service.title}</h4>
                     <p className="mb-4">{service.description}</p>
                     <a className="btn" href="#">
                       <i className="fa fa-plus text-primary me-3"></i>Read More
