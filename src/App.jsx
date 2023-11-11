@@ -1,16 +1,22 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import AnimateTest from "./components/AnimateTest";
+import Contact from "./components/Contact";
 import Layout from "./components/Layout";
+// import Register from "./components/register-form";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Contact from "./components/Contact";
 import Service from "./pages/Service";
-import TherapyTools from "./pages/therapy-tools/TherapyTools";
-import Neurosuit from "./pages/therapy-tools/Neurosuit";
-import Spidercage from "./pages/therapy-tools/Spidercage";
+import PaediatricOccupational from "./pages/peadiatric/PaediatricOccupational";
+import PaediatricPhysiotherapy from "./pages/peadiatric/PaediatricPhysiotherapy";
+import PaediatricSpeech from "./pages/peadiatric/PaediatricSpeech";
+import Peadiatric from "./pages/peadiatric/Peadiatric";
 import Dmi from "./pages/therapy-tools/Dmi";
 import Functional_Estim from "./pages/therapy-tools/Functional-Estim";
 import Galileo from "./pages/therapy-tools/Galileo";
+import Neurosuit from "./pages/therapy-tools/Neurosuit";
+import Spidercage from "./pages/therapy-tools/Spidercage";
+import TherapyTools from "./pages/therapy-tools/TherapyTools";
 import Theratogs from "./pages/therapy-tools/Theratogs";
 import Register from "./components/register-form";
 import "./style.css";
@@ -41,6 +47,17 @@ function App() {
             <Route path="therapy-tools/contacts" element={<Contact />} />
             <Route path="/locations" element={<Location />} />
             <Route path="/locations" element={<Location />} />
+            {/* Pediatric */}
+            <Route path="pediatric" element={<Peadiatric />} />
+            <Route
+              path="pediatric-occupational"
+              element={<PaediatricOccupational />}
+            />
+            <Route
+              path="pediatric-physiotherapy"
+              element={<PaediatricPhysiotherapy />}
+            />
+            <Route path="pediatric-speech" element={<PaediatricSpeech />} />
           </Route>
         </Routes>
       </BrowserRouter>

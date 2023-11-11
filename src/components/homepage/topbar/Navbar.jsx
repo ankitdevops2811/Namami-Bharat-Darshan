@@ -47,7 +47,7 @@ const Navbar = () => {
                 <Link to="/service" className="dropdown-item">
                   Intensive therapy
                 </Link>
-                <Link to="/team.html" className="dropdown-item">
+                <Link to="/pediatric" className="dropdown-item">
                   Pediatric Therapy
                 </Link>
                 <Link to="/testimonial.html" className="dropdown-item">

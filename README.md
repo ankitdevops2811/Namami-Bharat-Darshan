@@ -11,6 +11,8 @@ npm install bootstrap
 npm i react-router-dom
 https://freefrontend.com/bootstrap-profiles/
 
+git pull --no-ff origin therapy_contact
+
 # Branches
 
 Sachin
