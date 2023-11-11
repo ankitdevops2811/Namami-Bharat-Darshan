@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AnimateTest from "./components/AnimateTest";
+// import AnimateTest from "./components/AnimateTest";
 import Contact from "./components/Contact";
 import Layout from "./components/Layout";
-import Register from "./components/register-form";
+// import Register from "./components/register-form";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Service from "./pages/Service";
@@ -18,7 +18,9 @@ import Neurosuit from "./pages/therapy-tools/Neurosuit";
 import Spidercage from "./pages/therapy-tools/Spidercage";
 import TherapyTools from "./pages/therapy-tools/TherapyTools";
 import Theratogs from "./pages/therapy-tools/Theratogs";
+import Register from "./components/register-form";
 import "./style.css";
+import Location from "./pages/Location";
 
 function App() {
   return (
@@ -43,7 +45,8 @@ function App() {
             <Route path="therapy-tools/galileo" element={<Galileo />} />
             <Route path="therapy-tools/theratogs" element={<Theratogs />} />
             <Route path="therapy-tools/contacts" element={<Contact />} />
-            <Route path="test" element={<AnimateTest />} />
+            <Route path="/locations" element={<Location />} />
+            <Route path="/locations" element={<Location />} />
             {/* Pediatric */}
             <Route path="pediatric" element={<Peadiatric />} />
             <Route
