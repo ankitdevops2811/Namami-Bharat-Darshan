@@ -121,19 +121,19 @@ const PaediatricOccupational = () => {
                   Children’s Occupational Therapy?
                 </span>
               </h1>
-              <p className="p-2">
+              <p className="p-2" style={{fontSize:"18px"}}>
                 Occupational therapy can benefit children with a wide variety of
                 diagnoses, including but not limited to: autism, birth injuries,
                 cerebral palsy, developmental delays, juvenile rheumatoid
                 arthritis, sensory processing disorders, traumatic brain or
                 spinal cord injuries, sensory processing disorders, and more.
               </p>
-              <p className="mb-5">
+              <p className="mb-5"style={{fontSize:"18px"}}>
                 Additionally, pediatric OT may help your child with the
                 following:
               </p>
               <div>
-                <ul className="list-unstyled">
+                <ul className="list-unstyled"style={{fontSize:"18px"}}>
                   <li>
                     <i className="bi bi-check-circle text-success me-2"></i>
                     Sensory management
