@@ -177,14 +177,14 @@ const PaediatricPhysiotherapy = () => {
               data-aos-offset="200"
             >
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
                 style={{ width: "80%" }}
               />
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
@@ -198,7 +198,7 @@ const PaediatricPhysiotherapy = () => {
           >
             <div className="position-relative">
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/hq720.jpg"
                 alt="Image 1"
                 width="300px"
                 height="600px"
@@ -206,7 +206,7 @@ const PaediatricPhysiotherapy = () => {
                 style={{ width: "80%" }}
               />
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/hq720.jpg"
                 alt="Image 2"
                 width="300px"
                 height="600px"
@@ -405,7 +405,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/01d7efce-a2a8-4b59-8aa6-0cae2d309c8f.JPG"
                   alt="img"
                 />
               </div>
@@ -414,7 +414,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG"
                   alt="img"
                 />
               </div>
@@ -423,7 +423,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/40c76480-e6a3-4d86-82b0-11aaf28f805f.JPG"
                   alt="img"
                 />
               </div>
@@ -432,7 +432,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/146ab0f6-8f2e-4fb9-9514-a4f3fcbded92.JPG"
                   alt="img"
                 />
               </div>
@@ -441,7 +441,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/220c397d-73eb-4ddb-84de-4264a57cd98f.JPG"
                   alt="img"
                 />
               </div>
@@ -450,7 +450,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
                   alt="img"
                 />
               </div>
@@ -464,7 +464,7 @@ const PaediatricPhysiotherapy = () => {
           <div className="row">
             <div className="col-lg-6 mb-4">
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/8c16fa72-d690-4257-8d2f-8822be7c5d3e 2.JPG"
                 alt="Contact Us"
                 className="img-fluid"
                 style={{ width: "100%" }}
@@ -481,9 +481,18 @@ const PaediatricPhysiotherapy = () => {
               >
                 Feel free to Connect Mission Walk is always there for you.
               </h2>
-              {/* <p className="mb-3">
-                Mission Walk is always there for you.
-              </p> */}
+              <h4>Hyderabad (Telangana)</h4>
+              <p className="mb-3">
+              Lake Vista Road Number 3, Hyderabad, Telangana 500089
+              </p>
+              <h4>Delhi NCR (Greater Noida)</h4>
+              <p className="mb-3">
+              : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308Mobile: +91 91773 00194
+              </p>
+              <h4>Pune (Maharastra)</h4>
+              <p className="mb-3">
+              Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046
+              </p>
               <button className="btn btn-primary">Contact Us</button>
             </div>
           </div>

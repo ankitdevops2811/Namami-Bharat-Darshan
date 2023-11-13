@@ -150,7 +150,7 @@ export default function Pediatric() {
                   <img
                     className="position-absolute w-100 h-100 rounded wow zoomIn"
                     data-wow-delay="0.9s"
-                    src="img/img_150457_drravi9x6.jpg"
+                    src="mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG"
                     style={{ objectFit: "cover" }}
                   />
                 </div>

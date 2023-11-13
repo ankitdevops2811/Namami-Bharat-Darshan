@@ -37,19 +37,19 @@ const PediatricCards = () => {
 export default PediatricCards;
 const cardData = [
   {
-    imageSrc: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+    imageSrc: "mission-walk-images/f2858078-9380-4fa2-97ed-ef760d7bb869.JPG",
     title: "Paediatric Occupational Therapy",
     text: "Our paediatric occupational therapists assist children in performing “occupations” with the greatest level of independence possible. Childhood occupations include learning in school and playing with friends.",
     linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+    imageSrc: "mission-walk-images/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG",
     title: "Paediatric Physiotherapy",
     text: "Our Centre takes an intensive approach to paediatric physiotherapy using the NeuroSuit and Multifunctional Therapy Units. We offer paediatric physiotherapy in both weekly and intensive settings.",
     linkTo: "/pediatric-physiotherapy",
   },
   {
-    imageSrc: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+    imageSrc: "mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG",
     title: "Paediatric Speech Therapy",
     text: "Paediatric speech therapists use a variety of therapy techniques to address oral motor dysfunction, apraxia, fluency, receptive and expressive language to help your child improve overall communication and feeding development.",
     linkTo: "/pediatric-speech",

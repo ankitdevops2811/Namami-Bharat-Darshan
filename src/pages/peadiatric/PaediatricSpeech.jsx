@@ -141,7 +141,7 @@ const PaediatricSpeech = () => {
               data-aos-offset="200"
             >
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/neuro.JPG"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
@@ -301,7 +301,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/a23e7e97-e392-44ee-92f9-a17eb8412c9d 2.JPG"
                   alt="img"
                 />
               </div>
@@ -310,7 +310,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/f2858078-9380-4fa2-97ed-ef760d7bb869.JPG"
                   alt="img"
                 />
               </div>
@@ -319,7 +319,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
                   alt="img"
                 />
               </div>
@@ -328,7 +328,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/caff6211-c530-4104-8c4f-8d976687c50f.JPG"
                   alt="img"
                 />
               </div>
@@ -337,7 +337,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/a61fabe4-341f-46ad-991b-b7f3ec89f70c.JPG"
                   alt="img"
                 />
               </div>
@@ -346,7 +346,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
-                  src="/img/hq720.jpg"
+                  src="/mission-walk-images/a9f999a3-75a1-4259-95b8-24753f3ee90d.JPG"
                   alt="img"
                 />
               </div>
@@ -360,7 +360,7 @@ const PaediatricSpeech = () => {
           <div className="row">
             <div className="col-lg-6 mb-4">
               <img
-                src="/img/hq720.jpg"
+                src="/mission-walk-images/8c16fa72-d690-4257-8d2f-8822be7c5d3e 2.JPG"
                 alt="Contact Us"
                 className="img-fluid"
                 style={{ width: "100%" }}
@@ -377,9 +377,18 @@ const PaediatricSpeech = () => {
               >
                 Feel free to Connect Mission Walk is always there for you.
               </h2>
-              {/* <p className="mb-3">
-                Mission Walk is always there for you.
-              </p> */}
+              <h4>Hyderabad (Telangana)</h4>
+              <p className="mb-3">
+              Lake Vista Road Number 3, Hyderabad, Telangana 500089
+              </p>
+              <h4>Delhi NCR (Greater Noida)</h4>
+              <p className="mb-3">
+              : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308Mobile: +91 91773 00194
+              </p>
+              <h4>Pune (Maharastra)</h4>
+              <p className="mb-3">
+              Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046
+              </p>
               <button className="btn btn-primary">Contact Us</button>
             </div>
           </div>
