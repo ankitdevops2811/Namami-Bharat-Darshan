@@ -70,7 +70,7 @@ const PederiticImage = () => {
             <div className="col-md-4 d-flex">
               <div
                 className="img img-services w-100"
-                style={{ backgroundImage: "url(/img/hq720.jpg)" }}
+                style={{ backgroundImage: "url(/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f.JPG)" }}
               ></div>
             </div>
 
