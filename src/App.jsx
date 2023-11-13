@@ -24,6 +24,16 @@ import "./style.css";
 // import 'aos/dist/aos.css';
 // import { useEffect } from "react";
 import Location from "./pages/Location";
+import Stroke from "./pages/condition-services/Stroke-Recovery";
+import Spinal from "./pages/condition-services/Spinal-Cord";
+import Brain from "./pages/condition-services/Brain-Injury";
+import BalanceMobility from "./pages/condition-services/BalanceMobility";
+import CerebralPalsy from "./pages/condition-services/CerebralPalsy";
+import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
+import ParkinsonsDisease from "./pages/condition-services/ParkinsonsDisease";
+import TransverseMyelitis from "./pages/condition-services/TransverseMyelitis";
+import MotorNeuron from "./pages/condition-services/PainManagement";
+import DifficultyInWalking from "./pages/condition-services/Limb-Loss";
 
 function App() {
   // useEffect(() => {
@@ -64,6 +74,19 @@ function App() {
               element={<PaediatricPhysiotherapy />}
             />
             <Route path="pediatric-speech" element={<PaediatricSpeech />} />
+            {/* === Condition & Services === */}
+            <Route path="conditions" element={<Service />} />
+            <Route path="conditions/stroke-recovery" element={<Stroke />} />
+            <Route path="spinal" element={<Spinal />} />
+            <Route path="brain" element={<Brain />} />
+            <Route path="conditions/balance-mobility" element={<BalanceMobility />} />
+            <Route path="conditions/cerebral-palsy" element={<CerebralPalsy />} />
+            <Route path="conditions/multiple-sclerosis" element={<MultipleSclerosis />} />
+            <Route path="conditions/parkinsons" element={<ParkinsonsDisease />} />
+            <Route path="conditions/transverse-myelitis" element={<TransverseMyelitis />} />
+            <Route path="conditions/pain-management" element={<MotorNeuron />} />
+            <Route path="conditions/difficulty-in-walking" element={<DifficultyInWalking />} />
+
           </Route>
         </Routes>
       </BrowserRouter>
