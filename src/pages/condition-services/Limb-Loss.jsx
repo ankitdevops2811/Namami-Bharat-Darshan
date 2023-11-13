@@ -1,21 +1,21 @@
 import React from 'react'
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import CpCard from "./Cards/CP-Card";
-const CerebralPalsy = () => {
+import LimbCard from "./Cards/LimbLossCard";
+const DifficultyInWalking = () => {
   return (
+    
     <>
     {/* <div>About</div> */}
     {/* <!-- Hero Start --> */}
     <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
             <div className="col-12 text-center">
-                <h1 className="display-3 text-white animated zoomIn">Cerebral Palsy</h1>
+                <h1 className="display-3 text-white animated zoomIn">Limb Loss & Impairment</h1>
                 {/* <a href="" className="h4 text-white">Home</a> */}
                 <i className="far fa-circle text-white px-2"></i>
-                <p className="h4 text-white">Each person with cerebral palsy (CP) has unique functional and therapeutic needs. We treat patients with CP of any age, at any point in their lives with the latest therapies for CP rehabilitation.</p>
+                <p className="h4 text-white">Amputation or limb impairment can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.</p>
             </div>
         </div>
     </div>
@@ -33,19 +33,19 @@ const CerebralPalsy = () => {
         The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
         </p> */}
                     <h1 className="display-5 mb-0" style={{ fontSize: '26px' }}>
-                    Our Patients are Our Priority
+                    How We Can Help
                     </h1>
 
-                    <p className="text-body mb-4">You want to recover what’s most important in your life. Meet some of our patients and innovative programs that make it possible.</p>
+                    <p className="text-body mb-4">You want to recover what’s most important in your life. We challenge ourselves to innovate ways to make that possible.</p>
 
                     <div className="row g-3">
                         <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
                                 <Card.Body>
-                                    <Card.Title>An Active Life with Cerebral Palsy</Card.Title>
+                                    <Card.Title>Renewed Vigor Following a Quadruple Amputation</Card.Title>
                                     <Card.Text>
-                                    Born with CP, Michelle started receiving rehabilitation when she was only 6. Since then, she has made amazing changes and now leads a full, active teenage life.
+                                    Ethan was enjoying his work as a healthcare consultant after graduating from Northwestern. In January 2015 an infection led to a life-changing outcome..
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -54,9 +54,20 @@ const CerebralPalsy = () => {
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
                                 <Card.Body>
-                                    <Card.Title>Spasticity Clinic</Card.Title>
+                                    <Card.Title>Former Miss America Contestant Tries Out Mind-Controlled Bionic Arm</Card.Title>
                                     <Card.Text>
-                                    Spasticity rehabilitation aids children and adults who experience functional loss, contracture and pain due to CP, MS, brain/spinal cord injuries or stroke.
+                                    Born without a left forearm, Nicole competed in pageants and became Miss Iowa. She gained a large social following and now shows off a custom-made bionic arm.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
+                                <Card.Body>
+                                    <Card.Title>Prosthetics & Orthotics</Card.Title>
+                                    <Card.Text>
+                                    Certified prosthetics and orthotics clinicians, working collaboratively with your doctors and therapists to deliver your customized device needs.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -132,7 +143,7 @@ const CerebralPalsy = () => {
 
                             <h3>How We Heel</h3>
                             <p>
-                            With patients with CP, we focus on mobility, communication, self-care and education. Throughout our Innovation Centers and Ability Labs, doctors, therapists and scientists work together, toward your best outcomes.
+                            At the cutting edge of prosthetics, bionics, and care, our specialized Innovation Center and Ability Lab set patients up for the best possible outcomes.
                             </p>
 
                             <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
@@ -161,7 +172,7 @@ const CerebralPalsy = () => {
                            
                             <h3>Science-Driven Care</h3>
                             <p>
-                            We have hundreds of clinical studies under way — some specifically CP-related. For example, we’re testing novel stretching and assistive devices (software, toys, splints), as well as exploring CP at the cell level. We offer you access to the world’s most advanced research that can directly impact your outcome.
+                            With hundreds of clinical studies under way — some dedicated to the needs of patients with limb loss or impairment — we offer you access to the world’s most advanced research, which can directly impact your outcome. Our prosthetics — including thought-controlled bionic limbs — are revolutionary.
                                 <a href="http://www.napacenter.org/contact/">
                                     contacting us
                                 </a>
@@ -177,117 +188,10 @@ const CerebralPalsy = () => {
                     </div>
                     <div className="program_details_outer_div">
                     <div className="program_details_outer_div">
-            <CpCard />
+            <LimbCard />
           </div>
 </div>
-                        <div className="our_programs_details_list">
-                            <div className="programs_details_list_txt">
-                                <b>Benefits of NeuroSuit</b>
-                            </div>
-                            <ul>
-                                <li>
-                                    <h3>
-                                        <span>01. </span>Create New Pathways
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Re-trains the central nervous system and creates NEW
-                                            pathways to/from the brain allowing new or improved
-                                            motor skills to be formed
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>02. </span>Muscle Tone
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Provide resistance to strong muscles to further
-                                            enhance strengthening while supporting weak muscles
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>03. </span>Dynamic Correction
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Provides dynamic correction of movements reinforcing
-                                            proper movement during skills such as walking, balance
-                                            and coordination
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>04. </span>Better Alignment
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Bring the body into correct alignment. Improves hip
-                                            alignment through vertical loading over the hip joint
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>05. </span>Increased Awareness
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Provides compression (tactile stimulation) distributed
-                                            throughout the body and increases spacial awareness of
-                                            the body&lt;/span
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>06. </span>Improved Motor Skills
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Promotes development of both fine and gross motor
-                                            skills
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>07. </span>Stronger Bones
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Improves bone density
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>08. </span>Strengthen Speech
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Improves speech production and its fluency through
-                                            head control and trunk support
-                                        </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        <span>09. </span>Controlled Movement
-                                    </h3>
-                                    <p>
-                                        <span style={{ fontWeight: "400" }}>
-                                            Decreases uncontrolled movement in ataxia and
-                                            athetosis. Helps to decrease contracture
-                                        </span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -335,7 +239,8 @@ const CerebralPalsy = () => {
 </section>
 
 </>
+
   )
 }
 
-export default CerebralPalsy
+export default DifficultyInWalking
