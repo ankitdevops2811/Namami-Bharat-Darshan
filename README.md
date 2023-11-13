@@ -9,10 +9,13 @@ Currently, two official plugins are available:
 
 npm install bootstrap
 npm i react-router-dom
+https://freefrontend.com/bootstrap-profiles/
+
+git pull --no-ff origin therapy_contact
 
 # Branches
-➢ main branch -> main  // sachin
-➢ dev  -> wow working // sachin
-➢ dev-2  -> wow working // sachin
 
-
+Sachin
+➢ main branch -> main // sachin
+➢ dev -> wow working // sachin
+➢ dev-2 -> wow working // sachin
