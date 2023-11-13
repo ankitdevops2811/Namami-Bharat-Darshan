@@ -244,8 +244,41 @@ const Stroke = () => {
           </div>
         </div>
       </div>
-      <ContactPagesCard />
+      {/* <ContactPagesCard /> */}
       {/* <!-- About End --> */}
+      <section style={{ backgroundColor: "aliceblue" }}>
+<div className="container-fluid mb-5">
+  <div className="row">
+    
+    <div className="col-lg-6 mt-5">
+      <h2
+        className="mb-5"
+        style={{
+          marginBlock: "60px",
+          fontSize: "40px",
+          textAlign: "initial",
+        }}
+      >
+        Feel free to Connect Mission Walk is always there for you.
+      </h2>
+      <h4>Hyderabad (Telangana)</h4>
+      <p className="mb-3">
+      Lake Vista Road Number 3, Hyderabad, Telangana 500089
+      </p>
+      <h4>Delhi NCR (Greater Noida)</h4>
+      <p className="mb-3">
+      : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308Mobile: +91 91773 00194
+      </p>
+      <h4>Pune (Maharastra)</h4>
+      <p className="mb-3">
+      Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046
+      </p>
+      <button className="btn btn-primary">Contact Us</button>
+    </div>
+  </div>
+</div>
+</section>
+
     </>
   );
 };
