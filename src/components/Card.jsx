@@ -5,7 +5,9 @@ const CustomCard = ({ imageSrc, title, text, linkTo }) => {
   return (
     <div
       className="card"
-      style={{ width: "350px", backgroundColor: "aliceblue", border: "none" }}
+      style={{ width: "350px", backgroundColor: "aliceblue",
+       border: "none" 
+      }}
     >
       <div
         className="mb-4"
