@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ContactPagesCard = () => {
   return (
@@ -25,7 +26,7 @@ const ContactPagesCard = () => {
               >
                 Feel free to Connect, Mission Walk is always there for you.
               </h2>
-              <button className="btn btn-primary">Contact Us</button>
+              <Link to="/contact"><button className="btn btn-primary">Contact Us</button></Link>
             </div>
           </div>
         </div>
