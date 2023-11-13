@@ -21,6 +21,9 @@ import Theratogs from "./pages/therapy-tools/Theratogs";
 import Register from "./components/register-form";
 import "./style.css";
 import Location from "./pages/Location";
+import Stroke from "./pages/condition-services/Stroke-Recovery"
+import Spinal from "./pages/condition-services/Spinal-Cord"
+import Brain from "./pages/condition-services/Brain-Injury"
 
 function App() {
   return (
@@ -59,6 +62,12 @@ function App() {
             />
             <Route path="pediatric-speech" element={<PaediatricSpeech />} />
           </Route>
+
+          {/* === Condition & Services === */}
+          <Route path="conditions" element={<Service />} />
+         <Route path="conditions/stroke-recovery" element={<Stroke />} />
+       <Route path="spinal" element={<Spinal/>}/>
+       <Route path="brain" element={<Brain/>}/>
         </Routes>
       </BrowserRouter>
     </>
