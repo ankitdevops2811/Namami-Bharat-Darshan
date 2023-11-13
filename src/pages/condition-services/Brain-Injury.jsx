@@ -2,6 +2,8 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import BrainCard from "./Cards/brain-Card";
+
 const Brain = () => {
 
     return (
@@ -11,10 +13,10 @@ const Brain = () => {
             <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
                 <div className="row py-3">
                     <div className="col-12 text-center">
-                        <h1 className="display-3 text-white animated zoomIn">Stroke Recovery</h1>
+                        <h1 className="display-3 text-white animated zoomIn">Brain Injury Recovery</h1>
                         {/* <a href="" className="h4 text-white">Home</a> */}
                         <i className="far fa-circle text-white px-2"></i>
-                        <p className="h4 text-white">The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.</p>
+                        <p className="h4 text-white">People from all over the world seek our 70 years’ experience in treating the most complex traumatic brain injuries and illnesses. We bring you the latest and most promising treatments and therapies.</p>
                     </div>
                 </div>
             </div>
@@ -36,15 +38,14 @@ const Brain = () => {
 
                             </h1>
 
-                            <p className="text-body mb-4">You want to recover what’s most important in your life — be it mobility,
-                                independence, walking, swallowing or speaking again. Together we reach for those goals.</p>
+                            <p className="text-body mb-4">You want to recover what’s most important in your life — mobility, independence, walking or speaking again. Together, we reach for your goals.</p>
 
                             <div className="row g-3">
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/img/price-1.jpg" />
+                                        <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
                                         <Card.Body>
-                                            <Card.Title>Stroke Recovery— What sets us apart?</Card.Title>
+                                            <Card.Title>Brain Injury Recovery — What sets us apart?</Card.Title>
                                             <Card.Text>
                                                 See what sets us apart from other rehabilitation hospitals and
                                                 why our outcomes for stroke patients are exceptional.
@@ -55,30 +56,17 @@ const Brain = () => {
                                 </div>
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/img/price-1.jpg" />
+                                        <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
                                         <Card.Body>
-                                            <Card.Title>Stroke Specialty Services</Card.Title>
+                                            <Card.Title>Brain Injury Specialty Services</Card.Title>
                                             <Card.Text>
-                                                Our wide array of services for stroke patients will help you and your
-                                                family navigate your recovery.
+                                            Our wide array of services for brain injury patients will help you and your family navigate your recovery.
                                             </Card.Text>
                                             <Button variant="primary">read more..</Button>
                                         </Card.Body>
                                     </Card>
                                 </div>
-                                <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                                    <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/img/price-1.jpg" />
-                                        <Card.Body>
-                                            <Card.Title>Ryan's Story: Surviving a Stroke at 20</Card.Title>
-                                            <Card.Text>
-                                                Ryan suffered a stroke when he was just 20. After months of therapy, he has made an incredible recovery.
-                                                He has learned to walk and improved hand function.
-                                            </Card.Text>
-                                            <Button variant="primary">read more..</Button>
-                                        </Card.Body>
-                                    </Card>
-                                </div>
+                         
                             </div>
                             <a
                                 href="appointment.html"
@@ -93,7 +81,7 @@ const Brain = () => {
                                 <img
                                     className="position-absolute w-100 h-100 rounded wow zoomIn"
                                     data-wow-delay="0.9s"
-                                    src="/img/strokerecovery.jpg"
+                                    src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
 
                                     style={{ objectFit: "cover" }}
                                 />
@@ -120,7 +108,7 @@ const Brain = () => {
                                         width="300"
                                         height="300"
                                         className="size-full wp-image-31823 aligncenter"
-                                        src="/mission-walk-images/neuro.JPG"
+                                        src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
                                         // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
                                         alt=""
                                     />
@@ -155,41 +143,25 @@ const Brain = () => {
                                     </p>
 
                                     <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                                        <Card style={{ width: '18rem' }}>
-                                            {/* <Card.Img variant="top" src="/img/price-1.jpg" /> */}
-                                            <Card.Body>
-                                                <Card.Title>Legs + Walking Lab</Card.Title>
-                                            </Card.Body>
-                                        </Card>
-
-                                    </div>
-                                    <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                                        <Card style={{ width: '18rem' }}>
-                                            {/* <Card.Img variant="top" src="/img/testimonial-1.jpg" /> */}
-                                            <Card.Body>
-                                                <Card.Title>Arms + Hands Lab</Card.Title>
-                                            </Card.Body>
-                                        </Card>
-
-                                    </div>
-                                    <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                                        <Card style={{ width: '18rem' }}>
-                                            {/* <Card.Img variant="top" src="/img/testimonial-1.jpg" /> */}
-                                            <Card.Body>
-                                                <Card.Title>Strength + Endurance Lab</Card.Title>
-                                            </Card.Body>
-                                        </Card>
-
-                                    </div>
-                                    <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                                        <Card style={{ width: '18rem' }}>
-                                            {/* <Card.Img variant="top" src="/img/testimonial-1.jpg" /> */}
-                                            <Card.Body>
-                                                <Card.Title>Think + Speak Lab</Card.Title>
-                                            </Card.Body>
-                                        </Card>
-
-                                    </div>
+                    <ul  className="list-unstyled" style={{fontSize:"18px"}}>
+                      <li>
+                        <i className="bi bi-check-circle text-success me-2 fs-4"></i>
+                        Legs + Walking Lab
+                      </li>
+                      <li>
+                        <i className="bi bi-check-circle text-success me-2 fs-4"></i>
+                        Arms + Hands Lab
+                      </li>
+                      <li>
+                        <i className="bi bi-check-circle text-success me-2 fs-4"></i>
+                        Strength + Endurance Lab
+                      </li>
+                      <li>
+                        <i className="bi bi-check-circle text-success me-2 fs-4"></i>
+                        Think + Speak Lab
+                      </li>
+                    </ul>
+                  </div>
 
 
 
@@ -212,42 +184,9 @@ const Brain = () => {
                             <b>Clinical Trials & Research Studies</b>
                             </div>
                             <div className="program_details_outer_div">
-                            <CardGroup>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>An Exploration of Acute Intermittent Hypoxia as a tool to Enhance Neural Recovery in Stroke Survivors; a pilot safety study.</Card.Title>
-          <Card.Text>
-          This is a Phase I safety study. Our plan consists of dose-escalation exposures with continual assessment of hypoxic conditioning impact in individuals with chronic stroke.
-          </Card.Text>
-        </Card.Body>
-       
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Locomotor function following transcutaneous electrical spinal cord stimulation in individuals with hemiplegic stroke</Card.Title>
-          <Card.Text>
-          This study is looking for persons who have had a stroke to determine if spinal stimulation helps improve walking ability.
-          </Card.Text>
-        </Card.Body>
-      
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-    </CardGroup>
+                            <div className="program_details_outer_div">
+                    <BrainCard />
+                  </div>
     </div>
                                 <div className="our_programs_details_list">
                                     <div className="programs_details_list_txt">

@@ -52,7 +52,7 @@ const Stroke = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/3763c9e4-8616-469a-969d-65b603b11caa 3.JPG" />
                     <Card.Body>
                       <Card.Title>
                         Stroke Recovery— What sets us apart?
@@ -68,7 +68,7 @@ const Stroke = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/44e8f869-bf91-4d6c-a734-08d17fdbb518.JPG" />
                     <Card.Body>
                       <Card.Title>Stroke Specialty Services</Card.Title>
                       <Card.Text>
@@ -119,8 +119,8 @@ const Stroke = () => {
                     // fetchpriority="high"
                     width="300"
                     height="300"
-                    className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/neuro.JPG"
+                    className="position-absolute w-400 h-50 rounded wow aligncenter"
+                    src="/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f 2.JPG"
                     // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
                     alt=""
                   />
@@ -189,7 +189,7 @@ const Stroke = () => {
                     </Card>
                   </div> */}
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled">
+                    <ul  className="list-unstyled" style={{fontSize:"18px"}}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -238,114 +238,7 @@ const Stroke = () => {
                     <StrokeCards />
                   </div>
                 </div>
-                <div className="our_programs_details_list">
-                  <div className="programs_details_list_txt">
-                    <b>Benefits of NeuroSuit</b>
-                  </div>
-                  <ul>
-                    <li>
-                      <h3>
-                        <span>01. </span>Create New Pathways
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Re-trains the central nervous system and creates NEW
-                          pathways to/from the brain allowing new or improved
-                          motor skills to be formed
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>02. </span>Muscle Tone
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Provide resistance to strong muscles to further
-                          enhance strengthening while supporting weak muscles
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>03. </span>Dynamic Correction
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Provides dynamic correction of movements reinforcing
-                          proper movement during skills such as walking, balance
-                          and coordination
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>04. </span>Better Alignment
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Bring the body into correct alignment. Improves hip
-                          alignment through vertical loading over the hip joint
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>05. </span>Increased Awareness
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Provides compression (tactile stimulation) distributed
-                          throughout the body and increases spacial awareness of
-                          the body&lt;/span
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>06. </span>Improved Motor Skills
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Promotes development of both fine and gross motor
-                          skills
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>07. </span>Stronger Bones
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Improves bone density
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>08. </span>Strengthen Speech
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Improves speech production and its fluency through
-                          head control and trunk support
-                        </span>
-                      </p>
-                    </li>
-                    <li>
-                      <h3>
-                        <span>09. </span>Controlled Movement
-                      </h3>
-                      <p>
-                        <span style={{ fontWeight: "400" }}>
-                          Decreases uncontrolled movement in ataxia and
-                          athetosis. Helps to decrease contracture
-                        </span>
-                      </p>
-                    </li>
-                  </ul>
-                </div>
+              
               </div>
             </div>
           </div>
