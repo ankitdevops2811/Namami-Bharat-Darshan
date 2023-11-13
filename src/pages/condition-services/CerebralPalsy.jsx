@@ -3,7 +3,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import BrainCard from "./Cards/brain-Card";
+import CpCard from "./Cards/CP-Card";
 const CerebralPalsy = () => {
   return (
     <>
@@ -12,10 +12,10 @@ const CerebralPalsy = () => {
     <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
             <div className="col-12 text-center">
-                <h1 className="display-3 text-white animated zoomIn">Brain Injury Recovery</h1>
+                <h1 className="display-3 text-white animated zoomIn">Cerebral Palsy</h1>
                 {/* <a href="" className="h4 text-white">Home</a> */}
                 <i className="far fa-circle text-white px-2"></i>
-                <p className="h4 text-white">People from all over the world seek our 70 years’ experience in treating the most complex traumatic brain injuries and illnesses. We bring you the latest and most promising treatments and therapies.</p>
+                <p className="h4 text-white">Each person with cerebral palsy (CP) has unique functional and therapeutic needs. We treat patients with CP of any age, at any point in their lives with the latest therapies for CP rehabilitation.</p>
             </div>
         </div>
     </div>
@@ -33,23 +33,20 @@ const CerebralPalsy = () => {
         The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
         </p> */}
                     <h1 className="display-5 mb-0" style={{ fontSize: '26px' }}>
-                        Programs, Services & Patients
-
+                    Our Patients are Our Priority
                     </h1>
 
-                    <p className="text-body mb-4">You want to recover what’s most important in your life — mobility, independence, walking or speaking again. Together, we reach for your goals.</p>
+                    <p className="text-body mb-4">You want to recover what’s most important in your life. Meet some of our patients and innovative programs that make it possible.</p>
 
                     <div className="row g-3">
                         <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
                                 <Card.Body>
-                                    <Card.Title>Brain Injury Recovery — What sets us apart?</Card.Title>
+                                    <Card.Title>An Active Life with Cerebral Palsy</Card.Title>
                                     <Card.Text>
-                                        See what sets us apart from other rehabilitation hospitals and
-                                        why our outcomes for stroke patients are exceptional.
+                                    Born with CP, Michelle started receiving rehabilitation when she was only 6. Since then, she has made amazing changes and now leads a full, active teenage life.
                                     </Card.Text>
-                                    <Button variant="primary">read more..</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -57,11 +54,10 @@ const CerebralPalsy = () => {
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
                                 <Card.Body>
-                                    <Card.Title>Brain Injury Specialty Services</Card.Title>
+                                    <Card.Title>Spasticity Clinic</Card.Title>
                                     <Card.Text>
-                                    Our wide array of services for brain injury patients will help you and your family navigate your recovery.
+                                    Spasticity rehabilitation aids children and adults who experience functional loss, contracture and pain due to CP, MS, brain/spinal cord injuries or stroke.
                                     </Card.Text>
-                                    <Button variant="primary">read more..</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -136,9 +132,7 @@ const CerebralPalsy = () => {
 
                             <h3>How We Heel</h3>
                             <p>
-                                Our integrated team of physicians, nurses, therapists, researchers and case managers understand the most complex injuries. They create programs for
-                                each patient – tailored to your individual goals.
-                                Therapy may take place in one or several ability labs.
+                            With patients with CP, we focus on mobility, communication, self-care and education. Throughout our Innovation Centers and Ability Labs, doctors, therapists and scientists work together, toward your best outcomes.
                             </p>
 
                             <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
@@ -167,8 +161,7 @@ const CerebralPalsy = () => {
                            
                             <h3>Science-Driven Care</h3>
                             <p>
-                            With nearly 200 clinical trials and research studies specifically dedicated to improving function and recovery from stroke (including treatment for aphasia) 
-                            — we offer you access to the world’s most advanced research, which can directly impact your recovery.
+                            We have hundreds of clinical studies under way — some specifically CP-related. For example, we’re testing novel stretching and assistive devices (software, toys, splints), as well as exploring CP at the cell level. We offer you access to the world’s most advanced research that can directly impact your outcome.
                                 <a href="http://www.napacenter.org/contact/">
                                     contacting us
                                 </a>
@@ -184,7 +177,7 @@ const CerebralPalsy = () => {
                     </div>
                     <div className="program_details_outer_div">
                     <div className="program_details_outer_div">
-            <BrainCard />
+            <CpCard />
           </div>
 </div>
                         <div className="our_programs_details_list">

@@ -29,8 +29,8 @@ import CerebralPalsy from "./pages/condition-services/CerebralPalsy";
 import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
 import ParkinsonsDisease from "./pages/condition-services/ParkinsonsDisease";
 import TransverseMyelitis from "./pages/condition-services/TransverseMyelitis";
-import MotorNeuron from "./pages/condition-services/MotorNeuron";
-import DifficultyInWalking from "./pages/condition-services/DifficultyInWalking";
+import MotorNeuron from "./pages/condition-services/PainManagement";
+import DifficultyInWalking from "./pages/condition-services/Limb-Loss";
 
 function App() {
   return (
@@ -78,7 +78,7 @@ function App() {
             <Route path="conditions/multiple-sclerosis" element={<MultipleSclerosis />} />
             <Route path="conditions/parkinsons" element={<ParkinsonsDisease />} />
             <Route path="conditions/transverse-myelitis" element={<TransverseMyelitis />} />
-            <Route path="conditions/motor-neuron" element={<MotorNeuron />} />
+            <Route path="conditions/pain-management" element={<MotorNeuron />} />
             <Route path="conditions/difficulty-in-walking" element={<DifficultyInWalking />} />
 
           </Route>

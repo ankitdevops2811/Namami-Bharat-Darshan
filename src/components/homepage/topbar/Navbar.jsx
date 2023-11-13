@@ -65,14 +65,15 @@ const Navbar = () => {
                 <Link to="/conditions/cerebral-palsy" className="dropdown-item">
                   Cerebral Palsy
                 </Link>
-                <Link to="/conditions/motor-neuron" className="dropdown-item">
-                  Motor Neuron Disease
-                </Link>
+              
                 <Link to="/conditions/balance-mobility" className="dropdown-item">
                   Balance and Mobility Issues
                 </Link>
+                <Link to="/conditions/pain-management" className="dropdown-item">
+                  Pain Management
+                </Link>
                 <Link to="/conditions/difficulty-in-walking" className="dropdown-item">
-                  Difficulty in Walking
+                Limb Loss & Impairment
                 </Link>
                 <Link to="/service" className="dropdown-item">
                   View All
