@@ -53,25 +53,25 @@ const Navbar = () => {
                 <Link to="/brain" className="dropdown-item">
                   Brain Injury Recovery
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/multiple-sclerosis" className="dropdown-item">
                   Multiple Sclerosis
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/parkinsons" className="dropdown-item">
                 Parkinson's disease
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/transverse-myelitis" className="dropdown-item">
                   Transverse Myelitis
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/cerebral-palsy" className="dropdown-item">
                   Cerebral Palsy
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/motor-neuron" className="dropdown-item">
                   Motor Neuron Disease
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/balance-mobility" className="dropdown-item">
                   Balance and Mobility Issues
                 </Link>
-                <Link to="/appointment.html" className="dropdown-item">
+                <Link to="/conditions/difficulty-in-walking" className="dropdown-item">
                   Difficulty in Walking
                 </Link>
                 <Link to="/service" className="dropdown-item">
