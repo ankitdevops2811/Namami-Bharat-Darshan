@@ -103,6 +103,18 @@ const Service = () => {
                     <h5 className="m-0">Spinal Cord Injury</h5>
                   </div>
                 </div>
+                {/* priya */}
+                <div
+                  className="col-md-6 service-item wow zoomIn"
+                  data-wow-delay="0.6s"
+                >
+                  <div className="rounded-top overflow-hidden">
+                    <img className="img-fluid" src="img/sddefault.jpg" alt="" />
+                  </div>
+                  <div className="position-relative bg-light rounded-bottom text-center p-4">
+                    <h5 className="m-0">Spinal Cord Injury</h5>
+                  </div>
+                </div>
               </div>
             </div>
             {/* <div
@@ -121,7 +133,7 @@ const Service = () => {
         </div>
       </div>
 {/* pppp */}
-      <section>
+      {/* <section>
         <div
           className="container-fluid py-5 wow fadeInUp"
           data-wow-delay="0.1s"
@@ -148,7 +160,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- Service End --> */}
     </>
   );
