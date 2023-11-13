@@ -19,13 +19,13 @@ import Spidercage from "./pages/therapy-tools/Spidercage";
 import TherapyTools from "./pages/therapy-tools/TherapyTools";
 import Theratogs from "./pages/therapy-tools/Theratogs";
 import "./style.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+// import { useEffect } from "react";
 function App() {
-  useEffect(() => {
-    AOS.init();
-  }, [])
+  // useEffect(() => {
+  //   AOS.init();
+  // }, [])
   return (
     <>
       <BrowserRouter>

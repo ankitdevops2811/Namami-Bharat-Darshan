@@ -256,8 +256,10 @@ const PaediatricOccupational = () => {
               <img
                 src="/img/hq720.jpg"
                 width="300px"
-                height="400px"
+                height="600px"
                 className="img-fluid img-thumbnail"
+                style={{ width: "80%"}}
+
               />
             </div>
           </div>
