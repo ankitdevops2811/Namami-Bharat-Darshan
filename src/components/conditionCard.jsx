@@ -31,7 +31,6 @@ const ConditionCard = ({ imageSrc, title, text, linkTo }) => {
             className=""
             // style={{ backgroundColor: "aliceblue", border: "none" }}
           >
-            Read More
           </Link>
         </div>
       </div>

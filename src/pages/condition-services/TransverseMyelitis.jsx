@@ -3,6 +3,7 @@ import React from 'react'
 const TransverseMyelitis = () => {
   return (
     <div>TransverseMyelitis</div>
+    
   )
 }
 

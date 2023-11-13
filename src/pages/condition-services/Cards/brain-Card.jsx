@@ -3,7 +3,8 @@ import CustomCard from "../../../components/Card";
 import ConditionCard from "../../../components/conditionCard";
 // import CustomCard from "../../components/Card";
 
-const StrokeCards = () => {
+
+const BrainCard = () => {
   return (
     <section
       className="services py-5"
@@ -38,25 +39,25 @@ const StrokeCards = () => {
   );
 };
 
-export default StrokeCards;
+export default BrainCard;
 const cardData = [
   {
-    imageSrc: "/mission-walk-images/620b6bc0-2526-4f8e-9dd7-f7bf1892ae4f 2.JPG",
-    title: "Locomotor function following transcutaneous electrical spinal cord stimulation in individuals with hemiplegic stroke",
-    text: "This study is looking for persons who have had a stroke to determine if spinal stimulation helps improve walking ability.",
-    linkTo: "/pediatric-occupational",
+    imageSrc: "/mission-walk-images/7dfa808a-797c-438d-a32b-2d549672f1c5 2.JPG",
+    title: "Stimulating neuroplasticity in TBI with acute intermittent hypoxia",
+    text: "We are studying whether briefly reducing oxygen consumption, equivalent to being on top of a mountain, is safe and stimulates neuroplasticity in people who have had a concussion or a mild to moderate traumatic brain injury (TBI).",
+    // linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG",
-    title: "An Exploration of Acute Intermittent Hypoxia as a tool to Enhance Neural Recovery in Stroke Survivors; a pilot safety study.",
-    text: "This is a Phase I safety study. Our plan consists of dose-escalation exposures with continual assessment of hypoxic conditioning impact in individuals with chronic stroke.",
-    linkTo: "/pediatric-physiotherapy",
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    title: "COMET-C",
+    text: "Seeking persons with communication difficulties due to stroke/aphasia, Parkinson’s Disease, cerebral palsy or traumatic brain injury to join a focus group.",
+    // linkTo: "/pediatric-physiotherapy",
   },
   {
-    imageSrc: "/mission-walk-images/06c8b886-0988-43f5-b120-7779c48e6cf3.JPG",
-    title: "Improving Arm Movement Using Wearable Device After Stroke",
-    text: "Mission-Walk is evaluating a new rehab therapy using wearable devices and a video game interface to improve arm movement after stroke. Participants use these wearable devices, called myoelectric computer interfaces, to play video games using their arm muscles.",
-    linkTo: "/pediatric-speech",
+    imageSrc: "/mission-walk-images/ea264408-17aa-42f6-91b5-f67bb8a58237.JPG",
+    title: "Neuromodulation and Neurorehabilitation for Treatment of Functional Deficits after mTBI plus PTSD",
+    text: "The purpose of this study is to alleviate persisting attention deficits related to mild TBI and PTSD by treating the neurocognitive system of attention.",
+    // linkTo: "/pediatric-speech",
   },
   // {
   //   imageSrc: "mission-walk-images/mission-walk-hyderabad-5cf92914afb61.jpeg",
