@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   return (
     <>
       {/* <!-- Navbar Start --> */}
@@ -41,42 +40,49 @@ const Navbar = () => {
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
-                Programs
+                Problem We Treat
               </Link>
 
               <div className="dropdown-menu m-0">
+                <Link to="/conditions/stroke-recovery"  className="dropdown-item">
+                  Stroke Recovery
+                </Link>
+                <Link to="/spinal" className="dropdown-item">
+                  Spinal Cord Injury
+                </Link>
+                <Link to="/brain" className="dropdown-item">
+                  Brain Injury Recovery
+                </Link>
+                <Link to="/conditions/multiple-sclerosis" className="dropdown-item">
+                  Multiple Sclerosis
+                </Link>
+                <Link to="/conditions/parkinsons" className="dropdown-item">
+                Parkinson's disease
+                </Link>
+                <Link to="/conditions/transverse-myelitis" className="dropdown-item">
+                  Transverse Myelitis
+                </Link>
+                <Link to="/conditions/cerebral-palsy" className="dropdown-item">
+                  Cerebral Palsy
+                </Link>
+              
+                <Link to="/conditions/balance-mobility" className="dropdown-item">
+                  Balance and Mobility Issues
+                </Link>
+                <Link to="/conditions/pain-management" className="dropdown-item">
+                  Pain Management
+                </Link>
+                <Link to="/conditions/difficulty-in-walking" className="dropdown-item">
+                Limb Loss & Impairment
+                </Link>
                 <Link to="/service" className="dropdown-item">
-                  Intensive therapy
-                </Link>
-                <Link to="/team.html" className="dropdown-item">
-                  Pediatric Therapy
-                </Link>
-                <Link to="/testimonial.html" className="dropdown-item">
-                  Therapy
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Pediatric Ocupational Therapy
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Developmental
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Feeding Therapy
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Intensive Feeding
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Program
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Early Intervention
-                </Link>
-                <Link to="/appointment.html" className="dropdown-item">
-                  Telehealth
+                  View All
                 </Link>
               </div>
             </div>
+            <Link to="/pediatric" className="nav-item nav-link">
+            Pediatric Physiontherapy
+            </Link>
             {/* Therapy Tools */}
             <div className="nav-item dropdown">
               <Link
@@ -96,7 +102,10 @@ const Navbar = () => {
                 <Link to="/therapy-tools/dmi" className="dropdown-item">
                   DMI
                 </Link>
-                <Link to="/therapy-tools/functional-estim" className="dropdown-item">
+                <Link
+                  to="/therapy-tools/functional-estim"
+                  className="dropdown-item"
+                >
                   Functional Estim
                 </Link>
                 <Link to="/therapy-tools/galileo" className="dropdown-item">
@@ -107,7 +116,7 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <Link
                 to="#"
                 className="nav-link dropdown-toggle"
@@ -126,8 +135,10 @@ const Navbar = () => {
                   Pune
                 </Link>
               </div>
-            </div>
-
+            </div> */}
+            <Link to="/locations" className="nav-item nav-link">
+              Locations
+            </Link>
             <div className="nav-item dropdown">
               <Link
                 to="#"
