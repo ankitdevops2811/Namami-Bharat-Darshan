@@ -80,6 +80,9 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+            <Link to="/pediatric" className="nav-item nav-link">
+            Pediatric Physiontherapy
+            </Link>
             {/* Therapy Tools */}
             <div className="nav-item dropdown">
               <Link
