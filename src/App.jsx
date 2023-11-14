@@ -34,6 +34,7 @@ import ParkinsonsDisease from "./pages/condition-services/ParkinsonsDisease";
 import TransverseMyelitis from "./pages/condition-services/TransverseMyelitis";
 import MotorNeuron from "./pages/condition-services/PainManagement";
 import DifficultyInWalking from "./pages/condition-services/Limb-Loss";
+// import ChatBot from '../src/pages/chatBot';
 
 function App() {
   // useEffect(() => {
@@ -86,6 +87,7 @@ function App() {
             <Route path="conditions/transverse-myelitis" element={<TransverseMyelitis />} />
             <Route path="conditions/pain-management" element={<MotorNeuron />} />
             <Route path="conditions/difficulty-in-walking" element={<DifficultyInWalking />} />
+            {/* <Route path="chatbot" element={<ChatBot />} /> */}
 
           </Route>
         </Routes>

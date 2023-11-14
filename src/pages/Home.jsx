@@ -1,5 +1,7 @@
 import Courousel from "../components/mainpage/Courousel";
-
+import { Link } from 'react-router-dom';
+// import ConditionCard from "../../../components/conditionCard";
+import ConditionCard from "../components/conditionCard";
 const Home = () => {
   return (
     <>
@@ -14,29 +16,16 @@ const Home = () => {
             >
               <h1>Conditions and Services</h1>
             </div>
-            <div className="row g-4">
-              {servicesData.map((service, index) => (
-                <div
-                  key={index}
-                  className={`col-lg-4 col-md-6 wow fadeInUp`}
-                  data-wow-delay={service.delay}
-                >
-                  <div className="service-item bg-light rounded h-100 p-5">
-                    <div
-                      className="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                      style={{ width: "65px", height: "65px" }}
-                    >
-                      <i className={`fa ${service.icon} text-primary fs-4`}></i>
-                    </div>
-                    <h4 className="card-2 mb-3">{service.title}</h4>
-                    <p className="mb-4">{service.description}</p>
-                    <a className="btn" href="#">
-                      <i className="fa fa-plus text-primary me-3"></i>Read More
-                    </a>
-                  </div>
-                </div>
-              ))}
+            <div className="container">
+        <div className="row">
+          {cardData.map((card, index) => (
+            <div key={index} className="col-lg-4 col-md-6 mb-4">
+              <ConditionCard {...card} />
+           
             </div>
+          ))}
+        </div>
+      </div>
           </div>
         </div>
 
@@ -62,7 +51,7 @@ const Home = () => {
                       className="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
                       style={{ width: "65px", height: "65px" }}
                     >
-                      <i className={`fa ${service.icon} text-primary fs-4`}></i>
+                      <i className={`fa ${service.image} text-primary fs-4`}></i>
                     </div>
                     <h4 className="card-2 mb-3">{service.title}</h4>
                     <p className="mb-4">{service.description}</p>
@@ -131,11 +120,14 @@ const Home = () => {
 export default Home;
 const servicesData = [
   {
-    icon: "fa-brain",
+    // icon: "fa-brain",
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
     title: "Stroke Recovery",
     description:
       "The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes..",
     delay: "0.1s",
+    linkTo: "/pediatric-physiotherapy",
+
   },
   {
     icon: "fa-brain",
@@ -236,6 +228,72 @@ const videoData = [
     id: "04-e3yhQ9k8?si=qa2hgWdC9yCLSeyf",
     title: "Video 3",
   },
+  
   // Add more video data objects as needed
+];
+const cardData = [
+  {
+    imageSrc: "/mission-walk-images/620b6bc0-2526-4f8e-9dd7-f7bf1892ae4f 2.JPG",
+    title: "Locomotor function following transcutaneous electrical spinal cord stimulation in individuals with hemiplegic stroke",
+    text: "This study is looking for persons who have had a stroke to determine if spinal stimulation helps improve walking ability.",
+    linkTo: "/pediatric-occupational",
+  },
+  {
+    imageSrc: "/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG",
+    title: "An Exploration of Acute Intermittent Hypoxia as a tool to Enhance Neural Recovery in Stroke Survivors; a pilot safety study.",
+    text: "This is a Phase I safety study. Our plan consists of dose-escalation exposures with continual assessment of hypoxic conditioning impact in individuals with chronic stroke.",
+    linkTo: "/pediatric-physiotherapy",
+  },
+  {
+    imageSrc: "/mission-walk-images/06c8b886-0988-43f5-b120-7779c48e6cf3.JPG",
+    title: "Improving Arm Movement Using Wearable Device After Stroke",
+    text: "Mission-Walk is evaluating a new rehab therapy using wearable devices and a video game interface to improve arm movement after stroke. Participants use these wearable devices, called myoelectric computer interfaces, to play video games using their arm muscles.",
+    linkTo: "/pediatric-speech",
+  },
+  {
+    imageSrc: "/mission-walk-images/7dfa808a-797c-438d-a32b-2d549672f1c5 2.JPG",
+    title: "NeuroSuit",
+    text: "The NeuroSuit frames the body providing support and resistance simultaneously. It facilitates proper movement and provides additional weight bearing distributed strategically throughout the body.",
+    linkTo: "/pediatric-occupational",
+  },
+
+  {
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    title: "Spider Cage (Universal Exercise Unit)",
+    text: "The SpiderCage is a three-sided wire device that uses a belt and bungee cords to enable the patient to perform balance and strengthening exercise with proper positioning alignment.",
+    // linkTo: "/pediatric-physiotherapy",
+  },
+  {
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    title: "DMI",
+    text: "In the spirit of innovation and continuous growth, we have embraced DMI to better meet the needs of our patients.",
+    // linkTo: "/pediatric-physiotherapy",
+  },
+  {
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    title: "Functional Estim",
+    text: "Functional electrical stimulation (FES) is a modality aimed at improving strength, coordination, endurance, sensory feedback and timing in muscles used to promote improved motor control and strength in patients."
+
+    
+    // linkTo: "/pediatric-physiotherapy",
+  },
+  {
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    title: "Galileo",
+    text: "Whole Body Vibration (WBV) is delivered via a mechanical vibrating platform. As the machine vibrates, it transmits energy to the individual standing, sitting, lying or kneeling on the plate causing the muscles to contract and relax many times each second.",
+    // linkTo: "/pediatric-physiotherapy",
+  },
+  {
+    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    title: "Theratogs",
+    text: "TheraTogs are an orthotic undergarment and strapping product recommended for children who may benefit from increased proprioception as well as improved postural alignment, stability, and/or prolonged muscle stretch to improve developmental and functional outcomes.",
+    // linkTo: "/pediatric-physiotherapy",
+  },
+  // {
+  //   imageSrc: "mission-walk-images/mission-walk-hyderabad-5cf92914afb61.jpeg",
+  //   title: "Paediatric Speech Therapy",
+  //   text: "Paediatric speech therapists use a variety of therapy techniques to address oral motor dysfunction, apraxia, fluency, receptive and expressive language to help your child improve overall communication and feeding development.",
+  //   linkTo: "/page1",
+  // },//css for adding 4 cards <div key={index} className="col-lg-3 col-md-6 mb-4">
 ];
 

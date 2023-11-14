@@ -39,17 +39,17 @@ const Stroke = () => {
               {/* <p className="mb-4" style={{ fontSize: '18px' }}>
                 The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
                 </p> */}
-              <h1 className="display-5 mb-0" style={{ fontSize: "26px" }}>
+              <h1 className="display-5 mb-4" style={{ fontSize: "35px" }}>
                 Programs, Services & Patients
               </h1>
 
-              <p className="text-body mb-4">
+              <p className="text-body mb-4" style={{ fontSize: "20px" }}>
                 You want to recover what’s most important in your life — be it
-                mobility, independence, walking, swallowing or speaking again.
+                mobility, independence, wlking, swallowing or speaking again.
                 Together we reach for those goals.
               </p>
 
-              <div className="row g-3">
+              <div className="row g-5">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src="/mission-walk-images/3763c9e4-8616-469a-969d-65b603b11caa 3.JPG" />

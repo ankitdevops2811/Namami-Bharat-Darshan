@@ -40,7 +40,7 @@ const Navbar = () => {
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
-                Conditions We Treat
+                Problem We Treat
               </Link>
 
               <div className="dropdown-menu m-0">
