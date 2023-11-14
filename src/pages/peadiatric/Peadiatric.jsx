@@ -1,3 +1,4 @@
+import ContactPagesCard from "../../components/contactPagesCard";
 import PederiticImage from "../../components/pediatric/PederiticImage";
 import PediatricPic from "../../components/pediatric/PediatricPic";
 import PediatricCards from "./PediatricCards";
@@ -18,13 +19,6 @@ export default function Pediatric() {
               <h1 className="display-3 text-white animated zoomIn">
                 Pediatric Innovation Center
               </h1>
-              <a href="" className="h4 text-white">
-                Home
-              </a>
-              <i className="far fa-circle text-white px-2"></i>
-              <a href="" className="h4 text-white">
-                About
-              </a>
             </div>
           </div>
         </div>
@@ -165,6 +159,7 @@ export default function Pediatric() {
         {/* <PediatricTreat/> */}
         <PediatricPic />
       </div>
+      <ContactPagesCard/>
     </>
   );
 }

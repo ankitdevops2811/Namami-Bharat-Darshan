@@ -6,7 +6,7 @@ const PediatricPic = () => {
     <>
       <section
         className="ftco-gallery ftco-section"
-        style={{ paddingBlockEnd: " 8%" }}
+        // style={{ paddingBlockEnd: " 8%" }}
       >
         <div className="container-fluid px-md-5">
           <div className="row justify-content-center mb-5 pb-3">

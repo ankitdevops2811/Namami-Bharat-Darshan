@@ -1,4 +1,5 @@
 import React from "react";
+import ContactPagesCard from "../../components/contactPagesCard";
 import "./paediatric.css";
 
 const PaediatricPhysiotherapy = () => {
@@ -10,13 +11,6 @@ const PaediatricPhysiotherapy = () => {
             <h1 className="display-3 text-white animated zoomIn">
               Paediatric Physiotherapy
             </h1>
-            <a href="" className="h4 text-white">
-              Home
-            </a>
-            <i className="far fa-circle text-white px-2"></i>
-            <a href="" className="h4 text-white">
-              About
-            </a>
           </div>
         </div>
       </div>
@@ -176,13 +170,13 @@ const PaediatricPhysiotherapy = () => {
               data-aos="fade-right"
               data-aos-offset="200"
             >
-              <img
+              {/* <img
                 src="/mission-walk-images/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
                 style={{ width: "80%" }}
-              />
+              /> */}
               <img
                 src="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
                 width="300px"
@@ -231,7 +225,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Range of Motion</h5>
+                  <h5 className="card-title mb-4">Range of Motion</h5>
                   <p className="card-text">
                     This can include immature or decreased motor control.
                   </p>
@@ -316,7 +310,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Exercise</h5>
+                  <h5 className="card-title mb-4">Exercise</h5>
                   <p className="card-text">
                     Stretching and strengthening activities and exercises to
                     increase a child’s range and quality of movement
@@ -332,7 +326,7 @@ const PaediatricPhysiotherapy = () => {
                 {/* <div className="card bg-primary text-white"> */}
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Movement</h5>
+                  <h5 className="card-title mb-4">Movement</h5>
                   <p className="card-text">
                     Establishing or reshaping movement patterns to follow normal
                     development{" "}
@@ -344,7 +338,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title">Equilibrium Improvement</h5>
+                  <h5 className="card-title mb-5">Equilibrium Improvement</h5>
                   <p className="card-text">
                     Improving balance and equilibrium skills
                   </p>
@@ -361,7 +355,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-4">Posture Training</h5>
+                  <h5 className="card-title mb-5">Posture Training</h5>
                   <p className="card-text">Improving postural control </p>
                 </div>
               </div>
@@ -379,7 +373,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Orthopedics</h5>
+                  <h5 className="card-title mb-4">Orthopedics</h5>
                   <p className="card-text">
                     Evaluating the need for adaptive equipment and orthopedic
                     devices.
@@ -407,6 +401,7 @@ const PaediatricPhysiotherapy = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/01d7efce-a2a8-4b59-8aa6-0cae2d309c8f.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -416,6 +411,7 @@ const PaediatricPhysiotherapy = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -425,15 +421,19 @@ const PaediatricPhysiotherapy = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/40c76480-e6a3-4d86-82b0-11aaf28f805f.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
+          </div>
+          <div className="row">
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
                   src="/mission-walk-images/146ab0f6-8f2e-4fb9-9514-a4f3fcbded92.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -443,6 +443,7 @@ const PaediatricPhysiotherapy = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/220c397d-73eb-4ddb-84de-4264a57cd98f.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -452,6 +453,7 @@ const PaediatricPhysiotherapy = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -459,45 +461,7 @@ const PaediatricPhysiotherapy = () => {
         </div>
       </section>
       {/* End */}
-      <section style={{ backgroundColor: "aliceblue" }}>
-        <div className="container-fluid mb-5">
-          <div className="row">
-            <div className="col-lg-6 mb-4">
-              <img
-                src="/mission-walk-images/8c16fa72-d690-4257-8d2f-8822be7c5d3e 2.JPG"
-                alt="Contact Us"
-                className="img-fluid"
-                style={{ width: "100%" }}
-              />
-            </div>
-            <div className="col-lg-6 mt-5">
-              <h2
-                className="mb-5"
-                style={{
-                  marginBlock: "60px",
-                  fontSize: "40px",
-                  textAlign: "initial",
-                }}
-              >
-                Feel free to Connect Mission Walk is always there for you.
-              </h2>
-              <h4>Hyderabad (Telangana)</h4>
-              <p className="mb-3">
-              Lake Vista Road Number 3, Hyderabad, Telangana 500089
-              </p>
-              <h4>Delhi NCR (Greater Noida)</h4>
-              <p className="mb-3">
-              : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308Mobile: +91 91773 00194
-              </p>
-              <h4>Pune (Maharastra)</h4>
-              <p className="mb-3">
-              Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046
-              </p>
-              <button className="btn btn-primary">Contact Us</button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactPagesCard />
     </>
   );
 };

@@ -1,5 +1,7 @@
 import React from "react";
+import ContactPagesCard from "../../components/contactPagesCard";
 import "./paediatric.css";
+
 const PaediatricOccupational = () => {
   return (
     <>
@@ -9,13 +11,6 @@ const PaediatricOccupational = () => {
             <h1 className="display-3 text-white animated zoomIn">
               Paediatric Occupational Therapy
             </h1>
-            <a href="" className="h4 text-white">
-              Home
-            </a>
-            <i className="far fa-circle text-white px-2"></i>
-            <a href="" className="h4 text-white">
-              About
-            </a>
           </div>
         </div>
       </div>
@@ -121,19 +116,19 @@ const PaediatricOccupational = () => {
                   Children’s Occupational Therapy?
                 </span>
               </h1>
-              <p className="p-2" style={{fontSize:"18px"}}>
+              <p className="p-2" style={{ fontSize: "18px" }}>
                 Occupational therapy can benefit children with a wide variety of
                 diagnoses, including but not limited to: autism, birth injuries,
                 cerebral palsy, developmental delays, juvenile rheumatoid
                 arthritis, sensory processing disorders, traumatic brain or
                 spinal cord injuries, sensory processing disorders, and more.
               </p>
-              <p className="mb-5"style={{fontSize:"18px"}}>
+              <p className="mb-5" style={{ fontSize: "18px" }}>
                 Additionally, pediatric OT may help your child with the
                 following:
               </p>
               <div>
-                <ul className="list-unstyled"style={{fontSize:"18px"}}>
+                <ul className="list-unstyled" style={{ fontSize: "18px" }}>
                   <li>
                     <i className="bi bi-check-circle text-success me-2"></i>
                     Sensory management
@@ -258,8 +253,7 @@ const PaediatricOccupational = () => {
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
-                style={{ width: "80%"}}
-
+                style={{ width: "65%" }}
               />
             </div>
           </div>
@@ -417,6 +411,10 @@ const PaediatricOccupational = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/caff6211-c530-4104-8c4f-8d976687c50f.JPG"
                   alt="img"
+                  //   width="300px"
+                  // height="600px"
+                  //   style={{ width: "40%" }}
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -426,6 +424,7 @@ const PaediatricOccupational = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/620b6bc0-2526-4f8e-9dd7-f7bf1892ae4f.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -435,15 +434,19 @@ const PaediatricOccupational = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/neuro.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
+          </div>
+          <div className="row">
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
                   src="/mission-walk-images/3918ca38-e19b-4cc4-84c0-9ef4aadd6800.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -453,6 +456,7 @@ const PaediatricOccupational = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -462,6 +466,7 @@ const PaediatricOccupational = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -469,45 +474,7 @@ const PaediatricOccupational = () => {
         </div>
       </section>
       {/* End */}
-      <section style={{ backgroundColor: "aliceblue" }}>
-        <div className="container-fluid mb-5">
-          <div className="row">
-            <div className="col-lg-6 mb-4">
-              <img
-                src="/mission-walk-images/8c16fa72-d690-4257-8d2f-8822be7c5d3e 2.JPG"
-                alt="Contact Us"
-                className="img-fluid"
-                style={{ width: "100%" }}
-              />
-            </div>
-            <div className="col-lg-6 mt-5">
-              <h2
-                className="mb-5"
-                style={{
-                  marginBlock: "60px",
-                  fontSize: "40px",
-                  textAlign: "initial",
-                }}
-              >
-                Feel free to Connect Mission Walk is always there for you.
-              </h2>
-              <h4>Hyderabad (Telangana)</h4>
-              <p className="mb-3">
-              Lake Vista Road Number 3, Hyderabad, Telangana 500089
-              </p>
-              <h4>Delhi NCR (Greater Noida)</h4>
-              <p className="mb-3">
-              : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308Mobile: +91 91773 00194
-              </p>
-              <h4>Pune (Maharastra)</h4>
-              <p className="mb-3">
-              Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046
-              </p>
-              <button className="btn btn-primary">Contact Us</button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactPagesCard />
     </>
   );
 };

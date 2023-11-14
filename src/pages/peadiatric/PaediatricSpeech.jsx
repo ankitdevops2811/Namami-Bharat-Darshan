@@ -1,4 +1,5 @@
 import React from "react";
+import ContactPagesCard from "../../components/contactPagesCard";
 import "./paediatric.css";
 
 const PaediatricSpeech = () => {
@@ -10,13 +11,6 @@ const PaediatricSpeech = () => {
             <h1 className="display-3 text-white animated zoomIn">
               Paediatric Speech Therapy
             </h1>
-            <a href="" className="h4 text-white">
-              Home
-            </a>
-            <i className="far fa-circle text-white px-2"></i>
-            <a href="" className="h4 text-white">
-              About
-            </a>
           </div>
         </div>
       </div>
@@ -66,11 +60,7 @@ const PaediatricSpeech = () => {
               data-aos-offset="200"
             >
               <h1 data-aos="fade-up" data-aos-offset="200">
-                <span
-                  style={{ color: "darkgoldenrod" }}
-                >
-                  Speech Therapy
-                </span>{" "}
+                <span style={{ color: "darkgoldenrod" }}>Speech Therapy</span>{" "}
                 for Kids
               </h1>
               <p className="p-2" style={{ fontSize: "18px" }}>
@@ -202,8 +192,10 @@ const PaediatricSpeech = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-3">Beckman Oral Motor Approach</h5>
-                  <p className="card-text mb-4" >
+                  <h5 className="card-title mb-3">
+                    Beckman Oral Motor Approach
+                  </h5>
+                  <p className="card-text mb-4">
                     Intervention program that provides assisted movement to
                     activate muscle contraction and increase functional strength
                     and control of articulatory musculature for speech
@@ -303,6 +295,7 @@ const PaediatricSpeech = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/a23e7e97-e392-44ee-92f9-a17eb8412c9d 2.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -312,6 +305,7 @@ const PaediatricSpeech = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/f2858078-9380-4fa2-97ed-ef760d7bb869.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -321,15 +315,19 @@ const PaediatricSpeech = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
+          </div>
+          <div className="row">
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3"
                   src="/mission-walk-images/caff6211-c530-4104-8c4f-8d976687c50f.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -339,6 +337,7 @@ const PaediatricSpeech = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/a61fabe4-341f-46ad-991b-b7f3ec89f70c.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -348,6 +347,7 @@ const PaediatricSpeech = () => {
                   className="img w-100 mb-3"
                   src="/mission-walk-images/a9f999a3-75a1-4259-95b8-24753f3ee90d.JPG"
                   alt="img"
+                  style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
@@ -355,45 +355,7 @@ const PaediatricSpeech = () => {
         </div>
       </section>
       {/* End */}
-      <section style={{ backgroundColor: "aliceblue" }}>
-        <div className="container-fluid mb-5">
-          <div className="row">
-            <div className="col-lg-6 mb-4">
-              <img
-                src="/mission-walk-images/8c16fa72-d690-4257-8d2f-8822be7c5d3e 2.JPG"
-                alt="Contact Us"
-                className="img-fluid"
-                style={{ width: "100%" }}
-              />
-            </div>
-            <div className="col-lg-6 mt-5">
-              <h2
-                className="mb-5"
-                style={{
-                  marginBlock: "60px",
-                  fontSize: "40px",
-                  textAlign: "initial",
-                }}
-              >
-                Feel free to Connect Mission Walk is always there for you.
-              </h2>
-              <h4>Hyderabad (Telangana)</h4>
-              <p className="mb-3">
-              Lake Vista Road Number 3, Hyderabad, Telangana 500089
-              </p>
-              <h4>Delhi NCR (Greater Noida)</h4>
-              <p className="mb-3">
-              : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308Mobile: +91 91773 00194
-              </p>
-              <h4>Pune (Maharastra)</h4>
-              <p className="mb-3">
-              Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046
-              </p>
-              <button className="btn btn-primary">Contact Us</button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactPagesCard />
     </>
   );
 };
