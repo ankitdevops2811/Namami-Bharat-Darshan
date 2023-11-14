@@ -8,7 +8,7 @@ const StrokeCards = () => {
     <section
       className="services py-5"
       id="services"
-      style={{ backgroundColor: "aliceblue" }}
+      style={{width:"120%"}}
     >
       {/* <div
         className="container-xxl py-5"
