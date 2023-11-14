@@ -49,7 +49,7 @@ const Spinal = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG" />
                     <Card.Body>
                       <Card.Title>SCI Recovery Program</Card.Title>
                       <Card.Text>
@@ -63,7 +63,7 @@ const Spinal = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
                     <Card.Body>
                       <Card.Title>SCI Specialty Services</Card.Title>
                       <Card.Text>
@@ -77,7 +77,7 @@ const Spinal = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
                     <Card.Body>
                       <Card.Title>Brad's Story: Back on the Bike</Card.Title>
                       <Card.Text>
