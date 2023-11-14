@@ -148,30 +148,24 @@ const Navbar = () => {
                 Get Started
               </Link>
               <div className="dropdown-menu m-0">
-                <Link to="price.html" className="dropdown-item">
+                <Link to="/registration-process" className="dropdown-item">
                   Intensive Registration
                 </Link>
-                <Link to="team.html" className="dropdown-item">
-                  Process
-                </Link>
-                <Link to="testimonial.html" className="dropdown-item">
+                <Link to="/intake-forms" className="dropdown-item">
                   Intake Forms
                 </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                {/* <Link to="appointment.html" className="dropdown-item">
                   Billing and insurance
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                </Link> */}
+                {/* <Link to="appointment.html" className="dropdown-item">
                   Grant options
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                </Link> */}
+                <Link to="/Frequently-asked-questions" className="dropdown-item">
                   Frequently Asked
                 </Link>
-                <Link to="appointment.html" className="dropdown-item">
-                  Covid-19 & illness
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                {/* <Link to="appointment.html" className="dropdown-item">
                   Clinic policies
-                </Link>
+                </Link> */}
               </div>
             </div>
 

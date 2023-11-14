@@ -34,6 +34,10 @@ import ParkinsonsDisease from "./pages/condition-services/ParkinsonsDisease";
 import TransverseMyelitis from "./pages/condition-services/TransverseMyelitis";
 import MotorNeuron from "./pages/condition-services/PainManagement";
 import DifficultyInWalking from "./pages/condition-services/Limb-Loss";
+import RegistrationProcess from "./pages/get-started/RegistrationProcess";
+import IntakeForm from "./pages/get-started/IntakeForm";
+import Questions from "./pages/get-started/Questions";
+
 // import ChatBot from '../src/pages/chatBot';
 
 function App() {
@@ -87,6 +91,13 @@ function App() {
             <Route path="conditions/transverse-myelitis" element={<TransverseMyelitis />} />
             <Route path="conditions/pain-management" element={<MotorNeuron />} />
             <Route path="conditions/difficulty-in-walking" element={<DifficultyInWalking />} />
+            {/* get-started-page */}
+            <Route path="/intake-forms" element={<IntakeForm />} />
+            <Route
+              path="/registration-process"
+              element={<RegistrationProcess />}
+            />
+            <Route path="/Frequently-asked-questions" element={<Questions />} />
             {/* <Route path="chatbot" element={<ChatBot />} /> */}
 
           </Route>
