@@ -1,15 +1,13 @@
 import React from "react";
-import CustomCard from "../../../components/Card";
 import ConditionCard from "../../../components/conditionCard";
 // import CustomCard from "../../components/Card";
-
 
 const BrainCard = () => {
   return (
     <section
       className="services py-5"
       id="services"
-      style={{ backgroundColor: "aliceblue" }}
+      style={{ width: "120%" }}
     >
       {/* <div
         className="container-xxl py-5"
@@ -55,7 +53,8 @@ const cardData = [
   },
   {
     imageSrc: "/mission-walk-images/ea264408-17aa-42f6-91b5-f67bb8a58237.JPG",
-    title: "Neuromodulation and Neurorehabilitation for Treatment of Functional Deficits after mTBI plus PTSD",
+    title:
+      "Neuromodulation and Neurorehabilitation for Treatment of Functional Deficits after mTBI plus PTSD",
     text: "The purpose of this study is to alleviate persisting attention deficits related to mild TBI and PTSD by treating the neurocognitive system of attention.",
     // linkTo: "/pediatric-speech",
   },
