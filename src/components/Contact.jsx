@@ -23,70 +23,37 @@ const Contact = () => {
             </div>
             <div className="col-12 mt-5">
               <div className="contact-inner-wrapper d-flex justify-content-between">
+                
                 <div>
-                  <h3 className="contact-title mb-4">Contact</h3>
-                  <form action="" className="d-flex flex-column gap-15">
-                    <div>
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div>
-                      <input
-                        type="email"
-                        className="form-control"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div>
-                      <input
-                        type="tel"
-                        className="form-control"
-                        placeholder="Mobile No."
-                      />
-                    </div>
-                    <div>
-                      <textarea
-                        name=""
-                        id=""
-                        cols="30"
-                        className="w-100 form-control"
-                        rows="4"
-                        placeholder="Comments"
-                      ></textarea>
-                    </div>
-                    <div>
-                      <button className="button border-0">Submit</button>
-                    </div>
-                  </form>
-                </div>
-                <div>
-                  <h3 className="contact-title mb-4">Get in touch with us</h3>
+                  <h3 className="contact-title mb-4" style={{ fontSize: "35px" }}>Get in touch with us</h3>
                   <div>
-                    <ul className="ps-0">
-                      <li className="mb-3 align-items-center d-flex gap-15">
-                        {/* <AiOutlineHome className="fs-5" /> */}
-                        <address className="mb-0">
-                          Hno. 269/B Railway Colony, FBD
-                        </address>
-                      </li>
-                      <li className="mb-3 align-items-center d-flex gap-15">
-                        {/* <BiPhoneCall className="fs-5" /> */}
-                        <a href="tel:+123456">+91 123456</a>
-                      </li>
-                      <li className="mb-3 align-items-center d-flex gap-15">
-                        {/* <AiOutlineMail className="fs-5" /> */}
-                        <a href="mailto:Hi!Shakya@gmail.com">
-                          Hi!Shakya@gmail.com
-                        </a>
-                      </li>
-                      <li className="mb-3 align-items-center d-flex gap-15">
-                        {/* <BiInfoCircle className="fs-5" /> */}
-                        <p>Moday - Friday 10AM - 8PM</p>
-                      </li>
-                    </ul>
+                  <div className="bg-light rounded h-100 p-5">
+                        <div className="section-title">
+                            <h5 className="position-relative d-inline-block text-primary text-uppercase">Contact Us</h5>
+                            <h1 className="display-6 mb-4">Feel Free To Contact Us</h1>
+                        </div>
+                        <div className="d-flex align-items-center mb-2">
+                            <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                            <div className="text-start">
+                                <h5 className="mb-0">Our Office</h5>
+                                <span>Banjara Hills, Hyderabad, Telangana</span>                                
+                            </div>
+                        </div>
+                        <div className="d-flex align-items-center mb-2">
+                            <i className="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                            <div className="text-start">
+                                <h5 className="mb-0">Email Us</h5>
+                                <span>rehab@missionwalk.in</span>
+                            </div>
+                        </div>
+                        <div className="d-flex align-items-center">
+                            <i className="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                            <div className="text-start">
+                                <h5 className="mb-0">Call Us</h5>
+                                <span>+91 9177300194</span>
+                            </div>
+                        </div>
+                    </div>
                   </div>
                 </div>
               </div>

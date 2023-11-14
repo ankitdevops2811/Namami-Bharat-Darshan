@@ -14,6 +14,7 @@ const Footer = () => {
                         <Link  to="/" className="text-light mb-2" ><i className="bi bi-arrow-right text-primary me-2"></i>Home</Link>
                         <Link  to="/about" className="text-light mb-2" ><i className="bi bi-arrow-right text-primary me-2"></i>About Us</Link>
                         <Link  to="/service" className="text-light mb-2" ><i className="bi bi-arrow-right text-primary me-2"></i>Our Services</Link>
+                        <Link  to="/pediatric" className="text-light mb-2" ><i className="bi bi-arrow-right text-primary me-2"></i>Pediatric Physiontherapy</Link>
                         {/* <Link  to="" className="text-light mb-2" ><i className="bi bi-arrow-right text-primary me-2"></i>Latest Blog</Link> */}
                         <Link to="/contact" className="text-light" ><i className="bi bi-arrow-right text-primary me-2"></i>Contact Us</Link>
                     </div>
@@ -29,7 +30,7 @@ const Footer = () => {
                     </div> */}
                 </div>
                 <div className="col-lg-3 col-md-6">
-                    <h3 className="text-white mb-4">Get In Touch</h3>
+                    <h3 className="text-white mb-4">Get In Touch With Us</h3>
                     <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Hyderabad, Telangana</p>
                     <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Greater Noida, Uttar Pradesh</p>
                     <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Pune, Maharastra</p>
