@@ -1,0 +1,197 @@
+/* :root {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+} */
+.inner_content h2 {
+    color: #2c3d4f;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+  }
+  
+  .inner_content p {
+    /* margin-bottom: 50px; localll */
+    padding-right: 150px;
+  }
+  
+  .para {
+    padding: 0px;
+    margin: 7px;
+    padding-top: 1%;
+  }
+  
+  h3,
+  h4,
+  .font-weight-semi-bold {
+    font-weight: 600 !important;
+  }
+  
+  .inner_content h3 {
+    color: #2c3d4f;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .col-xs-12 {
+    width: 100%;
+  }
+  
+  .inner_content {
+    padding: 90px 0;
+    line-height: 32px;
+    color: #232323;
+    font-size: 16px;
+  }
+  
+  .getstarted_bg {
+    margin-top: 160px;
+    color: #fff;
+    background-image: url(https://cdn-cnlmm.nitrocdn.com/RbGfotvJRAVReWfPbBrzKzoMyeoGfhcz/assets/images/optimized/rev-04cce39/napacenter.org/wp-content/themes/napa/images/getstarted_bg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  .fix-size {
+    width: 100%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  
+  /*  process button */
+  .button {
+    display: inline-block;
+    background: #4c37ee;
+    width: 15%;
+    color: #fff;
+    /* text-transform: uppercase; */
+    padding: 10px 20px;
+    border-radius: 250px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    /* -webkit-transition: all ease-in-out 300ms; */
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+  .button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    /* -webkit-transform: translate(0px, -10px) scale(1.2); */
+    transform: translate(0px, -10px) scale(1.2);
+  }
+  
+  .link-style {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* intake for css */
+  
+  /* body {
+    background: #ba68c8;
+  } */
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #ba68c8;
+  }
+  
+  .profile-button {
+    background: #ba68c8;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .profile-button:hover {
+    background: #682773;
+  }
+  
+  .profile-button:focus {
+    background: #682773;
+    box-shadow: none;
+  }
+  
+  .profile-button:active {
+    background: #682773;
+    box-shadow: none;
+  }
+  
+  .back:hover {
+    color: #682773;
+    cursor: pointer;
+  }
+  
+  .labels {
+    font-size: 11px;
+  }
+  
+  .add-experience:hover {
+    background: #ba68c8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #ba68c8;
+  }
+  
+  /* question page */
+  
+  .faq_cntnt_inner {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+  }
+  
+  .faq_cntnt {
+    color: #2a2a2a;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 80px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .innerbanner_height {
+      height: 300px;
+    }
+    .inner_banner h1 {
+      font-size: 42px;
+    }
+    .inner_content h2 {
+      font-size: 22px;
+    }
+    .inner_content h3 {
+      font-size: 22px;
+    }
+    .inner_content {
+      line-height: 26px;
+      font-size: 14px;
+      padding: 50px 0px;
+    }
+    .faq_content .container {
+      width: auto;
+    }
+    .inner_banner {
+      font-size: 18px;
+      line-height: normal;
+    }
+    .faq_cntnt h3 {
+      font-size: 18px;
+    }
+    body.normal_header .inner_banner h1 {
+      padding-top: 0;
+    }
+  }
+  
