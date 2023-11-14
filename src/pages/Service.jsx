@@ -117,18 +117,7 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            {/* <div
-              className="col-lg-5 service-item wow zoomIn"
-              data-wow-delay="0.9s"
-            >
-              <div className="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                <h3 className="text-white mb-3">Make Appointment</h3>
-                <p className="text-white mb-3">
-                  Please Reach out to Mission-Walk Healpline Number
-                </p>
-                <h2 className="text-white mb-0">+91 9177300194</h2>
-              </div>
-            </div> */}
+          
           </div>
         </div>
       </div>
