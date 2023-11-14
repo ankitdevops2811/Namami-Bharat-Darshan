@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
-import strokeCards from "./Cards/Stroke-Card";
+// import CardGroup from "react-bootstrap/CardGroup";
+// import strokeCards from "./Cards/Stroke-Card";
 import StrokeCards from "./Cards/Stroke-Card";
 import ContactPagesCard from "../../components/contactPagesCard";
 
@@ -119,7 +119,7 @@ const Stroke = () => {
                     // fetchpriority="high"
                     width="300"
                     height="300"
-                    className="position-absolute w-400 h-50 rounded wow aligncenter"
+                    className="w-400 h-50 rounded wow aligncenter"
                     src="/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f 2.JPG"
                     // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
                     alt=""
