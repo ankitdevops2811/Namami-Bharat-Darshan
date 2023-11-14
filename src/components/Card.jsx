@@ -3,10 +3,14 @@ import { Link } from "react-router-dom";
 
 const CustomCard = ({ imageSrc, title, text, linkTo }) => {
   return (
+    <div className=" service-item wow zoomIn" 
+    data-wow-delay="0.3s"
+    >
     <div
       className="card"
       style={{ width: "350px", backgroundColor: "aliceblue",
        border: "none" 
+       
       }}
     >
       <div
@@ -25,7 +29,7 @@ const CustomCard = ({ imageSrc, title, text, linkTo }) => {
           style={{ borderRadius: "50%", width: "100%", height: "auto" }}
         />
       </div>
-      <div className="card-body text-center">
+      <div className="card-body text-center" >
         <h5 className="card-title mb-4">{title}</h5>
         <p className="card-text mb-4">{text}</p>
         <Link
@@ -36,6 +40,7 @@ const CustomCard = ({ imageSrc, title, text, linkTo }) => {
           Read More
         </Link>
       </div>
+    </div>
     </div>
   );
 };

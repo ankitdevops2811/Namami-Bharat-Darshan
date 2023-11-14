@@ -1,7 +1,5 @@
 import PederiticImage from "../../components/pediatric/PederiticImage";
-import PediatricHeel from "../../components/pediatric/PediatricHeel";
 import PediatricPic from "../../components/pediatric/PediatricPic";
-import PediatricTreat from "../../components/pediatric/PediatricTreat";
 import PediatricCards from "./PediatricCards";
 import "./paediatry.css";
 
@@ -10,7 +8,7 @@ export default function Pediatric() {
     <>
       {/* <div className="programs_details_list_txt"> */}
       <div>
-      {/* <div
+        {/* <div
           className="container-fluid py-1 wow fadeInUp"
           data-wow-delay="0.1s"
         > */}
@@ -99,8 +97,8 @@ export default function Pediatric() {
       </div>
     </div> */}
         <PediatricCards />
-   
-    {/* <hr className="hr mb-5 mt-5" /> */}
+
+        {/* <hr className="hr mb-5 mt-5" /> */}
 
         {/* image close */}
         {/* mm */}
@@ -115,7 +113,9 @@ export default function Pediatric() {
               data-wow-delay="0.1s"
               style={{ maxWidth: "600px" }}
             >
-              <h1 className="mb-1" style={{fontSize:"60px"}}>What we Do?</h1>
+              <h1 className="mb-1" style={{ fontSize: "60px" }}>
+                What we Do?
+              </h1>
             </div>
           </div>
 
@@ -161,31 +161,28 @@ export default function Pediatric() {
         </div>
 
         {/* </div> */}
-        {/* <PediatricCards /> */}
-        {/* <PediatricHeel/> */}
-        <PederiticImage/>
-        <PediatricTreat/>
-        <PediatricPic/>
+        <PederiticImage />
+        {/* <PediatricTreat/> */}
+        <PediatricPic />
       </div>
-     
     </>
   );
 }
-  const imageData = [
-    {
-      id: 1,
-      src: 'img/mission-walk-hyderabad-5cf92914afb61.jpeg',
-      alt: 'Image 1',
-    },
-    {
-      id: 2,
-      src: 'img/mission-walk-hyderabad-5cf92914afb61.jpeg',
-      alt: 'Image 2',
-    },
-    {
-      id: 3,
-      src: 'img/mission-walk-hyderabad-5cf92914afb61.jpeg',
-      alt: 'Image 3',
-    },
-    // Add more images as needed
-  ];
+const imageData = [
+  {
+    id: 1,
+    src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+    alt: "Image 1",
+  },
+  {
+    id: 2,
+    src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+    alt: "Image 2",
+  },
+  {
+    id: 3,
+    src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+    alt: "Image 3",
+  },
+  // Add more images as needed
+];
