@@ -40,7 +40,7 @@ const Navbar = () => {
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
-                Conditions We Treat
+                Problem We Treat
               </Link>
 
               <div className="dropdown-menu m-0">
@@ -80,6 +80,9 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+            <Link to="/pediatric" className="nav-item nav-link">
+            Pediatric Physiontherapy
+            </Link>
             {/* Therapy Tools */}
             <div className="nav-item dropdown">
               <Link

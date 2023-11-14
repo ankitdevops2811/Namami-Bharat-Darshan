@@ -494,3 +494,7 @@ h6,
   background: var(--bs-white);
   color: var(--bs-dark);
 }
+
+.yellow{
+color: yellow;
+}
