@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import PainManagement from "./Cards/painManagement";
+import ContactPagesCard from "../../components/contactPagesCard";
+
 const MotorNeuron = () => {
   return (
   

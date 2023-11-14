@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CpCard from "./Cards/CP-Card";
+import ContactPagesCard from "../../components/contactPagesCard";
+
 const CerebralPalsy = () => {
   return (
     <>

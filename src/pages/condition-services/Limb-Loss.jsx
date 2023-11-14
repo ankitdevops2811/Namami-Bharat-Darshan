@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import LimbCard from "./Cards/LimbLossCard";
+import ContactPagesCard from "../../components/contactPagesCard";
+
 const DifficultyInWalking = () => {
   return (
     

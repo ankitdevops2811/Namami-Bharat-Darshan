@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import BrainCard from "./Cards/brain-Card";
+import ContactPagesCard from "../../components/contactPagesCard";
+
 
 const Brain = () => {
 
@@ -188,114 +190,7 @@ const Brain = () => {
                     <BrainCard />
                   </div>
     </div>
-                                <div className="our_programs_details_list">
-                                    <div className="programs_details_list_txt">
-                                        <b>Benefits of NeuroSuit</b>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <h3>
-                                                <span>01. </span>Create New Pathways
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Re-trains the central nervous system and creates NEW
-                                                    pathways to/from the brain allowing new or improved
-                                                    motor skills to be formed
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>02. </span>Muscle Tone
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Provide resistance to strong muscles to further
-                                                    enhance strengthening while supporting weak muscles
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>03. </span>Dynamic Correction
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Provides dynamic correction of movements reinforcing
-                                                    proper movement during skills such as walking, balance
-                                                    and coordination
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>04. </span>Better Alignment
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Bring the body into correct alignment. Improves hip
-                                                    alignment through vertical loading over the hip joint
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>05. </span>Increased Awareness
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Provides compression (tactile stimulation) distributed
-                                                    throughout the body and increases spacial awareness of
-                                                    the body&lt;/span
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>06. </span>Improved Motor Skills
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Promotes development of both fine and gross motor
-                                                    skills
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>07. </span>Stronger Bones
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Improves bone density
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>08. </span>Strengthen Speech
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Improves speech production and its fluency through
-                                                    head control and trunk support
-                                                </span>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h3>
-                                                <span>09. </span>Controlled Movement
-                                            </h3>
-                                            <p>
-                                                <span style={{ fontWeight: "400" }}>
-                                                    Decreases uncontrolled movement in ataxia and
-                                                    athetosis. Helps to decrease contracture
-                                                </span>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

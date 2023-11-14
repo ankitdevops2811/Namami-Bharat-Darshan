@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import MsCard from "./Cards/brain-Card";
+import ContactPagesCard from "../../components/contactPagesCard";
+
 const MultipleSclerosis = () => {
   return (
     <>
