@@ -87,58 +87,37 @@ export default Location;
 const servicesData = [
   {
     icon: "fa-brain",
-    title: "Greater Noida",
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam  diam sed .",
-    delay: "0.1s",
-    to: "/test",
-    location: "/delhi-4.png",
-    number: "12345",
-  },
-  {
-    icon: "fa-brain",
     title: "Hyderabad",
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam  diam sed .",
+      "Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089",
     delay: "0.3s",
     to: "/about",
     location: "/hyderabad.png",
+    number: "+91 9177300194",
   },
+  {
+    icon: "fa-brain",
+    title: "Greater Noida",
+    description:
+      "Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308",
+    delay: "0.1s",
+    to: "/test",
+    location: "/delhi-4.png",
+    number: "+91 9177300194",
+  },
+
 
   {
     icon: "fa-brain",
     title: "Pune",
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam  diam sed .",
+      "Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046",
     delay: "0.1s",
     to: "/",
     location: "/pune-3.jpeg",
+    number: "+91 9177300194",
     // location: "/pune.jpg",
-  },
-  {
-    icon: "fa-brain",
-    title: "Chennai",
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam  diam sed .",
-    delay: "0.3s",
-    to: "/",
-  },
-  {
-    icon: "fa-brain",
-    title: "Kolkata",
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam  diam sed .",
-    delay: "0.5s",
-    to: "/",
-  },
-  {
-    icon: "fa-brain",
-    title: "Mumbai",
-    description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam  diam sed .",
-    delay: "0.5s",
-    to: "/",
-  },
+  }
 ];
 
 // const videoData = [
