@@ -14,7 +14,6 @@ const ParkinsonsDisease = () => {
             <h1 className="display-3 text-white animated zoomIn">
               Parkinson's Disease & Neurologic Rehabilitation{" "}
             </h1>
-            {/* <a href="" className="h4 text-white">Home</a> */}
             <i className="far fa-circle text-white px-2"></i>
             <p className="h4 text-white">
               With a comprehensive team of clinicians trained in treating
@@ -34,9 +33,6 @@ const ParkinsonsDisease = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              {/* <p className="mb-4" style={{ fontSize: '18px' }}>
-                The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
-                </p> */}
               <h1 className="display-5 mb-0" style={{ fontSize: "26px" }}>
                 What Sets Us Apart
               </h1>
@@ -108,7 +104,6 @@ const ParkinsonsDisease = () => {
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
                   src="/img/mission-walk-hyderabad-5cf92914afb61.jpeg"
-                  //   src="img/strokerecovery.jpg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -122,20 +117,12 @@ const ParkinsonsDisease = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  {/* <p>
-                    The NeuroSuit frames the body providing support and
-                    resistance simultaneously. It facilitates proper movement
-                    and provides additional weight bearing distributed
-                    strategically throughout the body.
-                  </p> */}
                   <img
                     decoding="async"
-                    // fetchpriority="high"
                     width="300"
                     height="300"
                     className="size-full wp-image-31823 aligncenter"
                     src="/mission-walk-images/neuro.JPG"
-                    // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
                     alt=""
                   />
                 </div>
@@ -187,7 +174,6 @@ const ParkinsonsDisease = () => {
               <div className="our_programs_details_list">
                 <div
                   className=""
-                  // style={{ backgroundColor: "aliceblue" }}
                 >
                   <div
                     className="programs_details_list_txt"
@@ -204,8 +190,10 @@ const ParkinsonsDisease = () => {
           </div>
         </div>
       </div>
-      {/* <ContactPagesCard /> */}
       {/* <!-- About End --> */}
+
+      {/* <ContactPagesCard /> */}
+
       <ContactPagesCard />
 
     </>

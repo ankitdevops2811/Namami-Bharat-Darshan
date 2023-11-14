@@ -6,15 +6,14 @@ import SpinalCards from "./Cards/spinalCard";
 const Spinal = () => {
   return (
     <>
-      {/* <div>About</div> */}
-      {/* <!-- Hero Start --> */}
+      {/* Spinal Heading Corosel */}
+      {/* <!-- Start --> */}
       <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
               Spinal Cord Injury{" "}
             </h1>
-            {/* <a href="" className="h4 text-white">Home</a> */}
             <i className="far fa-circle text-white px-2"></i>
             <p className="h4 text-white">
               Our goal is to help you achieve your best outcome with
@@ -25,17 +24,14 @@ const Spinal = () => {
           </div>
         </div>
       </div>
-      {/* <!-- Hero End --> */}
+      {/* <!-- End --> */}
 
-      {/* <!-- About Start --> */}
+      {/* <!-- SpinalPage Start --> */}
 
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              {/* <p className="mb-4" style={{ fontSize: '18px' }}>
-                The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
-                </p> */}
               <h1 className="display-5 mb-0" style={{ fontSize: "26px" }}>
                 Programs, Services & Patients
               </h1>
@@ -118,12 +114,6 @@ const Spinal = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  {/* <p>
-                    The NeuroSuit frames the body providing support and
-                    resistance simultaneously. It facilitates proper movement
-                    and provides additional weight bearing distributed
-                    strategically throughout the body.
-                  </p> */}
                   <img
                     decoding="async"
                     // fetchpriority="high"
@@ -131,7 +121,6 @@ const Spinal = () => {
                     height="300"
                     className="size-full wp-image-31823 aligncenter"
                     src="/mission-walk-images/neuro.JPG"
-                    // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
                     alt=""
                   />
                 </div>
@@ -183,7 +172,6 @@ const Spinal = () => {
               <div className="our_programs_details_list">
                 <div
                   className=""
-                  // style={{ backgroundColor: "aliceblue" }}
                 >
                   <div
                     className="programs_details_list_txt"
@@ -200,10 +188,11 @@ const Spinal = () => {
           </div>
         </div>
       </div>
-      {/* <ContactPagesCard /> */}
-      {/* <!-- About End --> */}
-      <ContactPagesCard />
 
+      {/* <!-- About End --> */}
+
+      {/* <ContactPagesCard /> */}
+      <ContactPagesCard />
     </>
   );
 };
