@@ -32,12 +32,13 @@ const IntakeForm = () => {
                   className="form-select"
                   aria-label="Default select example"
                 >
-                  <option selected>Open this select menu</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option selected>Select Clinic</option>
+                  <option value="1">Greater Noida</option>
+                  <option value="2">Pune</option>
+                  <option value="3">Hyderabad</option>
                 </select>
               </div>
+             
               {/* <div className="col-md-6">
                   <label className="labels">Name</label>
                   <input
@@ -53,33 +54,65 @@ const IntakeForm = () => {
                   className="form-select"
                   aria-label="Default select example"
                 >
-                  <option selected>Open this select menu</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option selected>select Program</option>
+                  <option value="1">Weekly</option>
+                  <option value="2">Intensive</option>
+                  <option value="3">unsure</option>
                 </select>
+              </div>
+              <div className="col-md-6">
+                <label className="labels">Submission Date*</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Submission Date"
+                />
               </div>
             </div>
             <div className="row mt-3">
+              <h5 className="py-2 mb-3" >Parent & Caregiver Details</h5>
+              <div>
+                <h6 className="col-sm">Parents Name*</h6>
+            </div>
+              <div className="col-sm">
+              {/* <div className="col-md-6"> */}
+                  <label className="labels">First Name</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="First Name"
+                    // value="John"
+                  />
+                </div>
+                <div className="col-sm">
+                  <label className="labels">Last Name</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Last Name"
+                  />
+                </div>
               <div className="col-md-12">
-                <label className="labels">Headline</label>
+              <div>
+                <h6 className="col-sm pt-3 mb-2">Address*</h6>
+            </div>
+                <label className="labels">Street Address*</label>
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="headline"
-                  value="UI/UX Developer"
+                  placeholder="Street Address"
                 />
               </div>
               <div className="col-md-12">
-                <label className="labels">Current position</label>
+                <label className="labels">Street Address</label>
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="headline"
-                  value="UI/UX Developer at Boston"
+                  placeholder="Street Address Line 2"
+                  // value="UI/UX Developer at Boston"
                 />
               </div>
-              <div className="col-md-12">
+              {/* <div className="col-md-12">
                 <label className="labels">Education</label>
                 <input
                   type="text"
@@ -87,37 +120,87 @@ const IntakeForm = () => {
                   placeholder="education"
                   value="Boston University"
                 />
-              </div>
+              </div> */}
             </div>
             <div className="row mt-3">
+              <div className="col-md-6">
+                <label className="labels">City</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="City"
+                  // value="USA"
+                />
+              </div>
+              <div className="col-md-6">
+                <label className="labels">State</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  // value="Boston"
+                  placeholder="State"
+                />
+              </div>
+              <div className="col-md-6">
+                <label className="labels">Postal / Zip Code</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Postal / Zip Code"
+                />
+              </div>
               <div className="col-md-6">
                 <label className="labels">Country</label>
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="country"
-                  value="USA"
+                  placeholder="Country"
                 />
               </div>
+           
               <div className="col-md-6">
-                <label className="labels">State/Region</label>
+                <label className="labels">Primary Phone Number*</label>
                 <input
                   type="text"
                   className="form-control"
-                  value="Boston"
-                  placeholder="state"
+                  placeholder="Primary Phone Number"
+                />
+              </div>
+              <div className="col-md-6">
+                <label className="labels">Secondary Phone Number*</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Secondary Phone Number"
+                />
+              </div>
+              <div className="col-md-6">
+                <label className="labels">Primary E-mail Address*</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Primary E-mail Address"
+                />
+              </div>
+              <div className="col-md-12">
+                <label className="labels">How did you hear about Mission Walk?</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="we glad to serve you"
+                  // value="UI/UX Developer at Boston"
                 />
               </div>
             </div>
             <div className="mt-5 text-center">
               <button className="btn btn-primary profile-button" type="button">
-                Save Profile
+                Submit Form
               </button>
             </div>
           </div>
         </div>
         <div className="col-md-4">
-          <div className="p-3 py-5">
+          {/* <div className="p-3 py-5">
             <div className="d-flex justify-content-between align-items-center experience">
               <span>Edit Experience</span>
               <span className="border px-3 p-1 add-experience">
@@ -125,7 +208,7 @@ const IntakeForm = () => {
               </span>
             </div>
             <div className="d-flex flex-row mt-3 exp-container">
-              {/* <img src="https://i.imgur.com/azSfBM3.png" width="45" height="45"> */}
+              <img src="https://i.imgur.com/azSfBM3.png" width="45" height="45" alt="hjgj"/>
               <div className="work-experience ml-1">
                 <span className="font-weight-bold d-block">
                   Senior UI/UX Designer
@@ -140,7 +223,7 @@ const IntakeForm = () => {
             </div>
             <hr />
             <div className="d-flex flex-row mt-3 exp-container">
-              {/* <img src="https://img.icons8.com/color/100/000000/facebook.png" width="45" height="45"> */}
+               <img src="https://img.icons8.com/color/100/000000/facebook.png" width="45" height="45"/ alt="ghhjgj"> 
               <div className="work-experience ml-1">
                 <span className="font-weight-bold d-block">
                   Senior UI/UX Designer
@@ -155,7 +238,7 @@ const IntakeForm = () => {
             </div>
             <hr />
             <div className="d-flex flex-row mt-3 exp-container">
-              {/* <img src="https://img.icons8.com/color/50/000000/google-logo.png" width="45" height="45"> */}
+              <img src="https://img.icons8.com/color/50/000000/google-logo.png" width="45" height="45" alt="jhbj/> 
               <div className="work-experience ml-1">
                 <span className="font-weight-bold d-block">UI/UX Designer</span>
                 <span className="d-block text-black-50 labels">
@@ -166,7 +249,7 @@ const IntakeForm = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <br />
