@@ -220,7 +220,13 @@ const Dmi = () => {
                     <b>What is DMI Therapy?</b>
                   </h3>
                   <p>
-                    <span style={{ fontWeight: "400", fontSize: "22px" }}>
+                    <span
+                      style={{
+                        fontWeight: "400",
+                        fontSize: "22px",
+                        textAlign: "justify",
+                      }}
+                    >
                       Dynamic Movement Intervention (DMI) is a comprehensive
                       intervention that incorporates current research on
                       neurorehabilitation, technologies, and methodologies. This
@@ -247,7 +253,13 @@ const Dmi = () => {
                     <b>Why We Love DMI</b>
                   </h3>
                   <p>
-                    <span style={{ fontWeight: "400", fontSize: "22px" }}>
+                    <span
+                      style={{
+                        fontWeight: "400",
+                        fontSize: "22px",
+                        textAlign: "justify",
+                      }}
+                    >
                       DMI expands and complements our intensive program due to
                       its focus on clinical reasoning, current research, the
                       whole child, and its multi-disciplinary/multi-modality
@@ -264,7 +276,7 @@ const Dmi = () => {
                       Access Treatment
                     </b>
                   </h3>
-                  <p style={{ fontSize: "22px" }}>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     The mission of Dynamic Movement Intervention is to provide
                     an abundance of training opportunities for therapists
                     passionate about learning DMI and to create a community of
@@ -272,7 +284,7 @@ const Dmi = () => {
                     being readily available to therapists around the world, DMI
                     will have the opportunity to serve more children!
                   </p>
-                  <p>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     If you&#8217;re interested in determining whether DMI is
                     appropriate for your child, complete the assessment form
                     below.
@@ -292,14 +304,14 @@ const Dmi = () => {
                   <h3 style={{ fontSize: "38px" }}>
                     <strong>Join the DMI Movement!</strong>
                   </h3>
-                  <p>
-                    <span style={{ fontWeight: "400" }}>
+                  <p style={{ fontSize: "22px",textAlign:"justify" }}>
+                    <span style={{ fontWeight: "400", textAlign: "justify" }}>
                       By working with practitioners from around the world, this
-                      newly trademarked comprehensive intervention gives
-                      the opportunity to:
+                      newly trademarked comprehensive intervention gives the
+                      opportunity to:
                     </span>
                   </p>
-                  <ul>
+                  <ul style={{ fontSize: "22px",textAlign:"justify" }}>
                     <li style={{ fontWeight: "400" }} aria-level="1">
                       <span style={{ fontWeight: "400" }}>
                         Develop the technique
@@ -309,7 +321,7 @@ const Dmi = () => {
                       </span>
                     </li>
                     <li style={{ fontWeight: "400" }} aria-level="1">
-                      <span style={{ fontWeight: "400" }}>
+                      <span style={{ fontWeight: "400", textAlign: "justify" }}>
                         Collaborate with other practitioners and access training
                         and mentorship
                       </span>

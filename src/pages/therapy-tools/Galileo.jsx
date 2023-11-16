@@ -3,7 +3,7 @@ const Galileo = () => {
     <>
       {/* <!--Inner Banner starts--> */}
 
-      <div
+      {/* <div
         className="inner_banner testimonial_banner"
         style={{backgroundImage:`url(https://napacenter.org/wp-content/uploads/2021/09/Galileo-1.jpg)`}}
       >
@@ -21,6 +21,13 @@ const Galileo = () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="container-fluid bg-primary py-5 hero-header mb-5">
+        <div className="row py-3">
+          <div className="col-12 text-center">
+            <h1 className="display-3 text-white animated zoomIn">Galileo</h1>
+          </div>
+        </div>
       </div>
 
       {/* <!--Inner Banner end-->// */}
@@ -31,22 +38,22 @@ const Galileo = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  <p>
+                  <p style={{ fontSize: "22px" }}>
                     Mission Walk uses the Galileo plate which provides a side
                     alternating motion based on the natural movement of human
                     gait, creating a tilting movement of the pelvis.
                   </p>
                 </div>
                 <div className="our_programs_details_right">
-                  <p>
+                  <p style={{ fontSize: "22px" }}>
                     Whole Body Vibration (WBV) is delivered via a mechanical
                     vibrating platform. As the machine vibrates, it transmits
                     energy to the individual standing, sitting, lying or
                     kneeling on the plate causing the muscles to contract and
                     relax many times each second.
                   </p>
-                  <p>
-                  Mission Walk uses the Galileo plate which provides a side
+                  <p style={{ fontSize: "22px" }}>
+                    Mission Walk uses the Galileo plate which provides a side
                     alternating motion based on the natural movement of human
                     gait, creating a tilting movement of the pelvis. With
                     frequencies ranging from 5 – 30 Hz depending upon the
@@ -55,7 +62,7 @@ const Galileo = () => {
                     mobilization and stretching of tight muscles, spasticity
                     reduction, and strength and coordination building,
                   </p>
-                  <p>
+                  <p style={{ fontSize: "22px" }}>
                     Unique to Galileo WBV platform is the Wobbel function which
                     generates randomly changing frequencies during the training.
                     The variability in frequencies provided by the Wobbel
@@ -64,10 +71,10 @@ const Galileo = () => {
                     accommodate to the stimulation, forcing the body to
                     constantly adapt to the changing frequencies.
                   </p>
-                  <p>
-                  Mission Walk utilizes WBV training in all aspects of its therapy
-                    programs and your child may participate in Galileo training
-                    in any of their PT, OT, and ST hours.
+                  <p style={{ fontSize: "22px" }}>
+                    Mission Walk utilizes WBV training in all aspects of its
+                    therapy programs and your child may participate in Galileo
+                    training in any of their PT, OT, and ST hours.
                   </p>
                 </div>
                 <div className="clearfix"></div>
