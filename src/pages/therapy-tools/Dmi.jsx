@@ -5,7 +5,7 @@ const Dmi = () => {
     <div>
       {/* <!--Inner Banner starts--> */}
 
-      <div
+      {/* <div
         className="inner_banner testimonial_banner"
         style={{
           backgroundImage:
@@ -21,6 +21,15 @@ const Dmi = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div> */}
+      <div className="container-fluid bg-primary py-5 hero-header mb-5">
+        <div className="row py-3">
+          <div className="col-12 text-center">
+            <h1 className="display-3 text-white animated zoomIn">
+              D&nbsp;M&nbsp;I
+            </h1>
           </div>
         </div>
       </div>
@@ -207,11 +216,11 @@ const Dmi = () => {
                     </strong>
                   </h4>
                   <p>&nbsp;</p>
-                  <h3>
+                  <h3 style={{ fontSize: "38px" }}>
                     <b>What is DMI Therapy?</b>
                   </h3>
                   <p>
-                    <span style={{fontWeight: "400"}}>
+                    <span style={{ fontWeight: "400", fontSize: "22px" }}>
                       Dynamic Movement Intervention (DMI) is a comprehensive
                       intervention that incorporates current research on
                       neurorehabilitation, technologies, and methodologies. This
@@ -234,11 +243,11 @@ const Dmi = () => {
                     </a>
                   </h1>
                   <p>&nbsp;</p>
-                  <h3>
+                  <h3 style={{ fontSize: "38px" }}>
                     <b>Why We Love DMI</b>
                   </h3>
                   <p>
-                    <span style={{fontWeight: "400"}}>
+                    <span style={{ fontWeight: "400", fontSize: "22px" }}>
                       DMI expands and complements our intensive program due to
                       its focus on clinical reasoning, current research, the
                       whole child, and its multi-disciplinary/multi-modality
@@ -249,13 +258,13 @@ const Dmi = () => {
                     </span>
                   </p>
                   <h3></h3>
-                  <h3>
+                  <h3 style={{ fontSize: "38px" }}>
                     <b>
                       DMI Makes Our Team Stronger and Allows More Patients to
                       Access Treatment
                     </b>
                   </h3>
-                  <p>
+                  <p style={{ fontSize: "22px" }}>
                     The mission of Dynamic Movement Intervention is to provide
                     an abundance of training opportunities for therapists
                     passionate about learning DMI and to create a community of
@@ -280,59 +289,59 @@ const Dmi = () => {
                   </h1>
                   <h3></h3>
                   <h3></h3>
-                  <h3>
+                  <h3 style={{ fontSize: "38px" }}>
                     <strong>Join the DMI Movement!</strong>
                   </h3>
                   <p>
-                    <span style={{fontWeight: "400"}}>
+                    <span style={{ fontWeight: "400" }}>
                       By working with practitioners from around the world, this
-                      newly trademarked comprehensive intervention gives NAPA
+                      newly trademarked comprehensive intervention gives
                       the opportunity to:
                     </span>
                   </p>
                   <ul>
-                    <li style={{fontWeight: "400"}} aria-level="1">
-                      <span style={{fontWeight: "400"}}>
+                    <li style={{ fontWeight: "400" }} aria-level="1">
+                      <span style={{ fontWeight: "400" }}>
                         Develop the technique
                       </span>
-                      <span style={{fontWeight: "400"}}>
+                      <span style={{ fontWeight: "400" }}>
                         <br />
                       </span>
                     </li>
-                    <li style={{fontWeight: "400"}} aria-level="1">
-                      <span style={{fontWeight: "400"}}>
+                    <li style={{ fontWeight: "400" }} aria-level="1">
+                      <span style={{ fontWeight: "400" }}>
                         Collaborate with other practitioners and access training
                         and mentorship
                       </span>
-                      <span style={{fontWeight: "400"}}>
+                      <span style={{ fontWeight: "400" }}>
                         <br />
                       </span>
                     </li>
-                    <li style={{fontWeight: "400"}} aria-level="1">
-                      <span style={{fontWeight: "400"}}>
+                    <li style={{ fontWeight: "400" }} aria-level="1">
+                      <span style={{ fontWeight: "400" }}>
                         Treat more patients (by providing certification,
                         training, and education)
                       </span>
-                      <span style={{fontWeight: "400"}}>
+                      <span style={{ fontWeight: "400" }}>
                         <br />
                       </span>
                     </li>
-                    <li style={{fontWeight: "400"}} aria-level="1">
-                      <span style={{fontWeight: "400"}}>
+                    <li style={{ fontWeight: "400" }} aria-level="1">
+                      <span style={{ fontWeight: "400" }}>
                         Optimize results by customizing therapy
                       </span>
-                      <span style={{fontWeight: "400"}}>
+                      <span style={{ fontWeight: "400" }}>
                         <br />
                       </span>
                     </li>
-                    <li style={{fontWeight: "400"}} aria-level="1">
-                      <span style={{fontWeight: "400"}}>
+                    <li style={{ fontWeight: "400" }} aria-level="1">
+                      <span style={{ fontWeight: "400" }}>
                         Incorporate more techniques and tools into the{" "}
                       </span>
-                      <span style={{fontWeight: "400"}}>
+                      <span style={{ fontWeight: "400" }}>
                         framework of a session
                       </span>
-                      <span style={{fontWeight: "400"}}>
+                      <span style={{ fontWeight: "400" }}>
                         <br />
                       </span>
                     </li>

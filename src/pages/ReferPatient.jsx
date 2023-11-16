@@ -4,8 +4,6 @@ import "./peadiatric/Peadiatric";
 import { Link } from "react-router-dom";
 import ConditionCard from "../components/conditionCard";
 
-
-
 const PaediatricPhysiotherapy = () => {
   return (
     <>
@@ -13,12 +11,15 @@ const PaediatricPhysiotherapy = () => {
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
-            Referral Center
+              Referral Center
             </h1>
-            <p className=" text-white animated zoomIn" style={{fontSize:"38px"}}>
-            The best rehabilitation hospital in india has gotten even better. See why your patients will benefit from care at the Mission-Walk
+            <p
+              className=" text-white animated zoomIn"
+              style={{ fontSize: "38px" }}
+            >
+              The best rehabilitation hospital in india has gotten even better.
+              See why your patients will benefit from care at the Mission-Walk
             </p>
-
           </div>
         </div>
       </div>
@@ -36,48 +37,56 @@ const PaediatricPhysiotherapy = () => {
                   <h1 style={{ fontSize: "38px" }}> In Mission Walk ...</h1>
                 </div>
               </div>
-              <p className="mb-4 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
-              We treat people of all ages from around the world with a range of disabilities, from complex conditions like brain injury, spinal cord injury, and stroke to more common ailments such as arthritis and sports injuries.
-
-
+              <p
+                className="mb-4 animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
+                We treat people of all ages from around the world with a range
+                of disabilities, from complex conditions like brain injury,
+                spinal cord injury, and stroke to more common ailments such as
+                arthritis and sports injuries.
               </p>
-              <p className="mb-4 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
-              We’ve designed this page to help you learn about the unique programs and people that truly make AbilityLab the best post-acute rehabilitation choice for your patients. If you have questions about our programs and services, or if we can be of help in any way, please call the number at left.
+              <p
+                className="mb-4 animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
+                We’ve designed this page to help you learn about the unique
+                programs and people that truly make AbilityLab the best
+                post-acute rehabilitation choice for your patients. If you have
+                questions about our programs and services, or if we can be of
+                help in any way, please call the number at left.
               </p>
-              <strong className="mb-4 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
-              HOURS OF OPERATION
+              <strong
+                className="mb-4 animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
+                HOURS OF OPERATION
               </strong>
-              <strong style={{ fontSize: "17px", textAlign:"justify" }}>
-              <p>MONDAY - FRIDAY 8:00 AM TO 7:30 PM
-              </p>
-              <p>
-              PHONE-+91 9177300194
-
-              </p>
-              <p>
-              E-mail- rehab@missionwalk.in
-
-              </p>
-
+              <strong style={{ fontSize: "17px", textAlign: "justify" }}>
+                <p>MONDAY - FRIDAY 8:00 AM TO 7:30 PM</p>
+                <p>PHONE-+91 9177300194</p>
+                <p>E-mail- rehab@missionwalk.in</p>
               </strong>
               <h1></h1>
             </span>
-   
           </div>
         </div>
-   
       </section>
-<section>
-<div className="card">
-  <div className="card-body shadow p-3 mb-5 bg-warning rounded" style={{fontSize:"38px", textAlign:"center"}}>
-   <button>
-    <strong>
-    Virtual Tour - Please Visit Once 
-    </strong>
-    </button>
-  </div>
-</div>
-</section>
+      <section>
+        {/* <div className="container"> */}
+        <div className="card">
+          <div
+            className="card-body shadow p-3 mb-5 bg-warning rounded"
+            style={{ fontSize: "38px", textAlign: "center" }}
+          >
+            <Link to="/refer-patient/our-vedios">
+              <button>
+                <strong>Virtual Tour - Please Visit Once</strong>
+              </button>
+            </Link>
+          </div>
+        </div>
+      </section>
       {/* //next */}
       <section className="about my-5" id="about">
         <div className="container ">
@@ -95,7 +104,7 @@ const PaediatricPhysiotherapy = () => {
             >
               <h1 data-aos="fade-up" data-aos-offset="200">
                 {/* <h1> */}
-                Our Patients are 
+                Our Patients are
                 <span
                   // className="text-primary"
                   style={{ color: "darkgoldenrod" }}
@@ -104,10 +113,13 @@ const PaediatricPhysiotherapy = () => {
                   Our Priority
                 </span>
               </h1>
-              <p className="p-2 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
-              Putting patients on the road to physical, emotional and psychological recovery is what we do. Here are a few patients who continuously inspire us with the strength of their resolve.
-               
-              
+              <p
+                className="p-2 animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
+                Putting patients on the road to physical, emotional and
+                psychological recovery is what we do. Here are a few patients
+                who continuously inspire us with the strength of their resolve.
               </p>
 
               <p className="mb-5 animated zoomIn" style={{ fontSize: "22px" }}>
@@ -115,7 +127,10 @@ const PaediatricPhysiotherapy = () => {
                 or has experienced:
               </p>
               <div>
-                <ul className="list-unstyled animated zoomIn" style={{ fontSize: "20px" }}>
+                <ul
+                  className="list-unstyled animated zoomIn"
+                  style={{ fontSize: "20px" }}
+                >
                   <li>
                     <i className="bi bi-check-circle text-success me-2 "></i>
                     Prematurity
@@ -224,103 +239,111 @@ const PaediatricPhysiotherapy = () => {
             </div>
           </div> */}
           </div>
-        <hr className="hr mb-0 mt-5" />
-
+          <hr className="hr mb-0 mt-5" />
         </div>
-
       </section>
       {/* next 1*/}
 
-    <section>
-    <div>
-              <div className="section-title">
-                <h5 className="  text-primary text-uppercase " style={{textAlign:"center", fontSize:"38px"}}>
-                  Our Programs
-                </h5>
-                
-                <h4 className="display-5" style={{textAlign:"center", fontSize:"22px"}}>
-                  We go beyond traditional physical,occupational, and speech
-                  therapy by using innovative tools and techniques that change
-                  lives.
-                </h4>
-              </div>
-          
-              <div className="section-title mb-5 mt-4 my-5" style={{textAlign:"center", fontSize:"38px"}}>
-                {/* <h4 className="position-relative  text-primary text-uppercase mb-3">
+      <section>
+        <div>
+          <div className="section-title">
+            <h5
+              className="  text-primary text-uppercase mb-4 "
+              style={{ textAlign: "center", fontSize: "38px" }}
+            >
+              Our Programs
+            </h5>
+
+            <h4
+              className="display-5"
+              style={{ textAlign: "center", fontSize: "22px" }}
+            >
+              We go beyond traditional physical,occupational, and speech therapy
+              by using innovative tools and techniques that change lives.
+            </h4>
+          </div>
+
+          <div
+            className="section-title mb-5 mt-4 my-5"
+            style={{ textAlign: "center", fontSize: "38px" }}
+          >
+            {/* <h4 className="position-relative  text-primary text-uppercase mb-3">
                   Discover our Programs
                 </h4> */}
-                <h4 className="display-5" style={{textAlign:"center", fontSize:"22px"}}>
-                  At Mission-Walk, our dedicated and highly trained physical,
-                  speech and occupational therapists use a diverse set of
-                  innovative tools and therapies delivered through intensive
-                  programs. These programs are customized specifically for each
-                  child based on their needs, and provided at our centers, in a
-                  playful and positive environment.{" "}
-                </h4>
-              </div>
-           
-            </div>
-            <section className="" style={{ marginBottom: "40px" }}>
-        <div className="container-fluid wow fadeInUp" data-wow-delay="0.1s">
-          <div className="container">
-            <div className="row g-5 wow fadeInUp" data-wow-delay="0.1s">
-              {/* <div className="col-lg-7"> */}
-              <div className="row g-5">
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
+            <h4
+              className="display-5"
+              style={{ textAlign: "center", fontSize: "22px" }}
+            >
+              At Mission-Walk, our dedicated and highly trained physical, speech
+              and occupational therapists use a diverse set of innovative tools
+              and therapies delivered through intensive programs. These programs
+              are customized specifically for each child based on their needs,
+              and provided at our centers, in a playful and positive
+              environment.{" "}
+            </h4>
+          </div>
+        </div>
+        <section className="" style={{ marginBottom: "40px" }}>
+          <div className="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+            <div className="container">
+              <div className="row g-5 wow fadeInUp" data-wow-delay="0.1s">
+                {/* <div className="col-lg-7"> */}
+                <div className="row g-5">
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/conditions/stroke-recovery">
+                        <h5 className="m-0">Stroke Recovery</h5>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/conditions/stroke-recovery">
-                      <h5 className="m-0">Stroke Recovery</h5>
-                    </Link>
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/spinal">
+                        <h5 className="m-0">Spinal Cord Injury</h5>
+                      </Link>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/brain">
+                        <h5 className="m-0">Brain Injury Recovery</h5>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/spinal">
-                      <h5 className="m-0">Spinal Cord Injury</h5>
-                    </Link>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/brain">
-                      <h5 className="m-0">Brain Injury Recovery</h5>
-                    </Link>
-                  </div>
-                </div>
-                {/* <div
+                  {/* <div
                   className="col-md-6 service-item wow zoomIn"
                   style={{ width: "400px" }}
                   data-wow-delay="0.6s"
@@ -332,140 +355,132 @@ const PaediatricPhysiotherapy = () => {
                     <h5 className="m-0">Spinal Cord Injury</h5>
                   </div>
                 </div> */}
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/conditions/multiple-sclerosis">
+                        <h5 className="m-0">Multiple Sclerosis</h5>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/conditions/multiple-sclerosis">
-                      <h5 className="m-0">Multiple Sclerosis</h5>
-                    </Link>
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/conditions/parkinsons">
+                        <h5 className="m-0">Parkinson's Disease</h5>
+                      </Link>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/conditions/transverse-myelitis">
+                        <h5 className="m-0">Transverse Myelitis</h5>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/conditions/parkinsons">
-                      <h5 className="m-0">Parkinson's Disease</h5>
-                    </Link>
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/conditions/motor-neuron">
+                        <h5 className="m-0">Motor Neuron</h5>
+                      </Link>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  >
+                    <div className="rounded-top overflow-hidden">
+                      <img
+                        className="img-fluid"
+                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-relative bg-light rounded-bottom text-center p-4">
+                      <Link to="/conditions/difficulty-in-walking">
+                        <h5 className="m-0">Difficulty InWalking</h5>
+                      </Link>
+                    </div>
                   </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/conditions/transverse-myelitis">
-                      <h5 className="m-0">Transverse Myelitis</h5>
-                    </Link>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/conditions/motor-neuron">
-                      <h5 className="m-0">Motor Neuron</h5>
-                    </Link>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img
-                      className="img-fluid"
-                      src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <Link to="/conditions/difficulty-in-walking">
-                      <h5 className="m-0">Difficulty InWalking</h5>
-                    </Link>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
-                >
-                  
+                  <div
+                    className="col-md-6 service-item wow zoomIn"
+                    data-wow-delay="0.3s"
+                    style={{ width: "400px" }}
+                  ></div>
                 </div>
               </div>
+              <hr className="hr mb-0 mt-5" />
             </div>
-      <hr className="hr mb-0 mt-5" />
-
           </div>
-
-        </div>
+        </section>
       </section>
 
-    </section>
-    
       {/* next 2 */}
-      <div
-                    className="programs_details_list_txt"
-                    style={{ fontSize: "38px" }}
-                  >
-                    <b>The Mission Walk Difference</b>
-                  </div>
-                  <div className="program_details_outer_div">
-      <section
-      className="services py-2"
-      id="services"
-      style={{width:"120%"}}
-    >
-      <div className="container aligns-items-center">
-        <div className="row">
-          {cardData.map((card, index) => (
-            <div key={index} className="col-lg-4 col-md-6 mb-4">
-              <ConditionCard {...card} />
-            </div>
-          ))}
-        </div>
+      <div className="programs_details_list_txt" style={{ fontSize: "38px" }}>
+        <b>The Mission Walk Difference</b>
       </div>
-      {/* </div> */}
-      {/* </div> */}
-    </section>
-    </div>
+      <div className="program_details_outer_div">
+        <section
+          className="services py-2"
+          id="services"
+          style={{ width: "100%" }}
+        >
+          <div className="container aligns-items-center">
+            <div className="row">
+              {cardData.map((card, index) => (
+                <div key={index} className="col-lg-4 col-md-6 mb-5">
+                  <ConditionCard {...card} />
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* </div> */}
+          {/* </div> */}
+        </section>
+      </div>
       {/* last */}
       {/* End */}
       <ContactPagesCard />

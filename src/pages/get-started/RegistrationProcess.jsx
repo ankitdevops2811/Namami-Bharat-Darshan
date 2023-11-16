@@ -105,9 +105,9 @@ const RegistrationProcess = () => {
               </div>
               <div>
                 <div className="button">
-                  <a to="/enquery-form" className="link-style">
+                  <Link to="/intake-forms" className="link-style">
                     Intake Form
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
