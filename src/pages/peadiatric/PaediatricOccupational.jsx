@@ -52,44 +52,7 @@ const PaediatricOccupational = () => {
           </div>
         </div>
       </section>
-      {/* <section className="bg-light p-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 mx-auto text-center">
-              <h2 className="mb-4">
-                What Are the Benefits of Children’s Occupational Therapy?
-              </h2>
-              <p>
-                Occupational therapy can benefit children with a wide variety of
-                diagnoses, including but not limited to: autism, birth injuries,
-                cerebral palsy, developmental delays, juvenile rheumatoid
-                arthritis, sensory processing disorders, traumatic brain or
-                spinal cord injuries, sensory processing disorders, and more.
-              </p>
-              <p>
-                Additionally, pediatric OT may help your child with the
-                following:
-              </p>
-              <ul className="list-unstyled">
-                <li>Sensory management</li>
-                <li>Engaging in play activities</li>
-                <li>Learning to navigate the environment</li>
-                <li>
-                  Removing barriers to learning to help the child become more
-                  focused
-                </li>
-                <li>
-                  Practice appropriate social interactions and communication
-                </li>
-                <li>
-                  Establishing autonomy and accomplishment in the daily routine,
-                  such as brushing hair or teeth
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section> */}
+
       {/* //next */}
       <section className="about my-5" id="about">
         <div className="container ">
