@@ -2,7 +2,7 @@ const Functional_Estim = () => {
   return (
     <>
       {/* <!--Inner Banner starts--> */}
-
+      {/* 
       <div
         className="inner_banner testimonial_banner"
         style={{
@@ -23,6 +23,15 @@ const Functional_Estim = () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="container-fluid bg-primary py-5 hero-header mb-5">
+        <div className="row py-3">
+          <div className="col-12 text-center">
+            <h1 className="display-3 text-white animated zoomIn">
+              Functional Estim
+            </h1>
+          </div>
+        </div>
       </div>
 
       {/* <!--Inner Banner end--> */}
@@ -33,7 +42,7 @@ const Functional_Estim = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  <p>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     Functional electrical stimulation (FES) is a modality aimed
                     at improving strength, coordination, endurance, sensory
                     feedback and timing in muscles used to promote improved
@@ -41,13 +50,13 @@ const Functional_Estim = () => {
                   </p>
                 </div>
                 <div className="our_programs_details_right">
-                  <p>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     Functional electrical stimulation (FES) is a modality aimed
                     at improving strength, coordination, endurance, sensory
                     feedback and timing in muscles used to promote improved
                     motor control and strength in patients.
                   </p>
-                  <p>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     Using a device and small adhesive electrodes, electrical
                     stimulation involves applying low level electrical impulses
                     to targeted muscles causing them to contract. It is
@@ -56,7 +65,7 @@ const Functional_Estim = () => {
                     and/or uncoordinated, and to assist with decreasing
                     spasticity.
                   </p>
-                  <p>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     Electrical stimulation can be used on all parts of the body
                     including the back, legs, feet, arms and hands and is
                     integrated into occupational, physical and speech therapy

@@ -4,7 +4,7 @@ const Neurosuit = () => {
   return (
     <>
       {/*  <div>Neurosuit</div> */}
-      <div
+      {/* <div
         className="inner_banner testimonial_banner"
         style={{
           backgroundImage:
@@ -25,6 +25,13 @@ const Neurosuit = () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="container-fluid bg-primary py-5 hero-header mb-5">
+        <div className="row py-3">
+          <div className="col-12 text-center">
+            <h1 className="display-3 text-white animated zoomIn">NeuroSuit</h1>
+          </div>
+        </div>
       </div>
       <div
         className="inner_content our_programs_details wow fadeInUp"
@@ -35,7 +42,11 @@ const Neurosuit = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left ">
-                  <p className=" wow zoomIn" data-wow-delay="0.2s">
+                  <p
+                    className=" wow zoomIn"
+                    data-wow-delay="0.2s"
+                    style={{ fontSize: "22px", textAlign: "justify" }}
+                  >
                     The NeuroSuit frames the body providing support and
                     resistance simultaneously. It facilitates proper movement
                     and provides additional weight bearing distributed
@@ -57,7 +68,7 @@ const Neurosuit = () => {
                   className="our_programs_details_right wow zoomIn"
                   data-wow-delay="0.6s"
                 >
-                  <p>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     The NeuroSuit is one of the pillars of our three-week
                     <a
                       href="https://napacenter.org/our-programs/intensive-therapy/"
@@ -77,10 +88,18 @@ const Neurosuit = () => {
                     skeleton).
                   </p>
                   <h3></h3>
-                  <h3 className=" wow zoomIn" data-wow-delay="0.7s">
+                  <h3
+                    className=" wow zoomIn"
+                    data-wow-delay="0.7s"
+                    style={{ fontSize: "38px", textAlign: "justify" }}
+                  >
                     Providing Alignment
                   </h3>
-                  <p className=" wow zoomIn" data-wow-delay="0.8s">
+                  <p
+                    className=" wow zoomIn"
+                    data-wow-delay="0.8s"
+                    style={{ fontSize: "22px", textAlign: "justify" }}
+                  >
                     While framing the body, the NeuroSuit provides support and
                     resistance simultaneously. It assists the patient’s body to
                     be in correct alignment, while the bungee cords provide a
@@ -92,7 +111,11 @@ const Neurosuit = () => {
                     additional weight bearing distributed strategically
                     throughout the body.
                   </p>
-                  <p className=" wow zoomIn" data-wow-delay="0.9s">
+                  <p
+                    className=" wow zoomIn"
+                    data-wow-delay="0.9s"
+                    style={{ fontSize: "22px", textAlign: "justify" }}
+                  >
                     This sends strong messages to and from the brain and central
                     nervous system bringing about an instantaneous increase in
                     body awareness, which leads to improved motor planning. All
@@ -105,11 +128,19 @@ const Neurosuit = () => {
                     which carries over into the child’s daily life when they are
                     not in the NeuroSuit.
                   </p>
-                  <h3 className=" wow zoomIn" data-wow-delay="0.10s">
+                  <h3
+                    className=" wow zoomIn"
+                    data-wow-delay="0.10s"
+                    style={{ fontSize: "38px" }}
+                  >
                     NeuroSuit Therapy is suitable to treat the following:
                     <span style={{ fontWeight: "400" }}></span>
                   </h3>
-                  <ul className=" wow zoomIn" data-wow-delay="0.11s">
+                  <ul
+                    className=" wow zoomIn"
+                    data-wow-delay="0.11s"
+                    style={{ fontSize: "22px", textAlign: "justify" }}
+                  >
                     <li style={{ fontWeight: "400" }}>
                       <span style={{ fontWeight: "400" }}>Cerebral Palsy</span>
                     </li>
@@ -174,10 +205,14 @@ const Neurosuit = () => {
                     </li>
                   </ul>
                   <h3></h3>
-                  <p className=" wow zoomIn" data-wow-delay="0.12s">
-                    At Mission Walk Center, we take an individualized approach to
-                    therapy because we understand that each child is unique with
-                    very specific needs. We embrace differences with an
+                  <p
+                    className=" wow zoomIn"
+                    data-wow-delay="0.12s"
+                    style={{ fontSize: "22px", textAlign: "justify" }}
+                  >
+                    At Mission Walk Center, we take an individualized approach
+                    to therapy because we understand that each child is unique
+                    with very specific needs. We embrace differences with an
                     understanding that individualized programs work better. For
                     this reason, no two therapeutic programs are alike. If your
                     child needs our services, we will work closely with you to
@@ -194,7 +229,10 @@ const Neurosuit = () => {
               </div>
               <div className="program_details_outer_div">
                 <div className="our_programs_details_list">
-                  <div className="programs_details_list_txt  ">
+                  <div
+                    className="programs_details_list_txt"
+                    style={{ fontSize: "38px" }}
+                  >
                     <b className=" wow zoomIn " data-wow-delay="0.13s">
                       Benefits of NeuroSuit
                     </b>
@@ -204,7 +242,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>01. </span>Create New Pathways
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Re-trains the central nervous system and creates NEW
                           pathways to/from the brain allowing new or improved
@@ -216,7 +254,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>02. </span>Muscle Tone
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Provide resistance to strong muscles to further
                           enhance strengthening while supporting weak muscles
@@ -227,7 +265,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>03. </span>Dynamic Correction
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Provides dynamic correction of movements reinforcing
                           proper movement during skills such as walking, balance
@@ -239,7 +277,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>04. </span>Better Alignment
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Bring the body into correct alignment. Improves hip
                           alignment through vertical loading over the hip joint
@@ -250,7 +288,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>05. </span>Increased Awareness
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Provides compression (tactile stimulation) distributed
                           throughout the body and increases spacial awareness of
@@ -262,7 +300,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>06. </span>Improved Motor Skills
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Promotes development of both fine and gross motor
                           skills
@@ -273,7 +311,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>07. </span>Stronger Bones
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Improves bone density
                         </span>
@@ -283,7 +321,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>08. </span>Strengthen Speech
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Improves speech production and its fluency through
                           head control and trunk support
@@ -294,7 +332,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>09. </span>Controlled Movement
                       </h3>
-                      <p>
+                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
                         <span style={{ fontWeight: "400" }}>
                           Decreases uncontrolled movement in ataxia and
                           athetosis. Helps to decrease contracture
