@@ -175,7 +175,7 @@ const Neurosuit = () => {
                   </ul>
                   <h3></h3>
                   <p className=" wow zoomIn" data-wow-delay="0.12s">
-                    At NAPA Center, we take an individualized approach to
+                    At Mission Walk Center, we take an individualized approach to
                     therapy because we understand that each child is unique with
                     very specific needs. We embrace differences with an
                     understanding that individualized programs work better. For

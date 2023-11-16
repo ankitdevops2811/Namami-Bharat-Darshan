@@ -32,7 +32,7 @@ const Galileo = () => {
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
                   <p>
-                    NAPA uses the Galileo plate which provides a side
+                    Mission Walk uses the Galileo plate which provides a side
                     alternating motion based on the natural movement of human
                     gait, creating a tilting movement of the pelvis.
                   </p>
@@ -46,7 +46,7 @@ const Galileo = () => {
                     relax many times each second.
                   </p>
                   <p>
-                    NAPA uses the Galileo plate which provides a side
+                  Mission Walk uses the Galileo plate which provides a side
                     alternating motion based on the natural movement of human
                     gait, creating a tilting movement of the pelvis. With
                     frequencies ranging from 5 – 30 Hz depending upon the
@@ -65,7 +65,7 @@ const Galileo = () => {
                     constantly adapt to the changing frequencies.
                   </p>
                   <p>
-                    NAPA utilizes WBV training in all aspects of its therapy
+                  Mission Walk utilizes WBV training in all aspects of its therapy
                     programs and your child may participate in Galileo training
                     in any of their PT, OT, and ST hours.
                   </p>

@@ -72,7 +72,7 @@ const Spidercage = () => {
                     className=" wow zoomIn"
                     data-wow-delay="0.4s"
                   >
-                    Spider Cage Physical Therapy at NAPA Center
+                    Spider Cage Physical Therapy at Mission Walk Center
                   </h2>
                   <p className=" wow zoomIn" data-wow-delay="0.5s">
                     During
@@ -93,10 +93,10 @@ const Spidercage = () => {
                     due to the eight bungees used to assist the patient.
                   </p>
                   <h3 className=" wow zoomIn" data-wow-delay="0.6s">
-                    Welcome to the NAPA Family
+                    Welcome to the Mission Walk Family
                   </h3>
                   <p className=" wow zoomIn" data-wow-delay="0.6s">
-                    At NAPA Center, we take an individualized approach to
+                    At Mission Walk Center, we take an individualized approach to
                     therapy because we understand that each child is unique with
                     very specific needs. We embrace differences with an
                     understanding that individualized programs work better. For
