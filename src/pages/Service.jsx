@@ -30,20 +30,20 @@ const Service = () => {
             </div>
             <div className="col-lg-7" style={{ marginBottom: "25%" }}>
               <div className="section-title mb-5 mt-3">
-                <h5 className="position-relative d-inline-block text-primary text-uppercase mb-3">
+                <h5 className="position-relative d-inline-block text-primary text-uppercase mb-3" style={{ fontSize: "38px" }}>
                   Our Programs
                 </h5>
-                <h4 className="display-5 " style={{ fontSize: "16px" }}>
+                <h4 className="display-5 " style={{ fontSize: "22px", textAlign:"justify" }}>
                   We go beyond traditional physical,occupational, and speech
                   therapy by using innovative tools and techniques that change
                   lives.
                 </h4>
               </div>
               <div className="section-title mb-5">
-                <h5 className="position-relative d-inline-block text-primary text-uppercase mb-3">
+                <h5 className="position-relative d-inline-block text-primary text-uppercase mb-3" style={{ fontSize: "22px", textAlign:"justify" }}>
                   Discover our Programs
                 </h5>
-                <h4 className="display-5 mb-0" style={{ fontSize: "16px" }}>
+                <h4 className="display-5 mb-0" style={{ fontSize: "22px", textAlign:"justify" }}>
                   At Mission-Walk, our dedicated and highly trained physical,
                   speech and occupational therapists use a diverse set of
                   innovative tools and therapies delivered through intensive
@@ -247,6 +247,9 @@ const Service = () => {
                   data-wow-delay="0.3s"
                   style={{ width: "400px" }}
                 >
+            <Link to="/intake-forms">
+
+                  <button>
                   <div className="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
                     <h3 className="text-white mb-3">Make Appointment</h3>
                     <p className="text-white mb-3">
@@ -254,6 +257,8 @@ const Service = () => {
                     </p>
                     <h2 className="text-white mb-0">+91 9177300194</h2>
                   </div>
+                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

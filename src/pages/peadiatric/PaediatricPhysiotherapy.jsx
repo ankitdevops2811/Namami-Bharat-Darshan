@@ -447,9 +447,11 @@ const PaediatricPhysiotherapy = () => {
                 />
               </div>
             </div>
+           
           </div>
+        
         </div>
-        <div className="video-iframe-container">
+        <div className="video-iframe-container mt-5" style={{marginLeft:"6%", marginRight:"6%"}}>
                     
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/PbbWYtHpz6k?si=pftCnBlHAHi19TK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                      
