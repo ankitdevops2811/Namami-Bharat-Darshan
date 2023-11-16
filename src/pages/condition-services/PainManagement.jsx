@@ -116,7 +116,7 @@ const MotorNeuron = () => {
                   </p>
 
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled" style={{ fontSize: "18px" }}>
+                    <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab

@@ -3,9 +3,9 @@ import "./therapy.css";
 const Spidercage = () => {
   return (
     // <div>Spidercage</div>
+    
     <div>
       {/* <!--Inner Banner starts--> */}
-
       <div
         className="inner_banner testimonial_banner"
         style={{
@@ -13,6 +13,7 @@ const Spidercage = () => {
             "url(https://napacenter.org/wp-content/uploads/2018/05/sipercage_BANNER_NEW.jpg)",
         }}
       >
+      <div className="container-fluid bg-primary py-5 hero-header mb-5">
         <div className="container wow fadeInUp" data-wow-delay="0.1s">
           <div className="row">
             <div className="col-xs-12">
@@ -23,6 +24,7 @@ const Spidercage = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
 
@@ -38,7 +40,7 @@ const Spidercage = () => {
                   className="our_programs_details_left wow zoomIn"
                   data-wow-delay="0.2s"
                 >
-                  <p>
+                  <p  style={{ fontSize: "22px", textAlign:"justify" }}>
                     The SpiderCage is a three-sided wire device that uses a belt
                     and bungee cords to enable the patient to perform balance
                     and strengthening exercise with proper positioning
@@ -46,7 +48,7 @@ const Spidercage = () => {
                   </p>
                 </div>
                 <div className="our_programs_details_right">
-                  <h1 className=" wow zoomIn" data-wow-delay="0.3s">
+                  <h1 className=" wow zoomIn" data-wow-delay="0.3s"  style={{ fontSize: "38px", textAlign:"justify" }}>
                     Spider Cage (Universal Exercise Unit)
                   </h1>
                   <h3></h3>
@@ -68,21 +70,23 @@ const Spidercage = () => {
                   </p>
                   <h3></h3>
                   <h2
-                    style={{ fontSize: "24px" }}
+                    style={{ fontSize: "22px" }}
                     className=" wow zoomIn"
                     data-wow-delay="0.4s"
                   >
                     Spider Cage Physical Therapy at Mission Walk Center
                   </h2>
-                  <p className=" wow zoomIn" data-wow-delay="0.5s">
+                  <p className=" wow zoomIn"  style={{ fontSize: "22px" }} data-wow-delay="0.5s" >
                     During
                     <a
                       href="https://napacenter.org/our-programs/pediatric-physical-therapy/"
                       target="_blank"
                       rel="noreferrer"
+                      style={{ fontSize: "22px" }}
                     >
                       physical therapy sessions
                     </a>
+                    
                     , our patients participate in a variety of dynamic balance
                     activities in the Universal Exercise Unit/Multifunctional
                     Therapy Unit, also called the SpiderCage. These include
@@ -92,10 +96,10 @@ const Spidercage = () => {
                     angles. This equipment is referred to as the “SpiderCage”
                     due to the eight bungees used to assist the patient.
                   </p>
-                  <h3 className=" wow zoomIn" data-wow-delay="0.6s">
+                  <h3 className=" wow zoomIn"  style={{ fontSize: "22px" }} data-wow-delay="0.6s">
                     Welcome to the Mission Walk Family
                   </h3>
-                  <p className=" wow zoomIn" data-wow-delay="0.6s">
+                  <p className=" wow zoomIn"  style={{ fontSize: "22px" }} data-wow-delay="0.6s">
                     At Mission Walk Center, we take an individualized approach to
                     therapy because we understand that each child is unique with
                     very specific needs. We embrace differences with an
@@ -120,12 +124,12 @@ const Spidercage = () => {
               <div className="program_details_outer_div">
                 <div className="our_programs_details_list">
                   <div className="programs_details_list_txt">
-                    <b className=" wow zoomIn" data-wow-delay="0.4s">
+                    <b className=" wow zoomIn" data-wow-delay="0.4s"  style={{ fontSize: "38px" }}>
                       Benefits of Spider Cage Therapy:
                     </b>
                   </div>
                   <ul>
-                    <li className=" wow zoomIn" data-wow-delay="0.5s">
+                    <li className=" wow zoomIn" data-wow-delay="0.5s"  style={{ fontSize: "22px" }}>
                       <h3>
                         <span>01. </span>Improved Movement
                       </h3>

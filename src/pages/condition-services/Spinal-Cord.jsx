@@ -71,20 +71,7 @@ const Spinal = () => {
                     </Card.Body>
                   </Card>
                 </div>
-                <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                  <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
-                    <Card.Body>
-                      <Card.Title>Brad's Story: Back on the Bike</Card.Title>
-                      <Card.Text>
-                        Brad Baker is a leading flat track racer. On July 22, he
-                        sustained a SCI at Minneapolis X Games. His recovery at
-                        AbilityLab has brought him back to the bike.
-                      </Card.Text>
-                      {/* <Button variant="primary">read more..</Button> */}
-                    </Card.Body>
-                  </Card>
-                </div>
+             
               </div>
               <a
                 href="appointment.html"
@@ -138,7 +125,7 @@ const Spinal = () => {
                     several ability labs.
                   </p>
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled" style={{ fontSize: "18px" }}>
+                    <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
