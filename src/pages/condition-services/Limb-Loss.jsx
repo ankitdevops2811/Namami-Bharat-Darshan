@@ -27,29 +27,18 @@ const DifficultyInWalking = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              <h1 className="display-5 mb-0" style={{ fontSize: '26px' }}>
+              <h1 className="display-5 mb-0" style={{ fontSize: '38px' }}>
                 How We Can Help
               </h1>
-              <p className="text-body mb-4">You want to recover what’s most important in your life. We challenge ourselves to innovate ways to make that possible.</p>
+              <p className="text-body mb-4" style={{ fontSize: '22px', textAlign:"justify" }}>You want to recover what’s most important in your life. We challenge ourselves to innovate ways to make that possible.</p>
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.49 PM.jpeg" />
                     <Card.Body>
                       <Card.Title>Renewed Vigor Following a Quadruple Amputation</Card.Title>
                       <Card.Text>
                         Ethan was enjoying his work as a healthcare consultant after graduating from Northwestern. In January 2015 an infection led to a life-changing outcome..
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </div>
-                <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                  <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
-                    <Card.Body>
-                      <Card.Title>Former Miss America Contestant Tries Out Mind-Controlled Bionic Arm</Card.Title>
-                      <Card.Text>
-                        Born without a left forearm, Nicole competed in pageants and became Miss Iowa. She gained a large social following and now shows off a custom-made bionic arm.
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -67,20 +56,20 @@ const DifficultyInWalking = () => {
                 </div>
 
               </div>
-              <a
-                href="appointment.html"
+              {/* <a
+                href="intake-forms"
                 className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
                 data-wow-delay="0.6s"
               >
                 Make Appointment
-              </a>
+              </a> */}
             </div>
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
+                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.57 PM.jpeg"
 
                   style={{ objectFit: "cover" }}
                 />
@@ -96,22 +85,24 @@ const DifficultyInWalking = () => {
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
                   <img
-                    decoding="async"
-                    width="300"
-                    height="300"
+                    // decoding="async"
+                    // width="300"
+                    // height="300"
+                style={{ maxWidth: "100%", maxHeight:"200%" }}
+
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
+                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.53 PM.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="our_programs_details_right">
                   <h3></h3>
-                  <h3>How We Heel</h3>
-                  <p>
+                  <h3 style={{ fontSize: '38px', textAlign:"justify" }}>How We Heel</h3>
+                  <p style={{ fontSize: '22px', textAlign:"justify" }}>
                     At the cutting edge of prosthetics, bionics, and care, our specialized Innovation Center and Ability Lab set patients up for the best possible outcomes.
                   </p>
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled" style={{ fontSize: "18px" }}>
+                    <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -131,8 +122,8 @@ const DifficultyInWalking = () => {
                     </ul>
                   </div>
 
-                  <h3>Science-Driven Care</h3>
-                  <p>
+                  <h3 style={{ fontSize: '38px', textAlign:"justify" }}>Science-Driven Care</h3>
+                  <p style={{ fontSize: '22px', textAlign:"justify" }}>
                     With hundreds of clinical studies under way — some dedicated to the needs of patients with limb loss or impairment — we offer you access to the world’s most advanced research, which can directly impact your outcome. Our prosthetics — including thought-controlled bionic limbs — are revolutionary.
                     <a href="http://www.napacenter.org/contact/">
                       contacting us
@@ -145,7 +136,7 @@ const DifficultyInWalking = () => {
               <div className="our_programs_details_list">
                 <div className="programs_details_list_txt">
 
-                  <b>Clinical Trials & Research Studies</b>
+                  <b style={{ fontSize: '38px', textAlign:"justify" }}>Clinical Trials & Research Studies</b>
                 </div>
                 <div className="program_details_outer_div">
                   <div className="program_details_outer_div">

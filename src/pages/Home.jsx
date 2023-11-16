@@ -78,7 +78,7 @@ const Home = () => {
           <div className="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
             {/* <h3 className="yellow mb-3">Make Appointment</h3> */}
             <a
-              href="appointment.html"
+              href="/intake-forms"
               className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
             >
               Make Appointment
@@ -86,8 +86,8 @@ const Home = () => {
             <b className="text-white mb-3">
               Please Reach out to Mission-Walk Healpline Number and Email
             </b>
-            <h2 className="yellow mb-0">+91 9177300194</h2>
-            <h2 className="yellow mb-0">rehab@missionwalk.in</h2>
+            <h2 className="yellow mb-0" style={{ color: 'yellow' }}>+91 9177300194</h2>
+            <h2 className="yellow mb-0" style={{ color: 'yellow' }}>rehab@missionwalk.in</h2>
           </div>
         </div>
         <div className="container-xxl py-5">
