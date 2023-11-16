@@ -58,7 +58,7 @@ const Navbar = () => {
                   Multiple Sclerosis
                 </Link>
                 <Link to="/conditions/parkinsons" className="dropdown-item">
-                Parkinson's disease
+                Parkinson&apos;s disease
                 </Link>
                 <Link to="/conditions/transverse-myelitis" className="dropdown-item">
                   Transverse Myelitis
@@ -153,7 +153,7 @@ const Navbar = () => {
                   Intensive Registration
                 </Link>
                 <Link to="/intake-forms" className="dropdown-item">
-                  Intake Forms
+                  Intake Form
                 </Link>
                 {/* <Link to="appointment.html" className="dropdown-item">
                   Billing and insurance
@@ -170,7 +170,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <Link
                 to="#"
                 className="nav-link dropdown-toggle"
@@ -192,7 +192,7 @@ const Navbar = () => {
                   Continuing Education
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             {/* <Link to="/" className="nav-item nav-link">Locations</Link>
                 <Link to="/" className="nav-item nav-link">Get Started</Link>
@@ -210,7 +210,7 @@ const Navbar = () => {
             <i className="fa fa-search"></i>
           </button>
           <Link
-            to="appointment.html"
+            to="/intake-forms"
             className="btn btn-primary py-2 px-4 ms-3"
           >
             Appointment
