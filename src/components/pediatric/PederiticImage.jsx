@@ -9,8 +9,8 @@ const PederiticImage = () => {
       <section className="ftco-section bg-light mt-1">
         <div className="container">
           <div className="row justify-content-center mb-5 pb-3">
-            <div className="col-md-12 heading-section ftco-animate text-center">
-              <h2 className="mb-1">Benefit of Physiotherapy</h2>
+            <div className="col-md-12 heading-section ftco-animate text-center animated zoomIn">
+              <h2 className="mb-1 ">Benefit of Physiotherapy</h2>
             </div>
           </div>
           <div className="row">
@@ -23,7 +23,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-end pe-md-4">
+                <div className="text text-md-end pe-md-4 animated zoomIn">
                   {/* <div className="text text-md-end pe-md-4"> */}
                   {/* <h3>Acceptance &amp; Commitment Therapy</h3> */}
                   <h3>Early Intervention</h3>
@@ -41,7 +41,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-end pe-md-4">
+                <div className="text text-md-end pe-md-4 animated zoomIn">
                   <h3 style={{ textAlign: "" }}>Motor Skills Development</h3>
                   <p style={{ textAlign: "justify" }}>
                     Physiotherapy helps children develop and improve motor
@@ -60,7 +60,7 @@ const PederiticImage = () => {
                   />
                   {/* </span> */}
                 </div>
-                <div className="text text-md-end pe-md-4">
+                <div className="text text-md-end pe-md-4 animated zoomIn">
                   <h3>Muscle Strength and Endurance</h3>
                   <p style={{ textAlign: "justify" }}>
                     The therapy sessions are designed to enhance muscle
@@ -77,7 +77,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-end pe-md-4">
+                <div className="text text-md-end pe-md-4 animated zoomIn">
                   <h3>Improves Balance and Coordination</h3>
                   <p style={{ textAlign: "justify" }}>
                     It focuses on activities that improve balance and
@@ -90,7 +90,7 @@ const PederiticImage = () => {
 
             <div className="col-md-4 d-flex">
               <div
-                className="img img-services"
+                className="img img-services animated zoomIn"
                 // className="img img-services w-100"
                 style={{
                   // backgroundImage:
@@ -98,7 +98,7 @@ const PederiticImage = () => {
                 }}
               >
                 <img
-                  src="/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f.JPG"
+                  src="/img-mission/IMG-20231115-WA0057.jpg"
                   alt="img" style={{
                     width: "100%",
                     height: "95%"
@@ -116,7 +116,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-start ps-md-3">
+                <div className="text text-md-start ps-md-3 animated zoomIn">
                   <h3>Respiratory Conditions</h3>
                   <p>
                     Beneficial for children with respiratory issues, helping to
@@ -133,7 +133,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-start ps-md-4">
+                <div className="text text-md-start ps-md-4 animated zoomIn">
                   <h3>Pain Management</h3>
                   <p>
                     Physiotherapy can be beneficial in managing pain associated
@@ -149,7 +149,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-start ps-md-4">
+                <div className="text text-md-start ps-md-4 animated zoomIn">
                   <h3>Post-Surgery Rehabilitation</h3>
                   <p>
                     For children who have undergone surgery, especially
@@ -166,7 +166,7 @@ const PederiticImage = () => {
                     beat
                   />
                 </div>
-                <div className="text text-md-start ps-md-4">
+                <div className="text text-md-start ps-md-4 animated zoomIn">
                   <h3>Neurological Conditions</h3>
                   <p>
                     Is often utilized for children with neurological conditions

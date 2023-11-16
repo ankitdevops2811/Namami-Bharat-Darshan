@@ -42,7 +42,7 @@ const Contact = () => {
                     Get in touch with us
                   </h3> */}
                   <div>
-                    <div className="bg-light rounded h-100 p-5">
+                    <div className="bg-warning rounded h-100 p-5">
                       <div className="section-title">
                         <h5 className="position-relative d-inline-block text-primary text-uppercase">
                           Contact Us
@@ -54,8 +54,22 @@ const Contact = () => {
                       <div className="d-flex align-items-center mb-2">
                         <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                         <div className="text-start">
-                          <h5 className="mb-0">Our Office</h5>
+                          <h5 className="mb-0">Hyderabad</h5>
                           <span>Banjara Hills, Hyderabad, Telangana</span>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center mb-2">
+                        <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                        <div className="text-start">
+                          <h5 className="mb-0">Greater Noida, Uttar Pradesh</h5>
+                          <span>Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308</span>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center mb-2">
+                        <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                        <div className="text-start">
+                          <h5 className="mb-0">Pune, Maharastra</h5>
+                          <span>Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046</span>
                         </div>
                       </div>
                       <div className="d-flex align-items-center mb-2">
@@ -89,19 +103,19 @@ const Contact = () => {
                     Get in touch with us
                   </h3> */}
                   <div>
-                    <div className="bg-light rounded h-100 p-5">
+                    <div className="bg-dark rounded h-100 p-5">
                       <div className="section-title">
-                        <h5 className="position-relative d-inline-block text-primary text-uppercase">
+                        <h5 className="position-relative d-inline-block text-white text-uppercase">
                           Contact Us
                         </h5>
-                        <h1 className="display-6 mb-4">
+                        <h1 className="display-6 mb-4 text-white">
                           FOR REFERRALS + PHYSICIANS
                         </h1>
                       </div>
                       <div className="d-flex align-items-center mb-2">
                         {/* <i className="bi bi-geo-alt fs-1 text-primary me-3"></i> */}
                         <div className="text-start">
-                          <h5 className="mb-0">Refer your patient?</h5>
+                          <h5 className="mb-2 text-white">Refer your patient?</h5>
                           {/* <span>Banjara Hills, Hyderabad, Telangana</span> */}
                         </div>
                       </div>

@@ -7,16 +7,12 @@ import "./paediatry.css";
 export default function Pediatric() {
   return (
     <>
-      {/* <div className="programs_details_list_txt"> */}
       <div>
-        {/* <div
-          className="container-fluid py-1 wow fadeInUp"
-          data-wow-delay="0.1s"
-        > */}
+     
         <div className="container-fluid bg-primary py-5 hero-header mb-5">
           <div className="row py-3">
             <div className="col-12 text-center">
-              <h1 className="display-3 text-white animated zoomIn">
+              <h1 className="display-3 text-white animated zoomIn" style={{fontSize:"18pxl"}}>
                 Pediatric Innovation Center
               </h1>
             </div>
@@ -32,7 +28,7 @@ export default function Pediatric() {
                 <div
                   className="text-center mx-auto mb-5 wow fadeInUp"
                   data-wow-delay="0.1s"
-                  style={{ maxWidth: "600px" }}
+                  style={{ maxWidth: "600px",fontSize:"18pxl" }}
                 >
                   <h1>
                     Elevate Wellness Innovation<sup>™</sup>
@@ -40,7 +36,7 @@ export default function Pediatric() {
                 </div>
               </div>
 
-              <p className="mb-4" style={{ fontSize: "26px" }}>
+              <p className="mb-4 animated zoomIn" style={{ fontSize: "26px", textAlign:"justify" }}>
                 Pediatric primary care is uniquely qualified to serve as a key
                 test bed for translating 21st-century biology and new measures
                 into more effective strategies for strengthening the foundations
@@ -116,7 +112,7 @@ export default function Pediatric() {
           <div className="container">
             <div className="row g-5">
               <div className="col-lg-7">
-                <p className="mb-4" style={{ fontSize: "20px" }}>
+                <p className="mb-4 animated zoomIn" style={{ fontSize: "20px", textAlign:"justify" }}>
                   At Mission Walk AbilityLab, we continue to lead in our
                   comprehensive care for children and adolescents with traumatic
                   injuries, congenital and developmental disorders. We also
@@ -126,7 +122,7 @@ export default function Pediatric() {
                   abuse..
                 </p>
                 <br />
-                <p className="mb-4" style={{ fontSize: "20px" }}>
+                <p className="mb-4 animated zoomIn" style={{ fontSize: "20px", textAlign:"justify" }}>
                   The Pediatric Innovation Center provides state-of-the-art care
                   and features a comfortable, colorful and uplifting atmosphere
                   for young patients, their families and caregivers. Clinicians
@@ -139,7 +135,7 @@ export default function Pediatric() {
                   Centers.
                 </p>
               </div>
-              <div className="col-lg-5" style={{ minHeight: "500px" }}>
+              <div className="col-lg-5 animated zoomIn" style={{ minHeight: "500px" }}>
                 <div className="position-relative h-100">
                   <img
                     className="position-absolute w-100 h-100 rounded wow zoomIn"
@@ -156,10 +152,13 @@ export default function Pediatric() {
 
         {/* </div> */}
         <PederiticImage />
+       
         {/* <PediatricTreat/> */}
         <PediatricPic />
       </div>
+      <div>
       <ContactPagesCard/>
+      </div>
     </>
   );
 }

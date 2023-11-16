@@ -9,7 +9,7 @@ const PaediatricPhysiotherapy = () => {
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
-              Paediatric Physiotherapy
+             Intensive Pediatric Physiotherapy
             </h1>
           </div>
         </div>
@@ -25,20 +25,20 @@ const PaediatricPhysiotherapy = () => {
                   data-wow-delay="0.1s"
                   style={{ maxWidth: "600px" }}
                 >
-                  <h1 style={{ fontSize: "38px" }}>Paediatric Physiotherapy</h1>
+                  <h1 style={{ fontSize: "38px" }}> Intensive Pediatric Physiotherapy</h1>
                 </div>
               </div>
-              <p className="mb-4" style={{ fontSize: "22px" }}>
-                Mission Walk takes an intensive approach to paediatric
+              <p className="mb-4 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
+                Mission Walk takes an intensive approach to pediatric
                 physiotherapy using the NeuroSuit and Multifunctional Therapy
-                Units.At Mission Walk Centre, our highly trained paediatric
+                Units.At Mission Walk Centre, our highly trained pediatric
                 physiotherapists challenge the child in a loving environment,
                 pushing their performance and helping them achieve new
                 developmental milestones. All of our therapists –physical,
                 speech, and occupational—work with each other and with family
                 members to assess each child’s current functioning level. Then
                 they create an individualised plan to help each child achieve
-                optimal results. We offer paediatric physiotherapy in both
+                optimal results. We offer pediatric physiotherapy in both
                 weekly and intensive settings.
               </p>
             </span>
@@ -69,14 +69,13 @@ const PaediatricPhysiotherapy = () => {
                   style={{ color: "darkgoldenrod" }}
                 >
                   {" "}
-                  Intensive Paediatric Physiotherapy
+                  Intensive Pediatric Physiotherapy
                 </span>
               </h1>
-              <p className="p-2" style={{ fontSize: "18px" }}>
+              <p className="p-2 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
                 We take an intensive approach to physiotherapy with each child’s
                 plan
-                {/* consisting of 30 to 60 hours of vigorous therapy in just 3
-                weeks  */}
+               
                 using the NeuroSuit and Universal Exercise Units. This highly
                 effective method of treatment uses cutting-edge methods to
                 challenge the child and achieve new physical abilities. The
@@ -86,22 +85,13 @@ const PaediatricPhysiotherapy = () => {
                 participate in a variety of dynamic balance activities in the
                 Multifunctional Therapy Unit, also called the SpiderCage.
               </p>
-              {/* <p className="mb-5" style={{ fontSize: "18px" }}>
-                Our patients also participate in a variety of dynamic balance
-                activities in the Multifunctional Therapy Unit, also called the
-                SpiderCage. These include transitioning from sitting to
-                quadruped, quadruped to kneeling, and transition all the way to
-                standing with the assistance of bungee cords attached to the
-                patient from four angles. This equipment is referred to as the
-                “SpiderCage” due to the eight bungees used to assist the
-                patient.
-              </p> */}
-              <p className="mb-5" style={{ fontSize: "18px" }}>
+
+              <p className="mb-5 animated zoomIn" style={{ fontSize: "22px" }}>
                 Physiotherapy can benefit your child if he/she is experiencing
                 or has experienced:
               </p>
               <div>
-                <ul className="list-unstyled" style={{ fontSize: "18px" }}>
+                <ul className="list-unstyled animated zoomIn" style={{ fontSize: "20px" }}>
                   <li>
                     <i className="bi bi-check-circle text-success me-2"></i>
                     Prematurity
@@ -166,7 +156,7 @@ const PaediatricPhysiotherapy = () => {
               </div>
             </div>
             <div
-              className="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end"
+              className="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end animated zoomIn"
               data-aos="fade-right"
               data-aos-offset="200"
             >
@@ -178,7 +168,7 @@ const PaediatricPhysiotherapy = () => {
                 style={{ width: "80%" }}
               /> */}
               <img
-                src="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
+                src="/img-mission/IMG-20231115-WA0042.jpg"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
@@ -215,9 +205,9 @@ const PaediatricPhysiotherapy = () => {
       {/* next 1*/}
       <section className="services py-5 bg-light" id="services">
         <div className="container">
-          <div className="text-center my-5">
+          <div className="text-center my-5 animated zoomIn" >
             <h2>
-              Paediatric physiotherapy services may help improve a child’s:
+              Pediatric physiotherapy services may help improve a child’s:
             </h2>
           </div>
           <div className="row" data-aos="zoom-in-up" data-aos-offset="200">
@@ -225,29 +215,29 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-4">Range of Motion</h5>
-                  <p className="card-text">
+                  <h5 className="card-title mb-4 animated zoomIn">Range of Motion</h5>
+                  <p className="card-text animated zoomIn">
                     This can include immature or decreased motor control.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 {/* <div className="card bg-primary text-white"> */}
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Strength</h5>
-                  <p className="card-text">Strength against gravity </p>
+                  <p className="card-text animated zoomIn">Strength against gravity </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title">Balance</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Ability to maintain balance (tilting and righting responses)
                     and to keep oneself from falling (protective responses).
                   </p>
@@ -260,12 +250,12 @@ const PaediatricPhysiotherapy = () => {
             data-aos="zoom-in-down"
             data-aos-offset="200"
           >
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Reflexes</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Automatic responses seen particularly in infants (palmar
                     grasp, positive support, asymmetrical tonic neck reflex
                     [ATNR] and labyrinthine)
@@ -273,7 +263,7 @@ const PaediatricPhysiotherapy = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
@@ -284,12 +274,12 @@ const PaediatricPhysiotherapy = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Tone</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Natural resistance in a muscle (increased tone is stiffness
                     and decreased tone is floppiness)
                   </p>
@@ -302,8 +292,8 @@ const PaediatricPhysiotherapy = () => {
       {/* next 2 */}
       <section className="services py-5 bg-light" id="services">
         <div className="container">
-          <div className="text-center my-5">
-            <h2>Paediatric physiotherapy services for children may include:</h2>
+          <div className="text-center my-5 animated zoomIn">
+            <h2>Pediatric physiotherapy services for children may include:</h2>
           </div>
           <div className="row" data-aos="zoom-in-up" data-aos-offset="200">
             <div className="col-sm-12 col-md-4 col-lg-4 col-12">
@@ -311,7 +301,7 @@ const PaediatricPhysiotherapy = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Exercise</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Stretching and strengthening activities and exercises to
                     increase a child’s range and quality of movement
                   </p>
@@ -321,25 +311,25 @@ const PaediatricPhysiotherapy = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 {/* <div className="card bg-primary text-white"> */}
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Movement</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Establishing or reshaping movement patterns to follow normal
                     development{" "}
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Equilibrium Improvement</h5>
-                  <p className="card-text">
+                  <h5 className="card-title mb-5 animated zoomIn">Equilibrium Improvement</h5>
+                  <p className="card-text animated zoomIn">
                     Improving balance and equilibrium skills
                   </p>
                 </div>
@@ -355,8 +345,17 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Posture Training</h5>
-                  <p className="card-text">Improving postural control </p>
+                  <h5 className="card-title mb-5 animated zoomIn">Posture Training</h5>
+                  <p className="card-text animated zoomIn">Improving postural control </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-4 col-lg-4 col-12 animated zoomIn">
+              <div className="card border-0">
+                <div className="card-body">
+                  <i className="bi bi-check-circle fs-4 text-success me-2"></i>
+                  <h5 className="card-title mb-5 animated zoomIn">Gait Trainng</h5>
+                  <p className="card-text animated zoomIn">Gait training (walking)</p>
                 </div>
               </div>
             </div>
@@ -364,17 +363,8 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5">Gait Trainng</h5>
-                  <p className="card-text">Gait training (walking)</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-4 col-lg-4 col-12">
-              <div className="card border-0">
-                <div className="card-body">
-                  <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-4">Orthopedics</h5>
-                  <p className="card-text">
+                  <h5 className="card-title mb-4 animated zoomIn">Orthopedics</h5>
+                  <p className="card-text animated zoomIn">
                     Evaluating the need for adaptive equipment and orthopedic
                     devices.
                   </p>
@@ -395,11 +385,11 @@ const PaediatricPhysiotherapy = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="classes w-100 ftco-animate">
+            <div className="col-md-4 animated zoomIn">
+              <div className="classes w-100 ftco-animate animated zoomIn">
                 <img
-                  className="img w-100 mb-3"
-                  src="/mission-walk-images/01d7efce-a2a8-4b59-8aa6-0cae2d309c8f.JPG"
+                  className="img w-100 mb-3 animated zoomIn"
+                  src="/img-mission/IMG-20231115-WA0049.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -408,8 +398,8 @@ const PaediatricPhysiotherapy = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
-                  src="/mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG"
+                  className="img w-100 mb-3 animated zoomIn"
+                  src="/img-mission/IMG-20231115-WA0046.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -418,8 +408,8 @@ const PaediatricPhysiotherapy = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
-                  src="/mission-walk-images/40c76480-e6a3-4d86-82b0-11aaf28f805f.JPG"
+                  className="img w-100 mb-3 animated zoomIn"
+                  src="/img-mission/IMG-20231115-WA0053.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -430,28 +420,28 @@ const PaediatricPhysiotherapy = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
-                  src="/mission-walk-images/146ab0f6-8f2e-4fb9-9514-a4f3fcbded92.JPG"
+                  className="img w-100 mb-3 animated zoomIn"
+                  src="/img-mission/IMG-20231115-WA0052.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
             <div className="col-md-4">
-              <div className="classes w-100 ftco-animate">
+              <div className="classes w-100 ftco-animate animated zoomIn">
                 <img
                   className="img w-100 mb-3"
-                  src="/mission-walk-images/220c397d-73eb-4ddb-84de-4264a57cd98f.JPG"
+                  src="/img-mission/IMG-20231115-WA0048.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
             <div className="col-md-4">
-              <div className="classes w-100 ftco-animate">
+              <div className="classes w-100 ftco-animate animated zoomIn">
                 <img
-                  className="img w-100 mb-3"
-                  src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
+                  className="img w-100 mb-3 animated zoomIn"
+                  src="/img-mission/IMG-20231115-WA0054.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -459,6 +449,12 @@ const PaediatricPhysiotherapy = () => {
             </div>
           </div>
         </div>
+        <div className="video-iframe-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PbbWYtHpz6k?si=pftCnBlHAHi19TK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                     
+                    </iframe>
+                             </div>
       </section>
       {/* End */}
       <ContactPagesCard />
