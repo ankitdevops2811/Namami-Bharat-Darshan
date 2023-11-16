@@ -12,10 +12,10 @@ const Courousel = () => {
               <div className="carousel-item active">
                 <img
                   className="w-100 h-10"
-                  src="img/4c747fa9-0cfc-4212-8bf3-75a3d076d71f 2.JPG"
+                  src="img-mission/IMG-20231115-WA0019.jpg"
                   alt="Image"
                   // height="300px"
-                  style={{ height: "537px" }}
+                  style={{ height: "700px" }}
                 />
                 <div
                   className="
@@ -53,7 +53,8 @@ const Courousel = () => {
                   className="w-100 h-10"
                   src="img/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
                   alt="Image"
-                  style={{ height: "537px" }}
+                  style={{ height: "700px" }}
+
                 />
                 <div
                   className="
@@ -96,7 +97,8 @@ const Courousel = () => {
                   className="w-100 h-10"
                   src="img/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
                   alt="Image"
-                  style={{ height: "537px" }}
+                  style={{ height: "700px" }}
+                  
                 />
                 <div
                   className="
@@ -137,7 +139,7 @@ const Courousel = () => {
                   className="w-100 h-10"
                   src="img/18a1ff5a-3b2d-42fd-94fa-b2af0db95c48.JPG"
                   alt="Image"
-                  style={{ height: "537px" }}
+                  style={{ height: "700px" }}
                 />
                 <div
                   className="
@@ -179,7 +181,7 @@ const Courousel = () => {
                   className="w-100 h-10"
                   src="img/3918ca38-e19b-4cc4-84c0-9ef4aadd6800.JPG"
                   alt="Image"
-                  style={{ height: "537px" }}
+                  style={{ height: "700px" }}
                 />
                 <div
                   className="
