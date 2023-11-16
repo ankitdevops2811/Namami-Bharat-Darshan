@@ -23,7 +23,7 @@ const Galileo = () => {
         </div>
       </div>
 
-      {/* <!--Inner Banner end--> */}
+      {/* <!--Inner Banner end-->// */}
       {/* <!--Inner Content--> */}
       <div className="inner_content our_programs_details">
         <div className="container">
