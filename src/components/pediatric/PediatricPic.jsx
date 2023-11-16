@@ -11,7 +11,7 @@ const PediatricPic = () => {
         <div className="container-fluid px-md-5">
           <div className="row justify-content-center mb-5 pb-3">
             <div className="col-md-7 heading-section ftco-animate text-center">
-              <h2 className="mb-1">Paediatric Session's Captures</h2>
+              <h2 className="mb-1">Pediatric Session's Captures</h2>
             </div>
           </div>
           <div className="row">
@@ -125,6 +125,19 @@ const PediatricPic = () => {
             </div>
           </div>
         </div>
+        <div className="video-iframe-container animated zoomIn">
+          <h1>Please Have a Look On Process How we Treat</h1>
+                    
+          <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/04-e3yhQ9k8?si=m7rTqNPjjyi9cVFd"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
+                  </div>
       </section>
     </>
   );

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./components/Contact";
 import Layout from "./components/Layout";
 // import Register from "./components/register-form";
+import Register from "./components/register-form";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Service from "./pages/Service";
@@ -18,22 +19,27 @@ import Neurosuit from "./pages/therapy-tools/Neurosuit";
 import Spidercage from "./pages/therapy-tools/Spidercage";
 import TherapyTools from "./pages/therapy-tools/TherapyTools";
 import Theratogs from "./pages/therapy-tools/Theratogs";
-import Register from "./components/register-form";
 import "./style.css";
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 // import { useEffect } from "react";
 import Location from "./pages/Location";
-import Stroke from "./pages/condition-services/Stroke-Recovery";
-import Spinal from "./pages/condition-services/Spinal-Cord";
-import Brain from "./pages/condition-services/Brain-Injury";
+import ReferPatient from "./pages/ReferPatient";
 import BalanceMobility from "./pages/condition-services/BalanceMobility";
+import Brain from "./pages/condition-services/Brain-Injury";
 import CerebralPalsy from "./pages/condition-services/CerebralPalsy";
-import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
-import ParkinsonsDisease from "./pages/condition-services/ParkinsonsDisease";
-import TransverseMyelitis from "./pages/condition-services/TransverseMyelitis";
-import MotorNeuron from "./pages/condition-services/PainManagement";
 import DifficultyInWalking from "./pages/condition-services/Limb-Loss";
+import MotorNeuron from "./pages/condition-services/PainManagement";
+import ParkinsonsDisease from "./pages/condition-services/ParkinsonsDisease";
+import Spinal from "./pages/condition-services/Spinal-Cord";
+import Stroke from "./pages/condition-services/Stroke-Recovery";
+import TransverseMyelitis from "./pages/condition-services/TransverseMyelitis";
+import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
+import IntakeForm from "./pages/get-started/IntakeForm";
+import Questions from "./pages/get-started/Questions";
+import RegistrationProcess from "./pages/get-started/RegistrationProcess";
+import OurVedios from "./pages/ourVideo"
+
 // import ChatBot from '../src/pages/chatBot';
 
 function App() {
@@ -80,15 +86,44 @@ function App() {
             <Route path="conditions/stroke-recovery" element={<Stroke />} />
             <Route path="spinal" element={<Spinal />} />
             <Route path="brain" element={<Brain />} />
-            <Route path="conditions/balance-mobility" element={<BalanceMobility />} />
-            <Route path="conditions/cerebral-palsy" element={<CerebralPalsy />} />
-            <Route path="conditions/multiple-sclerosis" element={<MultipleSclerosis />} />
-            <Route path="conditions/parkinsons" element={<ParkinsonsDisease />} />
-            <Route path="conditions/transverse-myelitis" element={<TransverseMyelitis />} />
-            <Route path="conditions/pain-management" element={<MotorNeuron />} />
-            <Route path="conditions/difficulty-in-walking" element={<DifficultyInWalking />} />
+            <Route
+              path="conditions/balance-mobility"
+              element={<BalanceMobility />}
+            />
+            <Route
+              path="conditions/cerebral-palsy"
+              element={<CerebralPalsy />}
+            />
+            <Route
+              path="conditions/multiple-sclerosis"
+              element={<MultipleSclerosis />}
+            />
+            <Route
+              path="conditions/parkinsons"
+              element={<ParkinsonsDisease />}
+            />
+            <Route
+              path="conditions/transverse-myelitis"
+              element={<TransverseMyelitis />}
+            />
+            <Route
+              path="conditions/pain-management"
+              element={<MotorNeuron />}
+            />
+            <Route
+              path="conditions/difficulty-in-walking"
+              element={<DifficultyInWalking />}
+            />
+            {/* get-started-page */}
+            <Route path="/intake-forms" element={<IntakeForm />} />
+            <Route
+              path="/registration-process"
+              element={<RegistrationProcess />}
+            />
+            <Route path="/Frequently-asked-questions" element={<Questions />} />
             {/* <Route path="chatbot" element={<ChatBot />} /> */}
-
+            <Route path="/refer-patient" element={<ReferPatient />} />
+            <Route path="/refer-patient/our-vedios" element={<OurVedios />} />
           </Route>
         </Routes>
       </BrowserRouter>

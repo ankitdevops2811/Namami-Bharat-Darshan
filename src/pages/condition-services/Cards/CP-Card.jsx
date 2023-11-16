@@ -1,15 +1,14 @@
 import React from "react";
-import CustomCard from "../../../components/Card";
 import ConditionCard from "../../../components/conditionCard";
 // import CustomCard from "../../components/Card";
-
 
 const CpCard = () => {
   return (
     <section
       className="services py-5"
       id="services"
-      style={{ backgroundColor: "aliceblue" }}
+      // style={{ backgroundColor: "aliceblue" }}
+      style={{ width: "120%" }}
     >
       {/* <div
         className="container-xxl py-5"
@@ -49,7 +48,8 @@ const cpData = [
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Robot Based Gait Training Therapy for Pediatric Population with Cerebral Palsy",
+    title:
+      "Robot Based Gait Training Therapy for Pediatric Population with Cerebral Palsy",
     text: "This study is looking for children with Cerebral Palsy to wear an robotic exoskeleton to help improve walking ability.",
     // linkTo: "/pediatric-physiotherapy",
   },
@@ -60,5 +60,5 @@ const cpData = [
     title: "Children with Cerebral Palsy - Trunk Control and Walking Study",
     text: "The primary purpose for this study is to determine the effects of a robotic training on trunk control and walking ability in children with cerebral palsy.",
     // linkTo: "/page1",
-  },//css for adding 4 cards <div key={index} className="col-lg-3 col-md-6 mb-4">
+  }, //css for adding 4 cards <div key={index} className="col-lg-3 col-md-6 mb-4">
 ];

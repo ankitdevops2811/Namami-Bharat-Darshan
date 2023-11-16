@@ -60,7 +60,7 @@ const Functional_Estim = () => {
                     Electrical stimulation can be used on all parts of the body
                     including the back, legs, feet, arms and hands and is
                     integrated into occupational, physical and speech therapy
-                    sessions at NAPA Center.
+                    sessions at Our Center.
                   </p>
                 </div>
                 <div className="clearfix"></div>

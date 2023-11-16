@@ -1,16 +1,10 @@
 import React from "react";
-import CustomCard from "../../../components/Card";
 import ConditionCard from "../../../components/conditionCard";
 // import CustomCard from "../../components/Card";
 
-
 const LimbCard = () => {
   return (
-    <section
-      className="services py-5"
-      id="services"
-      style={{ backgroundColor: "aliceblue" }}
-    >
+    <section className="services py-5" id="services" style={{ width: "120%" }}>
       {/* <div
         className="container-xxl py-5"
         style={{ backgroundColor: "aliceblue" }}
@@ -53,6 +47,4 @@ const limbData = [
     text: "This study is exploring what factors may impact function using a prosthesis.",
     // linkTo: "/pediatric-physiotherapy",
   },
-
-  
 ];

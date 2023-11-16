@@ -1,22 +1,21 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
-import strokeCards from "./Cards/Stroke-Card";
+// import CardGroup from "react-bootstrap/CardGroup";
+// import strokeCards from "./Cards/Stroke-Card";
 import StrokeCards from "./Cards/Stroke-Card";
 import ContactPagesCard from "../../components/contactPagesCard";
 
 const Stroke = () => {
   return (
     <>
-      {/* <div>About</div> */}
-      {/* <!-- Hero Start --> */}
+      {/* Stroke Heading Corosel */}
+      {/* <!-- Start --> */}
       <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
               Stroke Recovery
             </h1>
-            {/* <a href="" className="h4 text-white">Home</a> */}
             <i className="far fa-circle text-white px-2"></i>
             <p className="h4 text-white">
               The sooner you start rehabilitation, the greater potential for
@@ -28,22 +27,19 @@ const Stroke = () => {
           </div>
         </div>
       </div>
-      {/* <!-- Hero End --> */}
+      {/* <!--End --> */}
 
-      {/* <!-- About Start --> */}
+      {/* ****** <!-- Stroke Content Start -->****** */}
 
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              {/* <p className="mb-4" style={{ fontSize: '18px' }}>
-                The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
-                </p> */}
-              <h1 className="display-5 mb-4" style={{ fontSize: "35px" }}>
+              <h1 className="display-5 mb-4" style={{ fontSize: "38px" }}>
                 Programs, Services & Patients
               </h1>
 
-              <p className="text-body mb-4" style={{ fontSize: "20px" }}>
+              <p className="text-body mb-4" style={{ fontSize: "22px", textAlign:"justify" }}>
                 You want to recover what’s most important in your life — be it
                 mobility, independence, wlking, swallowing or speaking again.
                 Together we reach for those goals.
@@ -62,7 +58,7 @@ const Stroke = () => {
                         hospitals and why our outcomes for stroke patients are
                         exceptional.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
@@ -75,7 +71,7 @@ const Stroke = () => {
                         Our wide array of services for stroke patients will help
                         you and your family navigate your recovery.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
@@ -93,13 +89,17 @@ const Stroke = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/img/mission-walk-hyderabad-5cf92914afb61.jpeg"
-                  //   src="img/strokerecovery.jpg"
+                    decoding="async"
+                    width="700"
+                    height="100"
+                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (1).jpeg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
             </div>
           </div>
+        <hr className="hr mb-0 mt-5" />
+
         </div>
       </div>
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -108,88 +108,33 @@ const Stroke = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  {/* <p>
-                    The NeuroSuit frames the body providing support and
-                    resistance simultaneously. It facilitates proper movement
-                    and provides additional weight bearing distributed
-                    strategically throughout the body.
-                  </p> */}
                   <img
-                    decoding="async"
-                    // fetchpriority="high"
-                    width="300"
-                    height="300"
-                    className="position-absolute w-400 h-50 rounded wow aligncenter"
-                    src="/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f 2.JPG"
-                    // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
+                    // decoding="async"
+                    // width="700"
+                    // height="100"
+                style={{ maxWidth: "100%", maxHeight:"100%" }}
+
+                    className="w-700 h-200 rounded wow aligncenter"
+                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.45 PM.jpeg"
                     alt=""
                   />
-                </div>
-                <div className="our_programs_details_right">
-                  {/* <p>
-                    The NeuroSuit is one of the pillars of our three-week
-                    <a
-                      href="https://napacenter.org/our-programs/intensive-therapy/"
-                      target="_blank"
-                      // rel="noopener"
-                      rel="noreferrer"
-                    >
-                      intensive therapy program
-                    </a>
-                    . The NeuroSuit is worn for two-hour periods under the
-                    supervision of our highly trained physical and occupational
-                    therapists. It is made of a vest, shorts, knee and elbow
-                    pads, gloves, shoe attachments, and a hat if necessary. All
-                    these pieces are interlocked by bungee type cords. These
-                    cords assist with proper alignment of the body and
-                    essentially frame the body from the outside (external
-                    skeleton).
-                  </p> */}
-                  <h3></h3>
+            {/* <hr className="w-25 m-auto" /> */}
+        <hr className="hr mb-0 mt-5" />
 
-                  <h3>How We Heel</h3>
-                  <p>
+
+                </div>
+                <div className="our_programs_details_right" >
+                  <h3></h3>
+                  <h3 style={{fontSize:"38px"}}>How We Heel</h3>
+                  <p style={{fontSize:"22px"}}>
                     Our integrated team of physicians, nurses, therapists,
                     researchers and case managers understand the most complex
                     injuries. They create programs for each patient – tailored
                     to your individual goals. Therapy may take place in one or
                     several ability labs.
                   </p>
-
-                  {/* <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <Card style={{ width: "18rem" }}> */}
-                  {/* <Card.Img variant="top" src="/img/price-1.jpg" /> */}
-                  {/* <Card.Body>
-                        <Card.Title>Legs + Walking Lab</Card.Title>
-                      </Card.Body>
-                    </Card>
-                  </div> */}
-                  {/* <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <Card style={{ width: "18rem" }}> */}
-                  {/* <Card.Img variant="top" src="/img/testimonial-1.jpg" /> */}
-                  {/* <Card.Body>
-                        <Card.Title>Arms + Hands Lab</Card.Title>
-                      </Card.Body>
-                    </Card>
-                  </div> */}
-                  {/* <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <Card style={{ width: "18rem" }}> */}
-                  {/* <Card.Img variant="top" src="/img/testimonial-1.jpg" /> */}
-                  {/* <Card.Body>
-                        <Card.Title>Strength + Endurance Lab</Card.Title>
-                      </Card.Body>
-                    </Card>
-                  </div> */}
-                  {/* <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <Card style={{ width: "18rem" }}> */}
-                  {/* <Card.Img variant="top" src="/img/testimonial-1.jpg" /> */}
-                  {/* <Card.Body>
-                        <Card.Title>Think + Speak Lab</Card.Title>
-                      </Card.Body>
-                    </Card>
-                  </div> */}
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul  className="list-unstyled" style={{fontSize:"18px"}}>
+                    <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -207,9 +152,13 @@ const Stroke = () => {
                         Think + Speak Lab
                       </li>
                     </ul>
+                    <br>
+                    </br>
+                    <br>
+                    </br>
                   </div>
-                  <h3>Science-Driven Care</h3>
-                  <p>
+                  <h3 style={{fontSize:"38px"}}>Science-Driven Care</h3>
+                  <p style={{fontSize:"22px"}}>
                     With nearly 200 clinical trials and research studies
                     specifically dedicated to improving function and recovery
                     from stroke (including treatment for aphasia) — we offer you
@@ -226,7 +175,6 @@ const Stroke = () => {
               <div className="our_programs_details_list">
                 <div
                   className=""
-                  // style={{ backgroundColor: "aliceblue" }}
                 >
                   <div
                     className="programs_details_list_txt"
@@ -238,16 +186,21 @@ const Stroke = () => {
                     <StrokeCards />
                   </div>
                 </div>
-              
               </div>
             </div>
           </div>
+          <div className="video-iframe-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Eqy8ED0UB0?si=NpARaOEP2GbQUUYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                     
+                    </iframe>
+                             </div>
         </div>
       </div>
-      {/* <ContactPagesCard /> */}
       {/* <!-- About End --> */}
-      <ContactPagesCard />
 
+      {/* Contact Card /> */}
+      <ContactPagesCard />
     </>
   );
 };

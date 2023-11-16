@@ -8,7 +8,11 @@ const Topbar = () => {
           <div className="row gx-0">
               <div className="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                   <div className="d-inline-flex align-items-center">
-                      <small className="py-2"><i className="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Sat : 8.00 am - 8.00 pm, Sunday Closed </small>
+                      <small className="py-2"><i className="far fa-clock text-primary me-2" ></i>
+                      <strong style={{ fontSize: "18px" }}>
+                      Opening Hours: Mon - Sat : 8.00 am - 8.00 pm, Sunday Closed
+                      </strong>
+                       </small>
                   </div>
               </div>
               <div className="col-md-6 text-center text-lg-end">

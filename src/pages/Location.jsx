@@ -117,7 +117,42 @@ const servicesData = [
     location: "/pune-3.jpeg",
     number: "+91 9177300194",
     // location: "/pune.jpg",
+  },
+
+  {
+    icon: "fa-brain",
+    title: "Chennai",
+    description:
+      "Opening Soon",
+    delay: "0.1s",
+    to: "/",
+    location: "/pune-3.jpeg",
+    number: "+91 9177300194",
+    // location: "/pune.jpg",
+  },
+  {
+    icon: "fa-brain",
+    title: "Banglore",
+    description:
+      "Opening Soon",
+    delay: "0.1s",
+    to: "/",
+    location: "/pune-3.jpeg",
+    number: "+91 9177300194",
+    // location: "/pune.jpg",
+  },
+  {
+    icon: "fa-brain",
+    title: "Kerala",
+    description:
+      "Opening Soon",
+    delay: "0.1s",
+    to: "/",
+    location: "/pune-3.jpeg",
+    number: "+91 9177300194",
+    // location: "/pune.jpg",
   }
+
 ];
 
 // const videoData = [

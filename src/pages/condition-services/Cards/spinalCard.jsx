@@ -6,7 +6,7 @@ const SpinalCards = () => {
     <section
       className="services py-5"
       id="services"
-      style={{ backgroundColor: "aliceblue" }}
+      style={{width:"120%"}}
     >
      
 
@@ -31,19 +31,19 @@ const cardData = [
     title:
       "A Multi-Center Clinical Trial to Evaluate the Effectiveness of Intermittent Hypoxia Therapy in Individuals with SCI",
     text: "A study to investigate the effectiveness of daily acute intermittent hypoxia therapy (dAIH), coupled with a massed practice intervention or the use of high repetition training.",
-    linkTo: "/pediatric-occupational",
+    // linkTo: "/pediatric-occupational",
   },
   {
     imageSrc: "/img/mission-walk-hyderabad-5cf92914afb61.jpeg",
     title:
       "Locomotor function following transcutaneous electrical spinal cord stimulation in individuals with hemiplegic stroke",
     text: "This study is looking for persons who have had a stroke to determine if spinal stimulation helps improve walking ability.",
-    linkTo: "/pediatric-physiotherapy",
+    // linkTo: "/pediatric-physiotherapy",
   },
   {
     imageSrc: "/img/mission-walk-hyderabad-5cf92914afb61.jpeg",
     title: "Repetitive Acute Intermittent Hypoxia for Spinal Cord Repair",
     text: "This research is being conducted to study the effects of breathing low oxygen air (hypoxia) and exercise training on recovery of upper limb (arms and hands) and lower limb (legs) function in people with spinal cord injury.",
-    linkTo: "/pediatric-speech",
+    // linkTo: "/pediatric-speech",
   },
 ];

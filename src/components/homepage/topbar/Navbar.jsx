@@ -29,7 +29,8 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto py-0">
             <Link to="/" className="nav-item nav-link active">
-              Home
+              <strong> Home</strong>
+             
             </Link>
             <Link to="/about" className="nav-item nav-link">
               About Us
@@ -57,18 +58,18 @@ const Navbar = () => {
                   Multiple Sclerosis
                 </Link>
                 <Link to="/conditions/parkinsons" className="dropdown-item">
-                Parkinson's disease
+                Parkinson&apos;s disease
                 </Link>
-                <Link to="/conditions/transverse-myelitis" className="dropdown-item">
+                {/* <Link to="/conditions/transverse-myelitis" className="dropdown-item">
                   Transverse Myelitis
-                </Link>
+                </Link> */}
                 <Link to="/conditions/cerebral-palsy" className="dropdown-item">
                   Cerebral Palsy
                 </Link>
               
-                <Link to="/conditions/balance-mobility" className="dropdown-item">
+                {/* <Link to="/conditions/balance-mobility" className="dropdown-item">
                   Balance and Mobility Issues
-                </Link>
+                </Link> */}
                 <Link to="/conditions/pain-management" className="dropdown-item">
                   Pain Management
                 </Link>
@@ -148,34 +149,28 @@ const Navbar = () => {
                 Get Started
               </Link>
               <div className="dropdown-menu m-0">
-                <Link to="price.html" className="dropdown-item">
+                <Link to="/registration-process" className="dropdown-item">
                   Intensive Registration
                 </Link>
-                <Link to="team.html" className="dropdown-item">
-                  Process
+                <Link to="/intake-forms" className="dropdown-item">
+                  Intake Form
                 </Link>
-                <Link to="testimonial.html" className="dropdown-item">
-                  Intake Forms
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                {/* <Link to="appointment.html" className="dropdown-item">
                   Billing and insurance
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                </Link> */}
+                {/* <Link to="appointment.html" className="dropdown-item">
                   Grant options
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                </Link> */}
+                <Link to="/Frequently-asked-questions" className="dropdown-item">
                   Frequently Asked
                 </Link>
-                <Link to="appointment.html" className="dropdown-item">
-                  Covid-19 & illness
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
+                {/* <Link to="appointment.html" className="dropdown-item">
                   Clinic policies
-                </Link>
+                </Link> */}
               </div>
             </div>
 
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <Link
                 to="#"
                 className="nav-link dropdown-toggle"
@@ -197,7 +192,7 @@ const Navbar = () => {
                   Continuing Education
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             {/* <Link to="/" className="nav-item nav-link">Locations</Link>
                 <Link to="/" className="nav-item nav-link">Get Started</Link>
@@ -215,7 +210,7 @@ const Navbar = () => {
             <i className="fa fa-search"></i>
           </button>
           <Link
-            to="appointment.html"
+            to="/intake-forms"
             className="btn btn-primary py-2 px-4 ms-3"
           >
             Appointment

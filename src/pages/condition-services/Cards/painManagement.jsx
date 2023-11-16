@@ -1,16 +1,10 @@
 import React from "react";
-import CustomCard from "../../../components/Card";
 import ConditionCard from "../../../components/conditionCard";
 // import CustomCard from "../../components/Card";
 
-
 const PainManagement = () => {
   return (
-    <section
-      className="services py-5"
-      id="services"
-      style={{ backgroundColor: "aliceblue" }}
-    >
+    <section className="services py-5" id="services" style={{ width: "120%" }}>
       {/* <div
         className="container-xxl py-5"
         style={{ backgroundColor: "aliceblue" }}
@@ -49,7 +43,8 @@ const painData = [
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "D-Cycloserine for the Treatment of Chronic, Refractory Low Back Pain",
+    title:
+      "D-Cycloserine for the Treatment of Chronic, Refractory Low Back Pain",
     text: "This clinical trial is to evaluate the efficacy and safety of D-cycloserine versus placebo in relieving the signs and symptoms of patients with chronic lower back pain",
     // linkTo: "/pediatric-physiotherapy",
   },
@@ -59,5 +54,4 @@ const painData = [
     text: "The aim of this project is to develop a registry of research volunteers for recruitment purposes at the Center for Rehabilitation Outcomes Research.",
     // linkTo: "/pediatric-physiotherapy",
   },
-  
 ];
