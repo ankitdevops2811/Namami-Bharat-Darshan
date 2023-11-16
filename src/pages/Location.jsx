@@ -143,7 +143,7 @@ const servicesData = [
   },
   {
     icon: "fa-brain",
-    title: "Kerla",
+    title: "Kerala",
     description:
       "Opening Soon",
     delay: "0.1s",

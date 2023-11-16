@@ -41,19 +41,19 @@ const StrokeCards = () => {
 export default StrokeCards;
 const cardData = [
   {
-    imageSrc: "/mission-walk-images/620b6bc0-2526-4f8e-9dd7-f7bf1892ae4f 2.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.51 PM.jpeg",
     title: "Locomotor function following transcutaneous electrical spinal cord stimulation in individuals with hemiplegic stroke",
     text: "This study is looking for persons who have had a stroke to determine if spinal stimulation helps improve walking ability.",
     linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (2).jpeg",
     title: "An Exploration of Acute Intermittent Hypoxia as a tool to Enhance Neural Recovery in Stroke Survivors; a pilot safety study.",
     text: "This is a Phase I safety study. Our plan consists of dose-escalation exposures with continual assessment of hypoxic conditioning impact in individuals with chronic stroke.",
     linkTo: "/pediatric-physiotherapy",
   },
   {
-    imageSrc: "/mission-walk-images/06c8b886-0988-43f5-b120-7779c48e6cf3.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.54 PM.jpeg",
     title: "Improving Arm Movement Using Wearable Device After Stroke",
     text: "Mission-Walk is evaluating a new rehab therapy using wearable devices and a video game interface to improve arm movement after stroke. Participants use these wearable devices, called myoelectric computer interfaces, to play video games using their arm muscles.",
     linkTo: "/pediatric-speech",

@@ -35,11 +35,11 @@ const Stroke = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              <h1 className="display-5 mb-4" style={{ fontSize: "35px" }}>
+              <h1 className="display-5 mb-4" style={{ fontSize: "38px" }}>
                 Programs, Services & Patients
               </h1>
 
-              <p className="text-body mb-4" style={{ fontSize: "20px" }}>
+              <p className="text-body mb-4" style={{ fontSize: "22px", textAlign:"justify" }}>
                 You want to recover what’s most important in your life — be it
                 mobility, independence, wlking, swallowing or speaking again.
                 Together we reach for those goals.
@@ -58,7 +58,7 @@ const Stroke = () => {
                         hospitals and why our outcomes for stroke patients are
                         exceptional.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
@@ -71,7 +71,7 @@ const Stroke = () => {
                         Our wide array of services for stroke patients will help
                         you and your family navigate your recovery.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
@@ -89,12 +89,17 @@ const Stroke = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/img/mission-walk-hyderabad-5cf92914afb61.jpeg"
+                    decoding="async"
+                    width="700"
+                    height="100"
+                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (1).jpeg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
             </div>
           </div>
+        <hr className="hr mb-0 mt-5" />
+
         </div>
       </div>
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -104,18 +109,24 @@ const Stroke = () => {
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
                   <img
-                    decoding="async"
-                    width="300"
-                    height="300"
-                    className="w-400 h-50 rounded wow aligncenter"
-                    src="/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f 2.JPG"
+                    // decoding="async"
+                    // width="700"
+                    // height="100"
+                style={{ maxWidth: "100%", maxHeight:"100%" }}
+
+                    className="w-700 h-200 rounded wow aligncenter"
+                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.45 PM.jpeg"
                     alt=""
                   />
+            {/* <hr className="w-25 m-auto" /> */}
+        <hr className="hr mb-0 mt-5" />
+
+
                 </div>
-                <div className="our_programs_details_right">
+                <div className="our_programs_details_right" >
                   <h3></h3>
-                  <h3>How We Heel</h3>
-                  <p>
+                  <h3 style={{fontSize:"38px"}}>How We Heel</h3>
+                  <p style={{fontSize:"22px"}}>
                     Our integrated team of physicians, nurses, therapists,
                     researchers and case managers understand the most complex
                     injuries. They create programs for each patient – tailored
@@ -123,7 +134,7 @@ const Stroke = () => {
                     several ability labs.
                   </p>
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled" style={{ fontSize: "18px" }}>
+                    <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -141,9 +152,13 @@ const Stroke = () => {
                         Think + Speak Lab
                       </li>
                     </ul>
+                    <br>
+                    </br>
+                    <br>
+                    </br>
                   </div>
-                  <h3>Science-Driven Care</h3>
-                  <p>
+                  <h3 style={{fontSize:"38px"}}>Science-Driven Care</h3>
+                  <p style={{fontSize:"22px"}}>
                     With nearly 200 clinical trials and research studies
                     specifically dedicated to improving function and recovery
                     from stroke (including treatment for aphasia) — we offer you
@@ -174,6 +189,12 @@ const Stroke = () => {
               </div>
             </div>
           </div>
+          <div className="video-iframe-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Eqy8ED0UB0?si=NpARaOEP2GbQUUYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                     
+                    </iframe>
+                             </div>
         </div>
       </div>
       {/* <!-- About End --> */}

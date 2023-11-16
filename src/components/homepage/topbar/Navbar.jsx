@@ -60,16 +60,16 @@ const Navbar = () => {
                 <Link to="/conditions/parkinsons" className="dropdown-item">
                 Parkinson&apos;s disease
                 </Link>
-                <Link to="/conditions/transverse-myelitis" className="dropdown-item">
+                {/* <Link to="/conditions/transverse-myelitis" className="dropdown-item">
                   Transverse Myelitis
-                </Link>
+                </Link> */}
                 <Link to="/conditions/cerebral-palsy" className="dropdown-item">
                   Cerebral Palsy
                 </Link>
               
-                <Link to="/conditions/balance-mobility" className="dropdown-item">
+                {/* <Link to="/conditions/balance-mobility" className="dropdown-item">
                   Balance and Mobility Issues
-                </Link>
+                </Link> */}
                 <Link to="/conditions/pain-management" className="dropdown-item">
                   Pain Management
                 </Link>
