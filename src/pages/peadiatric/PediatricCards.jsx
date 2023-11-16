@@ -172,7 +172,7 @@ const cardData = [
   },
   {
     imageSrc: "mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG",
-    title: "Paediatric Physiotherapy",
+    title: " Intensive Paediatric Physiotherapy",
     text: "Our Centre takes an intensive approach to paediatric physiotherapy using the NeuroSuit and Multifunctional Therapy Units. We offer paediatric physiotherapy in both weekly and intensive settings.",
     linkTo: "/pediatric-physiotherapy",
   },

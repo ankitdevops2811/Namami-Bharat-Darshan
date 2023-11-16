@@ -9,7 +9,7 @@ const ContactPagesCard = () => {
           <div className="row">
             <div className="col-lg-6 mb-4">
               <img
-                src="/mission-walk-images/8c16fa72-d690-4257-8d2f-8822be7c5d3e 2.JPG"
+                src="/mission-walk-images/32cbe3d0-7a04-4a6f-b133-67c8a8cc456c 3.JPG"
                 alt="Contact Us"
                 className="img w-100 mb-4"
                 // style={{ width: "100%",height:"70%" }}

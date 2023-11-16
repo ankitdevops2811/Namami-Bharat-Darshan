@@ -32,7 +32,7 @@ const PaediatricOccupational = () => {
                 </div>
               </div>
 
-              <p className="mb-4" style={{ fontSize: "22px" }}>
+              <p className="mb-4 animated zoomIn" style={{ fontSize: "22px" }}>
                 Our paediatric occupational therapists assist children in
                 performing “occupations” with the greatest level of independence
                 possible. Childhood occupations include learning in school and
@@ -101,11 +101,12 @@ const PaediatricOccupational = () => {
           </div> */}
           <div className="row">
             <div
-              className="col-sm-12 col-md-6 col-lg-6 col-12 "
+              className="col-sm-12 col-md-6 col-lg-6 col-12"
+              style={{fontSize:"38px"}}
               data-aos="zoom-in"
               data-aos-offset="200"
             >
-              <h1 data-aos="fade-up" data-aos-offset="200">
+              <h1 data-aos="fade-up" data-aos-offset="200" style={{ fontSize: "38px" }}>
                 {/* <h1> */}
                 What Are the Benefits of{" "}
                 <span
@@ -116,19 +117,19 @@ const PaediatricOccupational = () => {
                   Children’s Occupational Therapy?
                 </span>
               </h1>
-              <p className="p-2" style={{ fontSize: "18px" }}>
+              <p className="p-2 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
                 Occupational therapy can benefit children with a wide variety of
                 diagnoses, including but not limited to: autism, birth injuries,
                 cerebral palsy, developmental delays, juvenile rheumatoid
                 arthritis, sensory processing disorders, traumatic brain or
                 spinal cord injuries, sensory processing disorders, and more.
               </p>
-              <p className="mb-5" style={{ fontSize: "18px" }}>
+              <p className="mb-5" style={{ fontSize: "22px" }}>
                 Additionally, pediatric OT may help your child with the
                 following:
               </p>
               <div>
-                <ul className="list-unstyled" style={{ fontSize: "18px" }}>
+                <ul className="list-unstyled" style={{ fontSize: "20px" }}>
                   <li>
                     <i className="bi bi-check-circle text-success me-2"></i>
                     Sensory management
@@ -157,91 +158,6 @@ const PaediatricOccupational = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div
-                className="accordion"
-                id="accordionExample"
-                data-aos="zoom-in-left"
-                data-aos-offset="200"
-              >
-                <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingOne">
-                    <button
-                      className="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      My Hobbies
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    className="accordion-collapse collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      <strong>This is the first item's accordion body.</strong>{" "}
-                      It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingTwo">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      My Qualification
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>{" "}
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingThree">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      My Dreams
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseThree"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>{" "}
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                    </div>
-                  </div>
-                </div>
-              </div> */}
             </div>
             <div
               className="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end"
@@ -295,7 +211,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Eye Hand Coordination</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     This basically include decreased eye hand coordination.{" "}
                   </p>
                 </div>
@@ -306,7 +222,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title">Sensory Challenges</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn" style={{textAlign:"justify"}} >
                     Overly sensitive to sensory input, under-responsive to
                     sensory input, touches people or objects constantly (seeking
                     sensory input), or crashes or bangs into people or objects
@@ -325,7 +241,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Poor Attention</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Difficulty with sitting still, attention, and/or behavior.
                   </p>
                 </div>
@@ -336,7 +252,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Emotional Challenges</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Emotional reactivity, or difficulty calming self.
                   </p>
                 </div>
@@ -347,7 +263,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Social Challenges</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Limited play skills, poor social development
                   </p>
                 </div>
@@ -361,7 +277,7 @@ const PaediatricOccupational = () => {
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   {/* <FontAwesomeIcon icon={faUsers} className="bg-primary p-2 text-white rounded" /> */}
                   <h5 className="card-title mb-5">Difficulty Sleeping</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     And other challenges associated with sleeping."
                   </p>
                 </div>
@@ -372,7 +288,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Independence</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Limited independence in self-care skills"
                   </p>
                 </div>
@@ -383,7 +299,7 @@ const PaediatricOccupational = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Environmental Challenges</h5>
-                  <p className="card-text">
+                  <p className="card-text animated zoomIn">
                     Difficulty transitioning or accepting change in the
                     environment or a routine
                   </p>
@@ -408,7 +324,7 @@ const PaediatricOccupational = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
+                  className="img w-100 mb-3 animated zoomIn"
                   src="/mission-walk-images/caff6211-c530-4104-8c4f-8d976687c50f.JPG"
                   alt="img"
                   //   width="300px"
@@ -421,8 +337,8 @@ const PaediatricOccupational = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
-                  src="/mission-walk-images/620b6bc0-2526-4f8e-9dd7-f7bf1892ae4f.JPG"
+                  className="img w-100 mb-3 animated zoomIn"
+                  src="/img-mission/IMG-20231115-WA0032.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -431,7 +347,7 @@ const PaediatricOccupational = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
+                  className="img w-100 mb-3 animated zoomIn"
                   src="/mission-walk-images/neuro.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
@@ -443,7 +359,7 @@ const PaediatricOccupational = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
+                  className="img w-100 mb-3 animated zoomIn"
                   src="/mission-walk-images/3918ca38-e19b-4cc4-84c0-9ef4aadd6800.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
@@ -453,7 +369,7 @@ const PaediatricOccupational = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
+                  className="img w-100 mb-3 animated zoomIn"
                   src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
@@ -463,7 +379,7 @@ const PaediatricOccupational = () => {
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
                 <img
-                  className="img w-100 mb-3"
+                  className="img w-100 mb-3 animated zoomIn"
                   src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
@@ -471,7 +387,14 @@ const PaediatricOccupational = () => {
               </div>
             </div>
           </div>
+          
         </div>
+        <div className="video-iframe-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ckfzCOSDFzc?si=kv1GlhA_tzeNEysx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                     
+                    </iframe>
+                             </div>
       </section>
       {/* End */}
       <ContactPagesCard />
