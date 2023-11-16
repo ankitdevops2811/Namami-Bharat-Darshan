@@ -33,11 +33,11 @@ const ParkinsonsDisease = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              <h1 className="display-5 mb-0" style={{ fontSize: "26px" }}>
+              <h1 className="display-5 mb-0" style={{ fontSize: "38px" }}>
                 What Sets Us Apart
               </h1>
 
-              <p className="text-body mb-4">
+              <p className="text-body mb-4" style={{fontSize:"22px", textAlign:"justify"}}>
                 Our Parkinson's Disease & Movement Disorders (PDMD) experts work
                 with you to enhance your abilities and well-being through
                 integrative & innovative care. Learn how we redefine outcomes.
@@ -46,7 +46,7 @@ const ParkinsonsDisease = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.24 AM.jpeg" />
                     <Card.Body>
                       <Card.Title>
                         Parkinson's Disease & Movement Disorders Program
@@ -57,13 +57,13 @@ const ParkinsonsDisease = () => {
                         Across all stages of the disease, we provide a holistic
                         and science-driven approach to providing care.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.54 PM.jpeg" />
                     <Card.Body>
                       <Card.Title>PDMD Research</Card.Title>
                       <Card.Text>
@@ -71,13 +71,13 @@ const ParkinsonsDisease = () => {
                         opportunities for the motor, cognitive, behavioral and
                         emotional aspects of PDMD.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img/price-1.jpg" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.49 PM.jpeg" />
                     <Card.Body>
                       <Card.Title>Education & Community Outreach</Card.Title>
                       <Card.Text>
@@ -85,7 +85,7 @@ const ParkinsonsDisease = () => {
                         essential part of our mission. Our PDMD team offers a
                         wide variety of educational opportunities and events.
                       </Card.Text>
-                      <Button variant="primary">read more..</Button>
+                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
@@ -101,10 +101,12 @@ const ParkinsonsDisease = () => {
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">
                 <img
-                  className="position-absolute w-100 h-100 rounded wow zoomIn"
+                  className=" rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/img/mission-walk-hyderabad-5cf92914afb61.jpeg"
-                  style={{ objectFit: "cover" }}
+                style={{ maxWidth: "120%", maxHeight:"100%" }}
+                  
+                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.43 PM.jpeg"
+                  // style={{ objectFit: "cover" }}
                 />
               </div>
             </div>
@@ -118,17 +120,19 @@ const ParkinsonsDisease = () => {
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
                   <img
-                    decoding="async"
-                    width="300"
-                    height="300"
+                    // decoding="async"
+                    // width="300"
+                    // height="300"
+                style={{ maxWidth: "100%", maxHeight:"50%" }}
+
                     className="size-full wp-image-31823 aligncenter"
                     src="/mission-walk-images/neuro.JPG"
                     alt=""
                   />
                 </div>
                 <div className="our_programs_details_right">
-                  <h3>How We Heel</h3>
-                  <p>
+                  <h3 style={{fontSize:"38px", textAlign:"justify"}}>How We Heel</h3>
+                  <p style={{fontSize:"22px", textAlign:"justify"}}>
                     Every person with Parkinson’s disease or a movement disorder
                     has unique medical and therapeutic needs. Our doctors,
                     therapists and scientists collaborate using the most
@@ -137,7 +141,7 @@ const ParkinsonsDisease = () => {
                   </p>
 
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled" style={{fontSize:"22px", textAlign:"justify"}}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -156,8 +160,8 @@ const ParkinsonsDisease = () => {
                       </li>
                     </ul>
                   </div>
-                  <h3>Science-Driven Care</h3>
-                  <p>
+                  <h3 style={{fontSize:"38px", textAlign:"justify"}}>Science-Driven Care</h3>
+                  <p style={{fontSize:"22px", textAlign:"justify"}}>
                     With nearly 200 clinical trials and research studies
                     specifically dedicated to improving function and recovery
                     from stroke (including treatment for aphasia) — we offer you
@@ -179,7 +183,7 @@ const ParkinsonsDisease = () => {
                     className="programs_details_list_txt"
                     style={{ fontSize: "38px" }}
                   >
-                    <b>Clinical Trials & Research Studies</b>
+                    <b style={{fontSize:"38px", textAlign:"justify"}}>Clinical Trials & Research Studies</b>
                   </div>
                   <div className="program_details_outer_div">
                     <ParkinsonsCards />
@@ -188,6 +192,18 @@ const ParkinsonsDisease = () => {
               </div>
             </div>
           </div>
+          <div className="video-iframe-container">
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/TU6kBvwqWY0?si=Co_dq2HTs_Y0uZkj"
+title="YouTube video player"
+frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowFullScreen
+></iframe>
+</div>
         </div>
       </div>
       {/* <!-- About End --> */}

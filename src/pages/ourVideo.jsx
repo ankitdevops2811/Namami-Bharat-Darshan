@@ -32,7 +32,10 @@ const OurVedios = () => {
                 </h1>
         <div className="video-iframe-container">
                     
-                    <iframe width="560" height="315" 
+                    <iframe width="600" height="450" 
+                className="border-0 w-100"
+                // style={{maxWidth:"576px", maxHeight:"300"}}
+
                     src="https://www.youtube.com/embed/OT-QS8lXFIk?si=Wp1inc7ov0eGARgz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                      
                     </iframe>

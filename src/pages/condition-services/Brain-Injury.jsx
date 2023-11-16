@@ -35,36 +35,36 @@ const Brain = () => {
                             {/* <p className="mb-4" style={{ fontSize: '18px' }}>
                 The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
                 </p> */}
-                            <h1 className="display-5 mb-0" style={{ fontSize: '26px' }}>
+                            <h1 className="display-5 mb-0" style={{ fontSize: '38px' }}>
                                 Programs, Services & Patients
 
                             </h1>
 
-                            <p className="text-body mb-4">You want to recover what’s most important in your life — mobility, independence, walking or speaking again. Together, we reach for your goals.</p>
+                            <p className="text-body mb-4" style={{ fontSize: "22px", textAlign:"justify" }}>You want to recover what’s most important in your life — mobility, independence, walking or speaking again. Together, we reach for your goals.</p>
 
                             <div className="row g-3">
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
+                                        <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.17 AM.jpeg" />
                                         <Card.Body>
                                             <Card.Title>Brain Injury Recovery — What sets us apart?</Card.Title>
                                             <Card.Text>
                                                 See what sets us apart from other rehabilitation hospitals and
                                                 why our outcomes for stroke patients are exceptional.
                                             </Card.Text>
-                                            <Button variant="primary">read more..</Button>
+                                            {/* <Button variant="primary">read more..</Button> */}
                                         </Card.Body>
                                     </Card>
                                 </div>
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
+                                        <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.31 AM.jpeg" />
                                         <Card.Body>
                                             <Card.Title>Brain Injury Specialty Services</Card.Title>
                                             <Card.Text>
                                             Our wide array of services for brain injury patients will help you and your family navigate your recovery.
                                             </Card.Text>
-                                            <Button variant="primary">read more..</Button>
+                                            {/* <Button variant="primary">read more..</Button> */}
                                         </Card.Body>
                                     </Card>
                                 </div>
@@ -81,11 +81,13 @@ const Brain = () => {
                         <div className="col-lg-5" style={{ minHeight: "300px" }}>
                             <div className="position-relative h-100">
                                 <img
-                                    className="position-absolute w-100 h-100 rounded wow zoomIn"
-                                    data-wow-delay="0.9s"
-                                    src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
+                                    className="rounded wow zoomIn"
+                style={{ maxWidth: "120%", maxHeight:"100%" }}
 
-                                    style={{ objectFit: "cover" }}
+                                    data-wow-delay="0.9s"
+                                    src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.17 AM (1).jpeg"
+
+                                    // style={{ objectFit: "cover" }}
                                 />
                             </div>
                         </div>
@@ -107,8 +109,9 @@ const Brain = () => {
                                     <img
                                         decoding="async"
                                         // fetchpriority="high"
-                                        width="300"
-                                        height="300"
+                                      
+                style={{ maxWidth: "100%", maxHeight:"50%" }}
+
                                         className="size-full wp-image-31823 aligncenter"
                                         src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
                                         // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
@@ -137,15 +140,15 @@ const Brain = () => {
                   </p> */}
                                     <h3></h3>
 
-                                    <h3>How We Heel</h3>
-                                    <p>
+                                    <h3 style={{ fontSize: "38px"}}>How We Heel</h3>
+                                    <p style={{ fontSize: "22px", textAlign:"justify" }}>
                                         Our integrated team of physicians, nurses, therapists, researchers and case managers understand the most complex injuries. They create programs for
                                         each patient – tailored to your individual goals.
                                         Therapy may take place in one or several ability labs.
                                     </p>
 
                                     <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul  className="list-unstyled" style={{fontSize:"18px"}}>
+                    <ul  className="list-unstyled" style={{fontSize:"22px"}}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -168,8 +171,8 @@ const Brain = () => {
 
 
                                    
-                                    <h3>Science-Driven Care</h3>
-                                    <p>
+                                    <h3 style={{ fontSize: "38px", textAlign:"justify" }}>Science-Driven Care</h3>
+                                    <p style={{ fontSize: "22px", textAlign:"justify" }}>
                                     With nearly 200 clinical trials and research studies specifically dedicated to improving function and recovery from stroke (including treatment for aphasia) 
                                     — we offer you access to the world’s most advanced research, which can directly impact your recovery.
                                         <a href="http://www.napacenter.org/contact/">
@@ -183,9 +186,10 @@ const Brain = () => {
                             <div className="our_programs_details_list">
                             <div className="programs_details_list_txt">
 
-                            <b>Clinical Trials & Research Studies</b>
+                            <b style={{ fontSize: "38px", textAlign:"justify" }}>Clinical Trials & Research Studies</b>
                             </div>
                             <div className="program_details_outer_div">
+                          
                             <div className="program_details_outer_div">
                     <BrainCard />
                   </div>
@@ -193,6 +197,12 @@ const Brain = () => {
                                
                             </div>
                         </div>
+                        <div className="video-iframe-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/29LTq95V6f0?si=vLsQYOuggbtJKgah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                     
+                    </iframe>
+                             </div>
                     </div>
                 </div>
             </div>
