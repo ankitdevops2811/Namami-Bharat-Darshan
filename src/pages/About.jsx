@@ -177,7 +177,7 @@ const About = () => {
                 </div>
               </div>
               <a
-                href="appointment.html"
+                href="intake-forms"
                 className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
                 data-wow-delay="0.6s"
               >

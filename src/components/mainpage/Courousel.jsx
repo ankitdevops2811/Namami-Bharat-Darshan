@@ -34,13 +34,13 @@ const Courousel = () => {
                       Needs.
                     </h3>
                     <a
-                      href="appointment.html"
+                      href="intake-forms"
                       className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
-                      href=""
+                      href="/contact"
                       className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us

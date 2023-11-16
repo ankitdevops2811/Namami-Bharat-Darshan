@@ -54,17 +54,17 @@ const Spidercage = () => {
                   <h3></h3>
                   <p className=" wow zoomIn" data-wow-delay="0.3s">
                     T
-                    <span style={{ fontWeight: "400" }}>
-                      he SpiderCage is a three-sided wire device that uses a
+                    <span style={{  fontSize:"22px" }}>
+                      The SpiderCage is a three-sided wire device that uses a
                       belt and eight bungee cords to enable the child to perform
                       balance and strengthening exercises with proper
                       positioning and alignment. The SpiderCage{" "}
                     </span>
-                    <span style={{ fontWeight: "400" }}>
+                    <span style={{ fontWeight: "400", fontSize:"22px" }}>
                       assists the child in standing without a therapist’s
                       assistance while allowing freedom of movement{" "}
                     </span>
-                    <span style={{ fontWeight: "400" }}>
+                    <span style={{ fontWeight: "400", fontSize:"22px" }}>
                       and facilitating balance.
                     </span>
                   </p>
