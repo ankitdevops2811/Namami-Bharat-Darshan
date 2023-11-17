@@ -49,13 +49,14 @@ const IntakeForm = () => {
   return (
     <>
       <div className="row">
-        <div className="col-md-3 border-right">
+        <div className="col-md-3 border-right d-flex flex-column mt-5 pt-auto">
           {/* <div className="d-flex flex-column align-items-center text-center p-3 py-5"> */}
           {/* <img className="rounded-circle mt-5" src="https://i.imgur.com/O1RmJXT.jpg" width="90"><span className="font-weight-bold">John Doe</span><span className="text-black-50">john_doe12@bbb.com</span><span>United States</span>
                     </div> */}
 
           {/* </div> */}
           <div className="d-flex flex-column align-items-center text-center p-3 py-5 mt-5">
+          {/* <div className="d-flex flex-column align-items-center text-center p-3 py-5 mt-5"> */}
             <img
               className="rounded mt-5"
               src="https://i.ibb.co/Nj6ch8F/logo-1.jpg"
@@ -67,13 +68,13 @@ const IntakeForm = () => {
             <span>India</span>
           </div>
         </div>
-        <div className="col-md-5 border-right">
+        <div className="col-lg border-right pe-5">
           <div className="p-3 py-5">
             {/* <div className="d-flex justify-content-between align-items-center mb-3">
               <h6 className="text-right">Patient</h6>
             </div> */}
              <div className="align-items-center mb-3">
-              <h4 className="text-center">Patient&apos;s Enquiry Form</h4>
+              <h4 className="text-center">Client&apos;s Enquiry Form</h4>
             </div>
             <div className="row mt-2">
               <div className="col-md-6">
@@ -108,7 +109,7 @@ const IntakeForm = () => {
             </div>
             <div className="row mt-3">
               <div>
-                <h6 className="col-sm">Patient&apos;s Name*</h6>
+                <h6 className="col-sm">Client&apos;s Name*</h6>
             </div>
               <div className="col-sm">
               {/* <div className="col-md-6"> */}
@@ -160,7 +161,18 @@ const IntakeForm = () => {
                   />
                 </div>
                 </div>
-              <div className="col-md-12">
+                <div className="col-md-6 mt-2 mb-2">
+                {/* <label className="labels">Age</label> */}
+                <h6 className="col-sm">Age*</h6>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Age"
+                  onChange={(e) => onValueChange(e)}
+                  name="age"
+                />
+              </div>
+              <div className="col-md-6">
               <div>
                 <h6 className="col-sm pt-3 mb-2">Address*</h6>
             </div>
@@ -195,7 +207,7 @@ const IntakeForm = () => {
             <div className="row ">
               <div className="col-md-6">
                 {/* <label className="labels font-weight-bold">City</label> */}
-                <h6 className="col-sm pt-3 mb-2 mt-2">City*</h6>
+                <h6 className="col-sm  mb-2 mt-2">City*</h6>
                 <input
                   type="text"
                   className="form-control"
@@ -206,7 +218,7 @@ const IntakeForm = () => {
               </div>
               <div className="col-md-6">
                 {/* <label className="labels">State</label> */}
-                <h6 className="col-sm pt-3 mb-2 mt-2">State*</h6>
+                <h6 className="col-sm  mb-2 mt-2">State*</h6>
                 <input
                   type="text"
                   className="form-control"
@@ -214,6 +226,17 @@ const IntakeForm = () => {
                   placeholder="State"
                   onChange={(e) => onValueChange(e)}
                   name="state"
+                />
+              </div>
+              <div className="col-md-6 ">
+                {/* <label className="labels">E-mail Address*</label> */}
+                <h6 className="col-sm mt-2 mb-2">E-mail Address*</h6>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder=" E-mail Address"
+                  onChange={(e) => onValueChange(e)}
+                  name="email"
                 />
               </div>
               <div className="col-md-6">
@@ -228,17 +251,7 @@ const IntakeForm = () => {
                   name="pincode"
                 />
               </div>
-              <div className="col-md-6 mt-2 mb-2">
-                {/* <label className="labels">Age</label> */}
-                <h6 className="col-sm">Age*</h6>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Age"
-                  onChange={(e) => onValueChange(e)}
-                  name="age"
-                />
-              </div>
+             
            
               <div className="col-md-6">
                 {/* <label className="labels">Primary Phone Number*</label> */}
@@ -262,19 +275,9 @@ const IntakeForm = () => {
                   name="secondary_number"
                 />
               </div>
-              <div className="col-md-6 ">
-                {/* <label className="labels">E-mail Address*</label> */}
-                <h6 className="col-sm mt-2 mb-2">E-mail Address*</h6>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder=" E-mail Address"
-                  onChange={(e) => onValueChange(e)}
-                  name="email"
-                />
-              </div>
+              
               <div className="col-md-12 mt-2">
-                <h6 className="col-sm mt-2 mb-2 ">How did you hear about Mission Walk?</h6>
+                <h6 className="col-sm mt-2 mb-2 ">How did you hear about Mission Walk?*</h6>
                 {/* <label className="labels">How did you hear about Mission Walk?</label> */}
                 <input
                   type="text"
@@ -294,8 +297,8 @@ const IntakeForm = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
-          {/* <div className="p-3 py-5">
+        {/* <div className="col-md-4">
+          <div className="p-3 py-5">
             <div className="d-flex justify-content-between align-items-center experience">
               <span>Edit Experience</span>
               <span className="border px-3 p-1 add-experience">
@@ -345,7 +348,7 @@ const IntakeForm = () => {
               </div>
             </div>
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
       <br />
       <br />
