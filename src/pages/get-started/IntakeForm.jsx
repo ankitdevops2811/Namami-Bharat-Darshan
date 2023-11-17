@@ -39,6 +39,7 @@ const IntakeForm = () => {
           secondary_number: user.secondary_number,
           email: user.email,
           clinic: user.clinic,
+          hear_about_us: user.hear_about_us,
           },VITE_PUBLIC_key)  
           if (result) {
             alert("E-mail send successfully!")
@@ -80,12 +81,12 @@ const IntakeForm = () => {
                 <h6 className="col-sm pt-3 mb-2 mt-2">Select Clinic*</h6>
 
                 <select
-                  // value={user}
+                  value={user}
                   className="form-select"
                   aria-label="Default select example"
                   name="clinic"
                   onChange={(e) => onValueChange(e)}
-                  defaultValue={'Greater Noida'}
+                  // defaultValue={'Greater Noida'}
                 >
                   <option>Select Clinic</option>
                   <option value="Greater Noida">Greater Noida</option>
@@ -211,6 +212,8 @@ const IntakeForm = () => {
                   className="form-control"
                   // value="Boston"
                   placeholder="State"
+                  onChange={(e) => onValueChange(e)}
+                  name="state"
                 />
               </div>
               <div className="col-md-6">
@@ -244,6 +247,8 @@ const IntakeForm = () => {
                   type="text"
                   className="form-control"
                   placeholder="Primary Phone Number"
+                  onChange={(e) => onValueChange(e)}
+                  name="primary_number"
                 />
               </div>
               <div className="col-md-6 ">
@@ -253,6 +258,8 @@ const IntakeForm = () => {
                   type="text"
                   className="form-control"
                   placeholder="Secondary Phone Number"
+                  onChange={(e) => onValueChange(e)}
+                  name="secondary_number"
                 />
               </div>
               <div className="col-md-6 ">
@@ -274,6 +281,8 @@ const IntakeForm = () => {
                   className="form-control"
                   placeholder="we glad to serve you"
                   // value="UI/UX Developer at Boston"
+                  onChange={(e) => onValueChange(e)}
+                  name="hear_about_us"
                 />
               </div>
             </div>
