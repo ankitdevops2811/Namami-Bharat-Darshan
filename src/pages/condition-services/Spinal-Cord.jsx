@@ -45,7 +45,7 @@ const Spinal = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.31 AM.jpeg" />
                     <Card.Body>
                       <Card.Title>SCI Recovery Program</Card.Title>
                       <Card.Text>
@@ -59,7 +59,7 @@ const Spinal = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.43 PM.jpeg" />
                     <Card.Body>
                       <Card.Title>SCI Specialty Services</Card.Title>
                       <Card.Text>
@@ -87,7 +87,7 @@ const Spinal = () => {
                 style={{ maxWidth: "120%", maxHeight:"100%" }}
                   className=" rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.45 PM.jpeg"
+                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.53 PM.jpeg"
                   //   src="img/strokerecovery.jpg"
                   // style={{ objectFit: "cover" }}
                 />
@@ -110,7 +110,7 @@ const Spinal = () => {
                 style={{ maxWidth: "100%", maxHeight:"100%" }}
 
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/neuro.JPG"
+                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.51 PM.jpeg"
                     alt=""
                   />
                 </div>
@@ -151,7 +151,9 @@ const Spinal = () => {
                     from stroke (including treatment for aphasia) — we offer you
                     access to the world’s most advanced research, which can
                     directly impact your recovery.
-                    <a href="http://www.napacenter.org/contact/">
+                    <a 
+                    // href="http://www.napacenter.org/contact/"
+                    >
                       contacting us
                     </a>
                     to learn more.
@@ -184,7 +186,7 @@ const Spinal = () => {
                     <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/GRRCrVxYh8Y?si=SuaHPEJLpikgP_fk"
+        src="https://www.youtube.com/embed/7rI43OqXzH4?si=kUx6KY7ki6tr0kvo"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

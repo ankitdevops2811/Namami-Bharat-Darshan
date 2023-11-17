@@ -63,7 +63,7 @@ const ParkinsonsDisease = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.54 PM.jpeg" />
+                    <Card.Img variant="top" src="/img-mission/IMG-20231115-WA0020.jpg" />
                     <Card.Body>
                       <Card.Title>PDMD Research</Card.Title>
                       <Card.Text>
@@ -75,20 +75,7 @@ const ParkinsonsDisease = () => {
                     </Card.Body>
                   </Card>
                 </div>
-                <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                  <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.49 PM.jpeg" />
-                    <Card.Body>
-                      <Card.Title>Education & Community Outreach</Card.Title>
-                      <Card.Text>
-                        Providing education for our patients and families is an
-                        essential part of our mission. Our PDMD team offers a
-                        wide variety of educational opportunities and events.
-                      </Card.Text>
-                      {/* <Button variant="primary">read more..</Button> */}
-                    </Card.Body>
-                  </Card>
-                </div>
+            
               </div>
               {/* <a
                 href="intake-forms"
@@ -105,7 +92,7 @@ const ParkinsonsDisease = () => {
                   data-wow-delay="0.9s"
                 style={{ maxWidth: "120%", maxHeight:"100%" }}
                   
-                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.43 PM.jpeg"
+                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (2).jpeg"
                   // style={{ objectFit: "cover" }}
                 />
               </div>
@@ -126,7 +113,7 @@ const ParkinsonsDisease = () => {
                 style={{ maxWidth: "100%", maxHeight:"50%" }}
 
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/neuro.JPG"
+                    src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.20 AM.jpeg"
                     alt=""
                   />
                 </div>
@@ -192,18 +179,7 @@ const ParkinsonsDisease = () => {
               </div>
             </div>
           </div>
-          <div className="video-iframe-container">
 
-<iframe
-width="560"
-height="315"
-src="https://www.youtube.com/embed/TU6kBvwqWY0?si=Co_dq2HTs_Y0uZkj"
-title="YouTube video player"
-frameBorder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowFullScreen
-></iframe>
-</div>
         </div>
       </div>
       {/* <!-- About End --> */}

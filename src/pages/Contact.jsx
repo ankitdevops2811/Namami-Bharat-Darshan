@@ -38,7 +38,7 @@ const Contact = () => {
                   <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                   <div className="text-start">
                     <h5 className="mb-0">Our Office</h5>
-                    <span>Banjara Hills, Hyderabad, Telangana</span>
+                    <span>Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089</span>
                   </div>
                 </div>
                 <div className="d-flex align-items-center mb-2">

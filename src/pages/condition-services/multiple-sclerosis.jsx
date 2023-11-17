@@ -97,7 +97,7 @@ const MultipleSclerosis = () => {
                 style={{ maxWidth: "100%", maxHeight:"100%" }}
 
                                         className="size-full wp-image-31823 aligncenter"
-                                        src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
+                                        src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.54 PM.jpeg"
                                         alt=""
                                     />
                                 </div>
@@ -134,7 +134,9 @@ const MultipleSclerosis = () => {
                                     <h3 style={{fontSize:"38px", textAlign:"justify"}}>Science-Driven Care</h3>
                                     <p style={{fontSize:"22px", textAlign:"justify"}}>
                                         With hundreds of clinical studies under way — some dedicated to understanding and treating neuromuscular conditions such as MS — we offer you access to the world’s most advanced research, which can directly impact your outcome.
-                                        <a href="http://www.napacenter.org/contact/">
+                                        <a 
+                                        // href="http://www.napacenter.org/contact/"
+                                        >
                                             contacting us
                                         </a>
                                         to learn more.

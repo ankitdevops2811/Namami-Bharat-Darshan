@@ -37,7 +37,7 @@ const Theratogs = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  <p style={{ fontSize: "22px", textAlign:"justify" }}>
+                  <p style={{ fontSize: "22px" }}>
                     TheraTogs are an orthotic undergarment and strapping product
                     recommended for children who may benefit from increased
                     proprioception as well as improved postural alignment,

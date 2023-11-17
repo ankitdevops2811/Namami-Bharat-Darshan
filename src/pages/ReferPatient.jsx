@@ -81,7 +81,7 @@ const PaediatricPhysiotherapy = () => {
           >
             <Link to="/refer-patient/our-vedios">
               <button>
-                <strong>Virtual Tour - Please Visit Once</strong>
+                <strong>Virtual Tour(Mission Walk) - Please Click Once ....</strong>
               </button>
             </Link>
           </div>
