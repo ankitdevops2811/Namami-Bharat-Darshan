@@ -155,7 +155,7 @@ const Courousel = () => {
                     </h5>
                     <h1
                       className="display-1 text-white mb-md-4 animated zoomIn"
-                      style={{ fontSize: "27px", color: "yellow" }}
+                      style={{ fontSize: "27px", color: "yellow" }}  
                     >
                       Our occupational and speech therapists will work with your
                       child to help them learn to feed themselves so they can
