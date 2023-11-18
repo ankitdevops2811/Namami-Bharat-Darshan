@@ -103,7 +103,7 @@ const MotorNeuron = () => {
                 style={{ maxWidth: "100%", maxHeight:"50%" }}
 
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
+                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.57 PM.jpeg"
                     alt=""
                   />
                 </div>

@@ -19,3 +19,8 @@ Sachin
 ➢ main branch -> main // sachin
 ➢ dev -> wow working // sachin
 ➢ dev-2 -> wow working // sachin
+
+for adding social-account:-
+# The href attribute of the a tag is set to the LinkedIn profile URL.
+# The target="_blank" attribute opens the link in a new tab or window.
+# The rel="noopener noreferrer" attribute is added for security reasons when using target="_blank"

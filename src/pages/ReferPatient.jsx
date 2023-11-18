@@ -74,18 +74,18 @@ const PaediatricPhysiotherapy = () => {
       </section>
       <section>
         {/* <div className="container"> */}
-        <div className="card">
-          <div
-            className="card-body shadow p-3 mb-5 bg-warning rounded"
-            style={{ fontSize: "38px", textAlign: "center" }}
-          >
-            <Link to="/refer-patient/our-vedios">
-              <button>
-                <strong>Virtual Tour - Please Visit Once</strong>
-              </button>
-            </Link>
-          </div>
+        {/* <div className="card"> */}
+        <div
+          className="card-body shadow p-3 mb-5 bg-warning rounded"
+          style={{ fontSize: "38px", textAlign: "center" }}
+        >
+          <Link to="/refer-patient/our-vedios">
+            <button>
+              <strong>Virtual Tour - Please Visit Once</strong>
+            </button>
+          </Link>
         </div>
+        {/* </div> */}
       </section>
       {/* //next */}
       <section className="about my-5" id="about">
@@ -245,7 +245,7 @@ const PaediatricPhysiotherapy = () => {
       {/* next 1*/}
 
       <section>
-        <div>
+        <div className="container">
           <div className="section-title">
             <h5
               className="  text-primary text-uppercase mb-4 "
@@ -459,28 +459,36 @@ const PaediatricPhysiotherapy = () => {
       </section>
 
       {/* next 2 */}
-      <div className="programs_details_list_txt" style={{ fontSize: "38px" }}>
-        <b>The Mission Walk Difference</b>
-      </div>
-      <div className="program_details_outer_div">
-        <section
-          className="services py-2"
-          id="services"
-          style={{ width: "100%" }}
-        >
-          <div className="container aligns-items-center">
-            <div className="row">
-              {cardData.map((card, index) => (
-                <div key={index} className="col-lg-4 col-md-6 mb-5">
-                  <ConditionCard {...card} />
-                </div>
-              ))}
-            </div>
+      <section>
+        <div className="container">
+          <div
+            className="programs_details_list_txt"
+            style={{ fontSize: "38px" }}
+          >
+            <b>The Mission Walk Difference</b>
           </div>
-          {/* </div> */}
-          {/* </div> */}
-        </section>
-      </div>
+          <div className="program_details_outer_div">
+            <section
+              className="services py-2"
+              id="services"
+              style={{ width: "100%" }}
+            >
+              <div className="container aligns-items-center">
+                <div className="row">
+                  {cardData.map((card, index) => (
+                    <div key={index} className="col-lg-4 col-md-6 mb-5">
+                      <ConditionCard {...card} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+              {/* </div> */}
+              {/* </div> */}
+            </section>
+          </div>
+        </div>
+      </section>
+
       {/* last */}
       {/* End */}
       <ContactPagesCard />

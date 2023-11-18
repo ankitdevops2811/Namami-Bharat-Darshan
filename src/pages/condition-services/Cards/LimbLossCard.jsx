@@ -36,13 +36,13 @@ const LimbCard = () => {
 export default LimbCard;
 const limbData = [
   {
-    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.23 AM.jpeg",
+    imageSrc: "/mission-walk-images/Chiropractic-Care-Frisco-Texas-1024x683.jpg",
     title: "Evaluation of Powered Lower Limb Prostheses",
     text: "To refine and evaluate socket design, mechanical components, control mechanisms, control electronics and training of powered lower limb prosthetic devices for amputees.",
     // linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (2).jpeg",
+    imageSrc: "/mission-walk-images/2361332.jpg",
     title: "Outcomes Testing with Myoelectric Upper Limb Prosthesis Users",
     text: "This study is exploring what factors may impact function using a prosthesis.",
     // linkTo: "/pediatric-physiotherapy",

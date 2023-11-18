@@ -45,7 +45,7 @@ const Neurosuit = () => {
                   <p
                     className=" wow zoomIn"
                     data-wow-delay="0.2s"
-                    style={{ fontSize: "22px", textAlign: "justify" }}
+                    style={{ fontSize: "22px",}}
                   >
                     The NeuroSuit frames the body providing support and
                     resistance simultaneously. It facilitates proper movement
@@ -68,7 +68,7 @@ const Neurosuit = () => {
                   className="our_programs_details_right wow zoomIn"
                   data-wow-delay="0.6s"
                 >
-                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                  <p style={{ fontSize: "22px",}}>
                     The NeuroSuit is one of the pillars of our three-week
                     <a
                       href="https://napacenter.org/our-programs/intensive-therapy/"
@@ -91,14 +91,14 @@ const Neurosuit = () => {
                   <h3
                     className=" wow zoomIn"
                     data-wow-delay="0.7s"
-                    style={{ fontSize: "38px", textAlign: "justify" }}
+                    style={{ fontSize: "38px",}}
                   >
                     Providing Alignment
                   </h3>
                   <p
                     className=" wow zoomIn"
                     data-wow-delay="0.8s"
-                    style={{ fontSize: "22px", textAlign: "justify" }}
+                    style={{ fontSize: "22px",}}
                   >
                     While framing the body, the NeuroSuit provides support and
                     resistance simultaneously. It assists the patient’s body to
@@ -114,7 +114,7 @@ const Neurosuit = () => {
                   <p
                     className=" wow zoomIn"
                     data-wow-delay="0.9s"
-                    style={{ fontSize: "22px", textAlign: "justify" }}
+                    style={{ fontSize: "22px",}}
                   >
                     This sends strong messages to and from the brain and central
                     nervous system bringing about an instantaneous increase in
@@ -139,7 +139,7 @@ const Neurosuit = () => {
                   <ul
                     className=" wow zoomIn"
                     data-wow-delay="0.11s"
-                    style={{ fontSize: "22px", textAlign: "justify" }}
+                    style={{ fontSize: "22px",}}
                   >
                     <li style={{ fontWeight: "400" }}>
                       <span style={{ fontWeight: "400" }}>Cerebral Palsy</span>
@@ -208,7 +208,7 @@ const Neurosuit = () => {
                   <p
                     className=" wow zoomIn"
                     data-wow-delay="0.12s"
-                    style={{ fontSize: "22px", textAlign: "justify" }}
+                    style={{ fontSize: "22px",}}
                   >
                     At Mission Walk Center, we take an individualized approach
                     to therapy because we understand that each child is unique
@@ -242,7 +242,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>01. </span>Create New Pathways
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Re-trains the central nervous system and creates NEW
                           pathways to/from the brain allowing new or improved
@@ -254,7 +254,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>02. </span>Muscle Tone
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Provide resistance to strong muscles to further
                           enhance strengthening while supporting weak muscles
@@ -265,7 +265,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>03. </span>Dynamic Correction
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Provides dynamic correction of movements reinforcing
                           proper movement during skills such as walking, balance
@@ -277,7 +277,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>04. </span>Better Alignment
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Bring the body into correct alignment. Improves hip
                           alignment through vertical loading over the hip joint
@@ -288,7 +288,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>05. </span>Increased Awareness
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Provides compression (tactile stimulation) distributed
                           throughout the body and increases spacial awareness of
@@ -300,7 +300,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>06. </span>Improved Motor Skills
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Promotes development of both fine and gross motor
                           skills
@@ -311,7 +311,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>07. </span>Stronger Bones
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Improves bone density
                         </span>
@@ -321,7 +321,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>08. </span>Strengthen Speech
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Improves speech production and its fluency through
                           head control and trunk support
@@ -332,7 +332,7 @@ const Neurosuit = () => {
                       <h3>
                         <span>09. </span>Controlled Movement
                       </h3>
-                      <p style={{ fontSize: "22px", textAlign: "justify" }}>
+                      <p style={{ fontSize: "22px",}}>
                         <span style={{ fontWeight: "400" }}>
                           Decreases uncontrolled movement in ataxia and
                           athetosis. Helps to decrease contracture

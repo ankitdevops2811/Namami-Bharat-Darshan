@@ -36,20 +36,20 @@ const PainManagement = () => {
 export default PainManagement;
 const painData = [
   {
-    imageSrc: "/mission-walk-images/7dfa808a-797c-438d-a32b-2d549672f1c5 2.JPG",
+    imageSrc: "/mission-walk-images/pain-management-greenville-sc_large-1527725595-8527.webp",
     title: "Efficacy of a Telehealth Pain Self-Management Intervention",
     text: "The E-TIPS trial will evaluate an evidence-based, telehealth pain self-management intervention compared to standard care (a waitlist) for chronic pain in adults with physical disabilities who are employed",
     // linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/OIP (1).jfif",
     title:
       "D-Cycloserine for the Treatment of Chronic, Refractory Low Back Pain",
     text: "This clinical trial is to evaluate the efficacy and safety of D-cycloserine versus placebo in relieving the signs and symptoms of patients with chronic lower back pain",
     // linkTo: "/pediatric-physiotherapy",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/Chiropractic-Care-Frisco-Texas-1024x683.jpg",
     title: "Center for Rehabilitation Outcomes Research Registry",
     text: "The aim of this project is to develop a registry of research volunteers for recruitment purposes at the Center for Rehabilitation Outcomes Research.",
     // linkTo: "/pediatric-physiotherapy",
