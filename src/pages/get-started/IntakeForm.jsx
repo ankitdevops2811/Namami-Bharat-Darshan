@@ -82,7 +82,7 @@ const IntakeForm = () => {
                 <h6 className="col-sm pt-3 mb-2 mt-2">Select Clinic*</h6>
 
                 <select
-                  value={user}
+                  // value={user}
                   className="form-select"
                   aria-label="Default select example"
                   name="clinic"
