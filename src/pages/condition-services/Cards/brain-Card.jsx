@@ -46,13 +46,13 @@ const cardData = [
     // linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.24 AM.jpeg",
     title: "COMET-C",
     text: "Seeking persons with communication difficulties due to stroke/aphasia, Parkinson’s Disease, cerebral palsy or traumatic brain injury to join a focus group.",
     // linkTo: "/pediatric-physiotherapy",
   },
   {
-    imageSrc: "/mission-walk-images/ea264408-17aa-42f6-91b5-f67bb8a58237.JPG",
+    imageSrc: "/mission-walk-images/1ccf28b6-2704-4298-8378-e2cd21c07c34.JPG",
     title:
       "Neuromodulation and Neurorehabilitation for Treatment of Functional Deficits after mTBI plus PTSD",
     text: "The purpose of this study is to alleviate persisting attention deficits related to mild TBI and PTSD by treating the neurocognitive system of attention.",

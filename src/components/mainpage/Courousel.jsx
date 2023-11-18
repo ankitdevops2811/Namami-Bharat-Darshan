@@ -12,7 +12,7 @@ const Courousel = () => {
               <div className="carousel-item active">
                 <img
                   className="w-100 h-10"
-                  src="img-mission/IMG-20231115-WA0019.jpg"
+                  src="img/18a1ff5a-3b2d-42fd-94fa-b2af0db95c48.JPG"
                   alt="Image"
                   // height="300px"
                   style={{ height: "700px" }}
@@ -30,18 +30,25 @@ const Courousel = () => {
                       className="display-1 text-white mb-md-4 animated zoomIn"
                       style={{ fontSize: "47px" }}
                     >
-                      Intensive Therapy Programs,Tailored to Your Child’s Unique
-                      Needs.
+                     Our Patients are Our Priority
+                    
                     </h3>
+                    <p style={{fontSize:"34"}}></p>
+                    <h1
+                      className="display-1 text-white mb-md-4 animated zoomIn"
+                      style={{ fontSize: "27px", color: "yellow" }}
+                    >
+                     We have varied departments and resources specializing in addressing all levels of pain for patients. Check out a few of these groups and individual success stories.
+                    </h1>
                     <a
                       href="intake-forms"
-                      className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
+                      className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
                       href="/contact"
-                      className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                      className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
                     </a>
@@ -51,7 +58,8 @@ const Courousel = () => {
               <div className="carousel-item">
                 <img
                   className="w-100 h-10"
-                  src="img/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
+                  // src="img/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
+                  src="img/44e8f869-bf91-4d6c-a734-08d17fdbb518.JPG"
                   alt="Image"
                   style={{ height: "700px" }}
 
@@ -66,26 +74,23 @@ const Courousel = () => {
                       className="text-white text-uppercase mb-3 animated slideInDown"
                       style={{ fontSize: "32px" }}
                     >
-                      Pediatric Occupational Therapy
+                     Stroke Recovery
                     </h5>
                     <h1
                       className="display-1 text-white mb-md-4 animated zoomIn"
                       style={{ fontSize: "27px", color: "yellow" }}
                     >
-                      An OT’s role is to assist individuals in performing
-                      “occupations” with the greatest level of independence
-                      possible. Childhood occupations include learning in school
-                      and playing with friends.
+                    Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
                     </h1>
                     <a
                       href="appointment.html"
-                      className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
+                      className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
                       href=""
-                      className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                      className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
                     </a>
@@ -95,7 +100,7 @@ const Courousel = () => {
               <div className="carousel-item">
                 <img
                   className="w-100 h-10"
-                  src="img/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
+                  src="img-mission/IMG-20231115-WA0027.jpg"
                   alt="Image"
                   style={{ height: "700px" }}
                   
@@ -127,7 +132,7 @@ const Courousel = () => {
                     </a>
                     <a
                       href=""
-                      className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                      className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
                     </a>
@@ -137,7 +142,7 @@ const Courousel = () => {
               <div className="carousel-item">
                 <img
                   className="w-100 h-10"
-                  src="img/18a1ff5a-3b2d-42fd-94fa-b2af0db95c48.JPG"
+                  src="mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.49 PM.jpeg"
                   alt="Image"
                   style={{ height: "700px" }}
                 />
@@ -151,15 +156,13 @@ const Courousel = () => {
                       className="text-white text-uppercase mb-3 animated slideInDown"
                       style={{ fontSize: "32px" }}
                     >
-                      Developmental Feeding Therapy
+                      Brain Injury Recovery
                     </h5>
                     <h1
                       className="display-1 text-white mb-md-4 animated zoomIn"
                       style={{ fontSize: "27px", color: "yellow" }}  
                     >
-                      Our occupational and speech therapists will work with your
-                      child to help them learn to feed themselves so they can
-                      become more independent.
+                     People from all over the world seek our 70 years’ experience in treating the most complex traumatic brain injuries and illnesses
                     </h1>
                     <a
                       href="appointment.html"
@@ -169,7 +172,7 @@ const Courousel = () => {
                     </a>
                     <a
                       href=""
-                      className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                      className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
                     </a>
@@ -179,7 +182,7 @@ const Courousel = () => {
               <div className="carousel-item">
                 <img
                   className="w-100 h-10"
-                  src="img/3918ca38-e19b-4cc4-84c0-9ef4aadd6800.JPG"
+                  src="mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.53 PM.jpeg"
                   alt="Image"
                   style={{ height: "700px" }}
                 />
@@ -193,15 +196,13 @@ const Courousel = () => {
                       className="text-white text-uppercase mb-3 animated slideInDown"
                       style={{ fontSize: "32px" }}
                     >
-                      Intensive Therapy
+                     Spinal Cord Injury
                     </h5>
                     <h1
                       className="display-1 text-white mb-md-4 animated zoomIn"
                       style={{ fontSize: "27px", color: "yellow" }}
                     >
-                      Our intensive programs, which may include combinations of
-                      occupational, physical, & speech therapy, are customized for
-                      each child based on their needs & goals.
+                     Our goal is to help you achieve your best outcome with cutting-edge treatments. As the world’s #1 referral choice for spinal cord injury, you benefit from our integration of medicine, research and technology
                     </h1>
                     <a
                       href="appointment.html"
@@ -211,7 +212,7 @@ const Courousel = () => {
                     </a>
                     <a
                       href=""
-                      className="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                      className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
                     </a>

@@ -34,7 +34,7 @@ const CerebralPalsy = () => {
                             <div className="row g-3">
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/mission-walk-images/3e82004b-1f7b-43d1-aa1a-6703185f9355.JPG" />
+                                        <Card.Img variant="top" src="/mission-walk-images/IMG-20231115-WA0031.jpg" />
                                         <Card.Body>
                                             <Card.Title>An Active Life with Cerebral Palsy</Card.Title>
                                             <Card.Text>
@@ -45,7 +45,7 @@ const CerebralPalsy = () => {
                                 </div>
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
+                                        <Card.Img variant="top" src="/mission-walk-images/IMG-20231115-WA0029.jpg" />
                                         <Card.Body>
                                             <Card.Title>Spasticity Clinic</Card.Title>
                                             <Card.Text>
@@ -86,10 +86,10 @@ const CerebralPalsy = () => {
                                 <div className="our_programs_details_left">
                                     <img
                                         decoding="async"
-                                        width="300"
-                                        height="300"
+                                        width="600"
+                                        height="600"
                                         className="size-full wp-image-31823 aligncenter"
-                                        src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
+                                        src="/mission-walk-images/3918ca38-e19b-4cc4-84c0-9ef4aadd6800.JPG"
                                         alt=""
                                     />
                                 </div>
@@ -257,6 +257,18 @@ const CerebralPalsy = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="video-iframe-container">
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/9BVwDDbpOcI?si=Anvy4tShLs7hMobY"
+title="YouTube video player"
+frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowFullScreen
+></iframe>
+</div>
                 </div>
             </div>
             {/* <!-- About End --> */}

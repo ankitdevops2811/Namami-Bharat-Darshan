@@ -196,56 +196,56 @@ const videoData = [
 ];
 const cardData = [
   {
-    imageSrc: "/mission-walk-images/620b6bc0-2526-4f8e-9dd7-f7bf1892ae4f 2.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.57 PM.jpeg",
     title: "Stroke Recovery",
     text: "The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.",
     linkTo: "/conditions/stroke-recovery",
   },
   {
-    imageSrc: "/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.43 PM.jpeg",
     title: "Spinal Cord Injury",
     text: "Our goal is to help you achieve your best outcome with cutting-edge treatments. As the world’s #1 referral choice for spinal cord injury, you benefit from our integration of medicine, research and technology.",
     linkTo: "/spinal",
   },
   {
-    imageSrc: "/mission-walk-images/06c8b886-0988-43f5-b120-7779c48e6cf3.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.17 AM.jpeg",
     title: "Brain Injury Recovery",
     text: "People from all over the world seek our 70 years’ experience in treating the most complex traumatic brain injuries and illnesses. We bring you the latest and most promising treatments and therapies.",
     linkTo: "/brain",
   },
   {
-    imageSrc: "/mission-walk-images/7dfa808a-797c-438d-a32b-2d549672f1c5 2.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.54 PM.jpeg",
     title: "Multiple Sclerosis",
     text: "People with multiple sclerosis (MS) come to us for inpatient, outpatient or day rehabilitation. We focus on medical treatments and therapies for building strength, motor function and communication. We also offer guidance on diet, support groups and assistive devices.",
     linkTo: "/conditions/multiple-sclerosis",
   },
 
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (2).jpeg",
     title: "Parkinson's Disease & Neurologic Rehabilitation",
     text: "With a comprehensive team of clinicians trained in treating Parkinson’s disease and movement disorders, we go beyond medication and surgery with specialized treatment including therapy, technology and scientific advances to dramatically improve abilities.",
     linkTo: "/conditions/parkinsons",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/IMG-20231115-WA0052.jpg",
     title: "Cerebral Palsy",
     text: "Each person with cerebral palsy (CP) has unique functional and therapeutic needs. We treat patients with CP of any age, at any point in their lives with the latest therapies for CP rehabilitation.",
     linkTo: "/conditions/cerebral-palsy",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.20 AM.jpeg",
     title: "Pain Management",
     text: "We address pain in two distinct ways: Chronic pain cases for conditions like sciatic nerve pain, amputation or long-term back pain are treated at our Pain Management Center. Cases of acute or short-term pain are seen by our expert DayRehab® and outpatient clinicians.",
     linkTo: "/conditions/pain-management",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/54.webp",
     title: "Limb Loss & Impairment",
     text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.",
     linkTo: "/conditions/difficulty-in-walking",
   },
   {
-    imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
+    imageSrc: "/mission-walk-images/18a1ff5a-3b2d-42fd-94fa-b2af0db95c48 4.JPG",
     title: "View All",
     text: "We go beyond traditional physical,occupational, and speech therapy by using innovative tools and techniques that change lives.",
     linkTo: "/service",

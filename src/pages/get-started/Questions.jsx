@@ -71,7 +71,7 @@ const Questions = () => {
                     A lot of movement happens from the day you book to the day
                     you start. For example, therapists may move clinics, take,
                     vacation time, or go on maternity leave. We encourage you to
-                    think of this as a tentative draft. For this reason, NAPA
+                    think of this as a tentative draft. For this reason, mission-walk
                     will release your finalized schedule 30 days prior to your
                     intensive start date.
                   </AccordionPanel>
@@ -198,7 +198,7 @@ const Questions = () => {
                     prepared for your arrival. <br />
                     <br />
                     1. Prescription - we will request your doctor&apos;s name
-                    and fax number to submit a prescription request. While NAPA
+                    and fax number to submit a prescription request. While mission-walk
                     will fax this in, it is your responsibility to follow up
                     with the doctor to get this form sent back. <br />
                     <br />
@@ -248,7 +248,7 @@ const Questions = () => {
                   <AccordionPanel pb={4}>
                     If your child becomes ill prior to the session start date
                     please contact us ASAP so we can give another family on our
-                    wait list a chance to come to NAPA. With a doctors note, we
+                    wait list a chance to come to mission-walk. With a doctors note, we
                     can save the money you put towards this intensive as a
                     credit towards the next session you schedule with us. We
                     most likely will not be able to get you in right away, but

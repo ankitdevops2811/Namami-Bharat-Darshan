@@ -175,7 +175,9 @@ const Brain = () => {
                                     <p style={{ fontSize: "22px", textAlign:"justify" }}>
                                     With nearly 200 clinical trials and research studies specifically dedicated to improving function and recovery from stroke (including treatment for aphasia) 
                                     — we offer you access to the world’s most advanced research, which can directly impact your recovery.
-                                        <a href="http://www.napacenter.org/contact/">
+                                        <a 
+                                        // href="http://www.napacenter.org/contact/"
+                                        >
                                             contacting us
                                         </a>
                                         to learn more.

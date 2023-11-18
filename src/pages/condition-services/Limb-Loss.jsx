@@ -34,7 +34,7 @@ const DifficultyInWalking = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.49 PM.jpeg" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.45 PM.jpeg" />
                     <Card.Body>
                       <Card.Title>Renewed Vigor Following a Quadruple Amputation</Card.Title>
                       <Card.Text>
@@ -45,7 +45,7 @@ const DifficultyInWalking = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
+                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.20 AM.jpeg" />
                     <Card.Body>
                       <Card.Title>Prosthetics & Orthotics</Card.Title>
                       <Card.Text>
@@ -69,7 +69,7 @@ const DifficultyInWalking = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.57 PM.jpeg"
+                  src="/mission-walk-images/Limb-Amputation.jpeg"
 
                   style={{ objectFit: "cover" }}
                 />
@@ -91,7 +91,7 @@ const DifficultyInWalking = () => {
                 style={{ maxWidth: "100%", maxHeight:"200%" }}
 
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.53 PM.jpeg"
+                    src="/mission-walk-images/roseann-sdoia-recovery_0-fc6069043a924b1095706b423c759368.jpg"
                     alt=""
                   />
                 </div>
@@ -146,6 +146,18 @@ const DifficultyInWalking = () => {
               </div>
             </div>
           </div>
+          <div className="video-iframe-container">
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/HEIj_1XG4Hg?si=MV9stBLw68EYHkPI"
+title="YouTube video player"
+frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowFullScreen
+></iframe>
+</div>
         </div>
       </div>
       {/* <!-- About End --> */}

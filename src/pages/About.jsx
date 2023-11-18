@@ -8,11 +8,16 @@ const About = () => {
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
-              <strong>About Us</strong>
+            <div className="d-flex justify-content-center" >
+  <strong style={{fontSize:"38px"}}>
+    <h1 className="text-white">Mission</h1>
+    <h1 className="text-warning">Walk</h1>
+  </strong>
+</div>
+         
             </h1>
-            <a href="" className="h4 text-white">
-              Dr. Ravi Badavath (Neuro physiotherapist, Founder of “Mission
-              Walk”)
+            <a href="" className="h4 text-white" style={{fontSize:"25px"}}>
+            Hope for Neurologically Disabled in India (Never Ever Give Up!!)
             </a>
           </div>
         </div>
@@ -40,14 +45,18 @@ const About = () => {
                   for neurologically disabled in India
                 </h1>
               </div>
+              <strong>
+
               <h4
                 className="text-body fst-italic mb-4  wow fadeInUp"
                 style={{ fontSize: "22px" }}
               >
                 Dr. Ravi Badavath
                 <br />
-                (Neuro physiotherapist, Founder of “Mission Walk”)
+                (Chief Neuro physiotherapist, Founder of “Mission Walk”, Long Term Neurologic Injury Rehabilation specialist)
               </h4>
+              </strong>
+
               <p
                 className="mb-4  wow fadeInUp"
                 style={{ fontSize: "20px", textAlign: "justify" }}
