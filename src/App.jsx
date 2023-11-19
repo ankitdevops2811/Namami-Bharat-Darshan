@@ -39,7 +39,6 @@ import IntakeForm from "./pages/get-started/IntakeForm";
 import Questions from "./pages/get-started/Questions";
 import RegistrationProcess from "./pages/get-started/RegistrationProcess";
 import OurVedios from "./pages/ourVideo"
-import Slide from "./pages/therapy-tools/Slide";
 
 // import ChatBot from '../src/pages/chatBot';
 
@@ -125,7 +124,6 @@ function App() {
             {/* <Route path="chatbot" element={<ChatBot />} /> */}
             <Route path="/refer-patient" element={<ReferPatient />} />
             <Route path="/refer-patient/our-vedios" element={<OurVedios />} />
-            <Route path="/slide" element={<Slide />} />
           </Route>
         </Routes>
       </BrowserRouter>
