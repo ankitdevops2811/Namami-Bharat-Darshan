@@ -33,7 +33,7 @@ const Contact = () => {
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 w-50">
+            <div className="col-lg-6 ">
               <div className="bg-warning rounded h-100 p-5">
                 <div className="section-title">
                   <h5 className="position-relative d-inline-block text-primary text-uppercase">
