@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 npm install bootstrap
 npm i react-router-dom
 https://freefrontend.com/bootstrap-profiles/
+https://uicookies.com/bootstrap-cards/
 
 git pull --no-ff origin therapy_contact
 

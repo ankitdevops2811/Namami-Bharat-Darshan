@@ -83,13 +83,13 @@ const Courousel = () => {
                     Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
                     </h1>
                     <a
-                      href="appointment.html"
+                      href="intake-forms"
                       className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
-                      href=""
+                      href="/contact"
                       className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
@@ -125,13 +125,13 @@ const Courousel = () => {
                       using the NeuroSuit and Multifunctional Therapy Units
                     </h1>
                     <a
-                      href="appointment.html"
+                      href="intake-forms"
                       className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
-                      href=""
+                      href="/contact"
                       className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
@@ -165,13 +165,13 @@ const Courousel = () => {
                      People from all over the world seek our 70 years’ experience in treating the most complex traumatic brain injuries and illnesses
                     </h1>
                     <a
-                      href="appointment.html"
+                      href="intake-forms"
                       className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
-                      href=""
+                      href="/contact"
                       className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us
@@ -205,13 +205,13 @@ const Courousel = () => {
                      Our goal is to help you achieve your best outcome with cutting-edge treatments. As the world’s #1 referral choice for spinal cord injury, you benefit from our integration of medicine, research and technology
                     </h1>
                     <a
-                      href="appointment.html"
+                      href="intake-forms"
                       className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                     >
                       Appointment
                     </a>
                     <a
-                      href=""
+                      href="/contact"
                       className="btn btn-primary py-md-3 px-md-5 animated slideInRight"
                     >
                       Contact Us

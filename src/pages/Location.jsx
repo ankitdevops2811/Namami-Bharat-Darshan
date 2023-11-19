@@ -89,7 +89,8 @@ const servicesData = [
     icon: "fa-brain",
     title: "Hyderabad",
     description:
-      "Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089",
+    "4th Floor,Pragathi Nagar Rd, opp. Nexa Service, near Lake, Jawaharlal Nehru Technological University, 4th floor,Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090",
+      // "Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089",
     delay: "0.3s",
     to: "/about",
     location: "/hyderabad.png",
