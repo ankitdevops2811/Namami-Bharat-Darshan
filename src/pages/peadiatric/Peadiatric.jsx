@@ -162,21 +162,21 @@ export default function Pediatric() {
     </>
   );
 }
-const imageData = [
-  {
-    id: 1,
-    src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
-    alt: "Image 1",
-  },
-  {
-    id: 2,
-    src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
-    alt: "Image 2",
-  },
-  {
-    id: 3,
-    src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
-    alt: "Image 3",
-  },
-  // Add more images as needed
-];
+// const imageData = [
+//   {
+//     id: 1,
+//     src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+//     alt: "Image 1",
+//   },
+//   {
+//     id: 2,
+//     src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+//     alt: "Image 2",
+//   },
+//   {
+//     id: 3,
+//     src: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
+//     alt: "Image 3",
+//   },
+//   // Add more images as needed
+// ];

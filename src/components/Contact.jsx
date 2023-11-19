@@ -27,83 +27,68 @@ const Contact = () => {
             >
               Get in touch with us
             </h3>
-            <div className="col-6 mt-5">
-              <div
-                className="contact-inner-wrapper d-flex justify-content-between"
-                style={{ aspectRatio: "1/1" }}
-              >
-                {/* *******Get In Touch Card******* */}
-
-                <div>
-                  {/* <h3
-                    className="contact-title mb-4"
-                    style={{ fontSize: "35px" }}
-                  >
-                    Get in touch with us
-                  </h3> */}
-                  <div>
-                    <div className="bg-warning rounded h-100 p-5">
-                      <div className="section-title">
-                        <h5 className="position-relative d-inline-block text-primary text-uppercase">
-                          Contact Us
-                        </h5>
-                        <h1 className="display-6 mb-4">
-                          Feel Free To Contact Us
-                        </h1>
-                      </div>
-                      <div className="d-flex align-items-center mb-2">
-                        <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
-                        <div className="text-start">
-                          <h5 className="mb-0">Hyderabad</h5>
-                          <span>Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089</span>
-                        </div>
-                      </div>
-                      <div className="d-flex align-items-center mb-2">
-                        <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
-                        <div className="text-start">
-                          <h5 className="mb-0">Greater Noida, Uttar Pradesh</h5>
-                          <span>Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308</span>
-                        </div>
-                      </div>
-                      <div className="d-flex align-items-center mb-2">
-                        <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
-                        <div className="text-start">
-                          <h5 className="mb-0">Pune, Maharastra</h5>
-                          <span>Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046</span>
-                        </div>
-                      </div>
-                      <div className="d-flex align-items-center mb-2">
-                        <i className="bi bi-envelope-open fs-1 text-primary me-3"></i>
-                        <div className="text-start">
-                          <h5 className="mb-0">Email Us</h5>
-                          <span>rehab@missionwalk.in</span>
-                        </div>
-                      </div>
-                      <div className="d-flex align-items-center">
-                        <i className="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-                        <div className="text-start">
-                          <h5 className="mb-0">Call Us</h5>
-                          <span>+91 9177300194</span>
-                        </div>
-                      </div>
-                    </div>
+          </div>
+        </div>
+      </div>
+      <div className=" our_programs_details pb-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 w-50">
+              <div className="bg-warning rounded h-100 p-5">
+                <div className="section-title">
+                  <h5 className="position-relative d-inline-block text-primary text-uppercase">
+                    Contact Us
+                  </h5>
+                  <h1 className="display-6 mb-4">Feel Free To Contact Us</h1>
+                </div>
+                <div className="d-flex align-items-center mb-2">
+                  <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0">Hyderabad</h5>
+                    <span>
+                      Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township,
+                      Raghavendra Colony, Manikonda Jagir, Telangana 500089
+                    </span>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center mb-2">
+                  <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0">Greater Noida, Uttar Pradesh</h5>
+                    <span>
+                      Ecotech-II, Knowledge Park III, Greater Noida, Uttar
+                      Pradesh 201308
+                    </span>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center mb-2">
+                  <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0">Pune, Maharastra</h5>
+                    <span>
+                      Physiotherapy and Rehabilitation Center Sun Gloria, mouje
+                      Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj,
+                      Pune, Maharashtra 411046
+                    </span>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center mb-2">
+                  <i className="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0">Email Us</h5>
+                    <span>rehab@missionwalk.in</span>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center">
+                  <i className="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0">Call Us</h5>
+                    <span>+91 9177300194</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-6 mt-5">
-              <div className="contact-inner-wrapper d-flex justify-content-between" style={{ aspectRatio: "1/1" }}>
-                {/* *******Get In Touch Card******* */}
-
-                <div>
-                  {/* <h3
-                    className="contact-title mb-4"
-                    style={{ fontSize: "35px" }}
-                  >
-                    Get in touch with us
-                  </h3> */}
-                  <div>
-                    <div className="bg-dark rounded h-100 p-5">
+            <div className="col-lg-6 w-h-25"><div className="bg-dark rounded h-100 p-5">
                       <div className="section-title">
                         <h5 className="position-relative d-inline-block text-white text-uppercase">
                           Contact Us
@@ -115,7 +100,9 @@ const Contact = () => {
                       <div className="d-flex align-items-center mb-2">
                         {/* <i className="bi bi-geo-alt fs-1 text-primary me-3"></i> */}
                         <div className="text-start">
-                          <h5 className="mb-2 text-white">Refer your patient?</h5>
+                          <h5 className="mb-2 text-white">
+                            Refer your patient?
+                          </h5>
                           {/* <span>Banjara Hills, Hyderabad, Telangana</span> */}
                         </div>
                       </div>
@@ -129,14 +116,11 @@ const Contact = () => {
                           </Link>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                    </div></div>
           </div>
         </div>
       </div>
+
     </>
   );
 };
