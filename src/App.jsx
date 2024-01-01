@@ -40,6 +40,7 @@ import Questions from "./pages/get-started/Questions";
 import RegistrationProcess from "./pages/get-started/RegistrationProcess";
 import Test from "./pages/get-started/Test";
 import OurVedios from "./pages/ourVideo";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // import ChatBot from '../src/pages/chatBot';
 
@@ -47,6 +48,7 @@ function App() {
   // useEffect(() => {
   //   AOS.init();
   // }, [])
+  // const whatsapp_link  =  `https://wa.me/${import.meta.env.VITE_WHATSAPP_PHONE}`
   return (
     <>
       <BrowserRouter>
@@ -129,6 +131,15 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      <a
+        // href={whatsapp_link}
+        href="https://wa.me/2348100000000"
+        className="whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon="fa-brands fa-whatsapp fa-lg" spin />
+      </a>
     </>
   );
 }
