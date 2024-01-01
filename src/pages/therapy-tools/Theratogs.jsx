@@ -41,14 +41,17 @@ const Theratogs = () => {
                 <div className="row g-5">
                   <div
                     className="col-lg-5 animated zoomIn"
-                    style={{ minHeight: "500px" }}
+                    style={{
+                      minHeight: "200px",
+                      // width: "550px"
+                    }}
                   >
                     <div className="position-relative h-100">
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/theratogs.jpeg"
-                        style={{ objectFit: "cover" }}
+                        src="/images/theratogs2.jpeg"
+                        // style={{ objectFit: "cover" }}
                       />
                     </div>
                   </div>

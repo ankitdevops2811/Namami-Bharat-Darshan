@@ -25,7 +25,7 @@ import "./style.css";
 // import { useEffect } from "react";
 import Location from "./pages/Location";
 import ReferPatient from "./pages/ReferPatient";
-import BalanceMobility from "./pages/condition-services/BalanceMobility";
+// import BalanceMobility from "./pages/condition-services/BalanceMobility";
 import Brain from "./pages/condition-services/Brain-Injury";
 import CerebralPalsy from "./pages/condition-services/CerebralPalsy";
 import DifficultyInWalking from "./pages/condition-services/Limb-Loss";
@@ -38,8 +38,8 @@ import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
 import IntakeForm from "./pages/get-started/IntakeForm";
 import Questions from "./pages/get-started/Questions";
 import RegistrationProcess from "./pages/get-started/RegistrationProcess";
-import OurVedios from "./pages/ourVideo"
 import Test from "./pages/get-started/Test";
+import OurVedios from "./pages/ourVideo";
 
 // import ChatBot from '../src/pages/chatBot';
 
@@ -87,10 +87,10 @@ function App() {
             <Route path="conditions/stroke-recovery" element={<Stroke />} />
             <Route path="spinal" element={<Spinal />} />
             <Route path="brain" element={<Brain />} />
-            <Route
+            {/* <Route
               path="conditions/balance-mobility"
               element={<BalanceMobility />}
-            />
+            /> */}
             <Route
               path="conditions/cerebral-palsy"
               element={<CerebralPalsy />}

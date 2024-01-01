@@ -25,12 +25,13 @@ const PaediatricSpeech = () => {
                   data-wow-delay="0.1s"
                   style={{ maxWidth: "600px" }}
                 >
-                  <h1 style={{ fontSize: "38px" }}>
-                    Pediatric Speech Therapy
-                  </h1>
+                  <h1 style={{ fontSize: "38px" }}>Pediatric Speech Therapy</h1>
                 </div>
               </div>
-              <p className="mb-4  animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
+              <p
+                className="mb-4  animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 Our pediatric speech therapists use a variety of therapy
                 techniques to address oral motor dysfunction, apraxia, fluency,
                 receptive and expressive language, social pragmatics, and
@@ -63,7 +64,10 @@ const PaediatricSpeech = () => {
                 <span style={{ color: "darkgoldenrod" }}>Speech Therapy</span>{" "}
                 for Kids
               </h1>
-              <p className="p-2  animated zoomIn" style={{ fontSize: "22px" , textAlign:"justify" }}>
+              <p
+                className="p-2  animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 It is crucial that a child who is limited with communication
                 receives ongoing speech therapy so that they can learn to
                 communicate their daily basic needs and wants to others in their
@@ -72,12 +76,18 @@ const PaediatricSpeech = () => {
                 communication methods, and more. At times, speech therapy may
                 incorporate feeding or swallowing therapy.
               </p>
-              <p className="mb-4  animated zoomIn" style={{ fontSize: "22px" , textAlign:"justify" }}>
+              <p
+                className="mb-4  animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 Mission Walk paediatric speech therapists treat a diverse range
                 of diagnoses including but not limited to:
               </p>
               <div>
-                <ul className="list-unstyled  animated zoomIn" style={{ fontSize: "20px" }}>
+                <ul
+                  className="list-unstyled  animated zoomIn"
+                  style={{ fontSize: "20px" }}
+                >
                   <li>
                     <i className="bi bi-check-circle text-success me-2"></i>
                     Autism Spectrum Disorder
@@ -131,14 +141,14 @@ const PaediatricSpeech = () => {
               data-aos-offset="200"
             >
               <img
-                src="/mission-walk-images/neuro.JPG"
+                src="/images/neuro.JPG"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
                 style={{ width: "80%" }}
               />
               <img
-                src="/img/hq720.jpg"
+                src="/images/paediatric10.jpg"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
@@ -163,7 +173,10 @@ const PaediatricSpeech = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-3">PROMPT</h5>
-                  <p className="card-text  animated zoomIn" style={{ textAlign:"justify" }}>
+                  <p
+                    className="card-text  animated zoomIn"
+                    style={{ textAlign: "justify" }}
+                  >
                     A multidimensional approach that integrates the
                     physical-sensory aspects of motor production with the
                     cognitive-linguistic and social-emotional aspects of
@@ -178,8 +191,13 @@ const PaediatricSpeech = () => {
                 {/* <div className="card bg-primary text-white"> */}
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-3  animated zoomIn">Hanen Program</h5>
-                  <p className="card-text mb-4  animated zoomIn" style={{ textAlign:"justify" }}> 
+                  <h5 className="card-title mb-3  animated zoomIn">
+                    Hanen Program
+                  </h5>
+                  <p
+                    className="card-text mb-4  animated zoomIn"
+                    style={{ textAlign: "justify" }}
+                  >
                     A practical therapy approach that incorporates
                     parent-training for building language, interaction, and
                     communication skills naturally through everyday routines and
@@ -195,7 +213,10 @@ const PaediatricSpeech = () => {
                   <h5 className="card-title mb-3  animated zoomIn">
                     Beckman Oral Motor Approach
                   </h5>
-                  <p className="card-text mb-4  animated zoomIn" style={{ textAlign:"justify" }}>
+                  <p
+                    className="card-text mb-4  animated zoomIn"
+                    style={{ textAlign: "justify" }}
+                  >
                     Intervention program that provides assisted movement to
                     activate muscle contraction and increase functional strength
                     and control of articulatory musculature for speech
@@ -232,7 +253,10 @@ const PaediatricSpeech = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Social Thinking</h5>
-                  <p className="card-text mb-5  animated zoomIn "style={{ textAlign:"justify" }}>
+                  <p
+                    className="card-text mb-5  animated zoomIn "
+                    style={{ textAlign: "justify" }}
+                  >
                     Treatment frameworks and strategies for developing
                     competency in both social cognitive thinking and social
                     skills in order to respond appropriately to social
@@ -246,7 +270,10 @@ const PaediatricSpeech = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-3">AAC and Other Methods</h5>
-                  <p className="card-text  animated zoomIn"style={{ textAlign:"justify" }}>
+                  <p
+                    className="card-text  animated zoomIn"
+                    style={{ textAlign: "justify" }}
+                  >
                     Low Tech Communication Boards/Books, Auto and Step-Scanning,
                     Eye Gaze Devices, Partner-assisted auditory or visual
                     scanning, Switches and switch placement (single or
@@ -265,7 +292,10 @@ const PaediatricSpeech = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-4">Integrative Approach</h5>
-                  <p className="card-text mb-5  animated zoomIn"style={{ textAlign:"justify" }}>
+                  <p
+                    className="card-text mb-5  animated zoomIn"
+                    style={{ textAlign: "justify" }}
+                  >
                     Our trained paediatric speech therapists use a variety of
                     techniques and approaches tailored to fit each child’s
                     individual needs while emphasizing a total language approach
@@ -291,9 +321,9 @@ const PaediatricSpeech = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="classes w-100 ftco-animate">
-                <img
+                <img 
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/mission-walk-images/a23e7e97-e392-44ee-92f9-a17eb8412c9d 2.JPG"
+                  src="/images/rehab-center-image.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -303,7 +333,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/mission-walk-images/f2858078-9380-4fa2-97ed-ef760d7bb869.JPG"
+                  src="/images/paediatric9.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -313,7 +343,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/mission-walk-images/cb9acd9e-9ab3-4bdc-b996-f53a5957cd87.JPG"
+                  src="/images/cs-image3.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -325,7 +355,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/mission-walk-images/caff6211-c530-4104-8c4f-8d976687c50f.JPG"
+                  src="/images/paediatric1.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -335,7 +365,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/mission-walk-images/a61fabe4-341f-46ad-991b-b7f3ec89f70c.JPG"
+                  src="/images/p-img.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -345,7 +375,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/mission-walk-images/a9f999a3-75a1-4259-95b8-24753f3ee90d.JPG"
+                  src="/images/pediatric-4.JPG"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />

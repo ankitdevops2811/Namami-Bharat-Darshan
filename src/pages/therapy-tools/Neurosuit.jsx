@@ -91,38 +91,7 @@ const Neurosuit3 = () => {
                 </span>
                 is suitable to treat the following:
               </h1>
-              {/* <div className="container">
-                <div className="row">
-                  <div className="col-xl-12 mb-3 mb-lg-5">
-                    <div className="card">
-                      <div className="card-body">
-                        <ul className="list-group list-group-flush">
-                          <li className="list-group-item pt-0">
-                            <div className="d-flex align-items-center">
-                              <div className="flex-shrink-0 me-3">
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                                  alt=""
-                                  className="avatar rounded-circle"
-                                />
-                              </div>
-                              <div className="flex-grow-1">
-                                <h6 className="mb-0">Inara Britt</h6>
-                                <p className="mb-0 text-muted">Georgia, USA</p>
-                              </div>
-                              <div className="flex-shrink-0 text-end">
-                                    <span>
-                                        $927.00
-                                    </span>
-                                </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+              
               <ul
                 className=" wow zoomIn ps-1"
                 data-wow-delay="0.11s"
@@ -262,9 +231,6 @@ const Neurosuit3 = () => {
                     </div>
                     <h4 className="card-2 mb-3">{service.title}</h4>
                     <p className="mb-4">{service.description}</p>
-                    {/* <Link className="btn" to={service.linkTo}>
-                      <i className="fa fa-plus text-primary me-3"></i>Read More
-                    </Link> */}
                   </div>
                 </div>
               ))}

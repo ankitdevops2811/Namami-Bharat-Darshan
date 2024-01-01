@@ -9,7 +9,7 @@ const PaediatricPhysiotherapy = () => {
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
-             Intensive Pediatric Physiotherapy
+              Intensive Pediatric Physiotherapy
             </h1>
           </div>
         </div>
@@ -25,10 +25,16 @@ const PaediatricPhysiotherapy = () => {
                   data-wow-delay="0.1s"
                   style={{ maxWidth: "600px" }}
                 >
-                  <h1 style={{ fontSize: "38px" }}> Intensive Pediatric Physiotherapy</h1>
+                  <h1 style={{ fontSize: "38px" }}>
+                    {" "}
+                    Intensive Pediatric Physiotherapy
+                  </h1>
                 </div>
               </div>
-              <p className="mb-4 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
+              <p
+                className="mb-4 animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 Mission Walk takes an intensive approach to pediatric
                 physiotherapy using the NeuroSuit and Multifunctional Therapy
                 Units.At Mission Walk Centre, our highly trained pediatric
@@ -38,8 +44,8 @@ const PaediatricPhysiotherapy = () => {
                 speech, and occupational—work with each other and with family
                 members to assess each child’s current functioning level. Then
                 they create an individualised plan to help each child achieve
-                optimal results. We offer pediatric physiotherapy in both
-                weekly and intensive settings.
+                optimal results. We offer pediatric physiotherapy in both weekly
+                and intensive settings.
               </p>
             </span>
           </div>
@@ -72,13 +78,14 @@ const PaediatricPhysiotherapy = () => {
                   Intensive Pediatric Physiotherapy
                 </span>
               </h1>
-              <p className="p-2 animated zoomIn" style={{ fontSize: "22px", textAlign:"justify" }}>
+              <p
+                className="p-2 animated zoomIn"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 We take an intensive approach to physiotherapy with each child’s
-                plan
-               
-                using the NeuroSuit and Universal Exercise Units. This highly
-                effective method of treatment uses cutting-edge methods to
-                challenge the child and achieve new physical abilities. The
+                plan using the NeuroSuit and Universal Exercise Units. This
+                highly effective method of treatment uses cutting-edge methods
+                to challenge the child and achieve new physical abilities. The
                 NeuroSuit helps hold the patient’s body in correct alignment and
                 adds additional weight bearing through the use of bungee type
                 bands that are attached to the suit.Our patients also
@@ -91,7 +98,10 @@ const PaediatricPhysiotherapy = () => {
                 or has experienced:
               </p>
               <div>
-                <ul className="list-unstyled animated zoomIn" style={{ fontSize: "20px" }}>
+                <ul
+                  className="list-unstyled animated zoomIn"
+                  style={{ fontSize: "20px" }}
+                >
                   <li>
                     <i className="bi bi-check-circle text-success me-2"></i>
                     Prematurity
@@ -160,52 +170,21 @@ const PaediatricPhysiotherapy = () => {
               data-aos="fade-right"
               data-aos-offset="200"
             >
-              {/* <img
-                src="/mission-walk-images/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
-                width="300px"
-                height="600px"
-                className="img-fluid img-thumbnail"
-                style={{ width: "80%" }}
-              /> */}
               <img
-                src="/img-mission/IMG-20231115-WA0042.jpg"
+                src="/images/paediatric3.jpg"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
                 style={{ width: "80%" }}
               />
             </div>
-            {/* <div
-            className="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end"
-            data-aos="fade-right"
-            data-aos-offset="200"
-          >
-            <div className="position-relative">
-              <img
-                src="/mission-walk-images/hq720.jpg"
-                alt="Image 1"
-                width="300px"
-                height="600px"
-                className="img-fluid img-thumbnail"
-                style={{ width: "80%" }}
-              />
-              <img
-                src="/mission-walk-images/hq720.jpg"
-                alt="Image 2"
-                width="300px"
-                height="600px"
-                className="img-fluid img-thumbnail position-absolute top-0 start-50 translate-middle-x"
-                style={{ width: "80%", height:"180%" }}
-              />
-            </div>
-          </div> */}
           </div>
         </div>
       </section>
       {/* next 1*/}
       <section className="services py-5 bg-light" id="services">
         <div className="container">
-          <div className="text-center my-5 animated zoomIn" >
+          <div className="text-center my-5 animated zoomIn">
             <h2>
               Pediatric physiotherapy services may help improve a child’s:
             </h2>
@@ -215,7 +194,9 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-4 animated zoomIn">Range of Motion</h5>
+                  <h5 className="card-title mb-4 animated zoomIn">
+                    Range of Motion
+                  </h5>
                   <p className="card-text animated zoomIn">
                     This can include immature or decreased motor control.
                   </p>
@@ -228,7 +209,9 @@ const PaediatricPhysiotherapy = () => {
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Strength</h5>
-                  <p className="card-text animated zoomIn">Strength against gravity </p>
+                  <p className="card-text animated zoomIn">
+                    Strength against gravity{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -328,7 +311,9 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5 animated zoomIn">Equilibrium Improvement</h5>
+                  <h5 className="card-title mb-5 animated zoomIn">
+                    Equilibrium Improvement
+                  </h5>
                   <p className="card-text animated zoomIn">
                     Improving balance and equilibrium skills
                   </p>
@@ -345,8 +330,12 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5 animated zoomIn">Posture Training</h5>
-                  <p className="card-text animated zoomIn">Improving postural control </p>
+                  <h5 className="card-title mb-5 animated zoomIn">
+                    Posture Training
+                  </h5>
+                  <p className="card-text animated zoomIn">
+                    Improving postural control{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -354,8 +343,12 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-5 animated zoomIn">Gait Trainng</h5>
-                  <p className="card-text animated zoomIn">Gait training (walking)</p>
+                  <h5 className="card-title mb-5 animated zoomIn">
+                    Gait Trainng
+                  </h5>
+                  <p className="card-text animated zoomIn">
+                    Gait training (walking)
+                  </p>
                 </div>
               </div>
             </div>
@@ -363,7 +356,9 @@ const PaediatricPhysiotherapy = () => {
               <div className="card border-0">
                 <div className="card-body">
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title mb-4 animated zoomIn">Orthopedics</h5>
+                  <h5 className="card-title mb-4 animated zoomIn">
+                    Orthopedics
+                  </h5>
                   <p className="card-text animated zoomIn">
                     Evaluating the need for adaptive equipment and orthopedic
                     devices.
@@ -389,7 +384,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate animated zoomIn">
                 <img
                   className="img w-100 mb-3 animated zoomIn"
-                  src="/img-mission/IMG-20231115-WA0049.jpg"
+                  src="/images/paediatric4.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -399,7 +394,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3 animated zoomIn"
-                  src="/img-mission/IMG-20231115-WA0046.jpg"
+                  src="/images/paediatric5.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -409,7 +404,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3 animated zoomIn"
-                  src="/img-mission/IMG-20231115-WA0053.jpg"
+                  src="/images/paediatric6.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -421,7 +416,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3 animated zoomIn"
-                  src="/img-mission/IMG-20231115-WA0052.jpg"
+                  src="/images/paediatric7.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -431,7 +426,7 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate animated zoomIn">
                 <img
                   className="img w-100 mb-3"
-                  src="/img-mission/IMG-20231115-WA0048.jpg"
+                  src="/images/paediatric8.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
@@ -441,22 +436,28 @@ const PaediatricPhysiotherapy = () => {
               <div className="classes w-100 ftco-animate animated zoomIn">
                 <img
                   className="img w-100 mb-3 animated zoomIn"
-                  src="/img-mission/IMG-20231115-WA0054.jpg"
+                  src="/images/paediatric9.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />
               </div>
             </div>
-           
           </div>
-        
         </div>
-        <div className="video-iframe-container mt-5" style={{marginLeft:"6%", marginRight:"6%"}}>
-                    
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PbbWYtHpz6k?si=pftCnBlHAHi19TK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                     
-                    </iframe>
-                             </div>
+        <div
+          className="video-iframe-container mt-5"
+          style={{ marginLeft: "6%", marginRight: "6%" }}
+        >
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/PbbWYtHpz6k?si=pftCnBlHAHi19TK6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
       {/* End */}
       <ContactPagesCard />

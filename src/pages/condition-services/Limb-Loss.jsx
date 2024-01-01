@@ -34,7 +34,7 @@ const DifficultyInWalking = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.45 PM.jpeg" />
+                    <Card.Img variant="top" src="/images/cs-image7.jpeg" />
                     <Card.Body>
                       <Card.Title>Renewed Vigor Following a Quadruple Amputation</Card.Title>
                       <Card.Text>
@@ -45,7 +45,7 @@ const DifficultyInWalking = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.20 AM.jpeg" />
+                    <Card.Img variant="top" src="/images/cs-image8.jpeg" />
                     <Card.Body>
                       <Card.Title>Prosthetics & Orthotics</Card.Title>
                       <Card.Text>
@@ -69,7 +69,7 @@ const DifficultyInWalking = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="/mission-walk-images/Limb-Amputation.jpeg"
+                  src="/images/Limb-Amputation.jpeg"
 
                   style={{ objectFit: "cover" }}
                 />
@@ -91,7 +91,7 @@ const DifficultyInWalking = () => {
                 style={{ maxWidth: "100%", maxHeight:"200%" }}
 
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/roseann-sdoia-recovery_0-fc6069043a924b1095706b423c759368.jpg"
+                    src="/images/roseann-sdoia-recovery.jpg"
                     alt=""
                   />
                 </div>

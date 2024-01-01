@@ -10,7 +10,7 @@ const Navbar2 = () => {
       <Link className="navbar-brand d-flex align-items-center" to="/">
         {/* Use Bootstrap utility classes to control image size */}
         <img
-          src="/img/logo.png"
+          src="/images/logo.png"
           alt="Mission-walk Logo"
           className="img-fluid h-100"
           style={{ maxWidth: "100px" }}

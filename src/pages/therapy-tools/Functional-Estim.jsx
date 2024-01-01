@@ -10,7 +10,7 @@ const Functional_Estim = () => {
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
               {" "}
-              Functional Estim
+              Functional E stim
             </h1>
           </div>
         </div>

@@ -36,7 +36,7 @@ const MsCard = () => {
 export default MsCard;
 const MsData = [
   {
-    imageSrc: "/mission-walk-images/7dfa808a-797c-438d-a32b-2d549672f1c5 2.JPG",
+    imageSrc: "/images/cs-img.JPG",
     title: "Center for Rehabilitation Outcomes Research Registry",
     text: "The aim of this project is to develop a registry of research volunteers for recruitment purposes at the Center for Rehabilitation Outcomes Research.",
     // linkTo: "/pediatric-occupational",

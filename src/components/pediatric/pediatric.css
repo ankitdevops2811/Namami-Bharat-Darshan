@@ -67,16 +67,6 @@
     }
 }
 
-/* .ftco-animated {
-    -webkit-animation-duration: .5s;
-    animation-duration: .5s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-  } */
-/* .ftco-animate {
-    opacity: 0;
-    visibility: hidden; }
-     */
 @media (max-width: 767.98px) {
     .img-services {
         height: 400px;
@@ -129,25 +119,6 @@
     }
 }
 
-/* .ftco-section {
-        padding: 7em 0;
-        position: relative; }
-        @media (max-width: 767.98px) {
-          .ftco-section {
-            padding: 6em 0; } } */
-/* .justify-content-center {
-                -webkit-box-pack: center !important;
-                -ms-flex-pack: center !important;
-                justify-content: center !important; }
-              
-@media (min-width: 768px) {
-    .text-md-left {
-      text-align: left !important; }
-    .text-md-right {
-      text-align: right !important; }
-    .text-md-center {
-      text-align: center !important; } }
-   */
 .ftco-gallery {
     padding: 0;
 }

@@ -52,7 +52,7 @@ const Spidercage = () => {
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/dmi-1.jpg"
+                        src="/images/dmi-2.jpeg"
                         style={{ objectFit: "cover" }}
                       />
                     </div>

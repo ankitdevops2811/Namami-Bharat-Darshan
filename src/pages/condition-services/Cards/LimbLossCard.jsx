@@ -1,6 +1,5 @@
 import React from "react";
 import ConditionCard from "../../../components/conditionCard";
-// import CustomCard from "../../components/Card";
 
 const LimbCard = () => {
   return (
@@ -36,13 +35,13 @@ const LimbCard = () => {
 export default LimbCard;
 const limbData = [
   {
-    imageSrc: "/mission-walk-images/Chiropractic-Care-Frisco-Texas-1024x683.jpg",
+    imageSrc: "/images/Chiropractic-Care-Frisco-Texas-1024x683.jpg",
     title: "Evaluation of Powered Lower Limb Prostheses",
     text: "To refine and evaluate socket design, mechanical components, control mechanisms, control electronics and training of powered lower limb prosthetic devices for amputees.",
     // linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/2361332.jpg",
+    imageSrc: "/images/limb-loss.jpg",
     title: "Outcomes Testing with Myoelectric Upper Limb Prosthesis Users",
     text: "This study is exploring what factors may impact function using a prosthesis.",
     // linkTo: "/pediatric-physiotherapy",

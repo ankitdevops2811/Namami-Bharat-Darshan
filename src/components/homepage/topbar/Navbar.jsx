@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="index.html" className="navbar-brand p-0">
           <h1 className="m-0 text-primary">
             <img
-              src="/img/logo.png"
+              src="/images/logo.png"
               alt="Mission-walk Logo"
               style={{ maxHeight: "100px", maxWidth: "150px" }}
             />

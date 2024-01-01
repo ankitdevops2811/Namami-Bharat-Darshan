@@ -39,7 +39,10 @@ const Stroke = () => {
                 Programs, Services & Patients
               </h1>
 
-              <p className="text-body mb-4" style={{ fontSize: "22px", textAlign:"justify" }}>
+              <p
+                className="text-body mb-4"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 You want to recover what’s most important in your life — be it
                 mobility, independence, wlking, swallowing or speaking again.
                 Together we reach for those goals.
@@ -48,7 +51,7 @@ const Stroke = () => {
               <div className="row g-5">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/3763c9e4-8616-469a-969d-65b603b11caa 3.JPG" />
+                    <Card.Img variant="top" src="/images/cs-image11.JPG" />
                     <Card.Body>
                       <Card.Title>
                         Stroke Recovery— What sets us apart?
@@ -64,7 +67,7 @@ const Stroke = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/44e8f869-bf91-4d6c-a734-08d17fdbb518.JPG" />
+                    <Card.Img variant="top" src="/images/carousel-3.JPG" />
                     <Card.Body>
                       <Card.Title>Stroke Specialty Services</Card.Title>
                       <Card.Text>
@@ -89,17 +92,16 @@ const Stroke = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                    decoding="async"
-                    width="700"
-                    height="100"
-                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (1).jpeg"
+                  decoding="async"
+                  width="700"
+                  height="100"
+                  src="/images/cs-image12.jpeg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
             </div>
           </div>
-        <hr className="hr mb-0 mt-5" />
-
+          <hr className="hr mb-0 mt-5" />
         </div>
       </div>
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -112,21 +114,18 @@ const Stroke = () => {
                     // decoding="async"
                     // width="700"
                     // height="100"
-                style={{ maxWidth: "100%", maxHeight:"100%" }}
-
+                    style={{ maxWidth: "100%", maxHeight: "100%" }}
                     className="w-700 h-200 rounded wow aligncenter"
-                    src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.45 PM.jpeg"
+                    src="/images/cs-image7.jpeg"
                     alt=""
                   />
-            {/* <hr className="w-25 m-auto" /> */}
-        <hr className="hr mb-0 mt-5" />
-
-
+                  {/* <hr className="w-25 m-auto" /> */}
+                  <hr className="hr mb-0 mt-5" />
                 </div>
-                <div className="our_programs_details_right" >
+                <div className="our_programs_details_right">
                   <h3></h3>
-                  <h3 style={{fontSize:"38px"}}>How We Heel</h3>
-                  <p style={{fontSize:"22px"}}>
+                  <h3 style={{ fontSize: "38px" }}>How We Heel</h3>
+                  <p style={{ fontSize: "22px" }}>
                     Our integrated team of physicians, nurses, therapists,
                     researchers and case managers understand the most complex
                     injuries. They create programs for each patient – tailored
@@ -152,13 +151,11 @@ const Stroke = () => {
                         Think + Speak Lab
                       </li>
                     </ul>
-                    <br>
-                    </br>
-                    <br>
-                    </br>
+                    <br></br>
+                    <br></br>
                   </div>
-                  <h3 style={{fontSize:"38px"}}>Science-Driven Care</h3>
-                  <p style={{fontSize:"22px"}}>
+                  <h3 style={{ fontSize: "38px" }}>Science-Driven Care</h3>
+                  <p style={{ fontSize: "22px" }}>
                     With nearly 200 clinical trials and research studies
                     specifically dedicated to improving function and recovery
                     from stroke (including treatment for aphasia) — we offer you
@@ -173,9 +170,7 @@ const Stroke = () => {
                 <div className="clearfix"></div>
               </div>
               <div className="our_programs_details_list">
-                <div
-                  className=""
-                >
+                <div className="">
                   <div
                     className="programs_details_list_txt"
                     style={{ fontSize: "38px" }}
@@ -190,11 +185,16 @@ const Stroke = () => {
             </div>
           </div>
           <div className="video-iframe-container">
-                    
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KQRuqyGaq9o?si=sUZ-nUbZNyfvwi7a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                     
-                    </iframe>
-                             </div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/KQRuqyGaq9o?si=sUZ-nUbZNyfvwi7a"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
       {/* <!-- About End --> */}

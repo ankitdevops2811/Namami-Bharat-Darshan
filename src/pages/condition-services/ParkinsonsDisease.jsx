@@ -1,4 +1,3 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import ContactPagesCard from "../../components/contactPagesCard";
 import ParkinsonsCards from "./Cards/parkinsons-card";
@@ -37,7 +36,10 @@ const ParkinsonsDisease = () => {
                 What Sets Us Apart
               </h1>
 
-              <p className="text-body mb-4" style={{fontSize:"22px", textAlign:"justify"}}>
+              <p
+                className="text-body mb-4"
+                style={{ fontSize: "22px", textAlign: "justify" }}
+              >
                 Our Parkinson's Disease & Movement Disorders (PDMD) experts work
                 with you to enhance your abilities and well-being through
                 integrative & innovative care. Learn how we redefine outcomes.
@@ -46,7 +48,7 @@ const ParkinsonsDisease = () => {
               <div className="row g-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.24 AM.jpeg" />
+                    <Card.Img variant="top" src="/images/cs-img1.jpeg" />
                     <Card.Body>
                       <Card.Title>
                         Parkinson's Disease & Movement Disorders Program
@@ -63,7 +65,7 @@ const ParkinsonsDisease = () => {
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                   <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="/img-mission/IMG-20231115-WA0020.jpg" />
+                    <Card.Img variant="top" src="/images/cs-images.jpg" />
                     <Card.Body>
                       <Card.Title>PDMD Research</Card.Title>
                       <Card.Text>
@@ -75,7 +77,6 @@ const ParkinsonsDisease = () => {
                     </Card.Body>
                   </Card>
                 </div>
-            
               </div>
               {/* <a
                 href="intake-forms"
@@ -90,9 +91,8 @@ const ParkinsonsDisease = () => {
                 <img
                   className=" rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                style={{ maxWidth: "120%", maxHeight:"100%" }}
-                  
-                  src="/mission-walk-images/WhatsApp Image 2023-11-16 at 11.42.52 PM (2).jpeg"
+                  style={{ maxWidth: "120%", maxHeight: "100%" }}
+                  src="/images/cs-img7.jpeg"
                   // style={{ objectFit: "cover" }}
                 />
               </div>
@@ -110,16 +110,17 @@ const ParkinsonsDisease = () => {
                     // decoding="async"
                     // width="300"
                     // height="300"
-                style={{ maxWidth: "100%", maxHeight:"50%" }}
-
+                    style={{ maxWidth: "100%", maxHeight: "50%" }}
                     className="size-full wp-image-31823 aligncenter"
-                    src="/mission-walk-images/WhatsApp Image 2023-11-17 at 1.02.20 AM.jpeg"
+                    src="/images/cs-image8.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="our_programs_details_right">
-                  <h3 style={{fontSize:"38px", textAlign:"justify"}}>How We Heel</h3>
-                  <p style={{fontSize:"22px", textAlign:"justify"}}>
+                  <h3 style={{ fontSize: "38px", textAlign: "justify" }}>
+                    How We Heel
+                  </h3>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     Every person with Parkinson’s disease or a movement disorder
                     has unique medical and therapeutic needs. Our doctors,
                     therapists and scientists collaborate using the most
@@ -128,7 +129,10 @@ const ParkinsonsDisease = () => {
                   </p>
 
                   <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                    <ul className="list-unstyled" style={{fontSize:"22px", textAlign:"justify"}}>
+                    <ul
+                      className="list-unstyled"
+                      style={{ fontSize: "22px", textAlign: "justify" }}
+                    >
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
                         Legs + Walking Lab
@@ -147,8 +151,10 @@ const ParkinsonsDisease = () => {
                       </li>
                     </ul>
                   </div>
-                  <h3 style={{fontSize:"38px", textAlign:"justify"}}>Science-Driven Care</h3>
-                  <p style={{fontSize:"22px", textAlign:"justify"}}>
+                  <h3 style={{ fontSize: "38px", textAlign: "justify" }}>
+                    Science-Driven Care
+                  </h3>
+                  <p style={{ fontSize: "22px", textAlign: "justify" }}>
                     With nearly 200 clinical trials and research studies
                     specifically dedicated to improving function and recovery
                     from stroke (including treatment for aphasia) — we offer you
@@ -163,14 +169,14 @@ const ParkinsonsDisease = () => {
                 <div className="clearfix"></div>
               </div>
               <div className="our_programs_details_list">
-                <div
-                  className=""
-                >
+                <div className="">
                   <div
                     className="programs_details_list_txt"
                     style={{ fontSize: "38px" }}
                   >
-                    <b style={{fontSize:"38px", textAlign:"justify"}}>Clinical Trials & Research Studies</b>
+                    <b style={{ fontSize: "38px", textAlign: "justify" }}>
+                      Clinical Trials & Research Studies
+                    </b>
                   </div>
                   <div className="program_details_outer_div">
                     <ParkinsonsCards />
@@ -179,7 +185,6 @@ const ParkinsonsDisease = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
       {/* <!-- About End --> */}
@@ -187,7 +192,6 @@ const ParkinsonsDisease = () => {
       {/* <ContactPagesCard /> */}
 
       <ContactPagesCard />
-
     </>
   );
 };

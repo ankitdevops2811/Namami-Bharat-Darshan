@@ -1,8 +1,8 @@
 import React from "react";
-import ContactPagesCard from "../components/contactPagesCard";
-import "./peadiatric/Peadiatric";
 import { Link } from "react-router-dom";
 import ConditionCard from "../components/conditionCard";
+import ContactPagesCard from "../components/contactPagesCard";
+import "./peadiatric/Peadiatric";
 
 const PaediatricPhysiotherapy = () => {
   return (
@@ -207,7 +207,7 @@ const PaediatricPhysiotherapy = () => {
                 style={{ width: "80%" }}
               /> */}
               <img
-                src="/img-mission/IMG-20231115-WA0042.jpg"
+                src="images/image1.jpg"
                 width="300px"
                 height="600px"
                 className="img-fluid img-thumbnail"
@@ -297,7 +297,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -315,7 +315,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -333,7 +333,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -363,7 +363,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -381,7 +381,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -399,7 +399,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -417,7 +417,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -435,7 +435,7 @@ const PaediatricPhysiotherapy = () => {
                     <div className="rounded-top overflow-hidden">
                       <img
                         className="img-fluid"
-                        src="img/mission-walk-hyderabad-5cf92e1761f8b.jpeg"
+                        src="images/image2.jpeg"
                         alt=""
                       />
                     </div>
@@ -499,19 +499,19 @@ const PaediatricPhysiotherapy = () => {
 export default PaediatricPhysiotherapy;
 const cardData = [
   {
-    imageSrc: "/mission-walk-images/istockphoto-1059268632-170667a.jpg",
+    imageSrc: "/images/iphoto.jpg",
     title: "Global Patient Services",
     text: "Patients from around the world choose us for our expertise and patient care services. Our expert team navigates all obstacles so you can focus on recovery.",
     linkTo: "/pediatric-occupational",
   },
   {
-    imageSrc: "/mission-walk-images/OIP.jfif",
+    imageSrc: "/images/OIP.jfif",
     title: "Workers' Compensation",
     text: "Mission Walk has decades of experience in workers' compensation cases, and we are dedicated to making things work smoothly for you.",
     linkTo: "/pediatric-physiotherapy",
   },
   {
-    imageSrc: "/mission-walk-images/54.webp",
+    imageSrc: "/images/image3.webp",
     title: "National Patients",
     text: "Patients travel to the AbilityLab from across the United States to take advantage of our inpatient, DayRehabCenter®, outpatient, and ExpertEval® services.",
     linkTo: "/pediatric-speech",

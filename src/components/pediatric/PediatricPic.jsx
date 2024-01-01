@@ -16,14 +16,10 @@ const PediatricPic = () => {
           </div>
           <div className="row">
             <div className="col-md-3 ftco-animate">
-              <a
-                href="/mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG"
-                // className="gallery image-popup img d-flex align-items-center"
-                // style={{ backgroundImage: "url(/mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG)" }}
-              >
+              <a href="/images/pediatric-1.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/7d5ad1c2-5e7e-4e18-bab6-98a14e40e603.JPG"
+                  src="/images/pediatric-1.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -33,10 +29,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG">
+              <a href="/images/pediatric-2.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
+                  src="/images/pediatric-2.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -46,10 +42,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/01d7efce-a2a8-4b59-8aa6-0cae2d309c8f.JPG">
+              <a href="/images/pediatric-3.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/01d7efce-a2a8-4b59-8aa6-0cae2d309c8f.JPG"
+                  src="/images/pediatric-3.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -59,10 +55,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/a9f999a3-75a1-4259-95b8-24753f3ee90d.JPG">
+              <a href="/images/pediatric-4.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/a9f999a3-75a1-4259-95b8-24753f3ee90d.JPG"
+                  src="/images/pediatric-4.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -72,10 +68,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG">
+              <a href="/images/pediatric-5.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
+                  src="/images/pediatric-5.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -85,10 +81,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/a61fabe4-341f-46ad-991b-b7f3ec89f70c.JPG">
+              <a href="/images/p-img.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/a61fabe4-341f-46ad-991b-b7f3ec89f70c.JPG"
+                  src="/images/p-img.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -98,10 +94,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/neuro.JPG">
+              <a href="/images/neuro.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/neuro.JPG"
+                  src="/images/neuro.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -111,10 +107,10 @@ const PediatricPic = () => {
               </a>
             </div>
             <div className="col-md-3 ftco-animate">
-              <a href="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG">
+              <a href="/images/pediatric-2.JPG">
                 <img
                   className="gallery image-popup img d-flex align-items-center"
-                  src="/mission-walk-images/13caae38-820f-4a5a-a4b1-982386f1fd17.JPG"
+                  src="/images/pediatric-2.JPG"
                   alt="img"
                   style={{ width: "100%" }}
                 />
@@ -127,17 +123,17 @@ const PediatricPic = () => {
         </div>
         <div className="video-iframe-container animated zoomIn">
           <h1>Please Have a Look On Process How we Treat</h1>
-                    
+
           <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/04-e3yhQ9k8?si=m7rTqNPjjyi9cVFd"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
-                  </div>
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/04-e3yhQ9k8?si=m7rTqNPjjyi9cVFd"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
       </section>
     </>
   );

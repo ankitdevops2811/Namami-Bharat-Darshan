@@ -71,7 +71,7 @@ const Spidercage = () => {
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/spidercage-1.jpg"
+                        src="/images/spider-cage.jpeg"
                         style={{ objectFit: "cover" }}
                       />
                     </div>
@@ -197,7 +197,7 @@ const Spidercage = () => {
                   <div className="col-lg-6">
                     <div className="img-box " >
                       <img
-                        src="/mission-walk-images/spidercage-2.png"
+                        src="/images/spidercage-2.png"
                         // src="https://bootdey.com/img/Content/avatar/avatar7.png"
                         className="img-fluid"
                       />

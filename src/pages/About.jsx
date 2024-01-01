@@ -1,4 +1,3 @@
-
 const About = () => {
   return (
     <>
@@ -8,16 +7,15 @@ const About = () => {
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
-            <div className="d-flex justify-content-center" >
-  <strong style={{fontSize:"38px"}}>
-    <h1 className="text-white">Mission</h1>
-    <h1 className="text-warning">Walk</h1>
-  </strong>
-</div>
-         
+              <div className="d-flex justify-content-center">
+                <strong style={{ fontSize: "38px" }}>
+                  <h1 className="text-white">Mission</h1>
+                  <h1 className="text-warning">Walk</h1>
+                </strong>
+              </div>
             </h1>
-            <a href="" className="h4 text-white" style={{fontSize:"25px"}}>
-            Hope for Neurologically Disabled in India (Never Ever Give Up!!)
+            <a href="" className="h4 text-white" style={{ fontSize: "25px" }}>
+              Hope for Neurologically Disabled in India (Never Ever Give Up!!)
             </a>
           </div>
         </div>
@@ -46,15 +44,15 @@ const About = () => {
                 </h1>
               </div>
               <strong>
-
-              <h4
-                className="text-body fst-italic mb-4  wow fadeInUp"
-                style={{ fontSize: "22px" }}
-              >
-                Dr. Ravi Badavath
-                <br />
-                (Chief Neuro physiotherapist, Founder of “Mission Walk”, Long Term Neurologic Injury Rehabilation specialist)
-              </h4>
+                <h4
+                  className="text-body fst-italic mb-4  wow fadeInUp"
+                  style={{ fontSize: "22px" }}
+                >
+                  Dr. Ravi Badavath
+                  <br />
+                  (Chief Neuro physiotherapist, Founder of “Mission Walk”, Long
+                  Term Neurologic Injury Rehabilation specialist)
+                </h4>
               </strong>
 
               <p
@@ -130,13 +128,18 @@ const About = () => {
                 the organization strives to seem more evident from the fact that
                 it has therapists from almost every state of the country.
                 Mission Walk has come to be associated with the treatment of
-                nearly 1000 patients so far, varying in the underlying
-                conditions they were faced with. The repute of the
-                organization’s talented professionals as well as its world-class
-                services soon spread far and wide. Mission Walk has been seeing
-                patients from all over the world in recent times. It owns the
-                credit for having treated patients from across India, the Middle
-                East, Africa and South-East Asia.
+                nearly {""}
+                <span style={{ color: "blue" }}>
+                  10000<sup>+</sup>
+                </span>
+                {""}
+                patients so far, varying in the underlying conditions they were
+                faced with. The repute of the organization’s talented
+                professionals as well as its world-class services soon spread
+                far and wide. Mission Walk has been seeing patients from all
+                over the world in recent times. It owns the credit for having
+                treated patients from across India, the Middle East, Africa and
+                South-East Asia.
               </p>
 
               <strong>
@@ -192,23 +195,22 @@ const About = () => {
               >
                 Make Appointment
               </a>
-            <br />
-            <br />
-            <br />
-
+              <br />
+              <br />
+              <br />
             </div>
             <div className="col-lg-3" style={{ minHeight: "800px" }}>
               <div className="position-relative h-10 mt-5">
                 <img
                   className=" col-lg-2 position-right w-100 h-80 rounded wow zoomIn mt-7 mb-5"
                   data-wow-delay="0.9s"
-                  src="img/img_150457_drravi9x6.jpg"
+                  src="images/ravi-img.jpg"
                   style={{ aspectRatio: "1/1", marginBlockStart: "48%" }}
                 />
                 <img
                   className="position-right w-100 h-80 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src="img/WhatsApp Image 2023-11-16 at 3.11.05 PM.jpeg"
+                  src="images/ravi-img1.jpeg"
                   style={{ marginBlockStart: "20%" }}
                 />
                 {/* <img
@@ -232,20 +234,22 @@ const About = () => {
                   // width: "350px",
                   backgroundColor: "aliceblue",
                   border: "none",
-                  marginTop: "23%"
+                  marginTop: "23%",
                 }}
               >
                 <div
                   // className="mb-4 mt-5"
-                  style={{
-                    // overflow: "hidden",
-                    // borderRadius: "50%",
-                    // width: "200px",
-                    // margin: "0 auto",
-                  }}
+                  style={
+                    {
+                      // overflow: "hidden",
+                      // borderRadius: "50%",
+                      // width: "200px",
+                      // margin: "0 auto",
+                    }
+                  }
                 >
                   <img
-                    src="img/WhatsApp Image 2023-11-16 at 3.11.06 PM.jpeg"
+                    src="images/ravi-img2.jpeg"
                     className="card-img-top"
                     alt="title"
                     style={{
@@ -260,7 +264,9 @@ const About = () => {
                   className="card-body text-center"
                   style={{ aspectRatio: "1/1" }}
                 >
-                  <h5 className="card-title mb-4 mt-3 text-center"><strong>माँ बाबा</strong></h5>
+                  <h5 className="card-title mb-4 mt-3 text-center">
+                    <strong>माँ बाबा</strong>
+                  </h5>
                   <p className="card-text mb-4">
                     You two are the reason behind every success in my life, each
                     smile on my face, because you are the ones who inspire and
@@ -319,7 +325,7 @@ const videoData = [
 ];
 const cardData = [
   {
-    imageSrc: "img/WhatsApp Image 2023-11-16 at 3.11.06 PM.jpeg",
+    imageSrc: "images/ravi-img2.jpeg",
     title: "माँ बाबा",
     text: "You two are the reason behind every success in my life, each smile on my face, because you are the ones who inspire and motivate me day by day, each moment of my life.",
     // linkTo: "/pediatric-occupational",

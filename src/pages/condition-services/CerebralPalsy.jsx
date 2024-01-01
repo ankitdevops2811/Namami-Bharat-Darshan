@@ -34,7 +34,7 @@ const CerebralPalsy = () => {
                             <div className="row g-3">
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/mission-walk-images/IMG-20231115-WA0031.jpg" />
+                                        <Card.Img variant="top" src="/images/cs-image4.jpg" />
                                         <Card.Body>
                                             <Card.Title>An Active Life with Cerebral Palsy</Card.Title>
                                             <Card.Text>
@@ -45,7 +45,7 @@ const CerebralPalsy = () => {
                                 </div>
                                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                                     <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src="/mission-walk-images/IMG-20231115-WA0029.jpg" />
+                                        <Card.Img variant="top" src="/images/cs-image5.jpg" />
                                         <Card.Body>
                                             <Card.Title>Spasticity Clinic</Card.Title>
                                             <Card.Text>
@@ -69,7 +69,7 @@ const CerebralPalsy = () => {
                                 <img
                                     className="position-absolute w-100 h-100 rounded wow zoomIn"
                                     data-wow-delay="0.9s"
-                                    src="/mission-walk-images/656e4782-2f1e-4672-b384-d4db2f053360.JPG"
+                                    src="/images/pediatric-5.JPG"
 
                                     style={{ objectFit: "cover" }}
                                 />
@@ -89,7 +89,7 @@ const CerebralPalsy = () => {
                                         width="600"
                                         height="600"
                                         className="size-full wp-image-31823 aligncenter"
-                                        src="/mission-walk-images/3918ca38-e19b-4cc4-84c0-9ef4aadd6800.JPG"
+                                        src="/images/cs-image6.JPG"
                                         alt=""
                                     />
                                 </div>

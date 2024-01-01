@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom";
 import "./therapy-2.css";
 
-
 const Functional_Estim = () => {
   return (
     <div className="pb-5">
       <div className="container-fluid bg-primary py-5 hero-header mb-5">
         <div className="row py-3">
           <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn"> Galileo</h1>
+            <h1 className="display-3 text-white animated zoomIn">
+              {" "}
+              Galileo Training
+            </h1>
           </div>
         </div>
       </div>
@@ -45,8 +47,8 @@ const Functional_Estim = () => {
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/galileo-1.jpeg"
-                        style={{ objectFit: "cover" }}
+                        src="/images/galileo-2.jpeg"
+                        // style={{ objectFit: "cover" }}
                       />
                     </div>
                   </div>
@@ -94,9 +96,8 @@ const Functional_Estim = () => {
               </div>
             </div>
             <h2 className="wow zoomIn pb-3" style={{ fontSize: "30px" }}>
-             Simulation of human {""}
+              Simulation of human {""}
               <span style={{ color: "darkgoldenrod" }}>gait </span>
-              
             </h2>
             <p
               className=" wow zoomIn our_programs_details pt-2"
