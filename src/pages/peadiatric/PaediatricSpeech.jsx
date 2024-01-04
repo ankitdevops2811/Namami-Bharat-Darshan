@@ -333,7 +333,7 @@ const PaediatricSpeech = () => {
               <div className="classes w-100 ftco-animate">
                 <img
                   className="img w-100 mb-3  animated zoomIn"
-                  src="/images/paediatric9.JPG"
+                  src="/images/paediatric9.jpg"
                   alt="img"
                   style={{ aspectRatio: "1/1" }}
                 />

@@ -23,7 +23,7 @@ const Service = () => {
                 />
                 <img
                   className="position-absolute w-100 h-100"
-                  src="images/collage.jpeg"
+                  src="images/blacklogo.jpeg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -106,7 +106,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/sevice_stroke.avif"
                       alt=""
                     />
                   </div>
@@ -119,13 +119,15 @@ const Service = () => {
                 <div
                   className="col-md-6 service-item wow zoomIn"
                   data-wow-delay="0.3s"
+                  // style={{ objectFit: "cover" }}
                   style={{ width: "400px" }}
                 >
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/spinal-cord.jpg"
                       alt=""
+                      style={{ height: "240px", width: "400px" }}
                     />
                   </div>
                   <div className="position-relative bg-light rounded-bottom text-center p-4">
@@ -142,7 +144,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_braininjury.jpg"
                       alt=""
                     />
                   </div>
@@ -172,7 +174,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_multiplescelarasis.jpg"
                       alt=""
                     />
                   </div>
@@ -190,8 +192,9 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_parkisons.webp"
                       alt=""
+                      style={{ height: "240px" }}
                     />
                   </div>
                   <div className="position-relative bg-light rounded-bottom text-center p-4">
@@ -208,7 +211,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_transverse-myelitis1.jpg"
                       alt=""
                     />
                   </div>
@@ -226,8 +229,9 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_motorneuron.jpg"
                       alt=""
+                      style={{ height: "240px" }}
                     />
                   </div>
                   <div className="position-relative bg-light rounded-bottom text-center p-4">
@@ -244,7 +248,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_difficultyinwalk.jpg"
                       alt=""
                     />
                   </div>

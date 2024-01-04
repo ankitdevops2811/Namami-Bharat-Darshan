@@ -87,10 +87,19 @@ export default Location;
 const servicesData = [
   {
     icon: "fa-brain",
-    title: "Hyderabad",
+    title: "Hyderabad (Kukatpally)",
     description:
-    "4th Floor,Pragathi Nagar Rd, opp. Nexa Service, near Lake, Jawaharlal Nehru Technological University, 4th floor,Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090",
-      // "Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089",
+    "4 TH FLOOR, Pragathi Nagar Rd, opp. NEXA SERVICE, near LAKE, Jawaharlal Nehru Technological University, Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090",
+    delay: "0.3s",
+    to: "/about",
+    location: "images/hyderabad.png",
+    number: "+91 9177300194",
+  },
+  {
+    icon: "fa-brain",
+    title: "Hyderabad (Manikonda)",
+    description:
+    "Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089",
     delay: "0.3s",
     to: "/about",
     location: "images/hyderabad.png",
@@ -100,7 +109,7 @@ const servicesData = [
     icon: "fa-brain",
     title: "Greater Noida",
     description:
-      "Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308",
+      "Wegman's Business Park Plot no 3, Ground Floor Decathlon, Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308",
     delay: "0.1s",
     to: "/test",
     location: "images/delhi-4.png",
@@ -112,7 +121,7 @@ const servicesData = [
     icon: "fa-brain",
     title: "Pune",
     description:
-      "Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra 411046",
+      "Plot No 9, Platinum Techno Park, 2nd Floor, Pashan Sus Road, Baner Survey No 52/5/3, Mohan Nagar Co-Op Society, Baner, Pune, 411021, Maharashtra",
     delay: "0.1s",
     to: "/",
     location: "images/pune-3.jpeg",
@@ -142,17 +151,6 @@ const servicesData = [
     number: "+91 9177300194",
     // location: "/pune.jpg",
   },
-  {
-    icon: "fa-brain",
-    title: "Kerala",
-    description:
-      "Opening Soon",
-    delay: "0.1s",
-    to: "/",
-    location: "images/Kerala_Tourism_Logo.png",
-    number: "+91 9177300194",
-    // location: "/pune.jpg",
-  }
 
 ];
 

@@ -46,8 +46,15 @@ const Contact = () => {
                   <div className="text-start">
                     <h5 className="mb-0">Hyderabad</h5>
                     <span>
+                      (Manikonda)
                       Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township,
                       Raghavendra Colony, Manikonda Jagir, Telangana 500089
+                    </span>
+                    <br></br>
+                    
+                    <span>
+                      (Kukatpally)
+                      4 TH FLOOR, Pragathi Nagar Rd, opp. NEXA SERVICE, near LAKE, Jawaharlal Nehru Technological University, Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090
                     </span>
                   </div>
                 </div>
@@ -56,8 +63,7 @@ const Contact = () => {
                   <div className="text-start">
                     <h5 className="mb-0">Greater Noida, Uttar Pradesh</h5>
                     <span>
-                      Ecotech-II, Knowledge Park III, Greater Noida, Uttar
-                      Pradesh 201308
+                    Wegman's Business Park Plot no 3, Ground Floor Decathlon, Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308
                     </span>
                   </div>
                 </div>
@@ -66,9 +72,7 @@ const Contact = () => {
                   <div className="text-start">
                     <h5 className="mb-0">Pune, Maharastra</h5>
                     <span>
-                      Physiotherapy and Rehabilitation Center Sun Gloria, mouje
-                      Ambegaon Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj,
-                      Pune, Maharashtra 411046
+                    Plot No 9, Platinum Techno Park, 2nd Floor, Pashan Sus Road, Baner Survey No 52/5/3, Mohan Nagar Co-Op Society, Baner, Pune, 411021, Maharashtra
                     </span>
                   </div>
                 </div>
