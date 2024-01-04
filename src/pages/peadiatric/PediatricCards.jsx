@@ -27,7 +27,7 @@ const PediatricCards = () => {
 export default PediatricCards;
 const cardData = [
   {
-    imageSrc: "/images/paediatric9.JPG",
+    imageSrc: "images/paediatric9.jpg",
     title: "Paediatric Occupational Therapy",
     text: "Our paediatric occupational therapists assist children in performing “occupations” with the greatest level of independence possible. Childhood occupations include learning in school and playing with friends.",
     linkTo: "/pediatric-occupational",
