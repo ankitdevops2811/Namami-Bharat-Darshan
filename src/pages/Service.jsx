@@ -101,7 +101,7 @@ const Service = () => {
                 <div
                   className="col-md-6 service-item wow zoomIn"
                   data-wow-delay="0.3s"
-                  style={{ width: "400px" }}
+                    style={{ width: "400px"}}
                 >
                   <div className="rounded-top overflow-hidden">
                     <img
@@ -119,13 +119,15 @@ const Service = () => {
                 <div
                   className="col-md-6 service-item wow zoomIn"
                   data-wow-delay="0.3s"
+                    // style={{ objectFit: "cover" }}
                   style={{ width: "400px" }}
                 >
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/spinal-cord"
+                      src="images/spinal-cord.jpg"
                       alt=""
+                    style={{height:"240px",width:"400px"}}
                     />
                   </div>
                   <div className="position-relative bg-light rounded-bottom text-center p-4">
