@@ -30,9 +30,13 @@ const ContactPagesCard = () => {
               Feel free to Connect
               {/* Mission Walk is always there for you. */}
             </h2>
-            <h4>Hyderabad (Telangana)</h4>
+            <h4>Hyderabad (Kukatpally)</h4>
             <p className="mb-3">
-              Lake Vista Road Number 3, Hyderabad, Telangana 500089
+            4 TH FLOOR, Pragathi Nagar Rd, opp. NEXA SERVICE, near LAKE, Jawaharlal Nehru Technological University, Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090
+            </p>
+            <h4>Hyderabad (Manikonda)</h4>
+            <p className="mb-3">
+            Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township, Raghavendra Colony, Manikonda Jagir, Telangana 500089
             </p>
             <h4>Delhi NCR (Greater Noida)</h4>
             <p className="mb-3">

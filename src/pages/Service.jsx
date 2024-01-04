@@ -23,7 +23,7 @@ const Service = () => {
                 />
                 <img
                   className="position-absolute w-100 h-100"
-                  src="images/collage.jpeg"
+                  src="images/blacklogo.jpeg"
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -106,7 +106,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/sevice_stroke.avif"
                       alt=""
                     />
                   </div>
@@ -124,7 +124,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/spinal-cord"
                       alt=""
                     />
                   </div>
@@ -142,7 +142,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_braininjury.jpg"
                       alt=""
                     />
                   </div>
@@ -172,7 +172,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_multiplescelarasis.jpg"
                       alt=""
                     />
                   </div>
@@ -190,7 +190,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_parkisons.webp"
                       alt=""
                     />
                   </div>
@@ -208,7 +208,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_transverse-myelitis1.jpg"
                       alt=""
                     />
                   </div>
@@ -226,7 +226,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_motorneuron.jpg"
                       alt=""
                     />
                   </div>
@@ -244,7 +244,7 @@ const Service = () => {
                   <div className="rounded-top overflow-hidden">
                     <img
                       className="img-fluid"
-                      src="images/image2.jpeg"
+                      src="images/service_difficultyinwalk.jpg"
                       alt=""
                     />
                   </div>

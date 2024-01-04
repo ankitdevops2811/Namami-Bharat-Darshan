@@ -98,7 +98,7 @@ const PederiticImage = () => {
                 }}
               >
                 <img
-                  src="/img-mission/IMG-20231115-WA0057.jpg"
+                  src="/images/paedtrice-benifts.jpg"
                   alt="img" style={{
                     width: "100%",
                     height: "95%"

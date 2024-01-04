@@ -46,8 +46,15 @@ const Contact = () => {
                   <div className="text-start">
                     <h5 className="mb-0">Hyderabad</h5>
                     <span>
+                      (Manikonda)
                       Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township,
                       Raghavendra Colony, Manikonda Jagir, Telangana 500089
+                    </span>
+                    <br></br>
+                    
+                    <span>
+                      (Kukatpally)
+                      4 TH FLOOR, Pragathi Nagar Rd, opp. NEXA SERVICE, near LAKE, Jawaharlal Nehru Technological University, Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090
                     </span>
                   </div>
                 </div>

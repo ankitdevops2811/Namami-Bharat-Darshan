@@ -1,0 +1,5 @@
+$(document).ready(function () {
+    if(window.location.href.indexOf("/our-clinics/") > -1) {
+      $('.book-container').addClass('smaller');
+    }
+});

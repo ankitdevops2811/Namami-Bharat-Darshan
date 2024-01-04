@@ -1,0 +1,232 @@
+@import 'https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+.banner-massage{
+	background:#0c55a5;
+	font-family:'Open Sans', sans-serif;
+	box-sizing:border-box;
+	padding:60px;
+	display:flex;
+	justify-content:space-between;
+}
+
+
+
+.banner-massage .massage-content{
+	width:30%;
+}
+
+.banner-massage h2{
+	color:#fff;
+	font-weight:700;
+	font-size:32px;
+}
+
+.banner-massage h3{
+	color:#fff;
+}
+
+.banner-massage p{
+	font-size:16px;
+	color:#fff;
+	margin-bottom: 30px;
+}
+
+.banner-massage .btn{
+	background:#fff;
+	padding:10px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+	color:#0c55a5;
+	text-decoration: none;
+	margin-top:20px;
+	font-weight:700;
+	transition: 0.2s ease-in-out;
+}
+
+.banner-massage .btn:hover{
+	background:#eee;
+}
+
+.banner-massage .massage-blocks{
+	display:flex;
+	justify-content:center;
+	width:65%;
+}
+
+.banner-massage .massage-blocks .block{
+	margin-right:3%;
+	width:30%;
+}
+
+.banner-massage .massage-blocks a{
+	text-decoration: none;
+}
+
+.banner-massage .massage-blocks .block-image{
+	height:150px;
+	background-size:cover;
+	border-radius: 5px;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+	margin-bottom:10px;
+	opacity: 0.75;
+	transition: ease all 0.3s;
+}
+
+.banner-massage .massage-blocks .block-image:hover {
+	opacity: 1;
+}
+
+@media (max-width:450px){
+	.banner-massage{
+		flex-direction: column;
+	}
+
+	.banner-massage .massage-content, .banner-massage .massage-blocks{
+		width:100%;
+		margin-bottom:30px;
+	}
+
+	.banner-massage .massage-blocks{
+		flex-direction: column;
+	}
+
+	.banner-massage .massage-blocks .block{
+		width:100%;
+		margin-bottom:30px;
+	}
+
+}
+
+
+
+
+.banner-physiolates {
+font-family: 'Exo', sans-serif;
+color:#fff;
+background:#00407c url('/images/physiolates-additions/physiolates-background.png');
+box-sizing:border-box;
+padding:30px 20px 30px 20px;
+}
+
+.banner-physiolates-info {
+float:left;
+width:34%;
+margin:0 5% 0 0;
+}
+
+.banner-physiolates-info:hover {
+cursor:pointer;
+}
+
+.banner-physiolates-classes {
+background:url('/images/physiolates-additions/classes-box-off.jpg') no-repeat;
+float:left;
+width:28%;
+margin:0 5% 0 0;
+display:table;
+}
+
+.banner-physiolates-classes:hover {
+background:url('/images/physiolates-additions/classes-box-on.jpg') no-repeat;
+cursor:pointer;
+}
+
+.banner-physiolates-solo {
+background:url('/images/physiolates-additions/121-box-off.jpg') no-repeat;
+float:left;
+width:28%;
+margin:0 0% 0 0;
+}
+
+.banner-physiolates-solo:hover {
+background:url('/images/physiolates-additions/121-box-on.jpg') no-repeat;
+cursor:pointer;
+}
+
+img.banner-physiolates-logo{
+float:left;
+margin: 0 20px 20px 0;
+}
+
+.banner-physiolates-info-subheader {
+font-family: 'Source Sans Pro',sans-serif;
+color:#659bcd;
+}
+
+.banner-physiolates h2 {
+display:inline-block;
+color:#fff;
+font-family: 'Exo', sans-serif;
+font-size:3em;
+font-weight:700;
+margin:0 0px 20px 0;
+}
+
+.banner-physiolates p {
+color:#fff;
+font-size:1.43em;
+line-height:1.43em;
+margin:0 0px 10px 0;
+}
+
+.banner-physiolates-classes-box {
+box-sizing:border-box;
+padding:30px 20px 30px 20px;
+display:table-cell;
+vertical-align:bottom;
+width:240px;
+height:240px;
+}
+
+
+.banner-physiolates-classes-box span {
+font-size:.95em;
+line-height:1.13em;
+font-weight:200;
+margin:-20px 0px 0px 0px;
+}
+
+.physiolates-banner-content {
+width:100%;
+border:0;
+}
+
+.physiolates-banner-sidebar {
+width:100%;
+border:0;
+}
+
+
+@media only screen and (max-width:88em){
+.banner-physiolates-info {width:65%;}
+.banner-physiolates-classes {width:30%; margin:0 0% 0 0;}
+.banner-physiolates-solo {display:none}
+}
+
+
+@media only screen and (max-width:52em){
+.banner-physiolates-info {width:100%;margin:0 0% 30px 0;}
+.banner-physiolates-classes {width:46%; margin:0 7% 0 0;}
+.banner-physiolates-solo {display:block; width:46%;}
+}
+
+
+@media only screen and (max-width:42em){
+.banner-physiolates {background:#00407c url('/images/physiolates-additions/physiolates-mobile-background.png');}
+.banner-physiolates h2 {font-size:2.3em;margin:0 0px 20px 0;}
+.banner-physiolates p {font-size:1.23em;line-height:1.33em;}
+.banner-physiolates-classes-box span {font-size:.7em;line-height:0.9em;}
+img.banner-physiolates-logo{width:40px; margin: 0 20px 20px 0;}
+}
+
+
+@media only screen and (max-width:32em){
+.banner-physiolates h2 {font-size:2.23em;margin:0 0px 20px 0;}
+.banner-physiolates p {font-size:1.13em;line-height:1.23em;}
+.banner-physiolates-classes-box span {font-size:.7em;line-height:0.9em;}
+img.banner-physiolates-logo{width:40px; margin: 0 10px 10px 0;}
+
+.banner-physiolates-classes-box {padding:30px 20px 20px 20px;height:200px;}
+}

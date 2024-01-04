@@ -49,7 +49,7 @@ const Functional_Estim = () => {
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/functional- estim-1.jpeg"
+                        src="/images/functional-estim-2.jpeg"
                         style={{ objectFit: "cover" }}
                       />
                     </div>

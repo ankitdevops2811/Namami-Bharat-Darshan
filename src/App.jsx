@@ -133,7 +133,7 @@ function App() {
       </BrowserRouter>
       <a
         // href={whatsapp_link}
-        href="https://wa.me/2348100000000"
+        href="https://wa.me/+919177300194"
         className="whatsapp"
         target="_blank"
         rel="noopener noreferrer"
