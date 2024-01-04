@@ -40,14 +40,12 @@ const ContactPagesCard = () => {
             </p>
             <h4>Delhi NCR (Greater Noida)</h4>
             <p className="mb-3">
-              : Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh
-              201308Mobile: +91 91773 00194
+            Wegman's Business Park Plot no 3, Ground Floor Decathlon, Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308
+             
             </p>
             <h4>Pune (Maharastra)</h4>
             <p className="mb-4">
-              Physiotherapy and Rehabilitation Center Sun Gloria, mouje Ambegaon
-              Budruk, Narhe Ambegaon Rd, Dalavi Nagar, Katraj, Pune, Maharashtra
-              411046
+            Plot No 9, Platinum Techno Park, 2nd Floor, Pashan Sus Road, Baner Survey No 52/5/3, Mohan Nagar Co-Op Society, Baner, Pune, 411021, Maharashtra
             </p>
             <Link to="/contact">
               <button className="btn btn-primary">Contact Us</button>
