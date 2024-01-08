@@ -51,17 +51,14 @@ const IntakeForm = () => {
       <div className="row">
         <div className="col-md-3 border-right d-flex flex-column mt-5 pt-auto">
           {/* <div className="d-flex flex-column align-items-center text-center p-3 py-5"> */}
-          {/* <img className="rounded-circle mt-5" src="https://i.imgur.com/O1RmJXT.jpg" width="90"><span className="font-weight-bold">John Doe</span><span className="text-black-50">john_doe12@bbb.com</span><span>United States</span>
-                    </div> */}
-
           {/* </div> */}
           <div className="d-flex flex-column align-items-center text-center p-3 py-5 mt-5">
           {/* <div className="d-flex flex-column align-items-center text-center p-3 py-5 mt-5"> */}
             <img
               className="rounded mt-5"
-              src="https://i.ibb.co/Nj6ch8F/logo-1.jpg"
+              src="/images/intake-1.jpeg"
               alt="Profile"
-              width="90"
+              width="100"
             />
             <span className="font-weight-bold">Mission Walk</span>
             <span className="text-black-50">rehab@missionwalk.in</span>

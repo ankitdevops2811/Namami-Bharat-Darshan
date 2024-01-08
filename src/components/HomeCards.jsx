@@ -5,24 +5,25 @@ const HomeCard = ({ imageSrc, title, text, linkTo }) => {
   return (
     <div className=" service-item wow zoomIn" data-wow-delay="0.3s">
       <div
-        className="card mt-2"
+        className="card mt-2 m-4"
         style={{ width: "350px", backgroundColor: "aliceblue", border: "none" }}
       >
         <div
-          className="mb-4 mt-5"
+          className="mt-2"
           style={{
             overflow: "hidden",
-            borderRadius: "50%",
-            width: "200px",
+            borderRadius: "10px",
+            // borderRadius: "50%",
+            width: "95%",
             margin: "0 auto",
           }}
         >
           <img
             src={imageSrc}
-            className="card-img-top"
+            className="card-img-top mt-2"
             alt={title}
             style={{
-              borderRadius: "50%",
+              // borderRadius: "10px",
               width: "100%",
               height: "auto",
               aspectRatio: "1/1",

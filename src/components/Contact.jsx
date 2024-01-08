@@ -44,21 +44,22 @@ const Contact = () => {
                 <div className="d-flex align-items-center mb-2">
                   <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                   <div className="text-start">
-                    <h5 className="mb-0">Hyderabad</h5>
-                    <span>
+                    <Link to="/locations"><h5 className="mb-0">Our Offices</h5>
+                    <span>Hyderabad, Greater Noida, Pune etc.</span></Link>
+                    {/* <span>
                       (Manikonda)
                       Aryamitra Qube, 3rd Floor, Rd Number 9, Alkapoor Township,
                       Raghavendra Colony, Manikonda Jagir, Telangana 500089
-                    </span>
+                    </span> */}
                     <br></br>
                     
-                    <span>
+                    {/* <span>
                       (Kukatpally)
                       4 TH FLOOR, Pragathi Nagar Rd, opp. NEXA SERVICE, near LAKE, Jawaharlal Nehru Technological University, Tulasi Nagar, Chenchu Guda, Kukatpally, Hyderabad, Telangana 500090
-                    </span>
+                    </span> */}
                   </div>
                 </div>
-                <div className="d-flex align-items-center mb-2">
+                {/* <div className="d-flex align-items-center mb-2">
                   <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                   <div className="text-start">
                     <h5 className="mb-0">Greater Noida, Uttar Pradesh</h5>
@@ -75,7 +76,7 @@ const Contact = () => {
                     Plot No 9, Platinum Techno Park, 2nd Floor, Pashan Sus Road, Baner Survey No 52/5/3, Mohan Nagar Co-Op Society, Baner, Pune, 411021, Maharashtra
                     </span>
                   </div>
-                </div>
+                </div> */}
                 <div className="d-flex align-items-center mb-2">
                   <i className="bi bi-envelope-open fs-1 text-primary me-3"></i>
                   <div className="text-start">

@@ -32,7 +32,7 @@ export default function Pediatric() {
                   style={{ maxWidth: "600px", fontSize: "18pxl" }}
                 >
                   <h1>
-                    Elevate Wellness Innovation<sup>™</sup>
+                    Elevate Wellness Innovation
                   </h1>
                 </div>
               </div>
