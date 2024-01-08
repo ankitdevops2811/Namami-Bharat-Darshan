@@ -20,7 +20,7 @@ const Stroke = () => {
             <p className="h4 text-white">
               The sooner you start rehabilitation, the greater potential for
               recovery. Our pioneering work reveals that patients with stroke
-              benefit greatly from early, high-intensity therapy … regardless of
+              benefit greatly from early, high-intensity therapy regardless of
               the type or severity of the stroke. We are the world’s choice for
               stroke care, research and outcomes.
             </p>
@@ -136,7 +136,7 @@ const Stroke = () => {
                     <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Legs + Walking Lab
+                        Gait Training  Lab
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
@@ -148,7 +148,7 @@ const Stroke = () => {
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Think + Speak Lab
+                        Think + Speach Lab
                       </li>
                     </ul>
                     <br></br>

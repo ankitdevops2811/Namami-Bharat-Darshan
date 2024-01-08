@@ -51,7 +51,7 @@ const PaediatricPhysiotherapy = () => {
                 style={{ fontSize: "22px", textAlign: "justify" }}
               >
                 We’ve designed this page to help you learn about the unique
-                programs and people that truly make AbilityLab the best
+                programs and people that truly make Mission Walk the best
                 post-acute rehabilitation choice for your patients. If you have
                 questions about our programs and services, or if we can be of
                 help in any way, please call the number at left.
@@ -63,9 +63,9 @@ const PaediatricPhysiotherapy = () => {
                 HOURS OF OPERATION
               </strong>
               <strong style={{ fontSize: "17px", textAlign: "justify" }}>
-                <p>MONDAY - FRIDAY 8:00 AM TO 7:30 PM</p>
-                <p>PHONE-+91 9177300194</p>
-                <p>E-mail- rehab@missionwalk.in</p>
+                <p>MONDAY - SATURDAY 8:00 AM TO 8:00 PM</p>
+                <p>PHONE - +91 9177300194</p>
+                <p>E-mail - rehab@missionwalk.in</p>
               </strong>
               <h1></h1>
             </span>
@@ -513,7 +513,7 @@ const cardData = [
   {
     imageSrc: "/images/image3.webp",
     title: "National Patients",
-    text: "Patients travel to the AbilityLab from across the United States to take advantage of our inpatient, DayRehabCenter®, outpatient, and ExpertEval® services.",
+    text: "Patients travel to the Mission Walk from across the United States to take advantage of our inpatient, DayRehabCenter®, outpatient, and ExpertEval® services.",
     linkTo: "/pediatric-speech",
   },
   // {

@@ -136,7 +136,7 @@ const MultipleSclerosis = () => {
                     <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Legs + Walking Lab
+                        Gait Training  Lab
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
@@ -148,7 +148,7 @@ const MultipleSclerosis = () => {
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Think + Speak Lab
+                        Think + Speach Lab
                       </li>
                     </ul>
                   </div>
