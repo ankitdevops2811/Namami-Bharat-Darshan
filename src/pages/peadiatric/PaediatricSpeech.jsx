@@ -9,10 +9,10 @@ import "./paediatric.css";
 const PaediatricSpeech = () => {
   return (
     <> 
-    <TitleBar name= 'Pediatric Speech Therapy' />
-    <PediatricHeading 
+    <TitleBar name= 'Pediatric Speech Therapy' /> 
+     <PediatricHeading 
      heading= 'Pediatric Speech Therapy'
-     content = {pediatricContent} 
+     content = {pediatricContent.PediatricSpeech} 
      />
       <section className="about my-5" id="about">
         <div className="container ">
