@@ -2,7 +2,7 @@ import ContactPagesCard from "../../components/contactPagesCard";
 import "./paediatric.css";
 import TitleBar from "../../components/therapy-tools/TitleBar";
 import PediatricHeading from "../../components/pediatric/PediatricHeading";
-import { pediatricContent } from "../../data/peadtricConstant";
+import { pediatricContent } from "../../data/PeadtricConstant";
 
 const PaediatricOccupational = () => {
   return (
