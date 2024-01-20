@@ -1,58 +1,17 @@
-import React from "react";
 import ContactPagesCard from "../../components/contactPagesCard";
 import "./paediatric.css";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import PediatricHeading from "../../components/pediatric/PediatricHeading";
+import { pediatricContent } from "../../data/peadtricConstant";
 
 const PaediatricPhysiotherapy = () => {
   return (
     <>
-      <div className="container-fluid bg-primary py-5 hero-header mb-5">
-        <div className="row py-3">
-          <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn">
-              Intensive Pediatric Physiotherapy
-            </h1>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Hero End --> */}
-      <section className="bg-light p-5">
-        <div className="container-xxl">
-          <div className="page-header__content clearfix">
-            <span className="page-subheader">
-              <div className="container">
-                <div
-                  className="text-center mx-auto mb-5 wow fadeInUp"
-                  data-wow-delay="0.1s"
-                  style={{ maxWidth: "600px" }}
-                >
-                  <h1 style={{ fontSize: "38px" }}>
-                    {" "}
-                    Intensive Pediatric Physiotherapy
-                  </h1>
-                </div>
-              </div>
-              <p
-                className="mb-4 animated zoomIn"
-                style={{ fontSize: "22px", textAlign: "justify" }}
-              >
-                Mission Walk takes an intensive approach to pediatric
-                physiotherapy using the NeuroSuit and Multifunctional Therapy
-                Units.At Mission Walk Centre, our highly trained pediatric
-                physiotherapists challenge the child in a loving environment,
-                pushing their performance and helping them achieve new
-                developmental milestones. All of our therapists –physical,
-                speech, and occupational—work with each other and with family
-                members to assess each child’s current functioning level. Then
-                they create an individualised plan to help each child achieve
-                optimal results. We offer pediatric physiotherapy in both weekly
-                and intensive settings.
-              </p>
-            </span>
-          </div>
-        </div>
-      </section>
-
-      {/* //next */}
+    <TitleBar name= 'Intensive Pediatric Physiotherapy' />
+    <PediatricHeading 
+     heading= 'Intensive Pediatric Physiotherapy'
+     content = {pediatricContent.IntensivePediatric} 
+     />
       <section className="about my-5" id="about">
         <div className="container ">
           {/* <div className="text-center my-5">
@@ -453,9 +412,9 @@ const PaediatricPhysiotherapy = () => {
             height="315"
             src="https://www.youtube.com/embed/PbbWYtHpz6k?si=pftCnBlHAHi19TK6"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </section>

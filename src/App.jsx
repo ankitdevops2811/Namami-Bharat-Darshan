@@ -17,7 +17,7 @@ import Functional_Estim from "./pages/therapy-tools/Functional-Estim";
 import Galileo from "./pages/therapy-tools/Galileo";
 import Neurosuit from "./pages/therapy-tools/Neurosuit";
 import Spidercage from "./pages/therapy-tools/Spidercage";
-import TherapyTools from "./pages/therapy-tools/TherapyTools";
+// import TherapyTools from "./pages/therapy-tools/TherapyTools";
 import Theratogs from "./pages/therapy-tools/Theratogs";
 import "./style.css";
 // import AOS from 'aos';
@@ -59,7 +59,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="service" element={<Service />} />
             {/* === TherapyTools === */}
-            <Route path="therapy-tools" element={<TherapyTools />} />
+            {/* <Route path="therapy-tools" element={<TherapyTools />} /> */}
             <Route path="register" element={<Register />} />
             <Route path="therapy-tools/neurosuit" element={<Neurosuit />} />
             <Route path="therapy-tools/spidercage" element={<Spidercage />} />

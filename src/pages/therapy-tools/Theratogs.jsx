@@ -1,41 +1,17 @@
 import { Link } from "react-router-dom";
 import "./therapy-2.css";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import PageHeading from "../../components/therapy-tools/PageHeading";
+import { therapytools } from "../../data/Constant";
 
 const Theratogs = () => {
   return (
     <div className="pb-5">
-      <div className="container-fluid bg-primary py-5 hero-header mb-5">
-        <div className="row py-3">
-          <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn"> Theratogs</h1>
-          </div>
-        </div>
-      </div>
+      <TitleBar name= 'Theratogs' />
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-            <div className="container-xxl">
-              <div className="page-header__content clearfix">
-                <span className="page-subheader">
-                  <p
-                    className="mb-4 animated zoomIn  text-center"
-                    style={{
-                      fontSize: "36px",
-                      fontWeight: "bolder",
-                      textAlign: "justify",
-                      color: "#808B96",
-                    }}
-                  >
-                    TheraTogs are orthotic undergarment and strapping products
-                    that give individuals with sensorimotor impairment a highly
-                    effective modality for improving postural alignment and
-                    stability, movement skill and precision, and joint
-                    stability.
-                    {/* TheraTogs are an orthotic undergarment and strapping product recommended for children who may benefit from increased proprioception as well as improved postural alignment, stability, and/or prolonged muscle stretch to improve developmental and functional outcomes. */}
-                  </p>
-                </span>
-              </div>
-            </div>
+            <PageHeading heading={therapytools.TheraTogs} />
             <div className="container-xxl">
               <div className="container py-5">
                 <div className="row g-5">
@@ -121,7 +97,7 @@ const Theratogs = () => {
               therapeutic and orthotic results.
               <strong>
                 {" "}
-                <Link to="/contact">contacting us &nbsp;</Link>
+                <Link to="/contact">contact us &nbsp;</Link>
               </strong>
               to learn more.
             </p>
