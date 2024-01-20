@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import "./therapy-2.css";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import PageHeading from "../../components/therapy-tools/PageHeading";
+import { therapytools } from "../../data/Constant";
 
 const Spidercage = () => {
 
   return (
     <div className="pb-5">
-      <div className="container-fluid bg-primary py-5 hero-header mb-5">
+      <TitleBar name = 'Dynamic Movement Intervention' />
+      {/* <div className="container-fluid bg-primary py-5 hero-header mb-5">
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">
@@ -14,33 +18,11 @@ const Spidercage = () => {
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-            <div className="container-xxl">
-              <div className="page-header__content clearfix">
-                <span className="page-subheader">
-                  <p
-                    className="mb-4 animated zoomIn  text-center"
-                    style={{
-                      fontSize: "36px",
-                      fontWeight: "bolder",
-                      textAlign: "justify",
-                      color: "#808B96",
-                    }}
-                  >
-                    Dynamic Movement Intervention allows our team to incorporate
-                    more techniques and tools into the framework of a session.
-                    Also, DMI allows us to customize each plan based on your
-                    child’s needs and goals.
-                    {/* DMI is the perfect complement
-                    to our intensive model of therapy, which focuses on
-                    incorporating multiple therapeutic techniques. */}
-                  </p>
-                </span>
-              </div>
-            </div>
+          <PageHeading heading = {therapytools.DMI}/>
             <div className="container-xxl">
               <div className="container py-5">
                 <div className="row g-5">

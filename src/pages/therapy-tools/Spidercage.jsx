@@ -1,65 +1,17 @@
 import { Link } from "react-router-dom";
 import "./therapy-2.css";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import PageHeading from "../../components/therapy-tools/PageHeading";
+import { therapytools } from "../../data/Constant";
 
-// import { useEffect } from "react";
-// import Swiper from "swiper";
-
-// import "./therapy.css";
 const Spidercage = () => {
-  // useEffect(() => {
-  //   // Initialize Swiper when the component mounts
-  //   var swiper = new Swiper(".blog-slider", {
-  //     spaceBetween: 30,
-  //     effect: "fade",
-  //     loop: true,
-  //     mousewheel: {
-  //       invert: false,
-  //     },
-  //     // autoHeight: true,
-  //     pagination: {
-  //       el: ".blog-slider__pagination",
-  //       clickable: true,
-  //     },
-  //   });
-
-  //   // Clean up Swiper instance when the component unmounts
-  //   return () => {
-  //     swiper.destroy();
-  //   };
-  // }, []);
-
   return (
     <div className="pb-5">
-      <div className="container-fluid bg-primary py-5 hero-header mb-5">
-        <div className="row py-3">
-          <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn">Spidercage</h1>
-          </div>
-        </div>
-      </div>
+      <TitleBar name = 'Spidercage' />
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-            <div className="container-xxl">
-              <div className="page-header__content clearfix">
-                <span className="page-subheader">
-                  <p
-                    className="mb-4 animated zoomIn  text-center"
-                    style={{
-                      fontSize: "36px",
-                      fontWeight: "bolder",
-                      textAlign: "justify",
-                      color: "#808B96",
-                    }}
-                  >
-                    The SpiderCage is a three-sided wire device that uses a belt
-                    and bungee cords to enable the patient to perform balance
-                    and strengthening exercise with proper positioning
-                    alignment.
-                  </p>
-                </span>
-              </div>
-            </div>
+            <PageHeading heading={therapytools.SpiderCage} />
             <div className="container-xxl">
               <div className="container py-5">
                 <div className="row g-5">

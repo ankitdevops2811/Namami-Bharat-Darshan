@@ -1,6 +1,4 @@
-// import { Link } from "react-router-dom";
 import "../style.css";
-// import { FontAwesomeIcon } from "fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Location = () => {
   return (
