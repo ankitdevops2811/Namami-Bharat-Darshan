@@ -3,7 +3,7 @@ import PederiticImage from "../../components/pediatric/PederiticImage";
 import PediatricHeading from "../../components/pediatric/PediatricHeading";
 import PediatricPic from "../../components/pediatric/PediatricPic";
 import TitleBar from "../../components/therapy-tools/TitleBar";
-import { pediatricContent } from "../../data/peadtricConstant";
+import { pediatricContent } from "../../data/PeadtricConstant";
 import PediatricCards from "../../components/pediatric/PediatricCards";
 import "./paediatry.css";
 

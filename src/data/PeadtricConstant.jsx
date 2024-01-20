@@ -47,4 +47,4 @@ export const pediatricContent = {
     pediatric patients. Our Pediatric Innovation Center provides
     state-of-the-art care and features a comfortable, colorful and
     uplifting atmosphere for young patients and their families.`
-}
+};

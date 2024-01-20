@@ -1,7 +1,9 @@
 import ContactPagesCard from "../../components/contactPagesCard";
 import PediatricHeading from "../../components/pediatric/PediatricHeading";
 import TitleBar from "../../components/therapy-tools/TitleBar";
-import { pediatricContent } from "../../data/peadtricConstant";
+import { pediatricContent } from "../../data/PeadtricConstant";
+// import { pediatricContent } from "../../data/PeadtricConstant";
+// import { pediatricContent } from "../../data/peadtricConstant";
 import "./paediatric.css";
 
 const PaediatricSpeech = () => {
@@ -10,7 +12,7 @@ const PaediatricSpeech = () => {
     <TitleBar name= 'Pediatric Speech Therapy' />
     <PediatricHeading 
      heading= 'Pediatric Speech Therapy'
-     content = {pediatricContent.PediatricSpeech} 
+     content = {pediatricContent} 
      />
       <section className="about my-5" id="about">
         <div className="container ">
