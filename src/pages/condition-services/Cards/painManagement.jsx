@@ -1,23 +1,8 @@
-import React from "react";
 import ConditionCard from "../../../components/conditionCard";
-// import CustomCard from "../../components/Card";
 
 const PainManagement = () => {
   return (
     <section className="services py-5" id="services" style={{ width: "120%" }}>
-      {/* <div
-        className="container-xxl py-5"
-        style={{ backgroundColor: "aliceblue" }}
-      > */}
-      {/* <div className="container"> */}
-      {/* <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
-            data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
-          >
-            <h1>Our Programs</h1>
-          </div> */}
-
       <div className="container">
         <div className="row">
           {painData.map((card, index) => (
@@ -27,8 +12,6 @@ const PainManagement = () => {
           ))}
         </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
     </section>
   );
 };

@@ -38,7 +38,6 @@ import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
 import IntakeForm from "./pages/get-started/IntakeForm";
 import Questions from "./pages/get-started/Questions";
 import RegistrationProcess from "./pages/get-started/RegistrationProcess";
-import Test from "./pages/get-started/Test";
 import OurVedios from "./pages/ourVideo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -127,7 +126,6 @@ function App() {
             {/* <Route path="chatbot" element={<ChatBot />} /> */}
             <Route path="/refer-patient" element={<ReferPatient />} />
             <Route path="/refer-patient/our-vedios" element={<OurVedios />} />
-            <Route path="1test-2" element={<Test />} />
           </Route>
         </Routes>
       </BrowserRouter>

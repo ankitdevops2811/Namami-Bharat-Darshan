@@ -217,21 +217,7 @@ const About = () => {
                   src="images/ravi-img1.jpeg"
                   style={{ marginBlockStart: "20%" }}
                 />
-                {/* <img
-                  className="position-right w-100 h-80 rounded wow zoomIn"
-                  data-wow-delay="0.9s"
-                  src="img/WhatsApp Image 2023-11-16 at 3.11.06 PM.jpeg"
-                  // style={{ objectFit: "cover", aspectRatio: "1/1" }}
-                /> */}
               </div>
-              {/* <div className="container"></div>//why this defined */}
-              {/* <div className=" position-right w-100 h-80 wow zoomIn mt-5">
-                {cardData.map((card, index) => (
-                  <div key={index} className="col-lg-4 col-md-6 mb-4">
-                    <ConditionCard {...card} />
-                  </div>
-                ))}
-              </div> */}
               <div
                 className="card"
                 style={{
@@ -286,7 +272,7 @@ const About = () => {
                 height="315"
                 src="https://www.youtube.com/embed/0UdxxYAD_L0?si=s6srWWLgvFS0MXny"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; 
                     autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
@@ -300,13 +286,6 @@ const About = () => {
                   data-wow-delay={`0.${index + 1}s`}
                 >
                   <div className="video-item position-relative rounded overflow-hidden">
-                    {/* <div className="video-iframe-container">
-                    
-                      <iframe width="560" height="315" 
-                      src="https://www.youtube.com/embed/0UdxxYAD_L0?si=s6srWWLgvFS0MXny" 
-                      title="YouTube video player" frameborder="0" allow="accelerometer; 
-                      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div> */}
                   </div>
                 </div>
               ))}

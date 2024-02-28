@@ -59,7 +59,6 @@ const Courousel = () => {
             <div className="carousel-item">
               <img
                 className="w-100 h-10"
-                // src="img/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
                 src="/images/carousel-3.JPG"
                 alt="Image"
                 style={{ height: "700px" }}

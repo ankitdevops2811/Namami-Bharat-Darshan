@@ -5,9 +5,6 @@ const Navbar = () => {
     <>
       {/* <!-- Navbar Start --> */}
       <nav className='navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0'>
-        {/* <Link to="index.html" className="navbar-brand p-0">
-            <h1 className="m-0 text-primary"><i className="fa fa-tooth me-2"></i>Mission-walk</h1>
-        </Link> */}
         <Link to='index.html' className='navbar-brand p-0'>
           <h1 className='m-0 text-primary'>
             <img
@@ -80,16 +77,9 @@ const Navbar = () => {
                 <Link to='/conditions/parkinsons' className='dropdown-item'>
                   Parkinson&apos;s disease
                 </Link>
-                {/* <Link to="/conditions/transverse-myelitis" className="dropdown-item">
-                  Transverse Myelitis
-                </Link> */}
                 <Link to='/conditions/cerebral-palsy' className='dropdown-item'>
                   Cerebral Palsy
                 </Link>
-
-                {/* <Link to="/conditions/balance-mobility" className="dropdown-item">
-                  Balance and Mobility Issues
-                </Link> */}
                 <Link
                   to='/conditions/pain-management'
                   className='dropdown-item'
@@ -148,26 +138,6 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
-            {/* <div className="nav-item dropdown">
-              <Link
-                to="#"
-                className="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Locations
-              </Link>
-              <div className="dropdown-menu m-0">
-                <Link to="price.html" className="dropdown-item">
-                  Hyderabad
-                </Link>
-                <Link to="team.html" className="dropdown-item">
-                  Greater Noida
-                </Link>
-                <Link to="testimonial.html" className="dropdown-item">
-                  Pune
-                </Link>
-              </div>
-            </div> */}
             <NavLink to='/locations' 
              className={({ isActive }) =>
              isActive ? 'active nav-item nav-link' : 'nav-item nav-link'
@@ -190,12 +160,6 @@ const Navbar = () => {
                 <Link to='/intake-forms' className='dropdown-item'>
                   Intake Form
                 </Link>
-                {/* <Link to="appointment.html" className="dropdown-item">
-                  Billing and insurance
-                </Link> */}
-                {/* <Link to="appointment.html" className="dropdown-item">
-                  Grant options
-                </Link> */}
                 <Link
                   to='/Frequently-asked-questions'
                   className='dropdown-item'
@@ -208,52 +172,10 @@ const Navbar = () => {
                 >
                   Contact Us
                 </Link>
-                {/* <Link to="appointment.html" className="dropdown-item">
-                  Clinic policies
-                </Link> */}
               </div>
             </div>
-
-            {/* <div className="nav-item dropdown">
-              <Link
-                to="#"
-                className="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Join Our Team
-              </Link>
-              <div className="dropdown-menu m-0">
-                <Link to="price.html" className="dropdown-item">
-                  Carrers
-                </Link>
-                <Link to="team.html" className="dropdown-item">
-                  Students
-                </Link>
-                <Link to="testimonial.html" className="dropdown-item">
-                  Volunteer
-                </Link>
-                <Link to="appointment.html" className="dropdown-item">
-                  Continuing Education
-                </Link>
-              </div>
-            </div> */}
-
-            {/* <Link to="/" className="nav-item nav-link">Locations</Link>
-                <Link to="/" className="nav-item nav-link">Get Started</Link>
-                <Link to="/" className="nav-item nav-link">Join Our Team</Link> */}
-            {/* contact  start link only */}
-            {/* <Link to="/contact" className="nav-item nav-link">
-              Contact us
-            </Link> */}
           </div>
-          {/* <button
-            type="button"
-            className="btn text-dark"
-            data-bs-toggle="modal"
-            data-bs-target="#searchModal"
-          >
-            <i className="fa fa-search"></i>
-          </button> */}
+
           <Link to='/intake-forms' className='btn btn-primary py-2 px-4 ms-3'>
             Appointment
           </Link>

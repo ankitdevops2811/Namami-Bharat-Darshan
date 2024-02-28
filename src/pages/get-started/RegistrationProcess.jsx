@@ -5,26 +5,6 @@ const RegistrationProcess = () => {
   return (
     <>
       {/* <!--Inner Banner starts--> */}
-
-      {/* <div
-        className="inner_banner testimonial_banner"
-        style={{
-          backgroundImage:
-            "url(https://Mission Walkcenter.org/wp-content/uploads/2021/09/DMI.jpg)",
-        }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className=" fix-size">
-              <div className="innerbanner_height">
-                <div className="innerbanner_middle">
-                  <h1>Intensive Registration Process</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
           <div className="col-12 text-center">

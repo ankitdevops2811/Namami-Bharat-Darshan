@@ -66,7 +66,6 @@ const Footer = () => {
                 <i className="bi bi-envelope-open text-primary me-2"></i>
                 rehab@missionwalk.in
                 </a>
-                {/* <a className="text-white" href="mailto:rehab@missionwalk.in">rehab@missionwalk.in</a> */}
               </p>
               <p className="mb-0">
               <a href="tel:+91 12345678" className="text-white ">
@@ -136,8 +135,6 @@ const Footer = () => {
                   Mission Walk
                 </a>{" "}
                 <br />
-                {/* <p className="mb-0">Designed with ❤️ by <a className="text-white border-bottom" href="https://htmlcodex.com">Mission Walk</a> <br /> */}
-                {/* Distributed by <a className="text-white border-bottom" href="https://themewagon.com">ThemeWagon</a>               */}
               </p>
             </div>
           </div>

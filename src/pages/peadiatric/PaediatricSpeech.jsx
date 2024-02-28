@@ -2,8 +2,7 @@ import ContactPagesCard from "../../components/contactPagesCard";
 import PediatricHeading from "../../components/pediatric/PediatricHeading";
 import TitleBar from "../../components/therapy-tools/TitleBar";
 import { pediatricContent } from "../../data/PeadtricConstant";
-// import { pediatricContent } from "../../data/PeadtricConstant";
-// import { pediatricContent } from "../../data/peadtricConstant";
+
 import "./paediatric.css";
 
 const PaediatricSpeech = () => {
@@ -188,22 +187,6 @@ const PaediatricSpeech = () => {
               </div>
             </div>
 
-            {/* check */}
-            {/* <div className="col-sm-12 col-md-4 col-lg-4 col-12">
-            <div className="card" style={{width: "18rem"}}>
-
-                <div className="card-body">
-                  <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title">Beckman Oral Motor Approach</h5>
-                  <p className="card-text">
-                    Intervention program that provides assisted movement to
-                    activate muscle contraction and increase functional strength
-                    and control of articulatory musculature for speech
-                    production
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div
             className="row mt-5"

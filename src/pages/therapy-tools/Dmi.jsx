@@ -9,16 +9,7 @@ const Spidercage = () => {
   return (
     <div className="pb-5">
       <TitleBar name = 'Dynamic Movement Intervention' />
-      {/* <div className="container-fluid bg-primary py-5 hero-header mb-5">
-        <div className="row py-3">
-          <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn">
-              {" "}
-              Dynamic Movement Intervention
-            </h1>
-          </div>
-        </div>
-      </div> */}
+
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">

@@ -1,7 +1,6 @@
-import React from "react";
-import "./pediatric.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWheelchairMove } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./pediatric.css";
 
 const PederiticImage = () => {
   return (
@@ -24,8 +23,6 @@ const PederiticImage = () => {
                   />
                 </div>
                 <div className="text text-md-end pe-md-4 animated zoomIn">
-                  {/* <div className="text text-md-end pe-md-4"> */}
-                  {/* <h3>Acceptance &amp; Commitment Therapy</h3> */}
                   <h3>Early Intervention</h3>
                   <p style={{ textAlign: "justify" }}>
                     Involves early intervention, addressing developmental issues
@@ -52,13 +49,11 @@ const PederiticImage = () => {
               </div>
               <div className="services-2 ftco-animate d-flex w-100">
                 <div className="icon d-flex justify-content-center align-items-center order-md-last">
-                  {/* <span className="flaticon-meditation"> */}
                   <FontAwesomeIcon
                     icon={faWheelchairMove}
                     className="fa-thin"
                     beat
                   />
-                  {/* </span> */}
                 </div>
                 <div className="text text-md-end pe-md-4 animated zoomIn">
                   <h3>Muscle Strength and Endurance</h3>
@@ -91,11 +86,6 @@ const PederiticImage = () => {
             <div className="col-md-4 d-flex">
               <div
                 className="img img-services animated zoomIn"
-                // className="img img-services w-100"
-                style={{
-                  // backgroundImage:
-                  //   "url(/mission-walk-images/4c747fa9-0cfc-4212-8bf3-75a3d076d71f.JPG)",
-                }}
               >
                 <img
                   src="/images/paedtrice-benifts.jpg"

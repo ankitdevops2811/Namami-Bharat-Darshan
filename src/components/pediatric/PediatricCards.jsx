@@ -1,7 +1,5 @@
-import CustomCard from "../CustomCard";
-// import "../pediatric/paediatry.css";
 import "../../pages/peadiatric/paediatry.css";
-// import "./paediatry.css";
+import CustomCard from "../CustomCard";
 
 const PediatricCards = () => {
   return (
@@ -45,10 +43,4 @@ const cardData = [
     text: "Paediatric speech therapists use a variety of therapy techniques to address oral motor dysfunction, apraxia, fluency, receptive and expressive language to help your child improve overall communication and feeding development.",
     linkTo: "/pediatric-speech",
   },
-  // {
-  //   imageSrc: "img/mission-walk-hyderabad-5cf92914afb61.jpeg",
-  //   title: "Paediatric Speech Therapy",
-  //   text: "Paediatric speech therapists use a variety of therapy techniques to address oral motor dysfunction, apraxia, fluency, receptive and expressive language to help your child improve overall communication and feeding development.",
-  //   linkTo: "/page1",
-  // },//css for adding 4 cards <div key={index} className="col-lg-3 col-md-6 mb-4">
 ];
