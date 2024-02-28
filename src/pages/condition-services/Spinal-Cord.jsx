@@ -74,13 +74,7 @@ const Spinal = () => {
                   </Card>
                 </div>
               </div>
-              {/* <a
-                href="intake-forms"
-                className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
-                data-wow-delay="0.6s"
-              >
-                Make Appointment
-              </a> */}
+
             </div>
             <div className="col-lg-5">
               <div className="position-relative">
@@ -152,7 +146,6 @@ const Spinal = () => {
                     access to the world’s most advanced research, which can
                     directly impact your recovery.
                     <a
-                    // href="http://www.napacenter.org/contact/"
                     >
                       contacting us
                     </a>

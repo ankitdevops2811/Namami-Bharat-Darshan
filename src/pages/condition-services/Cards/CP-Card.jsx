@@ -1,4 +1,3 @@
-import React from "react";
 import ConditionCard from "../../../components/conditionCard";
 
 const CpCard = () => {
@@ -9,18 +8,6 @@ const CpCard = () => {
       // style={{ backgroundColor: "aliceblue" }}
       style={{ width: "120%" }}
     >
-      {/* <div
-        className="container-xxl py-5"
-        style={{ backgroundColor: "aliceblue" }}
-      > */}
-      {/* <div className="container"> */}
-      {/* <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
-            data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
-          >
-            <h1>Our Programs</h1>
-          </div> */}
 
       <div className="container">
         <div className="row">
@@ -31,8 +18,6 @@ const CpCard = () => {
           ))}
         </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
     </section>
   );
 };
@@ -59,5 +44,5 @@ const cpData = [
     title: "Children with Cerebral Palsy - Trunk Control and Walking Study",
     text: "The primary purpose for this study is to determine the effects of a robotic training on trunk control and walking ability in children with cerebral palsy.",
     // linkTo: "/page1",
-  }, //css for adding 4 cards <div key={index} className="col-lg-3 col-md-6 mb-4">
+  }, 
 ];

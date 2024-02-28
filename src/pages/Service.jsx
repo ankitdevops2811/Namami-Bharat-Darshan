@@ -3,11 +3,9 @@ import ContactPagesCard from "../components/contactPagesCard";
 
 const Service = () => {
   return (
-    // <div>sefvice</div>
     <>
       {/* <!-- Service Start --> */}
       <div className="container-fluid mt-5 wow fadeInUp" data-wow-delay="0.1s">
-        {/* <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s"> */}
         <div className="container">
           <div className="row g-5 mb-5">
             <div
@@ -65,28 +63,6 @@ const Service = () => {
                 </h4>
               </div>
               <div className="row g-5">
-                {/* <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.6s"
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img className="img-fluid" src="images/paediatric10.jpg" alt="jhds" />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <h5 className="m-0">Pediatric Physiotherapy</h5>
-                  </div>
-                </div> */}
-                {/* <div
-                  className="col-md-6 service-item wow zoomIn"
-                  data-wow-delay="0.9s"
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img className="img-fluid" src="img/download.jfif" alt="" />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <h5 className="m-0">Neuro Physiotherapy</h5>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
@@ -154,18 +130,7 @@ const Service = () => {
                     </Link>
                   </div>
                 </div>
-                {/* <div
-                  className="col-md-6 service-item wow zoomIn"
-                  style={{ width: "400px" }}
-                  data-wow-delay="0.6s"
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img className="img-fluid" src="img/sddefault.jpg" alt="" />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <h5 className="m-0">Spinal Cord Injury</h5>
-                  </div>
-                </div> */}
+
                 <div
                   className="col-md-6 service-item wow zoomIn"
                   data-wow-delay="0.3s"

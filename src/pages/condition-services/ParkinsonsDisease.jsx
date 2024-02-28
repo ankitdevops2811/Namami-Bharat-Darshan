@@ -78,13 +78,6 @@ const ParkinsonsDisease = () => {
                   </Card>
                 </div>
               </div>
-              {/* <a
-                href="intake-forms"
-                className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
-                data-wow-delay="0.6s"
-              >
-                Make Appointment
-              </a> */}
             </div>
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">

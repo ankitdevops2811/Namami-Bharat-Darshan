@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import ConditionCard from "../components/conditionCard";
 import ContactPagesCard from "../components/contactPagesCard";
@@ -90,12 +89,7 @@ const PaediatricPhysiotherapy = () => {
       {/* //next */}
       <section className="about my-5" id="about">
         <div className="container ">
-          {/* <div className="text-center my-5">
-            <h1 data-aos="fade-up" data-aos-offset="200">
-              About<span className="text-primary"> me</span>
-            </h1>
-            <hr className="w-25 m-auto" />
-          </div> */}
+
           <div className="row">
             <div
               className="col-sm-12 col-md-6 col-lg-6 col-12 "
@@ -199,13 +193,6 @@ const PaediatricPhysiotherapy = () => {
               data-aos="fade-right"
               data-aos-offset="200"
             >
-              {/* <img
-                src="/mission-walk-images/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
-                width="300px"
-                height="600px"
-                className="img-fluid img-thumbnail"
-                style={{ width: "80%" }}
-              /> */}
               <img
                 src="images/image1.jpg"
                 width="300px"
@@ -214,35 +201,10 @@ const PaediatricPhysiotherapy = () => {
                 style={{ width: "80%" }}
               />
             </div>
-            {/* <div
-            className="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end"
-            data-aos="fade-right"
-            data-aos-offset="200"
-          >
-            <div className="position-relative">
-              <img
-                src="/mission-walk-images/hq720.jpg"
-                alt="Image 1"
-                width="300px"
-                height="600px"
-                className="img-fluid img-thumbnail"
-                style={{ width: "80%" }}
-              />
-              <img
-                src="/mission-walk-images/hq720.jpg"
-                alt="Image 2"
-                width="300px"
-                height="600px"
-                className="img-fluid img-thumbnail position-absolute top-0 start-50 translate-middle-x"
-                style={{ width: "80%", height:"180%" }}
-              />
-            </div>
-          </div> */}
           </div>
           <hr className="hr mb-0 mt-5" />
         </div>
       </section>
-      {/* next 1*/}
 
       <section>
         <div className="container">
@@ -267,9 +229,6 @@ const PaediatricPhysiotherapy = () => {
             className="section-title mb-5 mt-4 my-5"
             style={{ textAlign: "center", fontSize: "38px" }}
           >
-            {/* <h4 className="position-relative  text-primary text-uppercase mb-3">
-                  Discover our Programs
-                </h4> */}
             <h4
               className="display-5"
               style={{ textAlign: "center", fontSize: "22px" }}
@@ -343,18 +302,7 @@ const PaediatricPhysiotherapy = () => {
                       </Link>
                     </div>
                   </div>
-                  {/* <div
-                  className="col-md-6 service-item wow zoomIn"
-                  style={{ width: "400px" }}
-                  data-wow-delay="0.6s"
-                >
-                  <div className="rounded-top overflow-hidden">
-                    <img className="img-fluid" src="img/sddefault.jpg" alt="" />
-                  </div>
-                  <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <h5 className="m-0">Spinal Cord Injury</h5>
-                  </div>
-                </div> */}
+
                   <div
                     className="col-md-6 service-item wow zoomIn"
                     data-wow-delay="0.3s"

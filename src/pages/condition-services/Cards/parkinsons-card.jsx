@@ -1,4 +1,3 @@
-import React from "react";
 import ConditionCard from "../../../components/conditionCard";
 
 const ParkinsonsCards = () => {

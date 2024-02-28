@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Courousel from "../components/mainpage/Courousel";
-// import ConditionCard from "../../../components/conditionCard";
 import HomeCard from "../components/HomeCards";
 const Home = () => {
   return (

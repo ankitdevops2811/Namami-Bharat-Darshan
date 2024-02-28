@@ -1,4 +1,3 @@
-import React from "react";
 
 const ServiceCard = ({ title, description, bgColor, textColor }) => {
   return (
