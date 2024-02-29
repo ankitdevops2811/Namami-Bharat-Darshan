@@ -1,61 +1,21 @@
 import ContactPagesCard from "../../components/contactPagesCard";
 import PederiticImage from "../../components/pediatric/PederiticImage";
+import PediatricHeading from "../../components/pediatric/PediatricHeading";
 import PediatricPic from "../../components/pediatric/PediatricPic";
-import PediatricCards from "./PediatricCards";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import { pediatricContent } from "../../data/PeadtricConstant";
+import PediatricCards from "../../components/pediatric/PediatricCards";
 import "./paediatry.css";
 
 export default function Pediatric() {
   return (
     <>
       <div>
-        <div className="container-fluid bg-primary py-5 hero-header mb-5">
-          <div className="row py-3">
-            <div className="col-12 text-center">
-              <h1
-                className="display-3 text-white animated zoomIn"
-                style={{ fontSize: "18pxl" }}
-              >
-                Pediatric Innovation Center
-              </h1>
-            </div>
-          </div>
-        </div>
-        {/* <!-- Hero End --> */}
-
-        <div className="container-xxl">
-          <div className="page-header__content clearfix">
-            <span className="page-subheader">
-              <div className="container">
-                <div
-                  className="text-center mx-auto mb-5 wow fadeInUp"
-                  data-wow-delay="0.1s"
-                  style={{ maxWidth: "600px", fontSize: "18pxl" }}
-                >
-                  <h1>
-                    Elevate Wellness Innovation<sup>™</sup>
-                  </h1>
-                </div>
-              </div>
-
-              <p
-                className="mb-4 animated zoomIn"
-                style={{ fontSize: "26px", textAlign: "justify" }}
-              >
-                Pediatric primary care is uniquely qualified to serve as a key
-                test bed for translating 21st-century biology and new measures
-                into more effective strategies for strengthening the foundations
-                of early learning, adaptive behavior, and both physical and
-                mental health. Mission Walk AbilityLab is the research
-                rehabilitation hospital to dedicate an entire floor to treating
-                pediatric patients. Our Pediatric Innovation Center provides
-                state-of-the-art care and features a comfortable, colorful and
-                uplifting atmosphere for young patients and their families.
-              </p>
-            </span>
-            {/* <hr className="hr mb-2 mt-5" /> */}
-          </div>
-        </div>
-
+        <TitleBar name= ' Pediatric Innovation Center' />
+        <PediatricHeading 
+        heading= 'Elevate Wellness Innovation'
+        content = {pediatricContent.PaediatricOccupational} 
+        />
         <PediatricCards />
 
         <div className="container-xxl">

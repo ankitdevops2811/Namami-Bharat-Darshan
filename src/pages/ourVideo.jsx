@@ -1,4 +1,3 @@
-import React from "react";
 
 const OurVedios = () => {
   return (
@@ -28,7 +27,7 @@ const OurVedios = () => {
             height="315"
             src="https://www.youtube.com/embed/0Qf2LA5_DV0?si=5d9PONEWlnlXdOkZ"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
@@ -48,7 +47,7 @@ const OurVedios = () => {
 
               src="https://www.youtube.com/embed/OT-QS8lXFIk?si=Wp1inc7ov0eGARgz"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
@@ -72,7 +71,7 @@ const OurVedios = () => {
                     <strong>Virtual Tour - Please Visit Once</strong>
                   </div>
                   <strong>
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <i className="fa fa-youtube" aria-hidden="true"></i>
                     Youtube
                   </strong>
                 </button>

@@ -1,59 +1,17 @@
-import React from "react";
 import ContactPagesCard from "../../components/contactPagesCard";
 import "./paediatric.css";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import PediatricHeading from "../../components/pediatric/PediatricHeading";
+import { pediatricContent } from "../../data/PeadtricConstant";
 
 const PaediatricOccupational = () => {
   return (
     <>
-      <div className="container-fluid bg-primary py-5 hero-header mb-5">
-        <div className="row py-3">
-          <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn">
-              Paediatric Occupational Therapy
-            </h1>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Hero End --> */}
-
-      <section className="bg-light p-5">
-        <div className="container-xxl">
-          <div className="page-header__content clearfix">
-            <span className="page-subheader">
-              <div className="container">
-                <div
-                  className="text-center mx-auto mb-5 wow fadeInUp"
-                  data-wow-delay="0.1s"
-                  style={{ maxWidth: "600px" }}
-                >
-                  <h1 style={{ fontSize: "38px" }}>
-                    Paediatric Occupational Therapy
-                  </h1>
-                </div>
-              </div>
-
-              <p className="mb-4 animated zoomIn" style={{ fontSize: "22px" }}>
-                Our paediatric occupational therapists assist children in
-                performing “occupations” with the greatest level of independence
-                possible. Childhood occupations include learning in school and
-                playing with friends. Mission Walk provide paediatric
-                occupational therapy for children of all ages to help them
-                achieve their full potential. Our highly experienced and
-                dedicated paediatric occupational therapists take a
-                developmental approach to address areas of physical ability
-                (fine and gross motor skills), sensory processing and
-                modulation, handwriting skills, visual motor skills, and
-                self-help skills. We use a wide range of therapeutic equipment
-                and techniques to best help your child achieve his or her goals.
-                Parents are also encouraged to participate in therapy sessions
-                as they are an integral part of the child’s treatment.
-              </p>
-            </span>
-          </div>
-        </div>
-      </section>
-
-      {/* //next */}
+     <TitleBar name= 'Paediatric Occupational Therapy' />
+     <PediatricHeading 
+     heading= 'Paediatric Occupational Therapy'
+     content = {pediatricContent.PediatricPrimary} 
+     />
       <section className="about my-5" id="about">
         <div className="container ">
           {/* <div className="text-center my-5">
@@ -251,7 +209,7 @@ const PaediatricOccupational = () => {
                   {/* <FontAwesomeIcon icon={faUsers} className="bg-primary p-2 text-white rounded" /> */}
                   <h5 className="card-title mb-5">Difficulty Sleeping</h5>
                   <p className="card-text animated zoomIn">
-                    And other challenges associated with sleeping."
+                    And other challenges associated with sleeping.
                   </p>
                 </div>
               </div>
@@ -262,7 +220,7 @@ const PaediatricOccupational = () => {
                   <i className="bi bi-check-circle fs-4 text-success me-2"></i>
                   <h5 className="card-title mb-5">Independence</h5>
                   <p className="card-text animated zoomIn">
-                    Limited independence in self-care skills"
+                    Limited independence in self-care skills.
                   </p>
                 </div>
               </div>
@@ -367,9 +325,9 @@ const PaediatricOccupational = () => {
             height="315"
             src="https://www.youtube.com/embed/ckfzCOSDFzc?si=kv1GlhA_tzeNEysx"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </section>

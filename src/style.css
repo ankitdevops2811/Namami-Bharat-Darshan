@@ -494,12 +494,12 @@ h6,
   background: var(--bs-white);
   color: var(--bs-dark);
 }
-
+/* whatsapp  */
 .whatsapp {
   position: fixed;
-  bottom: 400px;
-  right: 40px;
-  font-size: 50px;
+  bottom: 180px;
+  right: 20px;
+  font-size: 38px;
   /* color: #075e54; */
   /* background-color: #243c64; */
   background-color: #34db25;
@@ -507,8 +507,8 @@ h6,
   color: white; 
   text-align: center; 
   text-decoration: none;
-  border-radius: 20px;
-  padding: 10px 20px; 
-  margin-top: 10px !important; 
+  border-radius: 22px;
+  padding: 3px 12px; 
+  /* margin-top: 5px !important;  */
   width: fit-content;
 }

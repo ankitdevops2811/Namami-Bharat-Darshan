@@ -5,7 +5,6 @@ import BrainCard from "./Cards/brain-Card";
 const Brain = () => {
   return (
     <>
-      {/* <div>About</div> */}
       {/* <!-- Hero Start --> */}
       <div className="card container-fluid bg-primary py-5 hero-header mb-5 ">
         <div className="row py-3">
@@ -13,7 +12,6 @@ const Brain = () => {
             <h1 className="display-3 text-white animated zoomIn">
               Brain Injury Recovery
             </h1>
-            {/* <a href="" className="h4 text-white">Home</a> */}
             <i className="far fa-circle text-white px-2"></i>
             <p className="h4 text-white">
               People from all over the world seek our 70 years’ experience in
@@ -32,9 +30,6 @@ const Brain = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-7">
-              {/* <p className="mb-4" style={{ fontSize: '18px' }}>
-                The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.
-                </p> */}
               <h1 className="display-5 mb-0" style={{ fontSize: "38px" }}>
                 Programs, Services & Patients
               </h1>
@@ -61,7 +56,6 @@ const Brain = () => {
                         hospitals and why our outcomes for stroke patients are
                         exceptional.
                       </Card.Text>
-                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
@@ -74,18 +68,10 @@ const Brain = () => {
                         Our wide array of services for brain injury patients
                         will help you and your family navigate your recovery.
                       </Card.Text>
-                      {/* <Button variant="primary">read more..</Button> */}
                     </Card.Body>
                   </Card>
                 </div>
               </div>
-              {/* <a
-                                href="intake-forms"
-                                className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
-                                data-wow-delay="0.6s"
-                            >
-                                Make Appointment
-                            </a> */}
             </div>
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">
@@ -94,8 +80,6 @@ const Brain = () => {
                   style={{ maxWidth: "120%", maxHeight: "100%" }}
                   data-wow-delay="0.9s"
                   src="/images/cs-image1.jpeg"
-
-                  // style={{ objectFit: "cover" }}
                 />
               </div>
             </div>
@@ -108,43 +92,16 @@ const Brain = () => {
             <div className="col-xs-12">
               <div className="our_programs_details_inner">
                 <div className="our_programs_details_left">
-                  {/* <p>
-                    The NeuroSuit frames the body providing support and
-                    resistance simultaneously. It facilitates proper movement
-                    and provides additional weight bearing distributed
-                    strategically throughout the body.
-                  </p> */}
                   <img
                     decoding="async"
-                    // fetchpriority="high"
 
                     style={{ maxWidth: "100%", maxHeight: "50%" }}
                     className="size-full wp-image-31823 aligncenter"
                     src="/images/cs-image3.JPG"
-                    // src="https://napacenter.org/wp-content/uploads/2021/09/Registered-Practitioner-logo.png"
                     alt=""
                   />
                 </div>
                 <div className="our_programs_details_right">
-                  {/* <p>
-                    The NeuroSuit is one of the pillars of our three-week
-                    <a
-                      href="https://napacenter.org/our-programs/intensive-therapy/"
-                      target="_blank"
-                      // rel="noopener"
-                      rel="noreferrer"
-                    >
-                      intensive therapy program
-                    </a>
-                    . The NeuroSuit is worn for two-hour periods under the
-                    supervision of our highly trained physical and occupational
-                    therapists. It is made of a vest, shorts, knee and elbow
-                    pads, gloves, shoe attachments, and a hat if necessary. All
-                    these pieces are interlocked by bungee type cords. These
-                    cords assist with proper alignment of the body and
-                    essentially frame the body from the outside (external
-                    skeleton).
-                  </p> */}
                   <h3></h3>
 
                   <h3 style={{ fontSize: "38px" }}>How We Heel</h3>
@@ -160,7 +117,7 @@ const Brain = () => {
                     <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Legs + Walking Lab
+                        Gait Training  Lab
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
@@ -172,7 +129,7 @@ const Brain = () => {
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Think + Speak Lab
+                        Think + Speach Lab
                       </li>
                     </ul>
                   </div>
@@ -187,7 +144,6 @@ const Brain = () => {
                     access to the world’s most advanced research, which can
                     directly impact your recovery.
                     <a
-                    // href="http://www.napacenter.org/contact/"
                     >
                       contacting us
                     </a>
@@ -215,7 +171,7 @@ const Brain = () => {
                 height="315"
                 src="https://www.youtube.com/embed/29LTq95V6f0?si=vLsQYOuggbtJKgah"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>

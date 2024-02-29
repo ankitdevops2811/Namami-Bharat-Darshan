@@ -62,15 +62,15 @@ const Footer = () => {
                 Maharastra
               </p>
               <p className="mb-2">
+              <a href="mailto:rehab@missionwalk.in" className="text-white ">
                 <i className="bi bi-envelope-open text-primary me-2"></i>
                 rehab@missionwalk.in
-                {/* <a className="text-white" href="mailto:rehab@missionwalk.in">rehab@missionwalk.in</a> */}
+                </a>
               </p>
               <p className="mb-0">
-                <i className="bi bi-telephone text-primary me-2"></i>
-                {/* <a className="text-white" href="tel:+91 9177300194"> */}
-                +91 9177300194
-                {/* </a> */}
+              <a href="tel:+91 12345678" className="text-white ">
+              <i className="bi bi-telephone text-primary me-2"></i>
+                + 91 9177300194</a>
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -135,8 +135,6 @@ const Footer = () => {
                   Mission Walk
                 </a>{" "}
                 <br />
-                {/* <p className="mb-0">Designed with ❤️ by <a className="text-white border-bottom" href="https://htmlcodex.com">Mission Walk</a> <br /> */}
-                {/* Distributed by <a className="text-white border-bottom" href="https://themewagon.com">ThemeWagon</a>               */}
               </p>
             </div>
           </div>

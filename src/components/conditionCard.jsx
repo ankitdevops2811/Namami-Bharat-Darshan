@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+/* eslint-disable react/prop-types */
 
 const ConditionCard = ({ imageSrc, title, text, linkTo }) => {
   return (
@@ -31,13 +30,6 @@ const ConditionCard = ({ imageSrc, title, text, linkTo }) => {
       <div className="card-body text-center" style={{ aspectRatio: "1/1" }}>
         <h5 className="card-title mb-4">{title}</h5>
         <p className="card-text mb-4">{text}</p>
-        {/* <Link
-          to={linkTo}
-          className=""
-          // style={{ backgroundColor: "aliceblue", border: "none" }}
-        >
-          Read More
-        </Link> */}
       </div>
     </div>
   );

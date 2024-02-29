@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import PainManagement from "./Cards/painManagement";
 import ContactPagesCard from "../../components/contactPagesCard";
@@ -76,25 +75,8 @@ const MotorNeuron = () => {
                     </Card.Body>
                   </Card>
                 </div>
-                {/* <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                  <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9 2.JPG" />
-                    <Card.Body>
-                      <Card.Title>Outpatient Care</Card.Title>
-                      <Card.Text>
-                        Our 14 outpatient and 23 Alliance therapy sites are spread over a wide geographical area and support your therapy needs by offering care closer to home.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </div> */}
               </div>
-              {/* <a
-                href="intake-forms"
-                className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
-                data-wow-delay="0.6s"
-              >
-                Make Appointment
-              </a> */}
+
             </div>
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">
@@ -143,7 +125,7 @@ const MotorNeuron = () => {
                     <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Legs + Walking Lab
+                        Gait Training  Lab
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
@@ -155,7 +137,7 @@ const MotorNeuron = () => {
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Think + Speak Lab
+                        Think + Speach Lab
                       </li>
                     </ul>
                   </div>
@@ -204,9 +186,7 @@ const MotorNeuron = () => {
           </div>
         </div>
       </div>
-      {/* <!-- About End --> */}
 
-      {/* Contact Page Dynamic Called */}
       <ContactPagesCard />
     </>
   );

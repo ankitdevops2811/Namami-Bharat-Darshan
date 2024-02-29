@@ -1,4 +1,3 @@
-import React from "react";
 import "./pediatric.css";
 
 const PediatricPic = () => {
@@ -11,7 +10,7 @@ const PediatricPic = () => {
         <div className="container-fluid px-md-5">
           <div className="row justify-content-center mb-5 pb-3">
             <div className="col-md-7 heading-section ftco-animate text-center">
-              <h2 className="mb-1">Pediatric Session's Captures</h2>
+              <h2 className="mb-1">Pediatric Session&apos;s Captures</h2>
             </div>
           </div>
           <div className="row">

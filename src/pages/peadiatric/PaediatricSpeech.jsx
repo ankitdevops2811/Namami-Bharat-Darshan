@@ -1,57 +1,18 @@
-import React from "react";
 import ContactPagesCard from "../../components/contactPagesCard";
+import PediatricHeading from "../../components/pediatric/PediatricHeading";
+import TitleBar from "../../components/therapy-tools/TitleBar";
+import { pediatricContent } from "../../data/PeadtricConstant";
+
 import "./paediatric.css";
 
 const PaediatricSpeech = () => {
   return (
-    <>
-      <div className="container-fluid bg-primary py-5 hero-header mb-5">
-        <div className="row py-3">
-          <div className="col-12 text-center">
-            <h1 className="display-3 text-white animated zoomIn">
-              Pediatric Speech Therapy
-            </h1>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Hero End --> */}
-      <section className="bg-light p-5">
-        <div className="container-xxl">
-          <div className="page-header__content clearfix">
-            <span className="page-subheader">
-              <div className="container">
-                <div
-                  className="text-center mx-auto mb-5 wow fadeInUp"
-                  data-wow-delay="0.1s"
-                  style={{ maxWidth: "600px" }}
-                >
-                  <h1 style={{ fontSize: "38px" }}>Pediatric Speech Therapy</h1>
-                </div>
-              </div>
-              <p
-                className="mb-4  animated zoomIn"
-                style={{ fontSize: "22px", textAlign: "justify" }}
-              >
-                Our pediatric speech therapists use a variety of therapy
-                techniques to address oral motor dysfunction, apraxia, fluency,
-                receptive and expressive language, social pragmatics, and
-                feeding and swallowing difficulties, to help your child improve
-                overall communication and/or feeding development.We provide
-                individualized speech therapy for kids with complex
-                communication needs. Our speech language pathologists are
-                experienced with a variety of Augmentative and Alternative
-                Communication (AAC) devices while keeping a child’s individual
-                strengths, difficulties, language skills, positioning, vision,
-                and motor skills in mind. Speech therapists approach any
-                alternative augmentative communication system with assuming
-                absolute child competence and ability.
-              </p>
-            </span>
-          </div>
-        </div>
-      </section>
-
-      {/* //next */}
+    <> 
+    <TitleBar name= 'Pediatric Speech Therapy' /> 
+     <PediatricHeading 
+     heading= 'Pediatric Speech Therapy'
+     content = {pediatricContent.PediatricSpeech} 
+     />
       <section className="about my-5" id="about">
         <div className="container ">
           <div className="row">
@@ -226,22 +187,6 @@ const PaediatricSpeech = () => {
               </div>
             </div>
 
-            {/* check */}
-            {/* <div className="col-sm-12 col-md-4 col-lg-4 col-12">
-            <div className="card" style={{width: "18rem"}}>
-
-                <div className="card-body">
-                  <i className="bi bi-check-circle fs-4 text-success me-2"></i>
-                  <h5 className="card-title">Beckman Oral Motor Approach</h5>
-                  <p className="card-text">
-                    Intervention program that provides assisted movement to
-                    activate muscle contraction and increase functional strength
-                    and control of articulatory musculature for speech
-                    production
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div
             className="row mt-5"

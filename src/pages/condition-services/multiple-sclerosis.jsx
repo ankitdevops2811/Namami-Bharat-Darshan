@@ -1,5 +1,3 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import MsCard from "./Cards/brain-Card";
 import ContactPagesCard from "../../components/contactPagesCard";
@@ -82,13 +80,6 @@ const MultipleSclerosis = () => {
                   </Card>
                 </div>
               </div>
-              {/* <a
-                                href="intake-forms"
-                                className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
-                                data-wow-delay="0.6s"
-                            >
-                                Make Appointment
-                            </a> */}
             </div>
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">
@@ -136,7 +127,7 @@ const MultipleSclerosis = () => {
                     <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Legs + Walking Lab
+                        Gait Training  Lab
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
@@ -148,7 +139,7 @@ const MultipleSclerosis = () => {
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Think + Speak Lab
+                        Think + Speach Lab
                       </li>
                     </ul>
                   </div>
@@ -163,7 +154,6 @@ const MultipleSclerosis = () => {
                     as MS — we offer you access to the world’s most advanced
                     research, which can directly impact your outcome.
                     <a
-                    // href="http://www.napacenter.org/contact/"
                     >
                       contacting us
                     </a>
@@ -197,9 +187,6 @@ const MultipleSclerosis = () => {
           </div>
         </div>
       </div>
-      {/* <!-- About End --> */}
-
-      {/* Contact Page Dynamic Called */}
       <ContactPagesCard />
     </>
   );

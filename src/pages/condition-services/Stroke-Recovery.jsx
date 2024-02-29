@@ -1,7 +1,4 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-// import CardGroup from "react-bootstrap/CardGroup";
-// import strokeCards from "./Cards/Stroke-Card";
 import StrokeCards from "./Cards/Stroke-Card";
 import ContactPagesCard from "../../components/contactPagesCard";
 
@@ -20,7 +17,7 @@ const Stroke = () => {
             <p className="h4 text-white">
               The sooner you start rehabilitation, the greater potential for
               recovery. Our pioneering work reveals that patients with stroke
-              benefit greatly from early, high-intensity therapy … regardless of
+              benefit greatly from early, high-intensity therapy regardless of
               the type or severity of the stroke. We are the world’s choice for
               stroke care, research and outcomes.
             </p>
@@ -79,13 +76,6 @@ const Stroke = () => {
                   </Card>
                 </div>
               </div>
-              {/* <a
-                href="intake-forms"
-                className="btn btn-primary py-3 px-5 mt-4 wow zoomIn"
-                data-wow-delay="0.6s"
-              >
-                Make Appointment
-              </a> */}
             </div>
             <div className="col-lg-5" style={{ minHeight: "300px" }}>
               <div className="position-relative h-100">
@@ -136,7 +126,7 @@ const Stroke = () => {
                     <ul className="list-unstyled" style={{ fontSize: "22px" }}>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Legs + Walking Lab
+                        Gait Training  Lab
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
@@ -148,7 +138,7 @@ const Stroke = () => {
                       </li>
                       <li>
                         <i className="bi bi-check-circle text-success me-2 fs-4"></i>
-                        Think + Speak Lab
+                        Think + Speach Lab
                       </li>
                     </ul>
                     <br></br>
@@ -190,7 +180,7 @@ const Stroke = () => {
               height="315"
               src="https://www.youtube.com/embed/KQRuqyGaq9o?si=sUZ-nUbZNyfvwi7a"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>

@@ -9,8 +9,8 @@ const About = () => {
             <h1 className="display-3 text-white animated zoomIn">
               <div className="d-flex justify-content-center">
                 <strong style={{ fontSize: "38px" }}>
-                  <h1 className="text-white">Mission</h1>
-                  <h1 className="text-warning">Walk</h1>
+                  <h1 className="text-white">Mission 
+                 <span className="text-warning"> Walk</span> </h1>
                 </strong>
               </div>
             </h1>
@@ -50,8 +50,9 @@ const About = () => {
                 >
                   Dr. Ravi Badavath
                   <br />
-                  (Chief Neuro physiotherapist, Founder of “Mission Walk”, Long
-                  Term Neurologic Injury Rehabilation specialist)
+                  (Founder of “Mission Walk”, Long Term Neurologic Injury Rehabilitation specialist)
+                  {/* (Chief Neuro physiotherapist, Founder of “Mission Walk”, Long
+                  Term Neurologic Injury Rehabilation specialist) */}
                 </h4>
               </strong>
 
@@ -124,21 +125,24 @@ const About = () => {
                 The organization has ensured that it identifies talented
                 professionals from across the country for its services. Mission
                 Walk has recruited some of the best physiotherapists from
-                different corners of the country. The diversity and magnanimity
+                different corners of the country. The diversity and magnanimity of
                 the organization strives to seem more evident from the fact that
                 it has therapists from almost every state of the country.
                 Mission Walk has come to be associated with the treatment of
                 nearly {""}
-                <span style={{ color: "blue" }}>
-                  10000<sup>+</sup>
+                <strong>
+                  <span className="text-primary">
+                  {/* <span style={{ color: "blue" }}> */}
+                  20000<sup>+</sup>
                 </span>
-                {""}
+                </strong>
+                {" "}
                 patients so far, varying in the underlying conditions they were
                 faced with. The repute of the organization’s talented
                 professionals as well as its world-class services soon spread
                 far and wide. Mission Walk has been seeing patients from all
                 over the world in recent times. It owns the credit for having
-                treated patients from across India, the Middle East, Africa and
+                treated patients from across India, US, UK, Turkey, Italy, Malaysia, Indonesia, Africa, Zimbabwe, Bangladesh, Netherlands, Singapore, Ghana, Australia, Germany, Ireland and other worldwide countries. Middle East, Africa and
                 South-East Asia.
               </p>
 
@@ -213,21 +217,7 @@ const About = () => {
                   src="images/ravi-img1.jpeg"
                   style={{ marginBlockStart: "20%" }}
                 />
-                {/* <img
-                  className="position-right w-100 h-80 rounded wow zoomIn"
-                  data-wow-delay="0.9s"
-                  src="img/WhatsApp Image 2023-11-16 at 3.11.06 PM.jpeg"
-                  // style={{ objectFit: "cover", aspectRatio: "1/1" }}
-                /> */}
               </div>
-              {/* <div className="container"></div>//why this defined */}
-              {/* <div className=" position-right w-100 h-80 wow zoomIn mt-5">
-                {cardData.map((card, index) => (
-                  <div key={index} className="col-lg-4 col-md-6 mb-4">
-                    <ConditionCard {...card} />
-                  </div>
-                ))}
-              </div> */}
               <div
                 className="card"
                 style={{
@@ -282,7 +272,7 @@ const About = () => {
                 height="315"
                 src="https://www.youtube.com/embed/0UdxxYAD_L0?si=s6srWWLgvFS0MXny"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; 
                     autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
@@ -296,13 +286,6 @@ const About = () => {
                   data-wow-delay={`0.${index + 1}s`}
                 >
                   <div className="video-item position-relative rounded overflow-hidden">
-                    {/* <div className="video-iframe-container">
-                    
-                      <iframe width="560" height="315" 
-                      src="https://www.youtube.com/embed/0UdxxYAD_L0?si=s6srWWLgvFS0MXny" 
-                      title="YouTube video player" frameborder="0" allow="accelerometer; 
-                      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div> */}
                   </div>
                 </div>
               ))}

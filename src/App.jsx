@@ -17,7 +17,7 @@ import Functional_Estim from "./pages/therapy-tools/Functional-Estim";
 import Galileo from "./pages/therapy-tools/Galileo";
 import Neurosuit from "./pages/therapy-tools/Neurosuit";
 import Spidercage from "./pages/therapy-tools/Spidercage";
-import TherapyTools from "./pages/therapy-tools/TherapyTools";
+// import TherapyTools from "./pages/therapy-tools/TherapyTools";
 import Theratogs from "./pages/therapy-tools/Theratogs";
 import "./style.css";
 // import AOS from 'aos';
@@ -38,7 +38,6 @@ import MultipleSclerosis from "./pages/condition-services/multiple-sclerosis";
 import IntakeForm from "./pages/get-started/IntakeForm";
 import Questions from "./pages/get-started/Questions";
 import RegistrationProcess from "./pages/get-started/RegistrationProcess";
-import Test from "./pages/get-started/Test";
 import OurVedios from "./pages/ourVideo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -59,7 +58,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="service" element={<Service />} />
             {/* === TherapyTools === */}
-            <Route path="therapy-tools" element={<TherapyTools />} />
+            {/* <Route path="therapy-tools" element={<TherapyTools />} /> */}
             <Route path="register" element={<Register />} />
             <Route path="therapy-tools/neurosuit" element={<Neurosuit />} />
             <Route path="therapy-tools/spidercage" element={<Spidercage />} />
@@ -127,7 +126,6 @@ function App() {
             {/* <Route path="chatbot" element={<ChatBot />} /> */}
             <Route path="/refer-patient" element={<ReferPatient />} />
             <Route path="/refer-patient/our-vedios" element={<OurVedios />} />
-            <Route path="1test-2" element={<Test />} />
           </Route>
         </Routes>
       </BrowserRouter>

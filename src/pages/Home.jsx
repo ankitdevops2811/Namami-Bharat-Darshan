@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Courousel from "../components/mainpage/Courousel";
-// import ConditionCard from "../../../components/conditionCard";
 import HomeCard from "../components/HomeCards";
 const Home = () => {
   return (
@@ -82,7 +81,8 @@ const Home = () => {
               className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
               style={{ backgroundColor: "#FFD700" }}
             >
-              <span style={{ fontSize: "larger" }}>Make Appointment</span>
+              <span className="fs-6 text-dark" >Make Appointment</span>
+              {/* <span style={{ fontSize: "larger" }}>Make Appointment</span> */}
             </a>
             <b className="text-white mb-3">
               Please Reach out to Mission-Walk Healpline Number and Email
@@ -246,7 +246,8 @@ const cardData = [
   {
     imageSrc: "/images/cs-img5.webp",
     title: "Limb Loss & Impairment",
-    text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.",
+    text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies have to affect the quality of your life.",
+    // text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.",
     linkTo: "/conditions/difficulty-in-walking",
   },
   {

@@ -1,6 +1,4 @@
-// import { Link } from "react-router-dom";
 import "../style.css";
-// import { FontAwesomeIcon } from "fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Location = () => {
   return (
@@ -44,25 +42,11 @@ const Location = () => {
                         {service.description} <br />
                         Contact Us :<a href="tel:12345">{service.number}</a>
                       </p>
-                      {/* <a className="btn service-content-icon" href="#">
-                        <i className="service-content-icon fa fa-plus text-primary me-3"></i>
-                        Read More
-                      </a> */}
+
                       <div>
-                        {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" spin /> */}
                       </div>
                       <section className="mb-4 service-content-icon">
-                        {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" spin /> */}
-                        {/* <FontAwesomeIcon
-                          icon="fa-solid fa-cart-shopping"
-                          spin
-                        /> */}
-                        {/* <Link
-                          to={service.to}
-                          className=" btn btn-primary me-3 rounded-pill"
-                        >
-                          Read More
-                        </Link> */}
+
                       </section>
                     </div>
                   </div>
@@ -154,18 +138,3 @@ const servicesData = [
 
 ];
 
-// const videoData = [
-//   {
-//     id: "4_k6OOqrCRQ?si=UR4XmsDGqjKVAqKx",
-//     title: "Video 1",
-//   },
-//   {
-//     id: "HEIj_1XG4Hg?si=E2cNetj-w1kUKhuy",
-//     title: "Video 2",
-//   },
-//   {
-//     id: "04-e3yhQ9k8?si=qa2hgWdC9yCLSeyf",
-//     title: "Video 3",
-//   },
-//   // Add more video data objects as needed
-// ];

@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-// import { Link } from 'react-router-dom'
 
 const ContactPagesCard = () => {
   return (
@@ -42,7 +40,7 @@ const ContactPagesCard = () => {
             </p>
             <h4>Delhi NCR (Greater Noida)</h4>
             <p className="mb-3">
-            Wegman's Business Park Plot no 3, Ground Floor Decathlon, Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308
+            Wegman&apos;s Business Park Plot no 3, Ground Floor Decathlon, Ecotech-II, Knowledge Park III, Greater Noida, Uttar Pradesh 201308
              
             </p>
             <h4>Pune (Maharastra)</h4>

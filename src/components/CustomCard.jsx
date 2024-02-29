@@ -1,36 +1,30 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-const HomeCard = ({ imageSrc, title, text, linkTo }) => {
+const CustomCard = ({ imageSrc, title, text, linkTo }) => {
   return (
     <div className=" service-item wow zoomIn" data-wow-delay="0.3s">
       <div
-        className="card mt-2 m-4"
+        className="card"
         style={{ width: "350px", backgroundColor: "aliceblue", border: "none" }}
       >
         <div
-          className="mt-2"
+          className="mb-4"
           style={{
             overflow: "hidden",
-            borderRadius: "10px",
-            // borderRadius: "50%",
-            width: "95%",
+            borderRadius: "50%",
+            width: "200px",
             margin: "0 auto",
           }}
         >
           <img
             src={imageSrc}
-            className="card-img-top mt-2"
+            className="card-img-top"
             alt={title}
-            style={{
-              // borderRadius: "10px",
-              width: "100%",
-              height: "auto",
-              aspectRatio: "1/1",
-            }}
+            style={{ borderRadius: "50%", width: "100%", height: "auto" }}
           />
         </div>
-        <div className="card-body text-center" style={{ aspectRatio: "1/1",textAlign:"justify" }}>
+        <div className="card-body text-center">
           <h5 className="card-title mb-4">{title}</h5>
           <p className="card-text mb-4">{text}</p>
           <Link
@@ -46,4 +40,4 @@ const HomeCard = ({ imageSrc, title, text, linkTo }) => {
   );
 };
 
-export default HomeCard;
+export default CustomCard;

@@ -38,8 +38,8 @@ const Courousel = () => {
                     style={{ fontSize: "27px", color: "yellow" }}
                   >
                     We have varied departments and resources specializing in
-                    addressing all levels of pain for patients. Check out a few
-                    of these groups and individual success stories.
+                    addressing all neurological clients. Check out a few
+                    of these groups and individual success stories of our clients.
                   </h1>
                   <a
                     href="intake-forms"
@@ -59,7 +59,6 @@ const Courousel = () => {
             <div className="carousel-item">
               <img
                 className="w-100 h-10"
-                // src="img/0a207ba2-d222-4cc8-9b88-906a29d7fcf1.JPG"
                 src="/images/carousel-3.JPG"
                 alt="Image"
                 style={{ height: "700px" }}
@@ -81,7 +80,7 @@ const Courousel = () => {
                     style={{ fontSize: "27px", color: "yellow" }}
                   >
                     Our pioneering work reveals that patients with stroke
-                    benefit greatly from early, high-intensity therapy …
+                    benefit greatly from early, high-intensity therapy
                     regardless of the type or severity of the stroke. We are the
                     world’s choice for stroke care, research and outcomes.
                   </h1>
