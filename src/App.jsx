@@ -74,7 +74,7 @@ function App() {
             <Route path="/locations" element={<Location />} />
             <Route path="/locations" element={<Location />} />
             {/* Pediatric */}
-            <Route path="pediatric" element={<Peadiatric />} />
+            {/* <Route path="pediatric" element={<Peadiatric />} /> */}
             <Route
               path="pediatric-occupational"
               element={<PaediatricOccupational />}
