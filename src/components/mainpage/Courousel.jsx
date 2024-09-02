@@ -5,14 +5,14 @@ const Courousel = () => {
       <div className="container-fluid p-0">
         <div
           id="header-carousel"
-          className="carousel slide carousel-fade header-carousel"
+          className="carousel slide"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
                 className="w-100 h-10"
-                src="/images/carousel.JPG"
+                src="/images1/pitri-paksha2.jpg"
                 alt="Image"
                 // height="300px"
                 style={{ height: "700px" }}
@@ -24,28 +24,26 @@ const Courousel = () => {
               >
                 <div className="p-3" style={{ maxWidth: "900px" }}>
                   <h5 className="text-white text-uppercase mb-3 animated slideInDown style={{ fontSize: '32px'  }}">
-                    Keep Your Health Healthy
+                  पितरपक्ष मेला गया
                   </h5>
                   <h3
                     className="display-1 text-white mb-md-4 animated zoomIn"
-                    style={{ fontSize: "47px" }}
+                    style={{ fontSize: "40px" }}
                   >
-                    Our Patients are Our Priority
+                   पितरपक्ष मेला का हिस्सा बनें और अपने दिल की गहराइयों से जुड़े भावनात्मक अनुभव का आनंद लें 17sept 2024! Rs5100
                   </h3>
                   <p style={{ fontSize: "34" }}></p>
                   <h1
                     className="display-1 text-white mb-md-4 animated zoomIn"
                     style={{ fontSize: "27px", color: "yellow" }}
                   >
-                    We have varied departments and resources specializing in
-                    addressing all neurological clients. Check out a few
-                    of these groups and individual success stories of our clients.
+                   {/* पितरपक्ष मेला में आकर पारंपरिक आशीर्वाद और सुखद अनुभूति प्राप्त करें! */}
                   </h1>
                   <a
                     href="intake-forms"
                     className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                   >
-                    Appointment
+                    Book Now
                   </a>
                   <a
                     href="/contact"
@@ -59,7 +57,7 @@ const Courousel = () => {
             <div className="carousel-item">
               <img
                 className="w-100 h-10"
-                src="/images/carousel-3.JPG"
+                src="/images1/hardiwar.jpg"
                 alt="Image"
                 style={{ height: "700px" }}
               />
@@ -73,22 +71,19 @@ const Courousel = () => {
                     className="text-white text-uppercase mb-3 animated slideInDown"
                     style={{ fontSize: "32px" }}
                   >
-                    Stroke Recovery
+                    हरिद्वार चारधाम यात्रा उत्तराखंड
                   </h5>
                   <h1
                     className="display-1 text-white mb-md-4 animated zoomIn"
                     style={{ fontSize: "27px", color: "yellow" }}
                   >
-                    Our pioneering work reveals that patients with stroke
-                    benefit greatly from early, high-intensity therapy
-                    regardless of the type or severity of the stroke. We are the
-                    world’s choice for stroke care, research and outcomes.
+                  उत्तराखंड की चारधाम यात्रा: हिमालय की गोद में ईश्वर के चरणों की खोज और आत्मा की पवित्र यात्रा!
                   </h1>
                   <a
                     href="intake-forms"
                     className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                   >
-                    Appointment
+                    Book Now
                   </a>
                   <a
                     href="/contact"
@@ -102,7 +97,7 @@ const Courousel = () => {
             <div className="carousel-item">
               <img
                 className="w-100 h-10"
-                src="/images/carousel-4.jpg"
+                src="/images1/ayodhya.jpg"
                 alt="Image"
                 style={{ height: "700px" }}
               />
@@ -116,20 +111,19 @@ const Courousel = () => {
                     className="text-white text-uppercase mb-3 animated slideInDown"
                     style={{ fontSize: "32px" }}
                   >
-                    Pediatric Physical Therapy
+                   अयोध्या
                   </h5>
                   <h1
                     className="display-1 text-white mb-md-4 animated zoomIn"
                     style={{ fontSize: "27px", color: "yellow" }}
                   >
-                    Mission-Walk takes an intensive approach to physical therapy
-                    using the NeuroSuit and Multifunctional Therapy Units
+                   रामजन्म भूमि अयोध्या में आध्यात्मिक अनुभव और सद्गति का अनमोल मौका!
                   </h1>
                   <a
                     href="intake-forms"
                     className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                   >
-                    Appointment
+                    Book Now
                   </a>
                   <a
                     href="/contact"
@@ -143,7 +137,7 @@ const Courousel = () => {
             <div className="carousel-item">
               <img
                 className="w-100 h-10"
-                src="/images/carousel-5.jpeg"
+                src="/images1/tirupati.jpg"
                 alt="Image"
                 style={{ height: "700px" }}
               />
@@ -157,21 +151,19 @@ const Courousel = () => {
                     className="text-white text-uppercase mb-3 animated slideInDown"
                     style={{ fontSize: "32px" }}
                   >
-                    Brain Injury Recovery
+                  तिरुपति
                   </h5>
                   <h1
                     className="display-1 text-white mb-md-4 animated zoomIn"
                     style={{ fontSize: "27px", color: "yellow" }}
                   >
-                    People from all over the world seek our 70 years’ experience
-                    in treating the most complex traumatic brain injuries and
-                    illnesses
+                   वेंकटेश्वर स्वामी की पावन धरती तिरुपति में आत्मा को संतोष और शांति की अनुभूति!
                   </h1>
                   <a
                     href="intake-forms"
                     className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                   >
-                    Appointment
+                    Book Now
                   </a>
                   <a
                     href="/contact"
@@ -185,7 +177,7 @@ const Courousel = () => {
             <div className="carousel-item">
               <img
                 className="w-100 h-10"
-                src="/images/carousel-6.jpeg"
+                src="/images1/trambkeshwar.jpg"
                 alt="Image"
                 style={{ height: "700px" }}
               />
@@ -199,7 +191,7 @@ const Courousel = () => {
                     className="text-white text-uppercase mb-3 animated slideInDown"
                     style={{ fontSize: "32px" }}
                   >
-                    Spinal Cord Injury
+                    त्र्यंबकेश्वर महाकाल
                   </h5>
                   <h1
                     className="display-1 text-white mb-md-4 animated zoomIn"
@@ -214,7 +206,7 @@ const Courousel = () => {
                     href="intake-forms"
                     className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
                   >
-                    Appointment
+                    Book Now
                   </a>
                   <a
                     href="/contact"

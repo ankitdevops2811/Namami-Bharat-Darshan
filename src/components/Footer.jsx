@@ -28,7 +28,7 @@ const Footer = () => {
                 </Link>
                 <Link to="/pediatric" className="text-light mb-2">
                   <i className="bi bi-arrow-right text-primary me-2"></i>
-                  Pediatric Physiontherapy
+                  Book Now
                 </Link>
                 {/* <Link  to="" className="text-light mb-2" ><i className="bi bi-arrow-right text-primary me-2"></i>Latest Blog</Link> */}
                 <Link to="/contact" className="text-light">
@@ -48,29 +48,28 @@ const Footer = () => {
                     </div> */}
             </div>
             <div className="col-lg-3 col-md-6">
-              <h3 className="text-white mb-4">Get In Touch With Us</h3>
+              <h3 className="text-white mb-4">Talk to Us</h3>
               <p className="mb-2">
-                <i className="bi bi-geo-alt text-primary me-2"></i>Hyderabad,
-                Telangana
+                <i className="bi bi-geo-alt text-primary me-2"></i>Raipur,
+                Chhattisgarh
               </p>
               <p className="mb-2">
-                <i className="bi bi-geo-alt text-primary me-2"></i>Greater
-                Noida, Uttar Pradesh
+                <i className="bi bi-geo-alt text-primary me-2"></i>Gaya,Bihar
               </p>
               <p className="mb-2">
-                <i className="bi bi-geo-alt text-primary me-2"></i>Pune,
-                Maharastra
+                <i className="bi bi-geo-alt text-primary me-2"></i>Ambikapur,
+                Chhattisgarh
               </p>
               <p className="mb-2">
               <a href="mailto:rehab@missionwalk.in" className="text-white ">
                 <i className="bi bi-envelope-open text-primary me-2"></i>
-                rehab@missionwalk.in
+                namaamibharatdarshan@gmail.com
                 </a>
               </p>
               <p className="mb-0">
               <a href="tel:+91 12345678" className="text-white ">
               <i className="bi bi-telephone text-primary me-2"></i>
-                + 91 9177300194</a>
+                + 91 6284005945</a>
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -86,7 +85,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                  href="https://www.facebook.com/MissionWalkOfficial/"
+                  // href="https://www.facebook.com/MissionWalkOfficial/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,7 +93,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                  href="https://www.linkedin.com/in/ravi-badavath-937b30106"
+                  // href="https://www.linkedin.com/in/ravi-badavath-937b30106"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -102,7 +101,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="btn btn-lg btn-primary btn-lg-square rounded"
-                  href="https://www.instagram.com/dr_badavath_official/"
+                  // href="https://www.instagram.com/dr_badavath_official/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -123,7 +122,7 @@ const Footer = () => {
               <p className="mb-md-0">
                 &copy;{" "}
                 <a className="text-white border-bottom" href="#">
-                  Mission Walk
+                  Namaami Bharat Darshan
                 </a>
                 . All Rights Reserved.
               </p>
@@ -132,7 +131,7 @@ const Footer = () => {
               <p className="mb-0">
                 Designed with ❤️ by{" "}
                 <a className="text-white border-bottom" href="/about">
-                  Mission Walk
+                  Namaami Bharat Darshan
                 </a>{" "}
                 <br />
               </p>

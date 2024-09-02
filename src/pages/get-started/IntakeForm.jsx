@@ -56,12 +56,12 @@ const IntakeForm = () => {
           {/* <div className="d-flex flex-column align-items-center text-center p-3 py-5 mt-5"> */}
             <img
               className="rounded mt-5"
-              src="/images/intake-1.jpeg"
+              src="/images1/nbdlogo.png"
               alt="Profile"
               width="100"
             />
-            <span className="font-weight-bold">Mission Walk</span>
-            <span className="text-black-50">rehab@missionwalk.in</span>
+            <span className="font-weight-bold">Namaami Bharat Darshan</span>
+            <span className="text-black-50">namaamibharatdarshan@gmail.com</span>
             <span>India</span>
           </div>
         </div>
@@ -274,8 +274,8 @@ const IntakeForm = () => {
               </div>
               
               <div className="col-md-12 mt-2">
-                <h6 className="col-sm mt-2 mb-2 ">How did you hear about Mission Walk?*</h6>
-                {/* <label className="labels">How did you hear about Mission Walk?</label> */}
+                <h6 className="col-sm mt-2 mb-2 ">How did you hear about Namaami Bharat Darshan?*</h6>
+                {/* <label className="labels">How did you hear about Namaami Bharat Darshan?</label> */}
                 <input
                   type="text"
                   className="form-control"
