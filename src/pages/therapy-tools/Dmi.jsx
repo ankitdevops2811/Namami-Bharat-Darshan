@@ -8,12 +8,12 @@ const Spidercage = () => {
 
   return (
     <div className="pb-5">
-      <TitleBar name = 'Dynamic Movement Intervention' />
+      <TitleBar name = 'Celebrate Your Dream Wedding in the Heart of Spiritual Splendor' />
 
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-          <PageHeading heading = {therapytools.DMI}/>
+          <PageHeading heading = {therapytools.Destination_weding}/>
             <div className="container-xxl">
               <div className="container py-5">
                 <div className="row g-5">
@@ -25,7 +25,7 @@ const Spidercage = () => {
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/dmi-2.jpeg"
+                        src="/images1/destinationwedding.jpg"
                         style={{ objectFit: "cover" }}
                       />
                     </div>
@@ -35,42 +35,28 @@ const Spidercage = () => {
                       className="wow zoomIn py-2"
                       style={{ fontSize: "30px" }}
                     >
-                      What is {""}
-                      <span style={{ color: "darkgoldenrod" }}>DMI </span>
-                      Therapy?
+                      Destinity Towards {""}
+                      <span style={{ color: "darkgoldenrod" }}>NBD </span>
+                      Culture Marraige?
                     </h2>
                     <p
                       className="mb-4 animated zoomIn"
                       style={{ fontSize: "22px", textAlign: "justify" }}
                     >
-                      Dynamic Movement Intervention (DMI) is a comprehensive
-                      intervention that incorporates current research on
-                      neurorehabilitation, technologies, and methodologies. This
-                      therapeutic technique is used by physical (PT) and
-                      occupational therapists to treat children with gross motor
-                      impairments by improving and/or provoking a desired action
-                      with great emphasis on alignment, sensory integration, and
-                      function. The goal is to promote progress toward
-                      developmental milestones.
+                    From the tranquil temples of South India to the opulent palaces of North India and the picturesque settings of Assam, we offer bespoke wedding solutions that blend your personal style with the spiritual essence of these sacred places. Let us handle every detail, ensuring a seamless and enchanting experience that celebrates your love story in the most divine and culturally significant settings.
                     </p>
                     <h2
                       className="wow zoomIn py-2"
                       style={{ fontSize: "30px" }}
                     >
                       Why We Love {""}
-                      <span style={{ color: "darkgoldenrod" }}>DMI </span>
+                      <span style={{ color: "darkgoldenrod" }}>Culture Destination Marriage </span>
                     </h2>
                     <p
                       className="mb-4 animated zoomIn"
                       style={{ fontSize: "22px", textAlign: "justify" }}
                     >
-                      DMI expands and complements our intensive program due to
-                      its focus on clinical reasoning, current research, the
-                      whole child, and its multi-disciplinary/multi-modality
-                      approach. DMI allows our team to not only incorporate more
-                      techniques and tools into the framework of a session, but
-                      at the same time, allows us to customize each plan based
-                      on your child’s needs and parents’ goals.
+                    Customizable and Authentic: At Namaami Bharat Darshan, we offer personalized services to tailor every aspect of your wedding to match your dreams and cultural preferences. From traditional rituals and historical decor to contemporary amenities and modern comforts, we handle every detail with care and expertise.
                     </p>
                   </div>
                 </div>
@@ -78,20 +64,15 @@ const Spidercage = () => {
             </div>
             <h2 className="wow zoomIn pb-3" style={{ fontSize: "30px" }}>
               {""}
-              <span style={{ color: "darkgoldenrod" }}>DMI </span>
-              Makes Our Team Stronger
+              <span style={{ color: "darkgoldenrod" }}>NBD </span>
+              Makes Moment More Memorable
             </h2>
             <p
               className=" wow zoomIn our_programs_details pt-2"
               data-wow-delay="0.12s"
               style={{ fontSize: "22px", textAlign: "justify" }}
             >
-              The mission of Dynamic Movement Intervention is to provide an
-              abundance of training opportunities for therapists passionate
-              about learning DMI and to create a community of therapists who are
-              open to collaboration. With training being readily available to
-              therapists around the world, DMI will have the opportunity to
-              serve more children!
+            Transform your special occasions into unforgettable experiences with Namaami Bharat Darshan. We specialize in creating bespoke travel and event services that turn your moments into lasting memories. Whether it's a dream wedding in a historic temple, a serene spiritual retreat, or a celebratory event at a picturesque destination, we ensure every detail is crafted to perfection.
               <strong>
                 {" "}
                 <Link to="/contact">contacting us &nbsp;</Link>
@@ -106,11 +87,11 @@ const Spidercage = () => {
         <div className="container">
           <div className="row">
           <h1 className="wow zoomIn pb-3" data-aos-offset="200" style={{ fontSize: "38px" }}>
-                Join the {''}
+                Why Choose {''}
                 <span style={{ color: "darkgoldenrod" }}>
-                 DMI {" "}
+                 NBD {" "}
                 </span>
-                Movement!
+              
               </h1>
               <ul
                 className=" wow zoomIn ps-1"
@@ -119,37 +100,36 @@ const Spidercage = () => {
               >
                 <li style={{ fontWeight: "500" }}>
                 <i className="bi bi-check-circle text-success fs-3 me-2 "></i>
-                Develop the technique
+                Unique Cultural Experiences
                 </li>
                 <li style={{ fontWeight: "500" }}>
                 <i className="bi bi-check-circle text-success fs-3 me-2"></i>
-                Collaborate with other practitioners and access training and mentorship
+                Expertise in Destination Weddings
                 </li>
                 <li style={{ fontWeight: "500" }}>
                 <i className="bi bi-check-circle text-success fs-3 me-2"></i>
 
                   <span style={{ fontWeight: "500" }}>
-                  Treat more patients (by providing certification, training, and education)
+                  Personalized Planning
                   </span>
                 </li>
                 <li style={{ fontWeight: "500" }}>
                 <i className="bi bi-check-circle text-success fs-3 me-2"></i>
 
                   <span style={{ fontWeight: "500" }}>
-                  Optimize results by customizing therapy
+                  Seamless Event Execution
                   </span>
                 </li>
                 <li style={{ fontWeight: "500" }}>
                 <i className="bi bi-check-circle text-success fs-3 me-2"></i>
 
-                  <span style={{ fontWeight: "500" }}>Incorporate more techniques and tools into the framework of a session</span>
+                  <span style={{ fontWeight: "500" }}> Rich Cultural Integration</span>
                 </li>
                 <li style={{ fontWeight: "500" }}>
                 <i className="bi bi-check-circle text-success fs-3 me-2"></i>
 
                   <span style={{ fontWeight: "500" }}>
-                    Any neurological impairment that will not make the condition
-                    worse with exercise or additional weight bearing
+                  Choose Namaami Bharat Darshan for a wedding that is not just memorable but truly extraordinary. With our dedication to cultural richness, personalized planning, and flawless execution, we make your marriage a celebration of love and tradition that will be remembered for years to come.
                   </span>
                 </li>
               </ul>

@@ -57,7 +57,7 @@ const Functional_Estim = () => {
                       className="mb-4 animated zoomIn"
                       style={{ fontSize: "22px", textAlign: "justify" }}
                     >
-                      Mission Walk uses the Galileo plate which provides a side
+                      Namaami Bharat Darshan uses the Galileo plate which provides a side
                       alternating motion based on the natural movement of human
                       gait, creating a tilting movement of the pelvis. With
                       frequencies ranging from 5 – 30 Hz depending upon the

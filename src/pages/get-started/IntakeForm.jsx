@@ -76,21 +76,21 @@ const IntakeForm = () => {
             <div className="row mt-2">
               <div className="col-md-6">
                 {/* <label className="labels">Clinic of Choice</label> */}
-                <h6 className="col-sm pt-3 mb-2 mt-2">Select Clinic*</h6>
+                {/* <h6 className="col-sm pt-3 mb-2 mt-2">Select Clinic*</h6> */}
 
-                <select
+                {/* <select
                   // value={user}
                   className="form-select"
                   aria-label="Default select example"
                   name="clinic"
                   onChange={(e) => onValueChange(e)}
                   // defaultValue={'Greater Noida'}
-                >
-                  <option>Select Clinic</option>
+                > */}
+                  {/* <option>Select Clinic</option>
                   <option value="Greater Noida">Greater Noida</option>
                   <option value="Pune">Pune</option>
                   <option value="Hyderabad">Hyderabad</option>
-                </select>
+                </select> */}
               </div>
              
               {/* <div className="col-md-6">
@@ -131,9 +131,9 @@ const IntakeForm = () => {
                   />
                 </div>
                 <div className="row mt-3">
-              <h5 className="py-2 mb-3" >Parent & Caregiver Details</h5>
+              <h5 className="py-2 mb-3" > Details</h5>
               <div>
-                <h6 className="col-sm">Parent&apos;s Name*</h6>
+                <h6 className="col-sm">Destination&apos;s Name*</h6>
             </div>
               <div className="col-sm">
               {/* <div className="col-md-6"> */}
@@ -141,21 +141,22 @@ const IntakeForm = () => {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="First Name"
+                    placeholder="Place Name"
                     onChange={(e) => onValueChange(e)}
                     name="first_name_2"
                     // value="John"
                   />
                 </div>
                 <div className="col-sm">
-                  {/* <label className="labels">Last Name</label> */}
-                  <input
+                  {/* <label className="labels">Travel Date*</label> */}
+                <h6 className="col-sm">Travel&apos; Date*</h6>
+                   { <input
                     type="text"
                     className="form-control"
-                    placeholder="Last Name"
+                    placeholder="Travel Date"
                     onChange={(e) => onValueChange(e)}
                     name="last_name_2"
-                  />
+                  />}
                 </div>
                 </div>
                 <div className="col-md-6 mt-2 mb-2">

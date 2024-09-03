@@ -7,11 +7,11 @@ import { therapytools } from "../../data/Constant";
 const Neurosuit3 = () => {
   return (
     <div className="pb-5">
-      <TitleBar name= "NeuroSuit"/>
+      <TitleBar name= "Spiritual Bharat Darshan"/>
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-            <PageHeading heading={therapytools.NeuroSuit} />
+            <PageHeading heading={therapytools.Tirth_Special_package} />
             <div className="container-xxl">
               <div className="container py-5">
                 <div className="row g-5">
@@ -163,7 +163,7 @@ const Neurosuit3 = () => {
               data-wow-delay="0.12s"
               style={{ fontSize: "22px", textAlign: "justify" }}
             >
-              At Mission Walk Center, we take an individualized approach to
+              At Namaami Bharat Darshan Center, we take an individualized approach to
               therapy because we understand that each child is unique with very
               specific needs. We embrace differences with an understanding that
               individualized programs work better. For this reason, no two

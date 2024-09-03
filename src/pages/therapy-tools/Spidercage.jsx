@@ -7,11 +7,11 @@ import { therapytools } from "../../data/Constant";
 const Spidercage = () => {
   return (
     <div className="pb-5">
-      <TitleBar name = 'Spidercage' />
+      <TitleBar name = '24 hrs One way cab service (All over chhattisgarh)' />
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">
-            <PageHeading heading={therapytools.SpiderCage} />
+            <PageHeading heading={therapytools.CabService} />
             <div className="container-xxl">
               <div className="container py-5">
                 <div className="row g-5">
@@ -23,7 +23,7 @@ const Spidercage = () => {
                       <img
                         className="position-absolute w-100 h-100 rounded wow zoomIn"
                         data-wow-delay="0.9s"
-                        src="/images/spider-cage.jpeg"
+                        src="/images1/taxi1.jpg"
                         style={{ objectFit: "cover" }}
                       />
                     </div>
@@ -33,43 +33,30 @@ const Spidercage = () => {
                       className="mb-2 animated zoomIn"
                       style={{ fontSize: "22px", textAlign: "justify" }}
                     >
-                      The SpiderCage is a three-sided wire device that uses a
-                      belt and eight bungee cords to enable the child to perform
-                      balance and strengthening exercises with proper
-                      positioning and alignment. The SpiderCage assists the
-                      child in standing without a therapist’s assistance while
-                      allowing freedom of movement and facilitating balance.
+                     Namami Bharat Darshan offers a comprehensive cab and taxi service throughout Chhattisgarh, ensuring reliable and convenient transportation for all your travel needs. We provide the best fare options and a one-way travel facility, allowing you to journey seamlessly to any destination across India. Whether you need local transportation within Chhattisgarh or wish to explore distant locations throughout the country, our service guarantees comfort, affordability, and flexibility, making your travel experience smooth and hassle-free.
                     </p>
                     <br />
                     <h2
                       className="wow zoomIn pb-2"
                       style={{ fontSize: "30px" }}
                     >
-                      SpiderCage Physical Therapy at Mission {""}
-                      <span style={{ color: "darkgoldenrod" }}>Walk </span>
+                      Special Service like business trip, marraige ceremony {""}
+                      <span style={{ color: "darkgoldenrod" }}>NBD </span>
                       Center
                     </h2>
                     <p
                       className="mb-4 animated zoomIn"
                       style={{ fontSize: "22px", textAlign: "justify" }}
                     >
-                      Duringphysical therapy sessions, our patients participate
-                      in a variety of dynamic balance activities in the
-                      Universal Exercise Unit/Multifunctional Therapy Unit, also
-                      called the SpiderCage. These include transitioning from
-                      sitting to quadruped, quadruped to kneeling, and
-                      transition all the way to standing with the assistance of
-                      bungee cords attached to the patient from four angles.
-                      This equipment is referred to as the “SpiderCage” due to
-                      the eight bungees used to assist the patient.
+                     Namami Bharat Darshan is dedicated to providing specialized services tailored to meet your unique travel needs. For business trips, we offer seamless transportation solutions, ensuring punctuality and comfort so you can focus on your professional commitments without any travel-related concerns. Additionally, we cater to wedding ceremonies, providing elegant and reliable transport options to enhance your special day. Our dedicated NBD Center is equipped to handle all your requirements with precision, from managing logistics to arranging bespoke travel services, ensuring every aspect of your journey is meticulously planned and executed to perfection.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <h2 className="wow zoomIn pb-3" style={{ fontSize: "30px" }}>
-              Welcome to the Mission {""}
-              <span style={{ color: "darkgoldenrod" }}>Walk </span>
+              Welcome to the Namaami Bharat Darshan{""}
+              <span style={{ color: "darkgoldenrod" }}>NBD </span>
               Family
             </h2>
             <p
@@ -77,14 +64,7 @@ const Spidercage = () => {
               data-wow-delay="0.12s"
               style={{ fontSize: "22px", textAlign: "justify" }}
             >
-              At Mission Walk Center, we take an individualized approach to
-              therapy because we understand that each child is unique with very
-              specific needs. We embrace differences with an understanding that
-              individualized programs work better. htmlFor this reason, no two
-              therapeutic programs are alike. If your child needs our services,
-              we will work closely with you to select the best therapies htmlFor
-              them, creating a customized program specific to your child’s needs
-              and your family’s goals. Let your child’s journey begin today by
+             Welcome to the Namaami Bharat Darshan (NBD) Family! We are delighted to have you with us, where we are committed to offering exceptional travel and transportation services tailored to your needs. Whether you're embarking on a business trip, celebrating a special occasion, or simply exploring new destinations, our dedicated team ensures that your experience with us is smooth, comfortable, and unforgettable. Thank you for choosing NBD – where every journey is crafted with care and excellence.
               <strong>
                 {" "}
                 <Link to="/contact">contacting us &nbsp;</Link>
@@ -109,7 +89,7 @@ const Spidercage = () => {
                 style={{ fontSize: "38px" }}
               >
                 <span style={{ color: "darkgoldenrod" }}>Benefits of </span>
-                Spider Cage Therapy:
+                NBD cabs:
               </h1>
             </div>
             <div className="row g-4">
@@ -158,18 +138,13 @@ const Spidercage = () => {
                   <div className="col-lg-6 pb-0">
                   {/* <div className="col-lg-6 pb-0"> */}
                   {/* <div className="card-details"> */}
-                  <h3 className="title text-center py-3">Dynamic Balancing</h3>
+                  <h3 className="title text-center py-3">Dynamic Routes with NBD Cabs</h3>
                   {/* <div className="row"> */}
                   <p
                       className=" text-center zoomIn pt-5"
                       style={{ textAlign: "justify",fontWeight:500 }}
                     >
-                      The SpiderCage is a three-sided wire device that uses a
-                      belt and eight bungee cords to enable the child to perform
-                      balance and strengthening exercises with proper
-                      positioning and alignment. The SpiderCage assists the
-                      child in standing without a therapist’s assistance while
-                      allowing freedom of movement and facilitating balance.
+                      Namaami Bharat Darshan (NBD) offers a dynamic routing service with our cabs, designed to provide flexibility and efficiency in your travel plans. Whether you need to navigate through bustling city streets, explore remote destinations, or optimize your route for time and convenience, our dynamic routing system ensures a seamless journey.
                     </p>
                   </div>
                 </div>
@@ -187,24 +162,25 @@ export default Spidercage;
 const TherapyData = [
   {
     imageSrc: "/img/neurosuit.jpg",
-    title: "Improved Movement",
+    title: "Comprehensive Coverage, Customer Support,Personalized Experience",
+    
     description:
-      "Helps the child compensate their movements when performing exercises by using other parts of the body.",
+      "NBD provides extensive cab and taxi services throughout Chhattisgarh and across India, ensuring you have reliable transportation no matter where you need to go.",
     //   linkTo: "/therapy-tools/neurosuit",
   },
 
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Autonomous Exercise",
+    title: "Affordable Rates, Specialized Services, Professional Drivers, Easy Booking",
     description:
-      "Encourages the child to participate in body-weight-supported functional and strengthening exercises with added security, thereby decreasing physical contact from therapists. ",
-    linkTo: "/therapy-tools/spidercage",
+      "We offer competitive fares and transparent pricing with no hidden costs, making travel budget-friendly and straightforward. ",
+    // linkTo: "/therapy-tools/spidercage",
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Confidence",
+    title: "One-Way Travel Facility, Comfort and Safety, 24/7 Availability",
     description:
-      "The Spider Cage builds strength, increases balance, and more importantly, increases self-confidence and independence so that they can do more challenging activities",
+      " Enjoy the convenience of one-way trips to any destination across India, allowing you to plan your journeys with greater flexibility.",
     linkTo: "/therapy-tools/dmi",
   },
   // {
@@ -226,7 +202,7 @@ const TherapyData = [
               data-wow-delay="0.12s"
               style={{ fontSize: "22px", textAlign: "justify" }}
             >
-              At Mission Walk Center, we take an individualized approach to
+              At Namaami Bharat Darshan Center, we take an individualized approach to
               therapy because we understand that each child is unique with very
               specific needs. We embrace differences with an understanding that
               individualized programs work better. htmlFor this reason, no two

@@ -69,7 +69,7 @@ const Theratogs = () => {
                       className="mb-4 animated zoomIn"
                       style={{ fontSize: "22px", textAlign: "justify" }}
                     >
-                      Patient&apos;s love Mission Walk because they work in
+                      Patient&apos;s love Namaami Bharat Darshan because they work in
                       therapy sessions and, when worn in-between sessions,
                       continue to be effective for the wearer in providing
                       numerous additional hours of therapy.

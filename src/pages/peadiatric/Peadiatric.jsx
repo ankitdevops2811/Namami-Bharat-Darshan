@@ -38,7 +38,7 @@ export default function Pediatric() {
                   className="mb-4 animated zoomIn"
                   style={{ fontSize: "20px", textAlign: "justify" }}
                 >
-                  At Mission Walk AbilityLab, we continue to lead in our
+                  At Namaami Bharat Darshan AbilityLab, we continue to lead in our
                   comprehensive care for children and adolescents with traumatic
                   injuries, congenital and developmental disorders. We also
                   continue our leadership in providing the best — and sometimes

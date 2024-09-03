@@ -55,7 +55,7 @@ const Navbar = () => {
                 Services
               </Link>
               <div className='dropdown-menu m-0'>
-                <Link to='/therapy-tools/neurosuit' className='dropdown-item'>
+                <Link to='/locations' className='dropdown-item'>
                   Tirth Special Package
                 </Link>
                 <Link to='/therapy-tools/spidercage' className='dropdown-item'>

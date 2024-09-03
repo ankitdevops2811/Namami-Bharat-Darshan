@@ -21,20 +21,20 @@ const RegistrationProcess = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 fix-size">
-              <h2>2024 Registration Process</h2>
+              <h2>2024-25 Registration Process</h2>
               <h3>Step 1: Complete Intake Paperwork </h3>
               <p className="para">
-                If you are new to Mission Walk, the first step is to complete
+                If you are new to Namaami Bharat Darshan, the first step is to complete
                 the Intake Form. This is very important as it is what our team
                 uses to determine the appropriate intensive schedule for your
                 child.&nbsp; The deadline to submit the Intake paperwork is
                 &nbsp;
-                <strong>November 5th</strong>. Without it, you will not be able
+                <strong></strong>. Without it, you will not be able
                 to continue with the registration process and will automatically
                 be added to our waitlist instead.
               </p>
               <p className="para">
-                If you have been to Mission Walk before and completed the Intake
+                If you have been to Namaami Bharat Darshan before and completed the Intake
                 Form previously, you are NOT required to submit another Intake
                 form. However, if there has been an update you feel our team
                 should know about since your last visit, you are welcome to
@@ -48,7 +48,7 @@ const RegistrationProcess = () => {
                 2023 3pm (PDT) until October 8, 2023 11:59 (PDT).
               </p>
               <p className="para">
-                Mission Walk employs a lottery system to allocate registration
+                Namaami Bharat Darshan employs a lottery system to allocate registration
                 spots, rather than relying on time-stamped submissions. By
                 giving families a window of time to submit their registration
                 form, it is our hope that registration is less stressful and
@@ -76,7 +76,7 @@ const RegistrationProcess = () => {
               </p>
               <div className="row">
                 <section style={{ display: "flex", alignItems: "center" }}>
-                  <h3>Looking for information about our other clinics?</h3>
+                  <h3>Looking for information about our other services?</h3>
                   <Link className="btn service-content-icon" to="/locations">
                     <i className="service-content-icon fa fa-plus text-primary me-1"></i>
                     read more
