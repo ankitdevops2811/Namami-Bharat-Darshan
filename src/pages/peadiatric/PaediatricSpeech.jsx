@@ -41,7 +41,7 @@ const PaediatricSpeech = () => {
                 className="mb-4  animated zoomIn"
                 style={{ fontSize: "22px", textAlign: "justify" }}
               >
-                Mission Walk paediatric speech therapists treat a diverse range
+                Namaami Bharat Darshan paediatric speech therapists treat a diverse range
                 of diagnoses including but not limited to:
               </p>
               <div>

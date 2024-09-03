@@ -21,7 +21,7 @@ const Service = () => {
                 />
                 <img
                   className="position-absolute w-100 h-100"
-                  src="images/blacklogo.jpeg"
+                  src="images/nbdlogo.jpg"
                   style={{ objectFit: "cover" }}
                 />
               </div>

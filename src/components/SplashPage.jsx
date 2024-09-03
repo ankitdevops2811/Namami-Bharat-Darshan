@@ -21,7 +21,7 @@ const SplashPage = () => {
       id="divSplash"
       style={{
         // backgroundColor: "cornflowerblue",
-        backgroundImage: 'url("/images/blacklogo.jpeg")',
+        backgroundImage: 'url("/images1/hardiwar.jpeg")',
         width: "100%",
         height: "100%",
         position: "fixed",

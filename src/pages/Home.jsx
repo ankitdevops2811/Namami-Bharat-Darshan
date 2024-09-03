@@ -14,7 +14,7 @@ const Home = () => {
                 data-wow-delay="0.1s"
                 style={{ maxWidth: "600px" }}
               >
-                <h1>Conditions and Services</h1>
+                <h1>Our Services</h1>
               </div>
               <div className="container">
                 <div className="row">
@@ -41,7 +41,7 @@ const Home = () => {
               data-wow-delay="0.1s"
               style={{ maxWidth: "600px" }}
             >
-              <h1>Therapy Tools We are Using</h1>
+              <h1>Our other Services</h1>
             </div>
             <div className="row g-4">
               {TherapyData.map((service, index) => (
@@ -81,28 +81,28 @@ const Home = () => {
               className="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft"
               style={{ backgroundColor: "#FFD700" }}
             >
-              <span className="fs-6 text-dark" >Make Appointment</span>
+              <span className="fs-6 text-dark" >Book your Enquiry</span>
               {/* <span style={{ fontSize: "larger" }}>Make Appointment</span> */}
             </a>
             <b className="text-white mb-3">
-              Please Reach out to Mission-Walk Healpline Number and Email
+              Please Reach out to Namaami Bharat Darshan Healpline Number and Email
             </b>
             <h2 className="yellow mb-0" style={{ color: "yellow" }}>
-              +91 9177300194
+              +91 6284005945
             </h2>
             <h2 className="yellow mb-0" style={{ color: "yellow" }}>
-              rehab@missionwalk.in
+            namaamibharatdarshan@gmail.com
             </h2>
           </div>
         </div>
         <div className="container-xxl py-5">
-          <div className="container">
+          {/* <div className="container">
             <div
               className="text-center mx-auto mb-5 wow fadeInUp"
               data-wow-delay="0.1s"
               style={{ maxWidth: "600px" }}
             >
-              <h1>Our Videos</h1>
+              <h1>Our Blogs</h1>
             </div>
             <div className="row g-4">
               {videoData.map((video, index) => (
@@ -127,7 +127,7 @@ const Home = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
@@ -138,122 +138,122 @@ export default Home;
 
 const TherapyData = [
   {
-    imageSrc: "/images/cs-img.JPG",
-    title: "NeuroSuit",
+    imageSrc: "/images1/taxi.JPG",
+    title: "24 hrs One way cab service",
     description:
-      "The NeuroSuit frames the body providing support and resistance simultaneously. It facilitates proper movement and provides additional weight bearing distributed strategically throughout the body.",
+      "Need a reliable ride, anytime, anywhere? Our 24-hour one-way cab service has you covered. Whether it's an early morning flight, a late-night emergency, or a quick trip across town, we're here to get you to your destination safely and comfortably. Book your ride now for a hassle-free journey!",
     linkTo: "/therapy-tools/neurosuit",
   },
 
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Spider Cage (Universal Exercise Unit)",
+    title: "Event Management in Chhattisgarh",
     description:
-      "The SpiderCage is a three-sided wire device that uses a belt and bungee cords to enable the patient to perform balance and strengthening exercise with proper positioning alignment.",
+      "Planning an event in Chhattisgarh? Let us take the responsibility! From weddings and corporate events to family gatherings and cultural programs, we organize everything with precision and creativity. No matter where in Chhattisgarh, we ensure your event is unforgettable. Book with us, and we'll handle the rest!",
     linkTo: "/therapy-tools/spidercage",
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "DMI",
+    title: "24-Hour Nationwide Parcel Service Across India",
     description:
-      "In the spirit of innovation and continuous growth, we have embraced DMI to better meet the needs of our patients.",
+      "Planning an event in Chhattisgarh? Let us take the responsibility! From weddings and corporate events to family gatherings and cultural programs, we organize everything with precision and creativity. No matter where in Chhattisgarh, we ensure your event is unforgettable. Book with us, and we'll handle the rest!",
     linkTo: "/therapy-tools/dmi",
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Functional Estim",
+    title: "Your Dream Destination Wedding Awaits",
     description:
-      "Functional electrical stimulation (FES) is a modality aimed at improving strength, coordination, endurance, sensory feedback and timing in muscles used to promote improved motor control and strength in patients.",
+      "Planning an event in Chhattisgarh? Let us take the responsibility! From weddings and corporate events to family gatherings and cultural programs, we organize everything with precision and creativity. No matter where in Chhattisgarh, we ensure your event is unforgettable. Book with us, and we'll handle the rest!",
 
     linkTo: "/therapy-tools/functional-estim",
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Galileo",
+    title: "Hassle-Free Visa & Passport Services",
     description:
-      "Whole Body Vibration (WBV) is delivered via a mechanical vibrating platform. As the machine vibrates, it transmits energy to the individual standing, sitting, lying or kneeling on the plate causing the muscles to contract and relax many times each second.",
+      "Simplify your travel preparations with our comprehensive visa and passport services. Whether you're planning an international getaway, a business trip, or a study abroad program, we take care of all your documentation needs. Trust us to get you travel-ready in no time!",
     linkTo: "/therapy-tools/galileo",
   },
   {
     imageSrc: "/mission-walk-images/547c7022-dc4d-4636-9a12-4b25c9b69de9.JPG",
-    title: "Theratogs",
+    title: " Expert Trip Advisor for Any Destination",
     description:
-      "TheraTogs are an orthotic undergarment and strapping product recommended for children who may benefit from increased proprioception as well as improved postural alignment, stability, and/or prolonged muscle stretch to improve developmental and functional outcomes.",
+      "Embark on your next adventure with confidence, guided by our expert trip advisory services. Whether you're planning a serene getaway to a tropical paradise, an action-packed city tour, or an off-the-beaten-path exploration, we provide personalized recommendations tailored to your interests and budget.",
     linkTo: "/therapy-tools/theratogs",
   },
 ];
 
-const videoData = [
-  {
-    id: "4_k6OOqrCRQ?si=UR4XmsDGqjKVAqKx",
-    title: "Video 1",
-  },
-  {
-    id: "HEIj_1XG4Hg?si=E2cNetj-w1kUKhuy",
-    title: "Video 2",
-  },
-  {
-    id: "04-e3yhQ9k8?si=qa2hgWdC9yCLSeyf",
-    title: "Video 3",
-  },
+// const videoData = [
+//   {
+//     id: "4_k6OOqrCRQ?si=UR4XmsDGqjKVAqKx",
+//     title: "Video 1",
+//   },
+//   {
+//     id: "HEIj_1XG4Hg?si=E2cNetj-w1kUKhuy",
+//     title: "Video 2",
+//   },
+//   {
+//     id: "04-e3yhQ9k8?si=qa2hgWdC9yCLSeyf",
+//     title: "Video 3",
+//   },
 
-  // Add more video data objects as needed
-];
+//   // Add more video data objects as needed
+// ];
 const cardData = [
   {
-    imageSrc: "/images/cs-image9.jpeg",
-    title: "Stroke Recovery",
-    text: "The sooner you start rehabilitation, the greater potential for recovery. Our pioneering work reveals that patients with stroke benefit greatly from early, high-intensity therapy … regardless of the type or severity of the stroke. We are the world’s choice for stroke care, research and outcomes.",
+    imageSrc: "/images1/pitapsh.jpg",
+    title: "Pitarpaksh Mela Gaya 2024 (Bihar)",
+    text: "The Pitarpaksh Mela is a religious event where people honor and pay respects to their ancestors. During this festival, attendees participate in rituals like offering pinddaan, tarpan, and other traditional ceremonies.",
     linkTo: "/conditions/stroke-recovery",
   },
   {
-    imageSrc: "/images/cs-image10.jpeg",
-    title: "Spinal Cord Injury",
-    text: "Our goal is to help you achieve your best outcome with cutting-edge treatments. As the world’s #1 referral choice for spinal cord injury, you benefit from our integration of medicine, research and technology.",
+    imageSrc: "/images1/ayodhya.jpg",
+    title: "Ayodhya Ji Dham, (U.P)",
+    text: "Ayodhya, a city steeped in ancient history and spirituality, holds immense significance in Hindu mythology as the birthplace of Lord Rama. It is a revered pilgrimage site, attracting devotees from across the world.",
     linkTo: "/spinal",
   },
   {
-    imageSrc: "/images/cs-image.jpeg",
-    title: "Brain Injury Recovery",
-    text: "People from all over the world seek our 70 years’ experience in treating the most complex traumatic brain injuries and illnesses. We bring you the latest and most promising treatments and therapies.",
+    imageSrc: "/images1/rameshwaram.jpg",
+    title: "Rameshwaram, Tamil Nadu",
+    text: "Rameshwaram, a sacred town in Tamil Nadu, is one of the holiest places in India. It is renowned for the Ramanathaswamy Temple, dedicated to Lord Shiva, and is a key pilgrimage destination in the Char Dham Yatra. The town is also associated with the Ramayana, as the place where Lord Rama built a bridge to Lanka.",
     linkTo: "/brain",
   },
   {
-    imageSrc: "/images/cs-img8.jpeg",
-    title: "Multiple Sclerosis",
-    text: "People with multiple sclerosis (MS) come to us for inpatient, outpatient or day rehabilitation. We focus on medical treatments and therapies for building strength, motor function and communication. We also offer guidance on diet, support groups and assistive devices.",
+    imageSrc: "/images1/hardiwar.jpg",
+    title: "Haridwar",
+    text: "Haridwar, a gateway to the gods, is another sacred city on the banks of the Ganges. It is famous for the Kumbh Mela, one of the largest religious gatherings in the world, and the Har Ki Pauri ghat, where pilgrims gather to take a holy dip.",
     linkTo: "/conditions/multiple-sclerosis",
   },
 
   {
-    imageSrc: "/images/cs-img7.jpeg",
-    title: "Parkinson's Disease & Neurologic Rehabilitation",
-    text: "With a comprehensive team of clinicians trained in treating Parkinson’s disease and movement disorders, we go beyond medication and surgery with specialized treatment including therapy, technology and scientific advances to dramatically improve abilities.",
+    imageSrc: "/images1/tirupati.jpg",
+    title: "Tirupati, Andra Pradesh",
+    text: "Tirupati, located in Andhra Pradesh, is home to the revered Venkateswara Temple, one of the richest and most visited temples in the world. Devotees flock here to seek the blessings of Lord Venkateswara, an incarnation of Vishnu.",
     linkTo: "/conditions/parkinsons",
   },
   {
-    imageSrc: "/images/paediatric7.jpg",
-    title: "Cerebral Palsy",
-    text: "Each person with cerebral palsy (CP) has unique functional and therapeutic needs. We treat patients with CP of any age, at any point in their lives with the latest therapies for CP rehabilitation.",
+    imageSrc: "/images1/Kedarnath.jpg",
+    title: "Kedarnath Dham, Uttrakhand",
+    text: "Kedarnath, nestled in the Himalayas, is one of the holiest shrines dedicated to Lord Shiva. It is part of the Char Dham Yatra and is renowned for its remote and serene location, offering a deeply spiritual experience.",
     linkTo: "/conditions/cerebral-palsy",
   },
-  {
-    imageSrc: "/images/cs-image8.jpeg",
-    title: "Pain Management",
-    text: "We address pain in two distinct ways: Chronic pain cases for conditions like sciatic nerve pain, amputation or long-term back pain are treated at our Pain Management Center. Cases of acute or short-term pain are seen by our expert DayRehab® and outpatient clinicians.",
-    linkTo: "/conditions/pain-management",
-  },
-  {
-    imageSrc: "/images/cs-img5.webp",
-    title: "Limb Loss & Impairment",
-    text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies have to affect the quality of your life.",
-    // text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.",
-    linkTo: "/conditions/difficulty-in-walking",
-  },
-  {
-    imageSrc: "/images/home-card.JPG",
-    title: "View All",
-    text: "We go beyond traditional physical,occupational, and speech therapy by using innovative tools and techniques that change lives.",
-    linkTo: "/service",
-  },
+  // {
+  //   imageSrc: "/images/cs-image8.jpeg",
+  //   title: "Pain Management",
+  //   text: "We address pain in two distinct ways: Chronic pain cases for conditions like sciatic nerve pain, amputation or long-term back pain are treated at our Pain Management Center. Cases of acute or short-term pain are seen by our expert DayRehab® and outpatient clinicians.",
+  //   linkTo: "/conditions/pain-management",
+  // },
+  // {
+  //   imageSrc: "/images/cs-img5.webp",
+  //   title: "Limb Loss & Impairment",
+  //   text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies have to affect the quality of your life.",
+  //   // text: "Amputation or limb impairment can affect ability, but doesn’ can affect ability, but doesn’t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.t have to affect the quality of your life. We meet patients’ unique needs by integrating medical expertise, technology, engineering (prosthetics, orthotics, bionics, robotic devices) and a range of therapies.",
+  //   linkTo: "/conditions/difficulty-in-walking",
+  // },
+  // {
+  //   imageSrc: "/images/home-card.JPG",
+  //   title: "View All",
+  //   text: "We go beyond traditional physical,occupational, and speech therapy by using innovative tools and techniques that change lives.",
+  //   linkTo: "/service",
+  // },
 ];

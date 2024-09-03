@@ -130,7 +130,7 @@ h6,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(51, 170, 255, 0.696);
+  background: rgba(1, 15, 26, 0.696);
   z-index: 1;
 }
 
@@ -202,7 +202,7 @@ h6,
 }
 
 .appointment-form {
-  background: rgba(6, 163, 218, 0.7);
+  background: rgba(1, 20, 27, 0.7);
 }
 
 .service-item img,
@@ -242,7 +242,7 @@ h6,
 }
 
 .offer-text {
-  background: rgba(6, 163, 218, 0.85);
+  background: rgba(4, 35, 46, 0.85);
 }
 
 .price-carousel .owl-nav {
@@ -287,7 +287,7 @@ h6,
 }
 
 .testimonial-carousel {
-  background: rgba(6, 163, 218, 0.85);
+  background: rgba(1, 19, 26, 0.85);
 }
 
 .testimonial-carousel .owl-nav {
