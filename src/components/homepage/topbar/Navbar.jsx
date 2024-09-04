@@ -100,12 +100,12 @@ const Navbar = () => {
                 <Link to='/intake-forms' className='dropdown-item'>
                   Enquire Now
                 </Link>
-                <Link
+                {/* <Link
                   to='/Frequently-asked-questions'
                   className='dropdown-item'
                 >
                   Frequently Asked
-                </Link>
+                </Link> */}
                 <Link
                   to='/contact'
                   className='dropdown-item'
