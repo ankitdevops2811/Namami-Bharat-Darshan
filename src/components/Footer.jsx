@@ -57,19 +57,22 @@ const Footer = () => {
                 <i className="bi bi-geo-alt text-primary me-2"></i>Gaya,Bihar
               </p>
               <p className="mb-2">
-                <i className="bi bi-geo-alt text-primary me-2"></i>Ambikapur,
-                Chhattisgarh
+                <i className="bi bi-geo-alt text-primary me-2"></i>New Delhi, Kashmeri Gate, shopno 5
+                
+              </p>  <p className="mb-2">
+                <i className="bi bi-geo-alt text-primary me-2"></i>Ambikapur, Chhattisgarh
+                
               </p>
               <p className="mb-2">
               <a href="mailto:rehab@missionwalk.in" className="text-white ">
-                <i className="bi bi-envelope-open text-primary me-2"></i>
+                <i className="bi bi-envelope-open text-primary me-3"></i>
                 namaamibharatdarshan@gmail.com
                 </a>
               </p>
               <p className="mb-0">
               <a href="tel:+91 12345678" className="text-white ">
               <i className="bi bi-telephone text-primary me-2"></i>
-                + 91 6284005945</a>
+              +91 7979825395, + 91 6284005945</a>
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -85,7 +88,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="btn btn-lg btn-primary btn-lg-square rounded me-2"
-                  // href="https://www.facebook.com/MissionWalkOfficial/"
+                  href="https://www.facebook.com/profile.php?id=61565830194657&mibextid=ZbWKwL"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -101,7 +104,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="btn btn-lg btn-primary btn-lg-square rounded"
-                  // href="https://www.instagram.com/dr_badavath_official/"
+                  href="https://www.instagram.com/nmaamibhaartdrshn?igsh=MWtwOTRueWtpamRlNA=="
                   target="_blank"
                   rel="noopener noreferrer"
                 >

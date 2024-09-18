@@ -44,25 +44,30 @@ const Contact = () => {
                 <div className="d-flex align-items-center mb-2">
                   <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                   <div className="text-start">
-                    <Link to="/locations"><h5 className="mb-0">Our Offices</h5>
-                    <span>Raipur, Ambikapur, Gaya etc.</span></Link>
+                    <Link to="/locations"><h5 className="mb-0">Head Offices</h5>
+                    <span>Raipur, 430, 4th floor, golden trade center, Sector 2, Priyadarshini Nagar Colony, New Rajendra Nagar, Raipur, Tikrapara, Chhattisgarh 492001</span></Link>
                     <br></br>
                   </div>
                 </div>
                 <div className="d-flex align-items-center mb-2">
-                  <i className="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                  <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
+               
                   <div className="text-start">
-                    <h5 className="mb-0">Email Us</h5>
-                    <span>namaamibharatdarshan@gmail.com</span>
+                    <Link to="/locations"><h5 className="mb-0">Branch Offices</h5>
+                    <span>New Delhi, Kashmiri Gate Terminal shop no 5</span></Link>
+                    <br></br>
                   </div>
                 </div>
-                <div className="d-flex align-items-center">
-                  <i className="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                <div className="d-flex align-items-center mb-2">
+                  <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                   <div className="text-start">
-                    <h5 className="mb-0">Call Us</h5>
-                    <span>+91 6284005945</span>
+                    <Link to="/locations"><h5 className="mb-0">Branch Offices</h5>
+                    <span>Gaya Bihar, sherghati road</span></Link>
+                    <br></br>
                   </div>
+               
                 </div>
+             
               </div>
             </div>
             <div className="col-lg-6 w-h-25"><div className="bg-dark rounded h-100 p-5">
@@ -90,6 +95,20 @@ const Contact = () => {
                           {/* </Link> */}
                         </div>
                       </div>
+                      <div className="d-flex align-items-center mb-2">
+                  <i className="bi bi-envelope-open fs-1 text-white me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0 text-white">Email Us</h5>
+                    <h6 className="text-white">namaamibharatdarshan@gmail.com</h6>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center">
+                  <i className="bi bi-phone-vibrate fs-1 text-white me-3"></i>
+                  <div className="text-start">
+                    <h5 className="mb-0 text-white">Call Us</h5>
+                    <h6 className="text-white">+91 7979825395, +91 6284005945</h6>
+                  </div>
+                </div>
                     </div></div>
           </div>
         </div>

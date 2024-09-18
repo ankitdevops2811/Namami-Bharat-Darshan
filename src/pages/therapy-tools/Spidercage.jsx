@@ -7,7 +7,7 @@ import { therapytools } from "../../data/Constant";
 const Spidercage = () => {
   return (
     <div className="pb-5">
-      <TitleBar name = '24 hrs One way cab service (All over chhattisgarh)' />
+      <TitleBar name = '24 hrs cab service (Comming Soon)' />
       <div className=" our_programs_details pb-5">
         <div className="container">
           <div className="row">

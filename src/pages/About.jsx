@@ -47,7 +47,7 @@ const About = () => {
                   className="text-body fst-italic mb-4  wow fadeInUp"
                   style={{ fontSize: "22px" }}
                 >
-                  Er. Ankit Singh
+                  Satendra Kumar singh and Ankit Singh
                   <br />
                   (Founder of “Namaami Bharat Darshan”, Expert in Transformative Spiritual Journeys)
                   {/* (Chief Neuro physiotherapist, Founder of “Mission Walk”, Long
@@ -61,13 +61,13 @@ const About = () => {
               >
                Welcome to Namaami Bharat Darshan
 
-Hello and welcome! My name is Ankit, and I am thrilled to share my journey and vision with you. I started Namaami Bharat Darshan not just as a travel company, but as a heartfelt mission to help people explore the spiritual and cultural richness of India
+Hello and welcome! We are thrilled to share our journey and vision with you. We started Namaami Bharat Darshan not just as a travel company, but as a heartfelt mission to help people explore the spiritual and cultural richness of India
               </p>
               <strong>
                 <h4>A Journey Rooted in Passion</h4>
               </strong>
               <p className="mb-4  wow fadeInUp" style={{ fontSize: "20px" }}>
-              My passion for travel and spirituality led me to create this company. Having traveled extensively across India, I’ve experienced firsthand the profound beauty and diversity our country has to offer. From the serene banks of the Ganges to the vibrant temples of the south, each destination holds a unique story and spiritual essence that I want to share with you.
+              Our passion for travel and spirituality led us to create this company. Having traveled extensively across India, We’ve experienced firsthand the profound beauty and diversity our country has to offer. From the serene banks of the Ganges to the vibrant temples of the south, each destination holds a unique story and spiritual essence that We want to share with you.
 
 
               </p>
@@ -85,11 +85,11 @@ Hello and welcome! My name is Ankit, and I am thrilled to share my journey and v
                 className="mb-4  wow fadeInUp"
                 style={{ fontSize: "20px", textAlign: "justify" }}
               ></p>
-                <h6>Personal Connection: I am not just a guide but a fellow traveler, passionate about exploring and discovering India’s spiritual and cultural wonders. My goal is to offer you an authentic and personal experience that goes beyond traditional tourism.</h6>
+                <h6>Personal Connection: We are not just a guide but a fellow traveler, passionate about exploring and discovering India’s spiritual and cultural wonders. Our goal is to offer you an authentic and personal experience that goes beyond traditional tourism.</h6>
 
                 <h6>Immersive Experiences: We focus on crafting journeys that are rich in spiritual significance and cultural insight. Each tour is designed to immerse you in the traditions, history, and tranquility of India’s sacred places.</h6>
 
-                <h6>Shared Passion: I understand the joy and fulfillment of discovering new places and cultures. My aim is to ensure that you have a memorable and enriching experience, just as I have had.</h6>
+                <h6>Shared Passion: We understand the joy and fulfillment of discovering new places and cultures. My aim is to ensure that you have a memorable and enriching experience, just as I have had.</h6>
              
 
               <strong>

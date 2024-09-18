@@ -61,7 +61,7 @@ const Home = () => {
                     </div>
                     <h4 className="card-2 mb-3">{service.title}</h4>
                     <p className="mb-4">{service.description}</p>
-                    <Link className="btn" to={service.linkTo}>
+                    <Link className="btn">
                       <i className="fa fa-plus text-primary me-3"></i>Read More
                     </Link>
                   </div>
@@ -88,7 +88,7 @@ const Home = () => {
               Please Reach out to Namaami Bharat Darshan Healpline Number and Email
             </b>
             <h2 className="yellow mb-0" style={{ color: "yellow" }}>
-              +91 6284005945
+            +91 7979825395, +91 6284005945
             </h2>
             <h2 className="yellow mb-0" style={{ color: "yellow" }}>
             namaamibharatdarshan@gmail.com
@@ -139,7 +139,7 @@ export default Home;
 const TherapyData = [
   {
     imageSrc: "/images1/taxi.JPG",
-    title: "24 hrs One way cab service",
+    title: "24 hrs cab service",
     description:
       "Need a reliable ride, anytime, anywhere? Our 24-hour one-way cab service has you covered. Whether it's an early morning flight, a late-night emergency, or a quick trip across town, we're here to get you to your destination safely and comfortably. Book your ride now for a hassle-free journey!",
     linkTo: "/therapy-tools/neurosuit",
