@@ -30,7 +30,7 @@ const Courousel = () => {
                     className="display-1 text-white mb-md-4 animated zoomIn"
                     style={{ fontSize: "40px" }}
                   >
-                   पितरपक्ष मेला का हिस्सा बनें और अपने दिल की गहराइयों से जुड़े भावनात्मक अनुभव का आनंद लें 17sept 2024! Rs5100
+                   पितरपक्ष मेला का हिस्सा बनें और अपने दिल की गहराइयों से जुड़े भावनात्मक अनुभव का आनंद लें 7sept 2025 से 21 sept 2025
                   </h3>
                   <p style={{ fontSize: "34" }}></p>
                   <h1
